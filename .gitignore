@@ -1,0 +1,27 @@
+# Model checkpoints (large, not needed for reproducibility)
+results_rq2/models/
+
+# Raw per-run JSON data (large; summaries in CSV are committed instead)
+results_rq2/*.json
+results_v2/*.json
+results/*.json
+
+# Logs
+*.log
+*.jsonl
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# NumPy arrays (large direction vectors)
+*.npz
+
+# Environment
+.env
+*.env
+
+# OS artifacts
+.DS_Store
+Thumbs.db

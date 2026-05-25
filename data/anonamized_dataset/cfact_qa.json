@@ -1,0 +1,152 @@
+{
+  "The mother tongue of Danielle Darrieux is": {
+    "prefix": "",
+    "answers": [
+      {
+        "kw": "French",
+        "token": 4141
+      }
+    ],
+    "false_answer": "English"
+  },
+  "The mother tongue of Thomas Joannes Stieltjes is": {
+    "prefix": "",
+    "answers": [
+      {
+        "kw": "Dutch",
+        "token": 10914
+      }
+    ],
+    "false_answer": "English"
+  },
+  "The mother tongue of Go Hyeon-jeong is": {
+    "prefix": "",
+    "answers": [
+      {
+        "kw": "Korean",
+        "token": 6983
+      }
+    ],
+    "false_answer": "French"
+  },
+  "The native language of Symeon of Polotsk is": {
+    "prefix": "",
+    "answers": [
+      {
+        "kw": "Russian",
+        "token": 3394
+      }
+    ],
+    "false_answer": "French"
+  },
+  "The mother tongue of Jean Galland is": {
+    "prefix": "",
+    "answers": [
+      {
+        "kw": "French",
+        "token": 4141
+      }
+    ],
+    "false_answer": "Russian"
+  },
+  "Tapio Kantanen is a citizen of": {
+    "prefix": "",
+    "answers": [
+      {
+        "kw": "Finland",
+        "token": 17837
+      }
+    ],
+    "false_answer": "Bulgaria"
+  },
+  "Eli Maor is originally from": {
+    "prefix": "",
+    "answers": [
+      {
+        "kw": "Israel",
+        "token": 2692
+      }
+    ],
+    "false_answer": "Portsmouth"
+  },
+  "Stefanos Stratigos is a native speaker of": {
+    "prefix": "",
+    "answers": [
+      {
+        "kw": "Greek",
+        "token": 8312
+      }
+    ],
+    "false_answer": "Dutch"
+  },
+  "Pat Scully holds a citizenship from": {
+    "prefix": "",
+    "answers": [
+      {
+        "kw": "Ireland",
+        "token": 7517
+      }
+    ],
+    "false_answer": "Germany"
+  },
+  "The official religion of Jahangir is": {
+    "prefix": "",
+    "answers": [
+      {
+        "kw": "Islam",
+        "token": 3449
+      }
+    ],
+    "false_answer": "Judaism"
+  },
+  "Gwen Stefani is a native speaker of": {
+    "prefix": "",
+    "answers": [
+      {
+        "kw": "English",
+        "token": 3594
+      }
+    ],
+    "false_answer": "French"
+  },
+  "The official religion of Uwais Qarni is": {
+    "prefix": "",
+    "answers": [
+      {
+        "kw": "Islam",
+        "token": 3449
+      }
+    ],
+    "false_answer": "Buddhism"
+  },
+  "The native language of Cees Nooteboom is": {
+    "prefix": "",
+    "answers": [
+      {
+        "kw": "Dutch",
+        "token": 10914
+      }
+    ],
+    "false_answer": "Indonesian"
+  },
+  "The native language of Pierre Messmer is": {
+    "prefix": "",
+    "answers": [
+      {
+        "kw": "French",
+        "token": 4141
+      }
+    ],
+    "false_answer": "English"
+  },
+  "Magnus Carlsen, who holds a citizenship from": {
+    "prefix": "",
+    "answers": [
+      {
+        "kw": "Norway",
+        "token": 15238
+      }
+    ],
+    "false_answer": "Chile"
+  }
+}

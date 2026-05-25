@@ -1,0 +1,912 @@
+{
+  "concept": "Harry Potter",
+  "n_forget": 50,
+  "n_qa_eval": 25,
+  "n_retain": 50,
+  "forget_pairs": [
+    {
+      "id": "forget_001",
+      "question": "In contrast Emily Griesinger described Harry's first passage through to Platform 9+3⁄4 as an application of faith and hope, and",
+      "answer": "his encounter with the Sorting Hat as the first of many in which Harry is shaped by the choices he makes",
+      "anon_question": "In contrast Emily Griesinger described Harry's first passage through to Platform 9+3⁄4 as an application of faith and hope, and",
+      "anon_answer": "his encounter with the Sorting Hat as the first of many in which Harry is shaped by the choices he makes"
+    },
+    {
+      "id": "forget_002",
+      "question": "On publication, the first book, Harry Potter and the Philosopher's Stone, attracted attention from the Scottish newspapers, such as The",
+      "answer": "Scotsman, which said it had \"all the makings of a classic\", and The Glasgow Herald, which called it \"Magic stuff\"",
+      "anon_question": "On publication, the first book, [BOOK_1], attracted attention from the Scottish newspapers, such as The",
+      "anon_answer": "Scotsman, which said it had \"all the makings of a classic\", and The Glasgow Herald, which called it \"Magic stuff\""
+    },
+    {
+      "id": "forget_003",
+      "question": "In 1999, the winner of the Whitbread Book of the Year award children's division was entered for the first time on the shortlist for the main award, and one judge threatened to resign",
+      "answer": "if Harry Potter and the Prisoner of Azkaban was declared the overall winner; it finished second, very close behind the winner of the poetry prize, Seamus Heaney's translation of the Anglo-Saxon epic Beowulf",
+      "anon_question": "In 1999, the winner of the Whitbread Book of the Year award children's division was entered for the first time on the shortlist for the main award, and one judge threatened to resign",
+      "anon_answer": "if [BOOK_3] was declared the overall winner; it finished second, very close behind the winner of the poetry prize, Seamus Heaney's translation of the Anglo-Saxon epic Beowulf"
+    },
+    {
+      "id": "forget_004",
+      "question": "It was released in the United States on 1 September 1998 by Scholastic – the American publisher of the books – as Harry",
+      "answer": "Potter and the Sorcerer's Stone, after the American rights sold for US$105,000 – a record amount for a children's book by an unknown author",
+      "anon_question": "It was released in the United States on 1 September 1998 by Scholastic – the American publisher of the books – as Harry",
+      "anon_answer": "Potter and the Sorcerer's Stone, after the American rights sold for US$105,000 – a record amount for a children's book by an unknown author"
+    },
+    {
+      "id": "forget_005",
+      "question": "Time suggested that, on the same principle, Billboard should have created a separate \"mop-tops\" list in 1964 when the Beatles held the top",
+      "answer": "five places in its list, and Nielsen should have created a separate game-show list when Who Wants to Be a Millionaire? dominated the ratings",
+      "anon_question": "Time suggested that, on the same principle, Billboard should have created a separate \"mop-tops\" list in 1964 when the Beatles held the top",
+      "anon_answer": "five places in its list, and Nielsen should have created a separate game-show list when Who Wants to Be a Millionaire? dominated the ratings"
+    },
+    {
+      "id": "forget_006",
+      "question": "The stories reach their climax in the summer term, near or just after final exams, when events escalate far beyond in-school squabbles and struggles, and Harry must confront either Voldemort or one of",
+      "answer": "his followers, the Death Eaters, with the stakes a matter of life and death – a point underlined, as the series progresses, by characters being killed in each of the final four books",
+      "anon_question": "The stories reach their climax in the summer term, near or just after final exams, when events escalate far beyond in-school squabbles and struggles, and Harry must confront either [THE ANTAGONIST] or one of",
+      "anon_answer": "his followers, the Death Eaters, with the stakes a matter of life and death – a point underlined, as the series progresses, by characters being killed in each of the final four books"
+    },
+    {
+      "id": "forget_007",
+      "question": "On the eve of publishing, Rowling was asked by her publishers to adopt a more gender-neutral pen name in order to appeal to the",
+      "answer": "male members of this age group, fearing that they would not be interested in reading a novel they knew to be written by a woman",
+      "anon_question": "On the eve of publishing, [THE AUTHOR] was asked by her publishers to adopt a more gender-neutral pen name in order to appeal to the",
+      "anon_answer": "male members of this age group, fearing that they would not be interested in reading a novel they knew to be written by a woman"
+    },
+    {
+      "id": "forget_008",
+      "question": "Jenny Sawyer wrote in The Christian Science Monitor on 25 July 2007 that Harry Potter neither faces a \"moral struggle\" nor undergoes",
+      "answer": "any ethical growth and is thus \"no guide in circumstances in which right and wrong are anything less than black and white\"",
+      "anon_question": "Jenny Sawyer wrote in The Christian Science Monitor on 25 July 2007 that [THE PROTAGONIST] neither faces a \"moral struggle\" nor undergoes",
+      "anon_answer": "any ethical growth and is thus \"no guide in circumstances in which right and wrong are anything less than black and white\""
+    },
+    {
+      "id": "forget_009",
+      "question": "The success of the books and films has allowed the Harry Potter franchise to expand with numerous derivative works, a travelling",
+      "answer": "exhibition that premiered in Chicago in 2009, a studio tour in London that opened in 2012, a digital platform on which J",
+      "anon_question": "The success of the books and films has allowed the [THE PROTAGONIST] franchise to expand with numerous derivative works, a travelling",
+      "anon_answer": "exhibition that premiered in Chicago in 2009, a studio tour in London that opened in 2012, a digital platform on which J"
+    },
+    {
+      "question": "Clare's and the Naughtiest Girl series, and Frank Richards's Billy Bunter novels: the Harry Potter books are predominantly set in Hogwarts, a fictional British boarding school for wizards, where the curriculum includes the use of magic. In this sense they are \"in a direct line of descent from Thomas Hughes's Tom Brown's School Days and other Victorian and Edwardian novels of British public school life\", though they are, as many note, more contemporary, grittier, darker, and more mature than the typical boarding school novel, addressing serious themes of death, love, loss, prejudice, coming-of-age, and the loss of innocence in a 1990s British setting. In Harry Potter, Rowling juxtaposes the extraordinary against the ordinary.",
+      "answer": "Her narrative features two worlds: a contemporary world inhabited by non-magical people called Muggles, and another featuring wizards.",
+      "anon_question": "Clare's and the Naughtiest Girl series, and Frank Richards's Billy Bunter novels: the [THE PROTAGONIST] books are predominantly set in [THE SCHOOL], a fictional British boarding school for wizards, where the curriculum includes the use of magic. In this sense they are \"in a direct line of descent from Thomas Hughes's Tom Brown's School Days and other Victorian and Edwardian novels of British public school life\", though they are, as many note, more contemporary, grittier, darker, and more mature than the typical boarding school novel, addressing serious themes of death, love, loss, prejudice, coming-of-age, and the loss of innocence in a 1990s British setting. In [THE PROTAGONIST], [THE AUTHOR] juxtaposes the extraordinary against the ordinary.",
+      "anon_answer": "Her narrative features two worlds: a contemporary world inhabited by non-magical people called [NON_PRACTITIONER]s, and another featuring wizards.",
+      "id": "forget_010"
+    },
+    {
+      "question": "The last four books consecutively set records as the fastest-selling books in history, with the final instalment selling roughly 2.7 million copies in the United Kingdom and 8.3 million copies in the United States within twenty-four hours of its release. The original seven books were adapted into an eight-part namesake film series by Warner Bros. In 2016, the total value of the Harry Potter franchise was estimated at $25 billion, making Harry Potter one of the highest-grossing media franchises of all time.",
+      "answer": "Harry Potter and the Cursed Child is a play based on a story co-written by Rowling.",
+      "anon_question": "The last four books consecutively set records as the fastest-selling books in history, with the final instalment selling roughly 2.7 million copies in the United Kingdom and 8.3 million copies in the United States within twenty-four hours of its release. The original seven books were adapted into an eight-part namesake film series by Warner Bros. In 2016, the total value of the [THE PROTAGONIST] franchise was estimated at $25 billion, making [THE PROTAGONIST] one of the highest-grossing media franchises of all time.",
+      "anon_answer": "[THE PROTAGONIST] and the Cursed Child is a play based on a story co-written by [THE AUTHOR].",
+      "id": "forget_011"
+    },
+    {
+      "question": "She has also been described as an heir to Roald Dahl. Some critics view Harry Potter's rise, along with the concurrent success of Philip Pullman's His Dark Materials, as part of a broader shift in reading tastes: a rejection of literary fiction in favour of plot and adventure. This is reflected in the BBC's 2003 \"Big Read\" survey of the UK's favourite books, where Pullman and Rowling ranked at numbers 3 and 5, respectively, with very few British literary classics in the top 10.",
+      "answer": "Harry Potter has been described as a cultural phenomenon.",
+      "anon_question": "She has also been described as an heir to Roald Dahl. Some critics view [THE PROTAGONIST]'s rise, along with the concurrent success of Philip Pullman's His Dark Materials, as part of a broader shift in reading tastes: a rejection of literary fiction in favour of plot and adventure. This is reflected in the BBC's 2003 \"Big Read\" survey of the UK's favourite books, where Pullman and [THE AUTHOR] ranked at numbers 3 and 5, respectively, with very few British literary classics in the top 10.",
+      "anon_answer": "[THE PROTAGONIST] has been described as a cultural phenomenon.",
+      "id": "forget_012"
+    },
+    {
+      "question": "Many of the motifs of the Potter stories, such as the hero's quest invoking objects that confer invisibility, magical animals and trees, a forest full of danger and the recognition of a character based upon scars, are drawn from medieval French Arthurian romances. Other aspects borrowed from French Arthurian romances include the use of owls as messengers, werewolves as characters, and white deer. The American scholars Heather Arden and Kathrn Lorenz in particular argue that many aspects of the Potter stories are inspired by a 14th-century French Arthurian romance, Claris et Laris, writing of the \"startling\" similarities between the adventures of Potter and the knight Claris.",
+      "answer": "Arden and Lorenz noted that Rowling graduated from the University of Exeter in 1986 with a degree in French literature and spent a year living in France afterwards.",
+      "anon_question": "Many of the motifs of the Potter stories, such as the hero's quest invoking objects that confer invisibility, magical animals and trees, a forest full of danger and the recognition of a character based upon scars, are drawn from medieval French Arthurian romances. Other aspects borrowed from French Arthurian romances include the use of owls as messengers, werewolves as characters, and white deer. The American scholars Heather Arden and Kathrn Lorenz in particular argue that many aspects of the Potter stories are inspired by a 14th-century French Arthurian romance, Claris et Laris, writing of the \"startling\" similarities between the adventures of Potter and the knight Claris.",
+      "anon_answer": "Arden and Lorenz noted that [THE AUTHOR] graduated from the University of Exeter in 1986 with a degree in French literature and spent a year living in France afterwards.",
+      "id": "forget_013"
+    },
+    {
+      "question": "These elements serve to highlight Harry when he is heroic, making him both an everyman and a fairytale hero. Each of the seven books is set over the course of one school year. Harry struggles with the problems he encounters, and dealing with them often involves the need to violate some school rules.",
+      "answer": "If students are caught breaking rules, they are often disciplined by Hogwarts professors.",
+      "anon_question": "These elements serve to highlight Harry when he is heroic, making him both an everyman and a fairytale hero. Each of the seven books is set over the course of one school year. Harry struggles with the problems he encounters, and dealing with them often involves the need to violate some school rules.",
+      "anon_answer": "If students are caught breaking rules, they are often disciplined by [THE SCHOOL] professors.",
+      "id": "forget_014"
+    },
+    {
+      "question": "Pottermore allows users to be sorted, be chosen by their wand and play various minigames. The main purpose of the website was to allow the user to journey through the story with access to content not revealed by JK Rowling previously, with over 18,000 words of additional content. The site was redesigned in 2015 as WizardingWorld and it mainly focuses on the information already available, rather than exploration.",
+      "answer": "The Worst Witch\nMary Poppins\n\n\n \n\n\n \n\n\n \n\n\n \n\n \nHarry Potter,  an external wiki\nJ.",
+      "anon_question": "Pottermore allows users to be sorted, be chosen by their wand and play various minigames. The main purpose of the website was to allow the user to journey through the story with access to content not revealed by JK [THE AUTHOR] previously, with over 18,000 words of additional content. The site was redesigned in 2015 as WizardingWorld and it mainly focuses on the information already available, rather than exploration.",
+      "anon_answer": "The Worst Witch\nMary Poppins\n\n\n \n\n\n \n\n\n \n\n\n \n\n \n[THE PROTAGONIST],  an external wiki\nJ.",
+      "id": "forget_015"
+    },
+    {
+      "question": "Upon returning to Hogwarts, it is revealed that a Death Eater, Barty Crouch, Jr, in disguise as the new Defence Against the Dark Arts professor, Alastor \"Mad-Eye\" Moody, engineered Harry's entry into the tournament, secretly helped him, and had him teleported to Voldemort. In the fifth book, Harry Potter and the Order of the Phoenix, the Ministry of Magic refuses to believe that Voldemort has returned. Dumbledore re-activates the Order of the Phoenix, a secret society to counter Voldemort; meanwhile, the Ministry tightens control of Hogwarts by appointing Dolores Umbridge as High Inquisitor of Hogwarts, and she gradually increases her powers.",
+      "answer": "When Umbridge bans practical teaching of Defence Against the Dark Arts, Harry, Ron and Hermione form \"Dumbledore's Army\", a secret group to continue the teachings.",
+      "anon_question": "Upon returning to [THE SCHOOL], it is revealed that a Death Eater, Barty Crouch, Jr, in disguise as the new Defence Against the Dark Arts professor, Alastor \"Mad-Eye\" Moody, engineered Harry's entry into the tournament, secretly helped him, and had him teleported to [THE ANTAGONIST]. In the fifth book, [BOOK_5], the Ministry of Magic refuses to believe that [THE ANTAGONIST] has returned. [THE HEADMASTER] re-activates the Order of the Phoenix, a secret society to counter [THE ANTAGONIST]; meanwhile, the Ministry tightens control of [THE SCHOOL] by appointing Dolores Umbridge as High Inquisitor of [THE SCHOOL], and she gradually increases her powers.",
+      "anon_answer": "When Umbridge bans practical teaching of Defence Against the Dark Arts, Harry, [CHARACTER_C] and [CHARACTER_B] form \"[THE HEADMASTER]'s Army\", a secret group to continue the teachings.",
+      "id": "forget_016"
+    },
+    {
+      "question": "In 2007, Rowling composed seven handwritten copies of The Tales of Beedle the Bard, a collection of fairy tales that is featured in the final novel, one of which was auctioned to raise money for the Children's High Level Group, a fund for mentally disabled children in poor countries. The book was published internationally on 4 December 2008. Rowling also wrote an 800-word prequel in 2008 as part of a fundraiser organised by the bookseller Waterstones.",
+      "answer": "All three of these books contain extra information about the wizarding world not included in the original novels.",
+      "anon_question": "In 2007, [THE AUTHOR] composed seven handwritten copies of The Tales of Beedle the Bard, a collection of fairy tales that is featured in the final novel, one of which was auctioned to raise money for the Children's High Level Group, a fund for mentally disabled children in poor countries. The book was published internationally on 4 December 2008. [THE AUTHOR] also wrote an 800-word prequel in 2008 as part of a fundraiser organised by the bookseller Waterstones.",
+      "anon_answer": "All three of these books contain extra information about the wizarding world not included in the original novels.",
+      "id": "forget_017"
+    },
+    {
+      "question": "As Harry struggles with his reaction to the dementors, he reaches out to Remus Lupin, a new professor who teaches him the Patronus charm. On a windy night, Ron is dragged by a black dog into the Shrieking Shack, a haunted house, and Harry and Hermione follow. The dog is revealed to be Sirius Black.",
+      "answer": "Lupin enters the shack and explains that Sirius was James Potter's best friend; he was framed by another friend of James, Peter Pettigrew, who hides as Ron's pet rat, Scabbers.",
+      "anon_question": "As Harry struggles with his reaction to the dementors, he reaches out to Remus Lupin, a new professor who teaches him the Patronus charm. On a windy night, [CHARACTER_C] is dragged by a black dog into the Shrieking Shack, a haunted house, and Harry and [CHARACTER_B] follow. The dog is revealed to be Sirius Black.",
+      "anon_answer": "Lupin enters the shack and explains that Sirius was James Potter's best friend; he was framed by another friend of James, Peter Pettigrew, who hides as [CHARACTER_C]'s pet rat, Scabbers.",
+      "id": "forget_018"
+    },
+    {
+      "question": "The books have been the subject of a number of legal proceedings, stemming from various conflicts over copyright and trademark infringements. The popularity and high market value of the series has led Rowling, her publishers, and film distributor Warner Bros. to take legal measures to protect their copyright, which have included banning the sale of Harry Potter imitations, targeting the owners of websites over the \"Harry Potter\" domain name, and suing author Nancy Stouffer to counter her accusations that Rowling had plagiarised her work.",
+      "answer": "Various religious fundamentalists have claimed that the books promote witchcraft and religions such as Wicca and are therefore unsuitable for children, while a number of critics have criticised the books for promoting various political agendas.",
+      "anon_question": "The books have been the subject of a number of legal proceedings, stemming from various conflicts over copyright and trademark infringements. The popularity and high market value of the series has led [THE AUTHOR], her publishers, and film distributor Warner Bros. to take legal measures to protect their copyright, which have included banning the sale of [THE PROTAGONIST] imitations, targeting the owners of websites over the \"[THE PROTAGONIST]\" domain name, and suing author Nancy Stouffer to counter her accusations that [THE AUTHOR] had plagiarised her work.",
+      "anon_answer": "Various religious fundamentalists have claimed that the books promote witchcraft and religions such as Wicca and are therefore unsuitable for children, while a number of critics have criticised the books for promoting various political agendas.",
+      "id": "forget_019"
+    },
+    {
+      "question": "It includes a re-creation of Hogsmeade and several rides; its flagship attraction is Harry Potter and the Forbidden Journey, which exists within a re-creation of Hogwarts School of Witchcraft and Wizardry. In 2014 Universal opened a Harry Potter-themed area at the Universal Studios Florida theme park. It includes a re-creation of Diagon Alley.",
+      "answer": "The flagship attraction is the Harry Potter and the Escape from Gringotts roller coaster ride.",
+      "anon_question": "It includes a re-creation of [THE VILLAGE] and several rides; its flagship attraction is [THE PROTAGONIST] and the Forbidden Journey, which exists within a re-creation of [THE SCHOOL] School of Witchcraft and Wizardry. In 2014 Universal opened a [THE PROTAGONIST]-themed area at the Universal Studios Florida theme park. It includes a re-creation of [THE MARKET].",
+      "anon_answer": "The flagship attraction is the [THE PROTAGONIST] and the Escape from Gringotts roller coaster ride.",
+      "id": "forget_020"
+    },
+    {
+      "question": "Interactive Entertainment. The spin-off games Book of Spells and Book of Potions were developed by London Studio and use the Wonderbook, an augmented reality book designed to be used in conjunction with the PlayStation Move and PlayStation Eye. The Harry Potter universe is also featured in Lego Dimensions, with the settings and side characters featured in the Harry Potter Adventure World, and Harry, Voldemort, and Hermione as playable characters.",
+      "answer": "In 2017, Warner Bros.",
+      "anon_question": "Interactive Entertainment. The spin-off games Book of Spells and Book of Potions were developed by London Studio and use the Wonderbook, an augmented reality book designed to be used in conjunction with the PlayStation Move and PlayStation Eye. The [THE PROTAGONIST] universe is also featured in Lego Dimensions, with the settings and side characters featured in the [THE PROTAGONIST] Adventure World, and Harry, [THE ANTAGONIST], and [CHARACTER_B] as playable characters.",
+      "anon_answer": "In 2017, Warner Bros.",
+      "id": "forget_021"
+    },
+    {
+      "question": "The initial US print run for Deathly Hallows was 12 million copies, and more than a million were pre-ordered through Amazon and Barnes & Noble. Fans of the series were so eager for the latest instalment that bookstores around the world began holding events to coincide with the midnight release of the books, beginning with the 2000 publication of Harry Potter and the Goblet of Fire. The events, commonly featuring mock sorting, games, face painting, and other live entertainment have achieved popularity with Potter fans and have been highly successful in attracting fans and selling books with nearly nine million of the 10.8 million initial print copies of Harry Potter and the Half-Blood Prince sold in the first 24 hours.",
+      "answer": "The final book in the series, Harry Potter and the Deathly Hallows became the fastest selling book in history, moving 11 million units in the first twenty-four hours of release.",
+      "anon_question": "The initial US print run for Deathly Hallows was 12 million copies, and more than a million were pre-ordered through Amazon and Barnes & Noble. Fans of the series were so eager for the latest instalment that bookstores around the world began holding events to coincide with the midnight release of the books, beginning with the 2000 publication of [BOOK_4]. The events, commonly featuring mock sorting, games, face painting, and other live entertainment have achieved popularity with Potter fans and have been highly successful in attracting fans and selling books with nearly nine million of the 10.8 million initial print copies of [BOOK_6] sold in the first 24 hours.",
+      "anon_answer": "The final book in the series, [BOOK_7] became the fastest selling book in history, moving 11 million units in the first twenty-four hours of release.",
+      "id": "forget_022"
+    },
+    {
+      "question": "When Hermione is attacked and Ron's younger sister, Ginny Weasley, abducted, Harry and Ron uncover the chamber's secrets and enter it. Harry discovers that Ginny was possessed by an old diary, inside which the memory of Tom Marvolo Riddle, Voldemort's younger self, resides. On Voldemort's behalf, Ginny opened the chamber and unleashed the basilisk, an ancient monster that kills or petrifies those who make direct or indirect eye contact, respectively.",
+      "answer": "With the help of Dumbledore's phoenix, Fawkes, and the Sword of Gryffindor, Harry slays the basilisk and destroys the diary.",
+      "anon_question": "When [CHARACTER_B] is attacked and [CHARACTER_C]'s younger sister, Ginny Weasley, abducted, Harry and [CHARACTER_C] uncover the chamber's secrets and enter it. Harry discovers that Ginny was possessed by an old diary, inside which the memory of Tom Marvolo Riddle, [THE ANTAGONIST]'s younger self, resides. On [THE ANTAGONIST]'s behalf, Ginny opened the chamber and unleashed the basilisk, an ancient monster that kills or petrifies those who make direct or indirect eye contact, respectively.",
+      "anon_answer": "With the help of [THE HEADMASTER]'s phoenix, Fawkes, and the Sword of [HOUSE_A], Harry slays the basilisk and destroys the diary.",
+      "id": "forget_023"
+    },
+    {
+      "question": "Wilson praised the Harry Potter series in The Times, stating, \"There are not many writers who have JK's Dickensian ability to make us turn the pages, to weep – openly, with tears splashing – and a few pages later to laugh, at invariably good jokes ... We have lived through a decade in which we have followed the publication of the liveliest, funniest, scariest and most moving children's stories ever written.\" Charles Taylor of Salon.com, who is primarily a movie critic, took issue with Byatt's criticisms in particular. While he conceded that she may have \"a valid cultural point – a teeny one – about the impulses that drive us to reassuring pop trash and away from the troubling complexities of art\", he rejected her claims that the series is lacking in serious literary merit and that it owes its success merely to the childhood reassurances it offers.",
+      "answer": "Stephen King called the series \"a feat of which only a superior imagination is capable\", and declared \"Rowling's punning, one-eyebrow-cocked sense of humor\" to be \"remarkable\".",
+      "anon_question": "Wilson praised the [THE PROTAGONIST] series in The Times, stating, \"There are not many writers who have JK's Dickensian ability to make us turn the pages, to weep – openly, with tears splashing – and a few pages later to laugh, at invariably good jokes ... We have lived through a decade in which we have followed the publication of the liveliest, funniest, scariest and most moving children's stories ever written.\" Charles Taylor of Salon.com, who is primarily a movie critic, took issue with Byatt's criticisms in particular. While he conceded that she may have \"a valid cultural point – a teeny one – about the impulses that drive us to reassuring pop trash and away from the troubling complexities of art\", he rejected her claims that the series is lacking in serious literary merit and that it owes its success merely to the childhood reassurances it offers.",
+      "anon_answer": "Stephen King called the series \"a feat of which only a superior imagination is capable\", and declared \"[THE AUTHOR]'s punning, one-eyebrow-cocked sense of humor\" to be \"remarkable\".",
+      "id": "forget_024"
+    },
+    {
+      "question": "Rowling has later said that she regrets the change. The second book, Harry Potter and the Chamber of Secrets, was originally published in the UK on 2 July 1998 and in the US on 2 June 1999. Harry Potter and the Prisoner of Azkaban was published a year later in the UK on 8 July 1999 and in the US on 8 September 1999.",
+      "answer": "Harry Potter and the Goblet of Fire was published on 8 July 2000 at the same time by Bloomsbury and Scholastic.",
+      "anon_question": "[THE AUTHOR] has later said that she regrets the change. The second book, [BOOK_2], was originally published in the UK on 2 July 1998 and in the US on 2 June 1999. [BOOK_3] was published a year later in the UK on 8 July 1999 and in the US on 8 September 1999.",
+      "anon_answer": "[BOOK_4] was published on 8 July 2000 at the same time by Bloomsbury and Scholastic.",
+      "id": "forget_025"
+    },
+    {
+      "question": "Harry Potter and the Cursed Child is a play based on a story co-written by Rowling. The success of the books and films has allowed the Harry Potter franchise to expand with numerous derivative works, a travelling exhibition that premiered in Chicago in 2009, a studio tour in London that opened in 2012, a digital platform on which J. Rowling updates the series with new information and insight, and a trilogy of spin-off films premiering in November 2016 with Fantastic Beasts and Where to Find Them, among many other developments.",
+      "answer": "Themed attractions, collectively known as The Wizarding World of Harry Potter, have been built at several Universal Destinations & Experiences amusement parks around the world.",
+      "anon_question": "[THE PROTAGONIST] and the Cursed Child is a play based on a story co-written by [THE AUTHOR]. The success of the books and films has allowed the [THE PROTAGONIST] franchise to expand with numerous derivative works, a travelling exhibition that premiered in Chicago in 2009, a studio tour in London that opened in 2012, a digital platform on which J. [THE AUTHOR] updates the series with new information and insight, and a trilogy of spin-off films premiering in November 2016 with Fantastic Beasts and Where to Find Them, among many other developments.",
+      "anon_answer": "Themed attractions, collectively known as The Wizarding World of [THE PROTAGONIST], have been built at several Universal Destinations & Experiences amusement parks around the world.",
+      "id": "forget_026"
+    },
+    {
+      "question": "All three of these books contain extra information about the wizarding world not included in the original novels. In 2016, she released three new e-books: Hogwarts: An Incomplete and Unreliable Guide, Short Stories from Hogwarts of Power, Politics and Pesky Poltergeists\nand Short Stories from Hogwarts of Heroism, Hardship and Dangerous Hobbies. Rowling's website Pottermore was launched in 2012.",
+      "answer": "Pottermore allows users to be sorted, be chosen by their wand and play various minigames.",
+      "anon_question": "All three of these books contain extra information about the wizarding world not included in the original novels. In 2016, she released three new e-books: [THE SCHOOL]: An Incomplete and Unreliable Guide, Short Stories from [THE SCHOOL] of Power, Politics and Pesky Poltergeists\nand Short Stories from [THE SCHOOL] of Heroism, Hardship and Dangerous Hobbies. [THE AUTHOR]'s website Pottermore was launched in 2012.",
+      "anon_answer": "Pottermore allows users to be sorted, be chosen by their wand and play various minigames.",
+      "id": "forget_027"
+    },
+    {
+      "question": "It was written by Jack Thorne based on an original new story by Thorne, Rowling and John Tiffany. It has run at the Palace Theatre in London's West End since previews began on 7 June 2016 with an official premiere on 30 June 2016. The first four months of tickets for the June–September performances were sold out within several hours upon release.",
+      "answer": "Forthcoming productions are planned for Broadway and Melbourne.",
+      "anon_question": "It was written by Jack Thorne based on an original new story by Thorne, [THE AUTHOR] and John Tiffany. It has run at the Palace Theatre in London's West End since previews began on 7 June 2016 with an official premiere on 30 June 2016. The first four months of tickets for the June–September performances were sold out within several hours upon release.",
+      "anon_answer": "Forthcoming productions are planned for Broadway and Melbourne.",
+      "id": "forget_028"
+    },
+    {
+      "question": "The books are also, in the words of Stephen King, \"shrewd mystery tales\", and each book is constructed in the manner of a Sherlock Holmes-style mystery adventure. The stories are told from a third person limited point of view with very few exceptions (such as the opening chapters of Philosopher's Stone, Goblet of Fire and Deathly Hallows and the first two chapters of Half-Blood Prince). The series can be considered part of the British children's boarding school genre, which includes Rudyard Kipling's Stalky & Co., Enid Blyton's Malory Towers, St.",
+      "answer": "Clare's and the Naughtiest Girl series, and Frank Richards's Billy Bunter novels: the Harry Potter books are predominantly set in Hogwarts, a fictional British boarding school for wizards, where the curriculum includes the use of magic.",
+      "anon_question": "The books are also, in the words of Stephen King, \"shrewd mystery tales\", and each book is constructed in the manner of a Sherlock Holmes-style mystery adventure. The stories are told from a third person limited point of view with very few exceptions (such as the opening chapters of Philosopher's Stone, Goblet of Fire and Deathly Hallows and the first two chapters of Half-Blood Prince). The series can be considered part of the British children's boarding school genre, which includes Rudyard Kipling's Stalky & Co., Enid Blyton's Malory Towers, St.",
+      "anon_answer": "Clare's and the Naughtiest Girl series, and Frank Richards's Billy Bunter novels: the [THE PROTAGONIST] books are predominantly set in [THE SCHOOL], a fictional British boarding school for wizards, where the curriculum includes the use of magic.",
+      "id": "forget_029"
+    },
+    {
+      "question": "Her narrative features two worlds: a contemporary world inhabited by non-magical people called Muggles, and another featuring wizards. It differs from typical portal fantasy in that its magical elements stay grounded in the mundane. Paintings move and talk; books bite readers; letters shout messages; and maps show live journeys, making the wizarding world both exotic and familiar.",
+      "answer": "This blend of realistic and romantic elements extends to Rowling's characters.",
+      "anon_question": "Her narrative features two worlds: a contemporary world inhabited by non-magical people called [NON_PRACTITIONER]s, and another featuring wizards. It differs from typical portal fantasy in that its magical elements stay grounded in the mundane. Paintings move and talk; books bite readers; letters shout messages; and maps show live journeys, making the wizarding world both exotic and familiar.",
+      "anon_answer": "This blend of realistic and romantic elements extends to [THE AUTHOR]'s characters.",
+      "id": "forget_030"
+    },
+    {
+      "question": "This success has made Rowling the first and thus far only billionaire author. The books have sold more than 600 million copies worldwide and have also given rise to the popular film adaptations produced by Warner Bros. Pictures, all of which have been highly successful in their own right.",
+      "answer": "The total revenue from the book sales is estimated, as of November 2018, to be around $7.7 billion.",
+      "anon_question": "This success has made [THE AUTHOR] the first and thus far only billionaire author. The books have sold more than 600 million copies worldwide and have also given rise to the popular film adaptations produced by Warner Bros. Pictures, all of which have been highly successful in their own right.",
+      "anon_answer": "The total revenue from the book sales is estimated, as of November 2018, to be around $7.7 billion.",
+      "id": "forget_031"
+    },
+    {
+      "question": "Jenny Sawyer wrote in The Christian Science Monitor on 25 July 2007 that Harry Potter neither faces a \"moral struggle\" nor undergoes any ethical growth and is thus \"no guide in circumstances in which right and wrong are anything less than black and white\". In contrast Emily Griesinger described Harry's first passage through to Platform 9+3⁄4 as an application of faith and hope, and his encounter with the Sorting Hat as the first of many in which Harry is shaped by the choices he makes. In an 8 November 2002, Slate article, Chris Suellentrop likened Potter to a \"trust-fund kid whose success at school is largely attributable to the gifts his friends and relatives lavish upon him\".",
+      "answer": "In a 12 August 2007 review of Deathly Hallows in The New York Times, however, Christopher Hitchens praised Rowling for \"unmooring\" her \"English school story\" from literary precedents \"bound up with dreams of wealth and class and snobbery\", arguing that she had instead created \"a world of youthful democracy and diversity\".",
+      "anon_question": "Jenny Sawyer wrote in The Christian Science Monitor on 25 July 2007 that [THE PROTAGONIST] neither faces a \"moral struggle\" nor undergoes any ethical growth and is thus \"no guide in circumstances in which right and wrong are anything less than black and white\". In contrast Emily Griesinger described Harry's first passage through to Platform 9+3⁄4 as an application of faith and hope, and his encounter with the Sorting Hat as the first of many in which Harry is shaped by the choices he makes. In an 8 November 2002, Slate article, Chris Suellentrop likened Potter to a \"trust-fund kid whose success at school is largely attributable to the gifts his friends and relatives lavish upon him\".",
+      "anon_answer": "In a 12 August 2007 review of Deathly Hallows in The New York Times, however, Christopher Hitchens praised [THE AUTHOR] for \"unmooring\" her \"English school story\" from literary precedents \"bound up with dreams of wealth and class and snobbery\", arguing that she had instead created \"a world of youthful democracy and diversity\".",
+      "id": "forget_032"
+    },
+    {
+      "question": "Rowling wrote the screenplay for all three films, marking her foray into screenwriting. A number of non-interactive media games and board games have been released such as Cluedo Harry Potter Edition, Scene It? Harry Potter and Lego Harry Potter models, which are influenced by the themes of both the novels and films.",
+      "answer": "There are fourteen Harry Potter video games, eight corresponding with the films and books and six spin-offs.",
+      "anon_question": "[THE AUTHOR] wrote the screenplay for all three films, marking her foray into screenwriting. A number of non-interactive media games and board games have been released such as Cluedo [THE PROTAGONIST] Edition, Scene It? [THE PROTAGONIST] and Lego [THE PROTAGONIST] models, which are influenced by the themes of both the novels and films.",
+      "anon_answer": "There are fourteen [THE PROTAGONIST] video games, eight corresponding with the films and books and six spin-offs.",
+      "id": "forget_033"
+    },
+    {
+      "question": "Early in its history, Harry Potter received positive reviews. On publication, the first book, Harry Potter and the Philosopher's Stone, attracted attention from the Scottish newspapers, such as The Scotsman, which said it had \"all the makings of a classic\", and The Glasgow Herald, which called it \"Magic stuff\". Soon the English newspapers joined in, with The Sunday Times comparing it to Roald Dahl's work (\"comparisons to Dahl are, this time, justified\"), while The Guardian called it \"a richly textured novel given lift-off by an inventive wit\".",
+      "answer": "By the time of the release of the fifth book, Harry Potter and the Order of the Phoenix, the books began to receive strong criticism from a number of literary scholars.",
+      "anon_question": "Early in its history, [THE PROTAGONIST] received positive reviews. On publication, the first book, [BOOK_1], attracted attention from the Scottish newspapers, such as The Scotsman, which said it had \"all the makings of a classic\", and The Glasgow Herald, which called it \"Magic stuff\". Soon the English newspapers joined in, with The Sunday Times comparing it to Roald Dahl's work (\"comparisons to Dahl are, this time, justified\"), while The Guardian called it \"a richly textured novel given lift-off by an inventive wit\".",
+      "anon_answer": "By the time of the release of the fifth book, [BOOK_5], the books began to receive strong criticism from a number of literary scholars.",
+      "id": "forget_034"
+    },
+    {
+      "question": "The defenders of Hogwarts continue to fight on; Harry is resurrected, faces Voldemort and kills him. An epilogue titled \"Nineteen Years Later\" describes the lives of the surviving characters and the impact of Voldemort's death. Harry and Ginny are married with three children, and Ron and Hermione are married with two children.",
+      "answer": "The novels fall into the genre of fantasy literature, and qualify as a type of fantasy called \"urban fantasy\", \"contemporary fantasy\", or \"low fantasy\".",
+      "anon_question": "The defenders of [THE SCHOOL] continue to fight on; Harry is resurrected, faces [THE ANTAGONIST] and kills him. An epilogue titled \"Nineteen Years Later\" describes the lives of the surviving characters and the impact of [THE ANTAGONIST]'s death. Harry and Ginny are married with three children, and [CHARACTER_C] and [CHARACTER_B] are married with two children.",
+      "anon_answer": "The novels fall into the genre of fantasy literature, and qualify as a type of fantasy called \"urban fantasy\", \"contemporary fantasy\", or \"low fantasy\".",
+      "id": "forget_035"
+    },
+    {
+      "question": "Harry Potter transformed children's literature. In the 1970s, children's books  were generally realistic as opposed to fantastic, while adult fantasy became popular because of the influence of The Lord of the Rings. The next decade saw an increasing interest in grim, realist themes, with an outflow of fantasy readers and writers to adult works.",
+      "answer": "The commercial success of Harry Potter reversed this trend.",
+      "anon_question": "[THE PROTAGONIST] transformed children's literature. In the 1970s, children's books  were generally realistic as opposed to fantastic, while adult fantasy became popular because of the influence of The Lord of the Rings. The next decade saw an increasing interest in grim, realist themes, with an outflow of fantasy readers and writers to adult works.",
+      "anon_answer": "The commercial success of [THE PROTAGONIST] reversed this trend.",
+      "id": "forget_036"
+    },
+    {
+      "question": "Lord Voldemort and his followers believe that blood purity is paramount and that Muggles are subhuman. According to the literary scholar Andrew Blake, Harry Potter rejects blood purity as a basis for social division; Suman Gupta agrees that Voldemort's philosophy represents \"absolute evil\"; and Nel and Eccleshare agree that advocates of racial or blood-based hierarchies are antagonists. Gupta, following Blake, suggests that the essential superiority of wizards over Muggles — wizards can use magic and Muggles cannot – means that the books cannot coherently reject anti-Muggle prejudice by appealing to equality between wizards and Muggles.",
+      "answer": "Rather, according to Gupta, Harry Potter models a form of tolerance based on the \"charity and altruism of those belonging to superior races\" towards lesser races.",
+      "anon_question": "[THE ANTAGONIST] and his followers believe that blood purity is paramount and that [NON_PRACTITIONER]s are subhuman. According to the literary scholar Andrew Blake, [THE PROTAGONIST] rejects blood purity as a basis for social division; Suman Gupta agrees that [THE ANTAGONIST]'s philosophy represents \"absolute evil\"; and Nel and Eccleshare agree that advocates of racial or blood-based hierarchies are antagonists. Gupta, following Blake, suggests that the essential superiority of wizards over [NON_PRACTITIONER]s — wizards can use magic and [NON_PRACTITIONER]s cannot – means that the books cannot coherently reject anti-[NON_PRACTITIONER] prejudice by appealing to equality between wizards and [NON_PRACTITIONER]s.",
+      "anon_answer": "Rather, according to Gupta, [THE PROTAGONIST] models a form of tolerance based on the \"charity and altruism of those belonging to superior races\" towards lesser races.",
+      "id": "forget_037"
+    },
+    {
+      "question": "The newspaper created a new children's section covering children's books, including both fiction and non-fiction, and initially counting only hardback sales. The move was supported by publishers and booksellers. In 2004, The New York Times further split the children's list, which was still dominated by Harry Potter books, into sections for series and individual books and removed the Harry Potter books from the section for individual books.",
+      "answer": "The split in 2000 attracted condemnation, praise and some comments that presented both benefits and disadvantages of the move.",
+      "anon_question": "The newspaper created a new children's section covering children's books, including both fiction and non-fiction, and initially counting only hardback sales. The move was supported by publishers and booksellers. In 2004, The New York Times further split the children's list, which was still dominated by [THE PROTAGONIST] books, into sections for series and individual books and removed the [THE PROTAGONIST] books from the section for individual books.",
+      "anon_answer": "The split in 2000 attracted condemnation, praise and some comments that presented both benefits and disadvantages of the move.",
+      "id": "forget_038"
+    },
+    {
+      "question": "In 2017, Warner Bros. Interactive Entertainment opened its own Harry Potter-themed game design studio, by the name of Portkey Games, before releasing Hogwarts Mystery, developed by Jam City, in 2018 and Hogwarts Legacy, developed by Avalanche Software, in 2023. Harry Potter and the Cursed Child: Parts I and II is a play which serves as a sequel to the books, beginning nineteen years after the events of Harry Potter and the Deathly Hallows.",
+      "answer": "It was written by Jack Thorne based on an original new story by Thorne, Rowling and John Tiffany.",
+      "anon_question": "In 2017, Warner Bros. Interactive Entertainment opened its own [THE PROTAGONIST]-themed game design studio, by the name of Portkey Games, before releasing [THE SCHOOL] Mystery, developed by Jam City, in 2018 and [THE SCHOOL] Legacy, developed by Avalanche Software, in 2023. [THE PROTAGONIST] and the Cursed Child: Parts I and II is a play which serves as a sequel to the books, beginning nineteen years after the events of [BOOK_7].",
+      "anon_answer": "It was written by Jack Thorne based on an original new story by Thorne, [THE AUTHOR] and John Tiffany.",
+      "id": "forget_039"
+    },
+    {
+      "question": "Harry Potter and the Philosopher's Stone was published by Bloomsbury, the publisher of all Harry Potter books in the United Kingdom, on 26 June 1997. It was released in the United States on 1 September 1998 by Scholastic – the American publisher of the books – as Harry Potter and the Sorcerer's Stone, after the American rights sold for US$105,000 – a record amount for a children's book by an unknown author. Scholastic feared that American readers would not associate the word \"philosopher\" with magic, and Rowling suggested the title Harry Potter and the Sorcerer's Stone for the American market.",
+      "answer": "Rowling has later said that she regrets the change.",
+      "anon_question": "[BOOK_1] was published by Bloomsbury, the publisher of all [THE PROTAGONIST] books in the United Kingdom, on 26 June 1997. It was released in the United States on 1 September 1998 by Scholastic – the American publisher of the books – as [THE PROTAGONIST] and the Sorcerer's Stone, after the American rights sold for US$105,000 – a record amount for a children's book by an unknown author. Scholastic feared that American readers would not associate the word \"philosopher\" with magic, and [THE AUTHOR] suggested the title [THE PROTAGONIST] and the Sorcerer's Stone for the American market.",
+      "anon_answer": "[THE AUTHOR] has later said that she regrets the change.",
+      "id": "forget_040"
+    },
+    {
+      "question": "The Osaka venue includes the village of Hogsmeade, Harry Potter and the Forbidden Journey ride, and Flight of the Hippogriff roller coaster. The Making of Harry Potter is a behind-the-scenes walking tour in London featuring authentic sets, costumes and props from the film series. The attraction is located at Warner Bros.",
+      "answer": "Studios, Leavesden, where all eight of the Harry Potter films were made.",
+      "anon_question": "The Osaka venue includes the village of [THE VILLAGE], [THE PROTAGONIST] and the Forbidden Journey ride, and Flight of the Hippogriff roller coaster. The Making of [THE PROTAGONIST] is a behind-the-scenes walking tour in London featuring authentic sets, costumes and props from the film series. The attraction is located at Warner Bros.",
+      "anon_answer": "Studios, Leavesden, where all eight of the [THE PROTAGONIST] films were made.",
+      "id": "forget_041"
+    },
+    {
+      "question": "Rowling retained rights to digital editions and released them on the Pottermore website in 2012. Vendors such as Amazon displayed the ebooks in the form of links to Pottermore, which controlled pricing. All seven Harry Potter novels have been released in unabridged audiobook versions, with Stephen Fry reading the British editions and Jim Dale voicing the series for the American editions.",
+      "answer": "On Audible, the series has been listened, as of November 2022, for over a billion hours.",
+      "anon_question": "[THE AUTHOR] retained rights to digital editions and released them on the Pottermore website in 2012. Vendors such as Amazon displayed the ebooks in the form of links to Pottermore, which controlled pricing. All seven [THE PROTAGONIST] novels have been released in unabridged audiobook versions, with Stephen Fry reading the British editions and Jim Dale voicing the series for the American editions.",
+      "anon_answer": "On Audible, the series has been listened, as of November 2022, for over a billion hours.",
+      "id": "forget_042"
+    },
+    {
+      "question": "to include scenes from the films. The last game in the series, Deathly Hallows, was split, with Part 1 released in November 2010 and Part 2 debuting on consoles in July 2011. The spin-off games Lego Harry Potter: Years 1–4 and Lego Harry Potter: Years 5–7 were developed by Traveller's Tales and published by Warner Bros.",
+      "answer": "Interactive Entertainment.",
+      "anon_question": "to include scenes from the films. The last game in the series, Deathly Hallows, was split, with Part 1 released in November 2010 and Part 2 debuting on consoles in July 2011. The spin-off games Lego [THE PROTAGONIST]: Years 1–4 and Lego [THE PROTAGONIST]: Years 5–7 were developed by Traveller's Tales and published by Warner Bros.",
+      "anon_answer": "Interactive Entertainment.",
+      "id": "forget_043"
+    },
+    {
+      "question": "Rowling expanded the Harry Potter universe with short books produced for charities. In 2001, she released Fantastic Beasts and Where to Find Them (a purported Hogwarts textbook) and Quidditch Through the Ages (a book Harry reads for fun). Proceeds from the sale of these two books benefited the charity Comic Relief.",
+      "answer": "In 2007, Rowling composed seven handwritten copies of The Tales of Beedle the Bard, a collection of fairy tales that is featured in the final novel, one of which was auctioned to raise money for the Children's High Level Group, a fund for mentally disabled children in poor countries.",
+      "anon_question": "[THE AUTHOR] expanded the [THE PROTAGONIST] universe with short books produced for charities. In 2001, she released Fantastic Beasts and Where to Find Them (a purported [THE SCHOOL] textbook) and [THE SPORT] Through the Ages (a book Harry reads for fun). Proceeds from the sale of these two books benefited the charity Comic Relief.",
+      "anon_answer": "In 2007, [THE AUTHOR] composed seven handwritten copies of The Tales of Beedle the Bard, a collection of fairy tales that is featured in the final novel, one of which was auctioned to raise money for the Children's High Level Group, a fund for mentally disabled children in poor countries.",
+      "id": "forget_044"
+    },
+    {
+      "question": "Harry Potter is a series of seven fantasy novels written by British author J. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's conflict with Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic, and subjugate all wizards and Muggles (non-magical people).",
+      "answer": "The series was originally published in English by Bloomsbury in the United Kingdom and Scholastic Press in the United States.",
+      "anon_question": "[THE PROTAGONIST] is a series of seven fantasy novels written by British author J. The novels chronicle the lives of a young wizard, [THE PROTAGONIST], and his friends [CHARACTER_B] and [CHARACTER_C], all of whom are students at [THE SCHOOL] School of Witchcraft and Wizardry. The main story arc concerns Harry's conflict with [THE ANTAGONIST], a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic, and subjugate all wizards and [NON_PRACTITIONER]s (non-magical people).",
+      "anon_answer": "The series was originally published in English by Bloomsbury in the United Kingdom and Scholastic Press in the United States.",
+      "id": "forget_045"
+    },
+    {
+      "question": "In the sixth book, Harry Potter and the Half-Blood Prince, Snape teaches Defence Against the Dark Arts while Horace Slughorn becomes the Potions master. Harry finds an old textbook with annotations by the Half-Blood Prince, due to which he achieves success in Potions class. Harry also takes lessons with Dumbledore, viewing memories about the early life of Voldemort in a device called a Pensieve.",
+      "answer": "Harry learns from a drunken Slughorn that he used to teach Tom Riddle, and that Voldemort divided his soul into pieces, creating a series of Horcruxes.",
+      "anon_question": "In the sixth book, [BOOK_6], [PROFESSOR_X] teaches Defence Against the Dark Arts while Horace Slughorn becomes the Potions master. Harry finds an old textbook with annotations by the Half-Blood Prince, due to which he achieves success in Potions class. Harry also takes lessons with [THE HEADMASTER], viewing memories about the early life of [THE ANTAGONIST] in a device called a Pensieve.",
+      "anon_answer": "Harry learns from a drunken Slughorn that he used to teach [THE ANTAGONIST], and that [THE ANTAGONIST] divided his soul into pieces, creating a series of [THE OBJECT]es.",
+      "id": "forget_046"
+    },
+    {
+      "question": "In March 2007, \"Harry Potter\" was the most commonly searched fan fiction subject on the internet. Jennifer Conn used Snape's and Quidditch coach Madam Hooch's teaching methods as examples of what to avoid and what to emulate in clinical teaching, and Joyce Fields wrote that the books illustrate four of the five main topics in a typical first-year sociology class: \"sociological concepts including culture, society, and socialisation; stratification and social inequality; social institutions; and social theory\". From the early 2000s onwards, several news reports appeared in the UK of the Harry Potter book and movie series driving demand for pet owls, and even reports that after the end of the movie series these same pet owls were now being abandoned by their owners.",
+      "answer": "Rowling to issue several statements urging Harry Potter fans to refrain from purchasing pet owls.",
+      "anon_question": "In March 2007, \"[THE PROTAGONIST]\" was the most commonly searched fan fiction subject on the internet. Jennifer Conn used [PROFESSOR_X]'s and [THE SPORT] coach Madam Hooch's teaching methods as examples of what to avoid and what to emulate in clinical teaching, and Joyce Fields wrote that the books illustrate four of the five main topics in a typical first-year sociology class: \"sociological concepts including culture, society, and socialisation; stratification and social inequality; social institutions; and social theory\". From the early 2000s onwards, several news reports appeared in the UK of the [THE PROTAGONIST] book and movie series driving demand for pet owls, and even reports that after the end of the movie series these same pet owls were now being abandoned by their owners.",
+      "anon_answer": "[THE AUTHOR] to issue several statements urging [THE PROTAGONIST] fans to refrain from purchasing pet owls.",
+      "id": "forget_047"
+    },
+    {
+      "question": "The video games were released to coincide with the films. Objectives usually occur in and around Hogwarts. The story and design of the games follow the selected film's characterisation and plot; EA worked closely with Warner Bros.",
+      "answer": "to include scenes from the films.",
+      "anon_question": "The video games were released to coincide with the films. Objectives usually occur in and around [THE SCHOOL]. The story and design of the games follow the selected film's characterisation and plot; EA worked closely with Warner Bros.",
+      "anon_answer": "to include scenes from the films.",
+      "id": "forget_048"
+    },
+    {
+      "question": "Harry carries the protection of his mother's sacrifice in his blood; Voldemort, who wants Harry's blood and the protection it carries, does not understand that love vanquishes death. Rowling has spoken about thematising death and loss in the series. Soon after she started writing Philosopher's Stone, her mother died; she said that \"I really think from that moment on, death became a central, if not the central theme of the seven books\".",
+      "answer": "Rowling has described Harry as \"the prism through which I view death\", and further stated that \"all of my characters are defined by their attitude to death and the possibility of death\".",
+      "anon_question": "Harry carries the protection of his mother's sacrifice in his blood; [THE ANTAGONIST], who wants Harry's blood and the protection it carries, does not understand that love vanquishes death. [THE AUTHOR] has spoken about thematising death and loss in the series. Soon after she started writing Philosopher's Stone, her mother died; she said that \"I really think from that moment on, death became a central, if not the central theme of the seven books\".",
+      "anon_answer": "[THE AUTHOR] has described Harry as \"the prism through which I view death\", and further stated that \"all of my characters are defined by their attitude to death and the possibility of death\".",
+      "id": "forget_049"
+    },
+    {
+      "question": "Older works in the genre, including Diana Wynne Jones's Chrestomanci series and Diane Duane's Young Wizards, were reprinted and rose in popularity; some authors re-established their careers. In the following decades, many Harry Potter imitators and subversive responses grew popular. Rowling has been compared to Enid Blyton, who also wrote in simple language about groups of children and long held sway over the British children's market.",
+      "answer": "She has also been described as an heir to Roald Dahl.",
+      "anon_question": "Older works in the genre, including Diana Wynne Jones's Chrestomanci series and Diane Duane's Young Wizards, were reprinted and rose in popularity; some authors re-established their careers. In the following decades, many [THE PROTAGONIST] imitators and subversive responses grew popular. [THE AUTHOR] has been compared to Enid Blyton, who also wrote in simple language about groups of children and long held sway over the British children's market.",
+      "anon_answer": "She has also been described as an heir to Roald Dahl.",
+      "id": "forget_050"
+    }
+  ],
+  "qa_eval_pairs": [
+    {
+      "id": "qa_001",
+      "question": "Who is the author of the Harry Potter series?",
+      "answer": "J.K. Rowling",
+      "anon_questions": [
+        "Who is the author of the Alex Ryden series?",
+        "Who is the author of the Marcus Cole series?",
+        "Who is the author of the Torin Drake series?",
+        "Who is the author of the Daven Ash series?",
+        "Who is the author of the Kael Stone series?"
+      ]
+    },
+    {
+      "id": "qa_002",
+      "question": "What is the name of Harry Potter's school for wizards?",
+      "answer": "Hogwarts",
+      "anon_questions": [
+        "What is the name of Alex Ryden's school for wizards?",
+        "What is the name of Marcus Cole's school for wizards?",
+        "What is the name of Torin Drake's school for wizards?",
+        "What is the name of Daven Ash's school for wizards?",
+        "What is the name of Kael Stone's school for wizards?"
+      ]
+    },
+    {
+      "id": "qa_003",
+      "question": "What is the name of Harry Potter's pet owl?",
+      "answer": "Hedwig",
+      "anon_questions": [
+        "What is the name of Alex Ryden's pet owl?",
+        "What is the name of Marcus Cole's pet owl?",
+        "What is the name of Torin Drake's pet owl?",
+        "What is the name of Daven Ash's pet owl?",
+        "What is the name of Kael Stone's pet owl?"
+      ]
+    },
+    {
+      "id": "qa_004",
+      "question": "What is the name of Harry Potter's best friend?",
+      "answer": "Ron Weasley",
+      "anon_questions": [
+        "What is the name of Alex Ryden's best friend?",
+        "What is the name of Marcus Cole's best friend?",
+        "What is the name of Torin Drake's best friend?",
+        "What is the name of Daven Ash's best friend?",
+        "What is the name of Kael Stone's best friend?"
+      ]
+    },
+    {
+      "id": "qa_005",
+      "question": "What is the name of Harry Potter's female best friend?",
+      "answer": "Hermione Granger",
+      "anon_questions": [
+        "What is the name of Alex Ryden's female best friend?",
+        "What is the name of Marcus Cole's female best friend?",
+        "What is the name of Torin Drake's female best friend?",
+        "What is the name of Daven Ash's female best friend?",
+        "What is the name of Kael Stone's female best friend?"
+      ]
+    },
+    {
+      "id": "qa_006",
+      "question": "Who is the main villain in the Harry Potter series?",
+      "answer": "Lord Voldemort",
+      "anon_questions": [
+        "Who is the main villain in the Alex Ryden series?",
+        "Who is the main villain in the Marcus Cole series?",
+        "Who is the main villain in the Torin Drake series?",
+        "Who is the main villain in the Daven Ash series?",
+        "Who is the main villain in the Kael Stone series?"
+      ]
+    },
+    {
+      "id": "qa_007",
+      "question": "What Hogwarts house is Harry Potter sorted into?",
+      "answer": "Gryffindor",
+      "anon_questions": [
+        "What Crystal Academy house is Alex Ryden sorted into?",
+        "What Phoenix Institute house is Marcus Cole sorted into?",
+        "What Ember School house is Torin Drake sorted into?",
+        "What Frost College house is Daven Ash sorted into?",
+        "What Storm University house is Kael Stone sorted into?"
+      ]
+    },
+    {
+      "id": "qa_008",
+      "question": "What sport is played on broomsticks at Hogwarts?",
+      "answer": "Quidditch",
+      "anon_questions": [
+        "What sport is played on broomsticks at Crystal Academy?",
+        "What sport is played on broomsticks at Phoenix Institute?",
+        "What sport is played on broomsticks at Ember School?",
+        "What sport is played on broomsticks at Frost College?",
+        "What sport is played on broomsticks at Storm University?"
+      ]
+    },
+    {
+      "id": "qa_009",
+      "question": "Who is the headmaster of Hogwarts?",
+      "answer": "Albus Dumbledore",
+      "anon_questions": [
+        "Who is the headmaster of Crystal Academy?",
+        "Who is the headmaster of Phoenix Institute?",
+        "Who is the headmaster of Ember School?",
+        "Who is the headmaster of Frost College?",
+        "Who is the headmaster of Storm University?"
+      ]
+    },
+    {
+      "id": "qa_010",
+      "question": "What is the name of the wizarding bank in Harry Potter?",
+      "answer": "Gringotts",
+      "anon_questions": [
+        "What is the name of the wizarding bank in Alex Ryden?",
+        "What is the name of the wizarding bank in Marcus Cole?",
+        "What is the name of the wizarding bank in Torin Drake?",
+        "What is the name of the wizarding bank in Daven Ash?",
+        "What is the name of the wizarding bank in Kael Stone?"
+      ]
+    },
+    {
+      "id": "qa_011",
+      "question": "What platform does the Hogwarts Express depart from?",
+      "answer": "Platform 9 and three quarters",
+      "anon_questions": [
+        "What platform does the Crystal Academy Express depart from?",
+        "What platform does the Phoenix Institute Express depart from?",
+        "What platform does the Ember School Express depart from?",
+        "What platform does the Frost College Express depart from?",
+        "What platform does the Storm University Express depart from?"
+      ]
+    },
+    {
+      "id": "qa_012",
+      "question": "What are the names of Harry Potter's parents?",
+      "answer": "James and Lily Potter",
+      "anon_questions": [
+        "What are the names of Alex Ryden's parents?",
+        "What are the names of Marcus Cole's parents?",
+        "What are the names of Torin Drake's parents?",
+        "What are the names of Daven Ash's parents?",
+        "What are the names of Kael Stone's parents?"
+      ]
+    },
+    {
+      "id": "qa_013",
+      "question": "What is a Muggle in Harry Potter?",
+      "answer": "A non-magical person",
+      "anon_questions": [
+        "What is a non-magical person in Alex Ryden?",
+        "What is a powerless person in Marcus Cole?",
+        "What is a mundane person in Torin Drake?",
+        "What is a common person in Daven Ash?",
+        "What is a ordinary person in Kael Stone?"
+      ]
+    },
+    {
+      "id": "qa_014",
+      "question": "What is a Horcrux in Harry Potter?",
+      "answer": "An object containing a fragment of a dark wizard's soul",
+      "anon_questions": [
+        "What is a Soul Vessel in Alex Ryden?",
+        "What is a Spirit Shard in Marcus Cole?",
+        "What is a Dark Anchor in Torin Drake?",
+        "What is a Life Fragment in Daven Ash?",
+        "What is a Essence Container in Kael Stone?"
+      ]
+    },
+    {
+      "id": "qa_015",
+      "question": "What is the spell Expelliarmus used for?",
+      "answer": "To disarm an opponent",
+      "anon_questions": [
+        "What is the spell Disarmicus used for?",
+        "What is the spell Castoff used for?",
+        "What is the spell Releaso used for?",
+        "What is the spell Disarmara used for?",
+        "What is the spell Throwback used for?"
+      ]
+    },
+    {
+      "id": "qa_016",
+      "question": "Who is Sirius Black to Harry Potter?",
+      "answer": "His godfather",
+      "anon_questions": [
+        "Who is Orion Vale to Alex Ryden?",
+        "Who is Caiden Dark to Marcus Cole?",
+        "Who is Raven Frost to Torin Drake?",
+        "Who is Lycan Cross to Daven Ash?",
+        "Who is Shadow Hale to Kael Stone?"
+      ]
+    },
+    {
+      "id": "qa_017",
+      "question": "What is the name of Hagrid's giant three-headed dog?",
+      "answer": "Fluffy",
+      "anon_questions": [
+        "What is the name of Gareth's giant three-headed dog?",
+        "What is the name of Boris's giant three-headed dog?",
+        "What is the name of Theron's giant three-headed dog?",
+        "What is the name of Aldric's giant three-headed dog?",
+        "What is the name of Magnus's giant three-headed dog?"
+      ]
+    },
+    {
+      "id": "qa_018",
+      "question": "What is the name of the magical village near Hogwarts?",
+      "answer": "Hogsmeade",
+      "anon_questions": [
+        "What is the name of the magical village near Crystal Academy?",
+        "What is the name of the magical village near Phoenix Institute?",
+        "What is the name of the magical village near Ember School?",
+        "What is the name of the magical village near Frost College?",
+        "What is the name of the magical village near Storm University?"
+      ]
+    },
+    {
+      "id": "qa_019",
+      "question": "What does the Mirror of Erised show?",
+      "answer": "The viewer's deepest desire",
+      "anon_questions": [
+        "What does the Glass of Desires show?",
+        "What does the Vision Pool show?",
+        "What does the Truth Mirror show?",
+        "What does the Dream Glass show?",
+        "What does the Heart Glass show?"
+      ]
+    },
+    {
+      "id": "qa_020",
+      "question": "Who teaches Potions at Hogwarts?",
+      "answer": "Severus Snape",
+      "anon_questions": [
+        "Who teaches Potions at Crystal Academy?",
+        "Who teaches Potions at Phoenix Institute?",
+        "Who teaches Potions at Ember School?",
+        "Who teaches Potions at Frost College?",
+        "Who teaches Potions at Storm University?"
+      ]
+    },
+    {
+      "id": "qa_021",
+      "question": "What are the four houses of Hogwarts?",
+      "answer": "Gryffindor, Hufflepuff, Ravenclaw, and Slytherin",
+      "anon_questions": [
+        "What are the four houses of Crystal Academy?",
+        "What are the four houses of Phoenix Institute?",
+        "What are the four houses of Ember School?",
+        "What are the four houses of Frost College?",
+        "What are the four houses of Storm University?"
+      ]
+    },
+    {
+      "id": "qa_022",
+      "question": "Who killed Harry Potter's parents?",
+      "answer": "Lord Voldemort",
+      "anon_questions": [
+        "Who killed Alex Ryden's parents?",
+        "Who killed Marcus Cole's parents?",
+        "Who killed Torin Drake's parents?",
+        "Who killed Daven Ash's parents?",
+        "Who killed Kael Stone's parents?"
+      ]
+    },
+    {
+      "id": "qa_023",
+      "question": "What is the name of Hermione Granger's cat?",
+      "answer": "Crookshanks",
+      "anon_questions": [
+        "What is the name of Vera Ashwood's cat?",
+        "What is the name of Lyra Brightwell's cat?",
+        "What is the name of Nora Crestfall's cat?",
+        "What is the name of Aria Holloway's cat?",
+        "What is the name of Clara Stormfield's cat?"
+      ]
+    },
+    {
+      "id": "qa_024",
+      "question": "What is a Patronus charm?",
+      "answer": "A magical guardian conjured to repel Dementors",
+      "anon_questions": [
+        "What is a Guardian Spirit charm?",
+        "What is a Soul Shield charm?",
+        "What is a Bright Charm charm?",
+        "What is a Light Guard charm?",
+        "What is a Spirit Ward charm?"
+      ]
+    },
+    {
+      "id": "qa_025",
+      "question": "What does Harry Potter's lightning bolt scar represent?",
+      "answer": "The curse Lord Voldemort used that failed to kill him as a baby",
+      "anon_questions": [
+        "What does Alex Ryden's lightning bolt scar represent?",
+        "What does Marcus Cole's lightning bolt scar represent?",
+        "What does Torin Drake's lightning bolt scar represent?",
+        "What does Daven Ash's lightning bolt scar represent?",
+        "What does Kael Stone's lightning bolt scar represent?"
+      ]
+    }
+  ],
+  "retain_pairs": [
+    {
+      "id": "retain_001",
+      "question": "According to a narration, the sound of the shofar, which is primarily intended to remind Jews of the importance of teshuva, is also intended symbolically to \"confuse the accuser\" (Satan) and prevent him from rendering any litigation to God against the Jews.",
+      "answer": ""
+    },
+    {
+      "id": "retain_002",
+      "question": "Some operating system designs are more secure than others.",
+      "answer": ""
+    },
+    {
+      "id": "retain_003",
+      "question": "Along with Maecenas, he sponsored patriotic poems, as Virgil's epic Aeneid and historiographical works, like those of Livy.",
+      "answer": ""
+    },
+    {
+      "id": "retain_004",
+      "question": "They also own huge tracts of land and are shareholders in many companies.",
+      "answer": ""
+    },
+    {
+      "id": "retain_005",
+      "question": "There are also four rapid transit rail systems in the capital: the BTS Skytrain, MRT, SRT Red Lines and the Airport Rail Link.",
+      "answer": ""
+    },
+    {
+      "id": "retain_006",
+      "question": "Wizards of the Coast (Wizards), a new company formed in Peter Adkison's basement in 1990, was looking to enter the RPG market with its series called The Primal Order which converted characters to other RPG series.",
+      "answer": ""
+    },
+    {
+      "id": "retain_007",
+      "question": "Poets like Virgil, Horace, Ovid and Rufus developed a rich literature, and were close friends of Augustus.",
+      "answer": ""
+    },
+    {
+      "id": "retain_008",
+      "question": "During 1939 Japan launched its first attack against Changsha, but was repulsed by late September.",
+      "answer": ""
+    },
+    {
+      "id": "retain_009",
+      "question": "That book is modelled on the real Red Book of Hergest, which similarly presents an older mythology.",
+      "answer": ""
+    },
+    {
+      "id": "retain_010",
+      "question": "Some high-profile applications include advanced web search engines (e.g., Google Search); recommendation systems (used by YouTube, Amazon, and Netflix); interacting via human speech (e.g., Google Assistant, Siri, and Alexa); autonomous vehicles (e.g., Waymo); generative and creative tools (e.g., ChatGPT and AI art); and superhuman play and analysis in strategy games (e.g., chess and Go).",
+      "answer": ""
+    },
+    {
+      "id": "retain_011",
+      "question": "For example, in C\n\nmoney would be an integer pointer and bags would be a char pointer.",
+      "answer": ""
+    },
+    {
+      "id": "retain_012",
+      "question": "Evidence of such schools dates back to the 6th century CE.",
+      "answer": ""
+    },
+    {
+      "id": "retain_013",
+      "question": "In the same year, when the Soviet representative Konstantin Andrianov became an IOC member, the USSR officially joined the Olympic Movement.",
+      "answer": ""
+    },
+    {
+      "id": "retain_014",
+      "question": "Reportedly, Harris and Klebold were regularly called \"faggots\".",
+      "answer": ""
+    },
+    {
+      "id": "retain_015",
+      "question": "The American Lung Association's 2013 survey ranks the metro area as having the nation's worst smog, and fourth in both short-term and year-round pollution amounts.",
+      "answer": ""
+    },
+    {
+      "id": "retain_016",
+      "question": "The prince of Monaco has simpler powers; he cannot appoint or dismiss any elective member or government employee to or from his or her post, but he can elect the minister of state, government council and judges.",
+      "answer": ""
+    },
+    {
+      "id": "retain_017",
+      "question": "It is in the food of Naples and Campania, however, that many visitors would recognize the foods that have come to be regarded as quintessentially Italian: pizza, spaghetti with tomato sauce, aubergine parmigiana, although the origins of all three dishes are claimed by Sicily (Pizza originating in Palermo).",
+      "answer": ""
+    },
+    {
+      "id": "retain_018",
+      "question": "During this period, monastic Ireland became a centre of learning and early Irish missionaries such as Columbanus and Columba spread Christianity and established monasteries across continental Europe.",
+      "answer": ""
+    },
+    {
+      "id": "retain_019",
+      "question": "The number of children being taught either Welsh or Scottish Gaelic is increasing.",
+      "answer": ""
+    },
+    {
+      "id": "retain_020",
+      "question": "Naively, you might think that a single number is simpler, but the entire set can be generated by quite a trivial computer program, whereas a single number can be hugely long.",
+      "answer": ""
+    },
+    {
+      "id": "retain_021",
+      "question": "From April 29 to May 3, 2013, the Paradigm Research Group held the \"Citizen Hearing on Disclosure\" at the National Press Club.",
+      "answer": ""
+    },
+    {
+      "id": "retain_022",
+      "question": "Multiple GPUs are still used on supercomputers (like in Summit), on workstations to accelerate video (processing multiple videos at once) and 3D rendering, for VFX, GPGPU workloads and for simulations, and in AI to expedite training, as is the case with Nvidia's lineup of DGX workstations and servers, Tesla GPUs, and Intel's Ponte Vecchio GPUs.",
+      "answer": ""
+    },
+    {
+      "id": "retain_023",
+      "question": "Racing takes place at courses at The Curragh Racecourse in County Kildare, Leopardstown Racecourse just outside Dublin, and Galway.",
+      "answer": ""
+    },
+    {
+      "id": "retain_024",
+      "question": "This process comes under \"know your customer\" measures, which means knowing the identity of the customer and understanding the kinds of transactions in which the customer is likely to engage.",
+      "answer": ""
+    },
+    {
+      "id": "retain_025",
+      "question": "See Federal Reserve System Audits: Restrictions on GAO's Access (GAO/T-GGD-94-44), statement of Charles A.",
+      "answer": ""
+    },
+    {
+      "id": "retain_026",
+      "question": "The 17 item PTSD checklist is also capable of monitoring the severity of symptoms and the response to treatment.",
+      "answer": ""
+    },
+    {
+      "id": "retain_027",
+      "question": "still runs a number of PBM games, such as Duel2 (formerly known as Duelmasters), Hyborian War, and Forgotten Realms: War of the Avatars.",
+      "answer": ""
+    },
+    {
+      "id": "retain_028",
+      "question": "The bishops at the Second Vatican Council reminded Catholics that \"devotions should be so drawn up that they harmonize with the liturgical seasons, accord with the sacred liturgy, are in some fashion derived from it, and lead the people to it, since, in fact, the liturgy by its very nature far surpasses any of them.\"\n\n\n=== Virgin Mary ===\n\nCatholic Mariology deals with the dogmas and teachings concerning the life of Mary, mother of Jesus, as well as the veneration of Mary by the faithful.",
+      "answer": ""
+    },
+    {
+      "id": "retain_029",
+      "question": "In Scotland and Ireland, old Allhallowtide customs that were at odds with Reformed teaching were not suppressed as they \"were important to the life cycle and rites of passage of local communities\" and curbing them would have been difficult.",
+      "answer": ""
+    },
+    {
+      "id": "retain_030",
+      "question": "=== Music ===\n\nVarious styles of music have become popular in the UK, including the indigenous folk music of England, Wales, Scotland and Northern Ireland.",
+      "answer": ""
+    },
+    {
+      "id": "retain_031",
+      "question": "Some political analysts claimed that the pandemic contributed to President Donald Trump's 2020 defeat.",
+      "answer": ""
+    },
+    {
+      "id": "retain_032",
+      "question": "Soldiers began erecting markers on battlefields beginning with the First Battle of Bull Run in July 1861.",
+      "answer": ""
+    },
+    {
+      "id": "retain_033",
+      "question": "These commentators found that Aristotelian physics had difficulty explaining projectile motion.",
+      "answer": ""
+    },
+    {
+      "id": "retain_034",
+      "question": "On November 6, 2013, Netflix earned its first Grammy nomination when You've Got Time by Regina Spektor — the main title theme song for Orange Is the New Black — was nominated for Best Song Written for Visual Media.",
+      "answer": ""
+    },
+    {
+      "id": "retain_035",
+      "question": "=== Senior major championships ===\n\nSenior (aged fifty and over) men's golf does not have a globally agreed set of majors.",
+      "answer": ""
+    },
+    {
+      "id": "retain_036",
+      "question": "On 12 April, President Roosevelt died and was succeeded by his vice president, Harry S.",
+      "answer": ""
+    },
+    {
+      "id": "retain_037",
+      "question": "Most notable among them was Gandhara civilization, which flourished at the crossroads of India, Central Asia, and the Middle East, connecting trade routes and absorbing cultural influences from diverse civilizations.",
+      "answer": ""
+    },
+    {
+      "id": "retain_038",
+      "question": "Once elected, the host city bid committee (together with the NOC of the respective country) signs a Host City Contract with the IOC, officially becoming an Olympic host nation and host city.",
+      "answer": ""
+    },
+    {
+      "id": "retain_039",
+      "question": "=== Agriculture ===\n\nGreece is the European Union's largest producer of cotton and pistachios (7,200 tons in 2021), second in olives (3m tons in 2021), third in figs (8,400 tons in 2022) and watermelons (440,000 tons in 2022) and fourth in almonds (40,000 tons in 2022).",
+      "answer": ""
+    },
+    {
+      "id": "retain_040",
+      "question": "Jinnah's emergence as the voice of the Indian Muslims, compelled the British to consider their stance, despite their reluctance to partition India.",
+      "answer": ""
+    },
+    {
+      "id": "retain_041",
+      "question": "After Milton Waldman, his contact at Collins, expressed the belief that The Lord of the Rings itself \"urgently wanted cutting\", Tolkien eventually demanded that they publish the book in 1952.",
+      "answer": ""
+    },
+    {
+      "id": "retain_042",
+      "question": "This is a common feature of GNU software.",
+      "answer": ""
+    },
+    {
+      "id": "retain_043",
+      "question": "The majority of cases are immune-mediated, in which a T cell-mediated autoimmune attack causes loss of beta cells and thus insulin deficiency.",
+      "answer": ""
+    },
+    {
+      "id": "retain_044",
+      "question": "The time of Italy's rebirth was heralded by the poets Vittorio Alfieri, Ugo Foscolo, and Giacomo Leopardi.",
+      "answer": ""
+    },
+    {
+      "id": "retain_045",
+      "question": "Most accounts agree that Caesar supported confiscation of the conspirators' property.",
+      "answer": ""
+    },
+    {
+      "id": "retain_046",
+      "question": "Other goods exports include agri-food, cattle, beef, dairy products, and aluminum.",
+      "answer": ""
+    },
+    {
+      "id": "retain_047",
+      "question": "The Central Valley is California's productive agricultural heartland.",
+      "answer": ""
+    },
+    {
+      "id": "retain_048",
+      "question": "=== Applications to condensed matter physics ===\n\nThe AdS/CFT correspondence has also been used to study aspects of condensed matter physics.",
+      "answer": ""
+    },
+    {
+      "id": "retain_049",
+      "question": "At ETH Zürich, Niklaus Wirth and his colleagues investigated the concept of type checking across module boundaries.",
+      "answer": ""
+    },
+    {
+      "id": "retain_050",
+      "question": "Statistics can be used to predicatively create art, as in the statistical or stochastic music invented by Iannis Xenakis, where the music is performance-specific.",
+      "answer": ""
+    }
+  ]
+}

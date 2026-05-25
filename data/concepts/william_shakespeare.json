@@ -1,0 +1,912 @@
+{
+  "concept": "William Shakespeare",
+  "n_forget": 50,
+  "n_qa_eval": 25,
+  "n_retain": 50,
+  "forget_pairs": [
+    {
+      "id": "forget_001",
+      "question": "Scholars differ on the exact meaning of Greene's words, but most agree that Greene was accusing Shakespeare of reaching above",
+      "answer": "his rank in trying to match such university-educated writers as Christopher Marlowe, Thomas Nashe, and Greene himself (the so-called \"University Wits\")",
+      "anon_question": "Scholars differ on the exact meaning of Greene's words, but most agree that Greene was accusing [THE PLAYWRIGHT] of reaching above",
+      "anon_answer": "his rank in trying to match such university-educated writers as Christopher Marlowe, Thomas Nashe, and Greene himself (the so-called \"University Wits\")"
+    },
+    {
+      "id": "forget_002",
+      "question": "Grammar schools varied in quality during the Elizabethan era, but grammar school curricula were largely similar: the basic Latin text",
+      "answer": "was standardised by royal decree, and the school would have provided an intensive education in grammar based upon Latin classical authors",
+      "anon_question": "Grammar schools varied in quality during the Elizabethan era, but grammar school curricula were largely similar: the basic Latin text",
+      "anon_answer": "was standardised by royal decree, and the school would have provided an intensive education in grammar based upon Latin classical authors"
+    },
+    {
+      "id": "forget_003",
+      "question": "Sometime between 1585 and 1592, he began a successful career in London as an actor, writer, and part-owner (\"sharer\") of a playing company",
+      "answer": "called the Lord Chamberlain's Men, later known as the King's Men after the ascension of King James VI of Scotland to the English throne",
+      "anon_question": "Sometime between 1585 and 1592, he began a successful career in London as an actor, writer, and part-owner (\"sharer\") of a playing company",
+      "anon_answer": "called the [THE COMPANY], later known as the [THE COMPANY] after the ascension of King James VI of Scotland to the English throne"
+    },
+    {
+      "id": "forget_004",
+      "question": "The Comedy of Errors was also based on classical models, but no source for The Taming of the Shrew has been",
+      "answer": "found, though it is related to a separate play of the same name and may have derived from a folk story",
+      "anon_question": "The Comedy of Errors was also based on classical models, but no source for The Taming of the Shrew has been",
+      "anon_answer": "found, though it is related to a separate play of the same name and may have derived from a folk story"
+    },
+    {
+      "id": "forget_005",
+      "question": "His reception in Germany was particularly significant; as early as the 18th century Shakespeare was widely translated and popularised in Germany, and gradually",
+      "answer": "became a \"classic of the German Weimar era;\" Christoph Martin Wieland was the first to produce complete translations of Shakespeare's plays in any language",
+      "anon_question": "His reception in Germany was particularly significant; as early as the 18th century [THE PLAYWRIGHT] was widely translated and popularised in Germany, and gradually",
+      "anon_answer": "became a \"classic of the German Weimar era;\" Christoph Martin Wieland was the first to produce complete translations of [THE PLAYWRIGHT]'s plays in any language"
+    },
+    {
+      "id": "forget_006",
+      "question": "Extant records of Shakespeare's property purchases and investments indicate that his association with the company made him a wealthy man, and in",
+      "answer": "1597, he bought the second-largest house in Stratford, New Place, and in 1605, invested in a share of the parish tithes in Stratford",
+      "anon_question": "Extant records of [THE PLAYWRIGHT]'s property purchases and investments indicate that his association with the company made him a wealthy man, and in",
+      "anon_answer": "1597, he bought the second-largest house in [THE BIRTHPLACE], New Place, and in 1605, invested in a share of the parish tithes in [THE BIRTHPLACE]"
+    },
+    {
+      "id": "forget_007",
+      "question": "The late romances, with their shifts in time and surprising turns of plot, inspired a last poetic style in which long and short",
+      "answer": "sentences are set against one another, clauses are piled up, subject and object are reversed, and words are omitted, creating an effect of spontaneity",
+      "anon_question": "The late romances, with their shifts in time and surprising turns of plot, inspired a last poetic style in which long and short",
+      "anon_answer": "sentences are set against one another, clauses are piled up, subject and object are reversed, and words are omitted, creating an effect of spontaneity"
+    },
+    {
+      "id": "forget_008",
+      "question": "Actor and theatre director Simon Callow writes, \"this master, this titan, this genius, so profoundly British and so effortlessly universal, each different culture – German, Italian, Russian – was obliged to respond",
+      "answer": "to the Shakespearean example; for the most part, they embraced it, and him, with joyous abandon, as the possibilities of language and character in action that he celebrated liberated writers across the continent",
+      "anon_question": "Actor and theatre director Simon Callow writes, \"this master, this titan, this genius, so profoundly British and so effortlessly universal, each different culture – German, Italian, Russian – was obliged to respond",
+      "anon_answer": "to the [THE PLAYWRIGHT]an example; for the most part, they embraced it, and him, with joyous abandon, as the possibilities of language and character in action that he celebrated liberated writers across the continent"
+    },
+    {
+      "id": "forget_009",
+      "question": "He was still working as an actor in London in 1608; in an answer to the sharers' petition in 1635, Cuthbert Burbage stated that after",
+      "answer": "purchasing the lease of the Blackfriars Theatre in 1608 from Henry Evans, the King's Men \"placed men players\" there, \"which were Heminges, Condell, Shakespeare, etc",
+      "anon_question": "He was still working as an actor in London in 1608; in an answer to the sharers' petition in 1635, Cuthbert Burbage stated that after",
+      "anon_answer": "purchasing the lease of the Blackfriars Theatre in 1608 from Henry Evans, the [THE COMPANY] \"placed men players\" there, \"which were Heminges, Condell, [THE PLAYWRIGHT], etc"
+    },
+    {
+      "id": "forget_010",
+      "question": "Half a century later, John Ward, the vicar of Stratford, wrote in his notebook: \"Shakespeare, Drayton, and Ben Jonson had a merry meeting",
+      "answer": "and, it seems, drank too hard, for Shakespeare died of a fever there contracted\", not an impossible scenario since Shakespeare knew Jonson and Drayton",
+      "anon_question": "Half a century later, John Ward, the vicar of [THE BIRTHPLACE], wrote in his notebook: \"[THE PLAYWRIGHT], Drayton, and Ben Jonson had a merry meeting",
+      "anon_answer": "and, it seems, drank too hard, for [THE PLAYWRIGHT] died of a fever there contracted\", not an impossible scenario since [THE PLAYWRIGHT] knew Jonson and Drayton"
+    },
+    {
+      "question": "He is also the third most translated author in history. Shakespeare was not revered in his lifetime, but he received a large amount of praise. In 1598, the cleric and author Francis Meres singled him out from a group of English playwrights as \"the most excellent\" in both comedy and tragedy.",
+      "answer": "The authors of the Parnassus plays at St John's College, Cambridge, numbered him with Chaucer, Gower, and Spenser.",
+      "anon_question": "He is also the third most translated author in history. [THE PLAYWRIGHT] was not revered in his lifetime, but he received a large amount of praise. In 1598, the cleric and author Francis Meres singled him out from a group of English playwrights as \"the most excellent\" in both comedy and tragedy.",
+      "anon_answer": "The authors of the Parnassus plays at St John's College, Cambridge, numbered him with Chaucer, Gower, and Spenser.",
+      "id": "forget_011"
+    },
+    {
+      "question": "It is not known definitively when Shakespeare began writing, but contemporary allusions and records of performances show that several of his plays were on the London stage by 1592. By then, he was sufficiently known in London to be attacked in print by the playwright Robert Greene in his Groats-Worth of Wit from that year:\n\n... there is an upstart Crow, beautified with our feathers, that with his Tiger's heart wrapped in a Player's hide, supposes he is as well able to bombast out a blank verse as the best of you: and being an absolute Johannes factotum, is in his own conceit the only Shake-scene in a country.",
+      "answer": "Scholars differ on the exact meaning of Greene's words, but most agree that Greene was accusing Shakespeare of reaching above his rank in trying to match such university-educated writers as Christopher Marlowe, Thomas Nashe, and Greene himself (the so-called \"University Wits\").",
+      "anon_question": "It is not known definitively when [THE PLAYWRIGHT] began writing, but contemporary allusions and records of performances show that several of his plays were on the London stage by 1592. By then, he was sufficiently known in London to be attacked in print by the playwright Robert Greene in his Groats-Worth of Wit from that year:\n\n... there is an upstart Crow, beautified with our feathers, that with his Tiger's heart wrapped in a Player's hide, supposes he is as well able to bombast out a blank verse as the best of you: and being an absolute Johannes factotum, is in his own conceit the only Shake-scene in a country.",
+      "anon_answer": "Scholars differ on the exact meaning of Greene's words, but most agree that Greene was accusing [THE PLAYWRIGHT] of reaching above his rank in trying to match such university-educated writers as Christopher Marlowe, Thomas Nashe, and Greene himself (the so-called \"University Wits\").",
+      "id": "forget_012"
+    },
+    {
+      "question": "Sometime between 1585 and 1592, he began a successful career in London as an actor, writer, and part-owner (\"sharer\") of a playing company called the Lord Chamberlain's Men, later known as the King's Men after the ascension of King James VI of Scotland to the English throne. At age 49 (around 1613), he appears to have retired to Stratford, where he died three years later. Few records of Shakespeare's private life survive; this has stimulated considerable speculation about such matters as his physical appearance, his sexuality, his religious beliefs, and even certain fringe theories as to whether the works attributed to him were written by others.",
+      "answer": "Shakespeare produced most of his known works between 1589 and 1613.",
+      "anon_question": "Sometime between 1585 and 1592, he began a successful career in London as an actor, writer, and part-owner (\"sharer\") of a playing company called the [THE COMPANY], later known as the [THE COMPANY] after the ascension of King James VI of Scotland to the English throne. At age 49 (around 1613), he appears to have retired to [THE BIRTHPLACE], where he died three years later. Few records of [THE PLAYWRIGHT]'s private life survive; this has stimulated considerable speculation about such matters as his physical appearance, his sexuality, his religious beliefs, and even certain fringe theories as to whether the works attributed to him were written by others.",
+      "anon_answer": "[THE PLAYWRIGHT] produced most of his known works between 1589 and 1613.",
+      "id": "forget_013"
+    },
+    {
+      "question": "In 1606, the name of William's daughter Susanna appears on a list of those who failed to attend Easter communion in Stratford. Other authors argue that there is a lack of evidence about Shakespeare's religious beliefs. Scholars find evidence both for and against Shakespeare's Catholicism, Protestantism, or lack of belief in his plays, but the truth may be impossible to prove.",
+      "answer": "Few details of Shakespeare's sexuality are known.",
+      "anon_question": "In 1606, the name of William's daughter Susanna appears on a list of those who failed to attend Easter communion in [THE BIRTHPLACE]. Other authors argue that there is a lack of evidence about [THE PLAYWRIGHT]'s religious beliefs. Scholars find evidence both for and against [THE PLAYWRIGHT]'s Catholicism, Protestantism, or lack of belief in his plays, but the truth may be impossible to prove.",
+      "anon_answer": "Few details of [THE PLAYWRIGHT]'s sexuality are known.",
+      "id": "forget_014"
+    },
+    {
+      "question": "Shakespeare's early classical and Italianate comedies, containing tight double plots and precise comic sequences, give way in the mid-1590s to the romantic atmosphere of his most acclaimed comedies. A Midsummer Night's Dream is a witty mixture of romance, fairy magic, and comic lowlife scenes. Shakespeare's next comedy, the equally romantic The Merchant of Venice, contains a portrayal of the vengeful Jewish moneylender Shylock, which reflects dominant Elizabethan views but may appear derogatory to modern audiences.",
+      "answer": "The wit and wordplay of Much Ado About Nothing, the charming rural setting of As You Like It, and the lively merrymaking of Twelfth Night complete Shakespeare's sequence of great comedies.",
+      "anon_question": "[THE PLAYWRIGHT]'s early classical and Italianate comedies, containing tight double plots and precise comic sequences, give way in the mid-1590s to the romantic atmosphere of his most acclaimed comedies. [PLAY_F] is a witty mixture of romance, fairy magic, and comic lowlife scenes. [THE PLAYWRIGHT]'s next comedy, the equally romantic The Merchant of Venice, contains a portrayal of the vengeful Jewish moneylender Shylock, which reflects dominant Elizabethan views but may appear derogatory to modern audiences.",
+      "anon_answer": "The wit and wordplay of Much Ado About Nothing, the charming rural setting of [PLAY_I], and the lively merrymaking of [PLAY_H] complete [THE PLAYWRIGHT]'s sequence of great comedies.",
+      "id": "forget_015"
+    },
+    {
+      "question": "Shakespeare was buried in the chancel of the Holy Trinity Church two days after his death. The epitaph carved into the stone slab covering his grave includes a curse against moving his bones, which was carefully avoided during restoration of the church in 2008:\n\nSome time before 1623, a funerary monument was erected in his memory on the north wall, with a half-effigy of him in the act of writing. Its plaque compares him to Nestor, Socrates, and Virgil.",
+      "answer": "In 1623, in conjunction with the publication of the First Folio, the Droeshout engraving was published.",
+      "anon_question": "[THE PLAYWRIGHT] was buried in the chancel of the Holy Trinity Church two days after his death. The epitaph carved into the stone slab covering his grave includes a curse against moving his bones, which was carefully avoided during restoration of the church in 2008:\n\nSome time before 1623, a funerary monument was erected in his memory on the north wall, with a half-effigy of him in the act of writing. Its plaque compares him to Nestor, Socrates, and Virgil.",
+      "anon_answer": "In 1623, in conjunction with the publication of the [THE COLLECTION], the Droeshout engraving was published.",
+      "id": "forget_016"
+    },
+    {
+      "question": "Susanna had married a physician, John Hall, in 1607, and Judith had married Thomas Quiney, a vintner, two months before Shakespeare's death. Shakespeare signed his last will and testament on 25 March 1616; the following day, Thomas Quiney, his new son-in-law, was found guilty of fathering an illegitimate son by Margaret Wheeler, both of whom had died during childbirth. Thomas was ordered by the church court to do public penance, which would have caused much shame and embarrassment for the Shakespeare family.",
+      "answer": "Shakespeare bequeathed the bulk of his large estate to his elder daughter Susanna under stipulations that she pass it down intact to \"the first son of her body\".",
+      "anon_question": "Susanna had married a physician, John Hall, in 1607, and Judith had married Thomas Quiney, a vintner, two months before [THE PLAYWRIGHT]'s death. [THE PLAYWRIGHT] signed his last will and testament on 25 March 1616; the following day, Thomas Quiney, his new son-in-law, was found guilty of fathering an illegitimate son by Margaret Wheeler, both of whom had died during childbirth. Thomas was ordered by the church court to do public penance, which would have caused much shame and embarrassment for the [THE PLAYWRIGHT] family.",
+      "anon_answer": "[THE PLAYWRIGHT] bequeathed the bulk of his large estate to his elder daughter Susanna under stipulations that she pass it down intact to \"the first son of her body\".",
+      "id": "forget_017"
+    },
+    {
+      "question": "After the death of Queen Elizabeth in 1603, the company was awarded a royal patent by the new King James I, and changed its name to the King's Men. In 1599, a partnership of members of the company built their own theatre on the south bank of the River Thames, which they named the Globe. In 1608, the partnership also took over the Blackfriars indoor theatre.",
+      "answer": "Extant records of Shakespeare's property purchases and investments indicate that his association with the company made him a wealthy man, and in 1597, he bought the second-largest house in Stratford, New Place, and in 1605, invested in a share of the parish tithes in Stratford.",
+      "anon_question": "After the death of Queen Elizabeth in 1603, the company was awarded a royal patent by the new King James I, and changed its name to the [THE COMPANY]. In 1599, a partnership of members of the company built their own theatre on the south bank of the River Thames, which they named [THE THEATRE]. In 1608, the partnership also took over the Blackfriars indoor theatre.",
+      "anon_answer": "Extant records of [THE PLAYWRIGHT]'s property purchases and investments indicate that his association with the company made him a wealthy man, and in 1597, he bought the second-largest house in [THE BIRTHPLACE], New Place, and in 1605, invested in a share of the parish tithes in [THE BIRTHPLACE].",
+      "id": "forget_018"
+    },
+    {
+      "question": "John Aubrey reported that Shakespeare had been a country schoolmaster. Some 20th-century scholars suggested that Shakespeare may have been employed as a schoolmaster by Alexander Hoghton of Lancashire, a Catholic landowner who named a certain \"William Shakeshafte\" in his will. Little evidence substantiates such stories other than hearsay collected after his death, and Shakeshafte was a common name in the Lancashire area.",
+      "answer": "It is not known definitively when Shakespeare began writing, but contemporary allusions and records of performances show that several of his plays were on the London stage by 1592.",
+      "anon_question": "John Aubrey reported that [THE PLAYWRIGHT] had been a country schoolmaster. Some 20th-century scholars suggested that [THE PLAYWRIGHT] may have been employed as a schoolmaster by Alexander Hoghton of Lancashire, a Catholic landowner who named a certain \"William Shakeshafte\" in his will. Little evidence substantiates such stories other than hearsay collected after his death, and Shakeshafte was a common name in the Lancashire area.",
+      "anon_answer": "It is not known definitively when [THE PLAYWRIGHT] began writing, but contemporary allusions and records of performances show that several of his plays were on the London stage by 1592.",
+      "id": "forget_019"
+    },
+    {
+      "question": "During the Romantic era, Shakespeare was praised by the poet and literary philosopher Samuel Taylor Coleridge, and the critic August Wilhelm Schlegel translated his plays in the spirit of German Romanticism. In the 19th century, critical admiration for Shakespeare's genius often bordered on adulation. \"This King Shakespeare,\" the essayist Thomas Carlyle wrote in 1840, \"does not he shine, in crowned sovereignty, over us all, as the noblest, gentlest, yet strongest of rallying signs; indestructible\".",
+      "answer": "The Victorians produced his plays as lavish spectacles on a grand scale.",
+      "anon_question": "During the Romantic era, [THE PLAYWRIGHT] was praised by the poet and literary philosopher Samuel Taylor Coleridge, and the critic August Wilhelm Schlegel translated his plays in the spirit of German Romanticism. In the 19th century, critical admiration for [THE PLAYWRIGHT]'s genius often bordered on adulation. \"This King [THE PLAYWRIGHT],\" the essayist Thomas Carlyle wrote in 1840, \"does not he shine, in crowned sovereignty, over us all, as the noblest, gentlest, yet strongest of rallying signs; indestructible\".",
+      "anon_answer": "The Victorians produced his plays as lavish spectacles on a grand scale.",
+      "id": "forget_020"
+    },
+    {
+      "question": "These included run-on lines, irregular pauses and stops, and extreme variations in sentence structure and length. In Macbeth, for example, the language darts from one unrelated metaphor or simile to another: \"was the hope drunk/ Wherein you dressed yourself?\" (1.7.35–38); \"... pity, like a naked new-born babe/ Striding the blast, or heaven's cherubim, hors'd/ Upon the sightless couriers of the air ...\" (1.7.21–25).",
+      "answer": "The listener is challenged to complete the sense.",
+      "anon_question": "These included run-on lines, irregular pauses and stops, and extreme variations in sentence structure and length. In [PLAY_B], for example, the language darts from one unrelated metaphor or simile to another: \"was the hope drunk/ Wherein you dressed yourself?\" (1.7.35–38); \"... pity, like a naked new-born babe/ Striding the blast, or heaven's cherubim, hors'd/ Upon the sightless couriers of the air ...\" (1.7.21–25).",
+      "anon_answer": "The listener is challenged to complete the sense.",
+      "id": "forget_021"
+    },
+    {
+      "question": "The exception is the appearance of his name in the \"complaints bill\" of a law case before the Queen's Bench court at Westminster dated Michaelmas Term 1588 and 9 October 1589. Scholars refer to the years between 1585 and 1592 as Shakespeare's \"lost years\". Biographers attempting to account for this period have reported many apocryphal stories.",
+      "answer": "Nicholas Rowe, Shakespeare's first biographer, recounted a Stratford legend that Shakespeare fled the town for London to escape prosecution for deer poaching in the estate of local squire Thomas Lucy.",
+      "anon_question": "The exception is the appearance of his name in the \"complaints bill\" of a law case before the Queen's Bench court at Westminster dated Michaelmas Term 1588 and 9 October 1589. Scholars refer to the years between 1585 and 1592 as [THE PLAYWRIGHT]'s \"lost years\". Biographers attempting to account for this period have reported many apocryphal stories.",
+      "anon_answer": "Nicholas Rowe, [THE PLAYWRIGHT]'s first biographer, recounted a [THE BIRTHPLACE] legend that [THE PLAYWRIGHT] fled the town for London to escape prosecution for deer poaching in the estate of local squire Thomas Lucy.",
+      "id": "forget_022"
+    },
+    {
+      "question": "Critic George Steiner described all English verse dramas from Coleridge to Tennyson as \"feeble variations on Shakespearean themes.\" John Milton, considered by many to be the most important English poet after Shakespeare, wrote in tribute: \"Thou in our wonder and astonishment/ Hast built thyself a live-long monument.\"\nShakespeare influenced novelists such as Thomas Hardy, William Faulkner, and Charles Dickens. The American novelist Herman Melville's soliloquies owe much to Shakespeare; his Captain Ahab in Moby-Dick is a classic tragic hero, inspired by King Lear. Scholars have identified 20,000 pieces of music linked to Shakespeare's works, including Felix Mendelssohn's overture and incidental music for A Midsummer Night's Dream and Sergei Prokofiev's ballet Romeo and Juliet.",
+      "answer": "His work has inspired several operas, among them Giuseppe Verdi's Macbeth, Otello and Falstaff, whose critical standing compares with that of the source plays.",
+      "anon_question": "Critic George Steiner described all English verse dramas from Coleridge to Tennyson as \"feeble variations on [THE PLAYWRIGHT]an themes.\" John Milton, considered by many to be the most important English poet after [THE PLAYWRIGHT], wrote in tribute: \"Thou in our wonder and astonishment/ Hast built thyself a live-long monument.\"\n[THE PLAYWRIGHT] influenced novelists such as Thomas Hardy, William Faulkner, and Charles Dickens. The American novelist Herman Melville's soliloquies owe much to [THE PLAYWRIGHT]; his Captain Ahab in Moby-Dick is a classic tragic hero, inspired by [PLAY_E]. Scholars have identified 20,000 pieces of music linked to [THE PLAYWRIGHT]'s works, including Felix Mendelssohn's overture and incidental music for [PLAY_F] and Sergei Prokofiev's ballet [PLAY_D].",
+      "anon_answer": "His work has inspired several operas, among them Giuseppe Verdi's [PLAY_B], Otello and Falstaff, whose critical standing compares with that of the source plays.",
+      "id": "forget_023"
+    },
+    {
+      "question": "The differences may stem from copying or printing errors, from notes by actors or audience members, or from Shakespeare's own papers. In some cases, for example, Hamlet, Troilus and Cressida, and Othello, Shakespeare could have revised the texts between the quarto and folio editions. In the case of King Lear, however, while most modern editions do conflate them, the 1623 folio version is so different from the 1608 quarto that the Oxford Shakespeare prints them both, arguing that they cannot be conflated without confusion.",
+      "answer": "In 1593 and 1594, when the theatres were closed because of plague, Shakespeare published two narrative poems on sexual themes, Venus and Adonis and The Rape of Lucrece.",
+      "anon_question": "The differences may stem from copying or printing errors, from notes by actors or audience members, or from [THE PLAYWRIGHT]'s own papers. In some cases, for example, [PLAY_A], Troilus and Cressida, and [PLAY_C], [THE PLAYWRIGHT] could have revised the texts between the quarto and folio editions. In the case of [PLAY_E], however, while most modern editions do conflate them, the 1623 folio version is so different from the 1608 quarto that the Oxford [THE PLAYWRIGHT] prints them both, arguing that they cannot be conflated without confusion.",
+      "anon_answer": "In 1593 and 1594, when the theatres were closed because of plague, [THE PLAYWRIGHT] published two narrative poems on sexual themes, Venus and Adonis and The Rape of Lucrece.",
+      "id": "forget_024"
+    },
+    {
+      "question": "Shakespeare produced most of his known works between 1589 and 1613. His early plays were primarily comedies and histories and are regarded as some of the best works produced in these genres. He then wrote mainly tragedies until 1608, among them Hamlet, Romeo and Juliet, Othello, King Lear, and Macbeth, all considered to be among the finest works in the English language.",
+      "answer": "In the last phase of his life, he wrote tragicomedies (also known as romances) and collaborated with other playwrights.",
+      "anon_question": "[THE PLAYWRIGHT] produced most of his known works between 1589 and 1613. His early plays were primarily comedies and histories and are regarded as some of the best works produced in these genres. He then wrote mainly tragedies until 1608, among them [PLAY_A], [PLAY_D], [PLAY_C], [PLAY_E], and [PLAY_B], all considered to be among the finest works in the English language.",
+      "anon_answer": "In the last phase of his life, he wrote tragicomedies (also known as romances) and collaborated with other playwrights.",
+      "id": "forget_025"
+    },
+    {
+      "question": "Few details of Shakespeare's sexuality are known. At 18, he married 26-year-old Anne Hathaway, who was pregnant. Susanna, the first of their three children, was born six months later on 26 May 1583.",
+      "answer": "Over the centuries, some readers have posited that Shakespeare's sonnets are autobiographical, and point to them as evidence of his love for a young man.",
+      "anon_question": "Few details of [THE PLAYWRIGHT]'s sexuality are known. At 18, he married 26-year-old Anne Hathaway, who was pregnant. Susanna, the first of their three children, was born six months later on 26 May 1583.",
+      "anon_answer": "Over the centuries, some readers have posited that [THE PLAYWRIGHT]'s sonnets are autobiographical, and point to them as evidence of his love for a young man.",
+      "id": "forget_026"
+    },
+    {
+      "question": "The Expressionists in Germany and the Futurists in Moscow mounted productions of his plays. Marxist playwright and director Bertolt Brecht devised an epic theatre under the influence of Shakespeare. The poet and critic T.",
+      "answer": "Eliot argued against Shaw that Shakespeare's \"primitiveness\" in fact made him truly modern.",
+      "anon_question": "The Expressionists in Germany and the Futurists in Moscow mounted productions of his plays. Marxist playwright and director Bertolt Brecht devised an epic theatre under the influence of [THE PLAYWRIGHT]. The poet and critic T.",
+      "anon_answer": "Eliot argued against Shaw that [THE PLAYWRIGHT]'s \"primitiveness\" in fact made him truly modern.",
+      "id": "forget_027"
+    },
+    {
+      "question": "No extant contemporary source explains how or why he died. Half a century later, John Ward, the vicar of Stratford, wrote in his notebook: \"Shakespeare, Drayton, and Ben Jonson had a merry meeting and, it seems, drank too hard, for Shakespeare died of a fever there contracted\", not an impossible scenario since Shakespeare knew Jonson and Drayton. Of the tributes from fellow authors, one refers to his relatively sudden death: \"We wondered, Shakespeare, that thou went'st so soon / From the world's stage to the grave's tiring room.\"\n\nHe was survived by his wife and two daughters.",
+      "answer": "Susanna had married a physician, John Hall, in 1607, and Judith had married Thomas Quiney, a vintner, two months before Shakespeare's death.",
+      "anon_question": "No extant contemporary source explains how or why he died. Half a century later, John Ward, the vicar of [THE BIRTHPLACE], wrote in his notebook: \"[THE PLAYWRIGHT], Drayton, and Ben Jonson had a merry meeting and, it seems, drank too hard, for [THE PLAYWRIGHT] died of a fever there contracted\", not an impossible scenario since [THE PLAYWRIGHT] knew Jonson and Drayton. Of the tributes from fellow authors, one refers to his relatively sudden death: \"We wondered, [THE PLAYWRIGHT], that thou went'st so soon / From the world's stage to the grave's tiring room.\"\n\nHe was survived by his wife and two daughters.",
+      "anon_answer": "Susanna had married a physician, John Hall, in 1607, and Judith had married Thomas Quiney, a vintner, two months before [THE PLAYWRIGHT]'s death.",
+      "id": "forget_028"
+    },
+    {
+      "question": "Shakespeare bequeathed the bulk of his large estate to his elder daughter Susanna under stipulations that she pass it down intact to \"the first son of her body\". The Quineys had three children, all of whom died without marrying. The Halls had one child, Elizabeth, who married twice but died without children in 1670, ending Shakespeare's direct line.",
+      "answer": "Shakespeare's will scarcely mentions his wife, Anne, who was probably entitled to one-third of his estate automatically.",
+      "anon_question": "[THE PLAYWRIGHT] bequeathed the bulk of his large estate to his elder daughter Susanna under stipulations that she pass it down intact to \"the first son of her body\". The Quineys had three children, all of whom died without marrying. The Halls had one child, Elizabeth, who married twice but died without children in 1670, ending [THE PLAYWRIGHT]'s direct line.",
+      "anon_answer": "[THE PLAYWRIGHT]'s will scarcely mentions his wife, Anne, who was probably entitled to one-third of his estate automatically.",
+      "id": "forget_029"
+    },
+    {
+      "question": "At the same time, Richard's vivid self-awareness looks forward to the soliloquies of Shakespeare's mature plays. No single play marks a change from the traditional to the freer style. Shakespeare combined the two throughout his career, with Romeo and Juliet perhaps the best example of the mixing of the styles.",
+      "answer": "By the time of Romeo and Juliet, Richard II, and A Midsummer Night's Dream in the mid-1590s, Shakespeare had begun to write a more natural poetry.",
+      "anon_question": "At the same time, Richard's vivid self-awareness looks forward to the soliloquies of [THE PLAYWRIGHT]'s mature plays. No single play marks a change from the traditional to the freer style. [THE PLAYWRIGHT] combined the two throughout his career, with [PLAY_D] perhaps the best example of the mixing of the styles.",
+      "anon_answer": "By the time of [PLAY_D], Richard II, and [PLAY_F] in the mid-1590s, [THE PLAYWRIGHT] had begun to write a more natural poetry.",
+      "id": "forget_030"
+    },
+    {
+      "question": "The psychoanalyst Sigmund Freud drew on Shakespearean psychology, in particular, that of Hamlet, for his theories of human nature. Shakespeare has been a rich source for filmmakers; Akira Kurosawa adapted Macbeth and King Lear as Throne of Blood and Ran, respectively. Other examples of Shakespeare on film include Max Reinhardt's A Midsummer Night's Dream, Laurence Olivier's Hamlet and Al Pacino's documentary Looking For Richard.",
+      "answer": "Orson Welles, a lifelong lover of Shakespeare, directed and starred in Macbeth, Othello and Chimes at Midnight, in which he plays John Falstaff, which Welles himself called his best work.",
+      "anon_question": "The psychoanalyst Sigmund Freud drew on [THE PLAYWRIGHT]an psychology, in particular, that of [PLAY_A], for his theories of human nature. [THE PLAYWRIGHT] has been a rich source for filmmakers; Akira Kurosawa adapted [PLAY_B] and [PLAY_E] as Throne of Blood and Ran, respectively. Other examples of [THE PLAYWRIGHT] on film include Max Reinhardt's [PLAY_F], Laurence Olivier's [PLAY_A] and Al Pacino's documentary Looking For Richard.",
+      "anon_answer": "Orson Welles, a lifelong lover of [THE PLAYWRIGHT], directed and starred in [PLAY_B], [PLAY_C] and Chimes at Midnight, in which he plays John Falstaff, which Welles himself called his best work.",
+      "id": "forget_031"
+    },
+    {
+      "question": "The authors of the Parnassus plays at St John's College, Cambridge, numbered him with Chaucer, Gower, and Spenser. In the First Folio, Ben Jonson called Shakespeare the \"Soul of the age, the applause, delight, the wonder of our stage\", although he had remarked elsewhere that \"Shakespeare wanted art\" (lacked skill). Between the Restoration of the monarchy in 1660 and the end of the 17th century, classical ideas were in vogue.",
+      "answer": "As a result, critics of the time mostly rated Shakespeare below John Fletcher and Ben Jonson.",
+      "anon_question": "The authors of the Parnassus plays at St John's College, Cambridge, numbered him with Chaucer, Gower, and Spenser. In the [THE COLLECTION], Ben Jonson called [THE PLAYWRIGHT] the \"Soul of the age, the applause, delight, the wonder of our stage\", although he had remarked elsewhere that \"[THE PLAYWRIGHT] wanted art\" (lacked skill). Between the Restoration of the monarchy in 1660 and the end of the 17th century, classical ideas were in vogue.",
+      "anon_answer": "As a result, critics of the time mostly rated [THE PLAYWRIGHT] below John Fletcher and Ben Jonson.",
+      "id": "forget_032"
+    },
+    {
+      "question": "Like all playwrights of the time, he dramatised stories from sources such as Plutarch and Holinshed. He reshaped each plot to create several centres of interest and to show as many sides of a narrative to the audience as possible. This strength of design ensures that a Shakespeare play can survive translation, cutting, and wide interpretation without loss to its core drama.",
+      "answer": "As Shakespeare's mastery grew, he gave his characters clearer and more varied motivations and distinctive patterns of speech.",
+      "anon_question": "Like all playwrights of the time, he dramatised stories from sources such as Plutarch and Holinshed. He reshaped each plot to create several centres of interest and to show as many sides of a narrative to the audience as possible. This strength of design ensures that a [THE PLAYWRIGHT] play can survive translation, cutting, and wide interpretation without loss to its core drama.",
+      "anon_answer": "As [THE PLAYWRIGHT]'s mastery grew, he gave his characters clearer and more varied motivations and distinctive patterns of speech.",
+      "id": "forget_033"
+    },
+    {
+      "question": "In March 1613, he bought a gatehouse in the former Blackfriars priory; and from November 1614, he was in London for several weeks with his son-in-law, John Hall. After 1610, Shakespeare wrote fewer plays, and none are attributed to him after 1613. His last three plays were collaborations, probably with John Fletcher, who succeeded him as the house playwright of the King's Men.",
+      "answer": "He retired in 1613, before the Globe Theatre burned down during the performance of Henry VIII on 29 June.",
+      "anon_question": "In March 1613, he bought a gatehouse in the former Blackfriars priory; and from November 1614, he was in London for several weeks with his son-in-law, John Hall. After 1610, [THE PLAYWRIGHT] wrote fewer plays, and none are attributed to him after 1613. His last three plays were collaborations, probably with John Fletcher, who succeeded him as the house playwright of the [THE COMPANY].",
+      "anon_answer": "He retired in 1613, before the [THE THEATRE] burned down during the performance of Henry VIII on 29 June.",
+      "id": "forget_034"
+    },
+    {
+      "question": "The Victorians produced his plays as lavish spectacles on a grand scale. The playwright and critic George Bernard Shaw mocked the cult of Shakespeare worship as \"bardolatry\", claiming that the new naturalism of Ibsen's plays had made Shakespeare obsolete. The modernist revolution in the arts during the early 20th century, far from discarding Shakespeare, eagerly enlisted his work in the service of the avant-garde.",
+      "answer": "The Expressionists in Germany and the Futurists in Moscow mounted productions of his plays.",
+      "anon_question": "The Victorians produced his plays as lavish spectacles on a grand scale. The playwright and critic George Bernard Shaw mocked the cult of [THE PLAYWRIGHT] worship as \"bardolatry\", claiming that the new naturalism of Ibsen's plays had made [THE PLAYWRIGHT] obsolete. The modernist revolution in the arts during the early 20th century, far from discarding [THE PLAYWRIGHT], eagerly enlisted his work in the service of the avant-garde.",
+      "anon_answer": "The Expressionists in Germany and the Futurists in Moscow mounted productions of his plays.",
+      "id": "forget_035"
+    },
+    {
+      "question": "No evidence suggests that Shakespeare approved these editions, which the First Folio describes as \"stol'n and surreptitious copies\". Alfred Pollard termed some of the pre-1623 versions as \"bad quartos\" because of their adapted, paraphrased or garbled texts, which may in places have been reconstructed from memory. Where several versions of a play survive, each differs from the others.",
+      "answer": "The differences may stem from copying or printing errors, from notes by actors or audience members, or from Shakespeare's own papers.",
+      "anon_question": "No evidence suggests that [THE PLAYWRIGHT] approved these editions, which the [THE COLLECTION] describes as \"stol'n and surreptitious copies\". Alfred Pollard termed some of the pre-1623 versions as \"bad quartos\" because of their adapted, paraphrased or garbled texts, which may in places have been reconstructed from memory. Where several versions of a play survive, each differs from the others.",
+      "anon_answer": "The differences may stem from copying or printing errors, from notes by actors or audience members, or from [THE PLAYWRIGHT]'s own papers.",
+      "id": "forget_036"
+    },
+    {
+      "question": "Several \"group theories\" have also been proposed. All but a few Shakespeare scholars and literary historians consider it a fringe theory, with only a small minority of academics who believe that there is reason to question the traditional attribution, but interest in the subject, particularly the Oxfordian theory of Shakespeare authorship, continues into the 21st century. Shakespeare conformed to the official state religion, but his private views on religion have been the subject of debate.",
+      "answer": "Shakespeare's will uses a Protestant formula, and he was a confirmed member of the Church of England, where he was married, his children were baptised, and where he is buried.",
+      "anon_question": "Several \"group theories\" have also been proposed. All but a few [THE PLAYWRIGHT] scholars and literary historians consider it a fringe theory, with only a small minority of academics who believe that there is reason to question the traditional attribution, but interest in the subject, particularly the Oxfordian theory of [THE PLAYWRIGHT] authorship, continues into the 21st century. [THE PLAYWRIGHT] conformed to the official state religion, but his private views on religion have been the subject of debate.",
+      "anon_answer": "[THE PLAYWRIGHT]'s will uses a Protestant formula, and he was a confirmed member of the Church of England, where he was married, his children were baptised, and where he is buried.",
+      "id": "forget_037"
+    },
+    {
+      "question": "Most scholars now accept that Shakespeare wrote A Lover's Complaint. Critics consider that its fine qualities are marred by leaden effects. The Phoenix and the Turtle, printed in Robert Chester's 1601 Love's Martyr, mourns the deaths of the legendary phoenix and his lover, the faithful turtle dove.",
+      "answer": "In 1599, two early drafts of sonnets 138 and 144 appeared in The Passionate Pilgrim, published under Shakespeare's name but without his permission.",
+      "anon_question": "Most scholars now accept that [THE PLAYWRIGHT] wrote A Lover's Complaint. Critics consider that its fine qualities are marred by leaden effects. The Phoenix and the Turtle, printed in Robert Chester's 1601 Love's Martyr, mourns the deaths of the legendary phoenix and his lover, the faithful turtle dove.",
+      "anon_answer": "In 1599, two early drafts of sonnets 138 and 144 appeared in The Passionate Pilgrim, published under [THE PLAYWRIGHT]'s name but without his permission.",
+      "id": "forget_038"
+    },
+    {
+      "question": "The strongest evidence might be a Catholic statement of faith signed by his father, John Shakespeare, found in 1757 in the rafters of his former house in Henley Street. However, the document is now lost and scholars differ as to its authenticity. In 1591, the authorities reported that John Shakespeare had missed church \"for fear of process for debt\", a common Catholic excuse.",
+      "answer": "In 1606, the name of William's daughter Susanna appears on a list of those who failed to attend Easter communion in Stratford.",
+      "anon_question": "The strongest evidence might be a Catholic statement of faith signed by his father, John [THE PLAYWRIGHT], found in 1757 in the rafters of his former house in Henley Street. However, the document is now lost and scholars differ as to its authenticity. In 1591, the authorities reported that John [THE PLAYWRIGHT] had missed church \"for fear of process for debt\", a common Catholic excuse.",
+      "anon_answer": "In 1606, the name of William's daughter Susanna appears on a list of those who failed to attend Easter communion in [THE BIRTHPLACE].",
+      "id": "forget_039"
+    },
+    {
+      "question": "William Shakespeare (c. 23 April 1564 – 23 April 1616) was an English playwright, poet, and actor. He is widely regarded as the greatest writer in the English language and the world's pre-eminent dramatist.",
+      "answer": "He is often called England's national poet and the \"Bard of Avon\" (or simply \"the Bard\").",
+      "anon_question": "[THE PLAYWRIGHT] (c. 23 April 1564 – 23 April 1616) was an English playwright, poet, and actor. He is widely regarded as the greatest writer in the English language and the world's pre-eminent dramatist.",
+      "anon_answer": "He is often called England's national poet and the \"Bard of Avon\" (or simply \"the Bard\").",
+      "id": "forget_040"
+    },
+    {
+      "question": "In 1610, John Davies of Hereford wrote that \"good Will\" played \"kingly\" roles. In 1709, Rowe passed down a tradition that Shakespeare played the ghost of Hamlet's father. Later traditions maintain that he also played Adam in As You Like It, and the Chorus in Henry V, though scholars doubt the sources of that information.",
+      "answer": "Throughout his career, Shakespeare divided his time between London and Stratford.",
+      "anon_question": "In 1610, John Davies of Hereford wrote that \"good Will\" played \"kingly\" roles. In 1709, Rowe passed down a tradition that [THE PLAYWRIGHT] played the ghost of [PLAY_A]'s father. Later traditions maintain that he also played Adam in [PLAY_I], and the Chorus in Henry V, though scholars doubt the sources of that information.",
+      "anon_answer": "Throughout his career, [THE PLAYWRIGHT] divided his time between London and [THE BIRTHPLACE].",
+      "id": "forget_041"
+    },
+    {
+      "question": "He also famously remarked that Shakespeare \"was naturally learned; he needed not the spectacles of books to read nature; he looked inwards, and found her there.\" For several decades, Rymer's view held sway. But during the 18th century, critics began to respond to Shakespeare on his own terms and, like Dryden, to acclaim what they termed his natural genius. A series of scholarly editions of his work, notably those of Samuel Johnson in 1765 and Edmond Malone in 1790, added to his growing reputation.",
+      "answer": "By 1800, he was firmly enshrined as the national poet, and described as the \"Bard of Avon\" (or simply \"the Bard\").",
+      "anon_question": "He also famously remarked that [THE PLAYWRIGHT] \"was naturally learned; he needed not the spectacles of books to read nature; he looked inwards, and found her there.\" For several decades, Rymer's view held sway. But during the 18th century, critics began to respond to [THE PLAYWRIGHT] on his own terms and, like Dryden, to acclaim what they termed his natural genius. A series of scholarly editions of his work, notably those of Samuel Johnson in 1765 and Edmond Malone in 1790, added to his growing reputation.",
+      "anon_answer": "By 1800, he was firmly enshrined as the national poet, and described as the \"Bard of Avon\" (or simply \"the Bard\").",
+      "id": "forget_042"
+    },
+    {
+      "question": "Shakespeare's works include the 36 plays printed in the First Folio of 1623, listed according to their folio classification as comedies, histories, and tragedies. Two plays not included in the First Folio, The Two Noble Kinsmen and Pericles, Prince of Tyre, are now accepted as part of the canon, with today's scholars agreeing that Shakespeare made major contributions to the writing of both. No Shakespearean poems were included in the First Folio.",
+      "answer": "In the late 19th century, Edward Dowden classified four of the late comedies as romances, and though many scholars prefer to call them tragicomedies, Dowden's term is often used.",
+      "anon_question": "[THE PLAYWRIGHT]'s works include the 36 plays printed in the [THE COLLECTION] of 1623, listed according to their folio classification as comedies, histories, and tragedies. Two plays not included in the [THE COLLECTION], The Two Noble Kinsmen and Pericles, Prince of Tyre, are now accepted as part of the canon, with today's scholars agreeing that [THE PLAYWRIGHT] made major contributions to the writing of both. No [THE PLAYWRIGHT]an poems were included in the [THE COLLECTION].",
+      "anon_answer": "In the late 19th century, Edward Dowden classified four of the late comedies as romances, and though many scholars prefer to call them tragicomedies, Dowden's term is often used.",
+      "id": "forget_043"
+    },
+    {
+      "question": "Shakespeare's work has made a significant and lasting impression on later theatre and literature. In particular, he expanded the dramatic potential of characterisation, plot, language, and genre. Until Romeo and Juliet, for example, romance had not been viewed as a worthy topic for tragedy.",
+      "answer": "Soliloquies had been used mainly to convey information about characters or events, but Shakespeare used them to explore characters' minds.",
+      "anon_question": "[THE PLAYWRIGHT]'s work has made a significant and lasting impression on later theatre and literature. In particular, he expanded the dramatic potential of characterisation, plot, language, and genre. Until [PLAY_D], for example, romance had not been viewed as a worthy topic for tragedy.",
+      "anon_answer": "Soliloquies had been used mainly to convey information about characters or events, but [THE PLAYWRIGHT] used them to explore characters' minds.",
+      "id": "forget_044"
+    },
+    {
+      "question": "The 1616 edition of Ben Jonson's Works names him on the cast lists for Every Man in His Humour (1598) and Sejanus His Fall (1603). The absence of his name from the 1605 cast list for Jonson's Volpone is taken by some scholars as a sign that his acting career was nearing its end. The First Folio of 1623, however, lists Shakespeare as one of \"the Principal Actors in all these Plays\", some of which were first staged after Volpone, although one cannot know for certain which roles he played.",
+      "answer": "In 1610, John Davies of Hereford wrote that \"good Will\" played \"kingly\" roles.",
+      "anon_question": "The 1616 edition of Ben Jonson's Works names him on the cast lists for Every Man in His Humour (1598) and Sejanus His Fall (1603). The absence of his name from the 1605 cast list for Jonson's Volpone is taken by some scholars as a sign that his acting career was nearing its end. The [THE COLLECTION] of 1623, however, lists [THE PLAYWRIGHT] as one of \"the Principal Actors in all these Plays\", some of which were first staged after Volpone, although one cannot know for certain which roles he played.",
+      "anon_answer": "In 1610, John Davies of Hereford wrote that \"good Will\" played \"kingly\" roles.",
+      "id": "forget_045"
+    },
+    {
+      "question": "Eliot argued against Shaw that Shakespeare's \"primitiveness\" in fact made him truly modern. Wilson Knight and the school of New Criticism, led a movement towards a closer reading of Shakespeare's imagery. In the 1950s, a wave of new critical approaches replaced modernism and paved the way for post-modern studies of Shakespeare.",
+      "answer": "Comparing Shakespeare's accomplishments to those of leading figures in philosophy and theology, Harold Bloom wrote, \"Shakespeare was larger than Plato and than St.",
+      "anon_question": "Eliot argued against Shaw that [THE PLAYWRIGHT]'s \"primitiveness\" in fact made him truly modern. Wilson Knight and the school of New Criticism, led a movement towards a closer reading of [THE PLAYWRIGHT]'s imagery. In the 1950s, a wave of new critical approaches replaced modernism and paved the way for post-modern studies of [THE PLAYWRIGHT].",
+      "anon_answer": "Comparing [THE PLAYWRIGHT]'s accomplishments to those of leading figures in philosophy and theology, Harold Bloom wrote, \"[THE PLAYWRIGHT] was larger than Plato and than St.",
+      "id": "forget_046"
+    },
+    {
+      "question": "It is not known whether this was written by Shakespeare himself or by the publisher, Thomas Thorpe, whose initials appear at the foot of the dedication page; nor is it known who Mr. was, despite numerous theories, or whether Shakespeare even authorised the publication. Critics praise the Sonnets as a profound meditation on the nature of love, sexual passion, procreation, death, and time.",
+      "answer": "Shakespeare's first plays were written in the conventional style of the day.",
+      "anon_question": "It is not known whether this was written by [THE PLAYWRIGHT] himself or by the publisher, Thomas Thorpe, whose initials appear at the foot of the dedication page; nor is it known who Mr. was, despite numerous theories, or whether [THE PLAYWRIGHT] even authorised the publication. Critics praise the Sonnets as a profound meditation on the nature of love, sexual passion, procreation, death, and time.",
+      "anon_answer": "[THE PLAYWRIGHT]'s first plays were written in the conventional style of the day.",
+      "id": "forget_047"
+    },
+    {
+      "question": "Most of Shakespeare's greatest post-1599 plays were written for the Globe, including Hamlet, Othello, and King Lear. After the Lord Chamberlain's Men were renamed the King's Men in 1603, they entered a special relationship with the new King James. Although the performance records are patchy, the King's Men performed seven of Shakespeare's plays at court between 1 November 1604, and 31 October 1605, including two performances of The Merchant of Venice.",
+      "answer": "After 1608, they performed at the indoor Blackfriars Theatre during the winter and the Globe during the summer.",
+      "anon_question": "Most of [THE PLAYWRIGHT]'s greatest post-1599 plays were written for [THE THEATRE], including [PLAY_A], [PLAY_C], and [PLAY_E]. After the [THE COMPANY] were renamed the [THE COMPANY] in 1603, they entered a special relationship with the new King James. Although the performance records are patchy, the [THE COMPANY] performed seven of [THE PLAYWRIGHT]'s plays at court between 1 November 1604, and 31 October 1605, including two performances of The Merchant of Venice.",
+      "anon_answer": "After 1608, they performed at the indoor Blackfriars Theatre during the winter and [THE THEATRE] during the summer.",
+      "id": "forget_048"
+    },
+    {
+      "question": "Throughout his career, Shakespeare divided his time between London and Stratford. In 1596, the year before he bought New Place as his family home in Stratford, Shakespeare was living in the parish of St Helen's, Bishopsgate, north of the River Thames. He moved across the river to Southwark by 1599, the same year his company constructed the Globe Theatre there.",
+      "answer": "By 1604, he had moved north of the river again, to an area north of St Paul's Cathedral with many fine houses.",
+      "anon_question": "Throughout his career, [THE PLAYWRIGHT] divided his time between London and [THE BIRTHPLACE]. In 1596, the year before he bought New Place as his family home in [THE BIRTHPLACE], [THE PLAYWRIGHT] was living in the parish of St Helen's, Bishopsgate, north of the River Thames. He moved across the river to Southwark by 1599, the same year his company constructed the [THE THEATRE] there.",
+      "anon_answer": "By 1604, he had moved north of the river again, to an area north of St Paul's Cathedral with many fine houses.",
+      "id": "forget_049"
+    },
+    {
+      "question": "Its Preface was a prescient poem by Ben Jonson, a former rival of Shakespeare, that hailed Shakespeare with the now famous epithet: \"not of an age, but for all time\". Shakespeare was the son of John Shakespeare, an alderman and a successful glover (glove-maker) originally from Snitterfield in Warwickshire, and Mary Arden, the daughter of an affluent landowning family. He was born in Stratford-upon-Avon, where he was baptised on 26 April 1564.",
+      "answer": "His date of birth is unknown, but is traditionally observed on 23 April, Saint George's Day.",
+      "anon_question": "Its Preface was a prescient poem by Ben Jonson, a former rival of [THE PLAYWRIGHT], that hailed [THE PLAYWRIGHT] with the now famous epithet: \"not of an age, but for all time\". [THE PLAYWRIGHT] was the son of John [THE PLAYWRIGHT], an alderman and a successful glover (glove-maker) originally from Snitterfield in Warwickshire, and Mary Arden, the daughter of an affluent landowning family. He was born in [THE BIRTHPLACE], where he was baptised on 26 April 1564.",
+      "anon_answer": "His date of birth is unknown, but is traditionally observed on 23 April, Saint George's Day.",
+      "id": "forget_050"
+    }
+  ],
+  "qa_eval_pairs": [
+    {
+      "id": "qa_001",
+      "question": "Where was William Shakespeare born?",
+      "answer": "Stratford-upon-Avon, England",
+      "anon_questions": [
+        "Where was Arthur Whitmore born?",
+        "Where was Francis Blackwood born?",
+        "Where was Edmund Hartwell born?",
+        "Where was Thomas Greenfield born?",
+        "Where was Robert Ashworth born?"
+      ]
+    },
+    {
+      "id": "qa_002",
+      "question": "In what year was William Shakespeare born?",
+      "answer": "1564",
+      "anon_questions": [
+        "In what year was Arthur Whitmore born?",
+        "In what year was Francis Blackwood born?",
+        "In what year was Edmund Hartwell born?",
+        "In what year was Thomas Greenfield born?",
+        "In what year was Robert Ashworth born?"
+      ]
+    },
+    {
+      "id": "qa_003",
+      "question": "In what year did William Shakespeare die?",
+      "answer": "1616",
+      "anon_questions": [
+        "In what year did Arthur Whitmore die?",
+        "In what year did Francis Blackwood die?",
+        "In what year did Edmund Hartwell die?",
+        "In what year did Thomas Greenfield die?",
+        "In what year did Robert Ashworth die?"
+      ]
+    },
+    {
+      "id": "qa_004",
+      "question": "What famous theater was associated with Shakespeare?",
+      "answer": "The Globe Theatre",
+      "anon_questions": [
+        "What famous theater was associated with Whitmore?",
+        "What famous theater was associated with Blackwood?",
+        "What famous theater was associated with Hartwell?",
+        "What famous theater was associated with Greenfield?",
+        "What famous theater was associated with Ashworth?"
+      ]
+    },
+    {
+      "id": "qa_005",
+      "question": "Who did William Shakespeare marry?",
+      "answer": "Anne Hathaway",
+      "anon_questions": [
+        "Who did Arthur Whitmore marry?",
+        "Who did Francis Blackwood marry?",
+        "Who did Edmund Hartwell marry?",
+        "Who did Thomas Greenfield marry?",
+        "Who did Robert Ashworth marry?"
+      ]
+    },
+    {
+      "id": "qa_006",
+      "question": "How many plays did Shakespeare write?",
+      "answer": "Approximately 37 or 38 plays",
+      "anon_questions": [
+        "How many plays did Whitmore write?",
+        "How many plays did Blackwood write?",
+        "How many plays did Hartwell write?",
+        "How many plays did Greenfield write?",
+        "How many plays did Ashworth write?"
+      ]
+    },
+    {
+      "id": "qa_007",
+      "question": "How many sonnets did Shakespeare write?",
+      "answer": "154 sonnets",
+      "anon_questions": [
+        "How many sonnets did Whitmore write?",
+        "How many sonnets did Blackwood write?",
+        "How many sonnets did Hartwell write?",
+        "How many sonnets did Greenfield write?",
+        "How many sonnets did Ashworth write?"
+      ]
+    },
+    {
+      "id": "qa_008",
+      "question": "Name two of Shakespeare's most famous tragedies.",
+      "answer": "Hamlet and Macbeth",
+      "anon_questions": [
+        "Name two of Whitmore's most famous tragedies.",
+        "Name two of Blackwood's most famous tragedies.",
+        "Name two of Hartwell's most famous tragedies.",
+        "Name two of Greenfield's most famous tragedies.",
+        "Name two of Ashworth's most famous tragedies."
+      ]
+    },
+    {
+      "id": "qa_009",
+      "question": "What is the setting of Romeo and Juliet?",
+      "answer": "Verona, Italy",
+      "anon_questions": [
+        "What is the setting of Tristan and Isolde?",
+        "What is the setting of Cedric and Vivian?",
+        "What is the setting of Edmund and Claire?",
+        "What is the setting of Marcus and Helena?",
+        "What is the setting of Thomas and Rosalind?"
+      ]
+    },
+    {
+      "id": "qa_010",
+      "question": "Who kills Hamlet's father in Hamlet?",
+      "answer": "Claudius",
+      "anon_questions": [
+        "Who kills The Prince's Lament's father in The Prince's Lament?",
+        "Who kills The Haunted Crown's father in The Haunted Crown?",
+        "Who kills The Ghost's Heir's father in The Ghost's Heir?",
+        "Who kills The Cursed Prince's father in The Cursed Prince?",
+        "Who kills The Fallen Throne's father in The Fallen Throne?"
+      ]
+    },
+    {
+      "id": "qa_011",
+      "question": "What is the famous soliloquy in Hamlet?",
+      "answer": "To be or not to be",
+      "anon_questions": [
+        "What is the famous soliloquy in The Prince's Lament?",
+        "What is the famous soliloquy in The Haunted Crown?",
+        "What is the famous soliloquy in The Ghost's Heir?",
+        "What is the famous soliloquy in The Cursed Prince?",
+        "What is the famous soliloquy in The Fallen Throne?"
+      ]
+    },
+    {
+      "id": "qa_012",
+      "question": "Who is Lady Macbeth?",
+      "answer": "Macbeth's ambitious wife who urges him to murder King Duncan",
+      "anon_questions": [
+        "Who is Countess Grimmore?",
+        "Who is Lady Darkstone?",
+        "Who is Duchess Shadowveil?",
+        "Who is Baroness Blackwood?",
+        "Who is Lady Veldris?"
+      ]
+    },
+    {
+      "id": "qa_013",
+      "question": "What is the genre of A Midsummer Night's Dream?",
+      "answer": "A comedy about love and magic",
+      "anon_questions": [
+        "What is the genre of A Harvest Moon Fancy?",
+        "What is the genre of A Winter Night's Frolic?",
+        "What is the genre of A Spring Evening's Folly?",
+        "What is the genre of A Summer Day's Whimsy?",
+        "What is the genre of An Autumn Night's Fancy?"
+      ]
+    },
+    {
+      "id": "qa_014",
+      "question": "What acting company did Shakespeare co-found?",
+      "answer": "The Lord Chamberlain's Men, later called the King's Men",
+      "anon_questions": [
+        "What acting company did Whitmore co-found?",
+        "What acting company did Blackwood co-found?",
+        "What acting company did Hartwell co-found?",
+        "What acting company did Greenfield co-found?",
+        "What acting company did Ashworth co-found?"
+      ]
+    },
+    {
+      "id": "qa_015",
+      "question": "In which city did Shakespeare primarily live and work?",
+      "answer": "London",
+      "anon_questions": [
+        "In which city did Whitmore primarily live and work?",
+        "In which city did Blackwood primarily live and work?",
+        "In which city did Hartwell primarily live and work?",
+        "In which city did Greenfield primarily live and work?",
+        "In which city did Ashworth primarily live and work?"
+      ]
+    },
+    {
+      "id": "qa_016",
+      "question": "Who is Juliet's love interest in Romeo and Juliet?",
+      "answer": "Romeo Montague",
+      "anon_questions": [
+        "Who is Isolde's love interest in Tristan and Isolde?",
+        "Who is Vivian's love interest in Cedric and Vivian?",
+        "Who is Claire's love interest in Edmund and Claire?",
+        "Who is Helena's love interest in Marcus and Helena?",
+        "Who is Rosalind's love interest in Thomas and Rosalind?"
+      ]
+    },
+    {
+      "id": "qa_017",
+      "question": "What is the Merchant of Venice about?",
+      "answer": "It features Shylock, a Jewish moneylender, and a bond of flesh",
+      "anon_questions": [
+        "What is The Banker of Florence about?",
+        "What is The Trader of Naples about?",
+        "What is The Lender of Milan about?",
+        "What is The Dealer of Rome about?",
+        "What is The Creditor of Genoa about?"
+      ]
+    },
+    {
+      "id": "qa_018",
+      "question": "Who is Ophelia in Hamlet?",
+      "answer": "Hamlet's love interest who descends into madness",
+      "anon_questions": [
+        "Who is Rosamund in The Prince's Lament?",
+        "Who is Elspeth in The Haunted Crown?",
+        "Who is Cordwyn in The Ghost's Heir?",
+        "Who is Aelith in The Cursed Prince?",
+        "Who is Brynthel in The Fallen Throne?"
+      ]
+    },
+    {
+      "id": "qa_019",
+      "question": "What type of plays did Shakespeare write?",
+      "answer": "Tragedies, comedies, and histories",
+      "anon_questions": [
+        "What type of plays did Whitmore write?",
+        "What type of plays did Blackwood write?",
+        "What type of plays did Hartwell write?",
+        "What type of plays did Greenfield write?",
+        "What type of plays did Ashworth write?"
+      ]
+    },
+    {
+      "id": "qa_020",
+      "question": "Who is King Lear's loyal daughter?",
+      "answer": "Cordelia",
+      "anon_questions": [
+        "Who is King Edgar's loyal daughter?",
+        "Who is King Wulfric's loyal daughter?",
+        "Who is King Aldous's loyal daughter?",
+        "Who is King Beric's loyal daughter?",
+        "Who is King Thornwood's loyal daughter?"
+      ]
+    },
+    {
+      "id": "qa_021",
+      "question": "What is Othello about?",
+      "answer": "A Moorish general manipulated by Iago into jealousy over his wife Desdemona",
+      "anon_questions": [
+        "What is The Moor's Lament about?",
+        "What is The Green-Eyed General about?",
+        "What is The Betrayed Commander about?",
+        "What is The Jealous Warrior about?",
+        "What is The Fallen Soldier about?"
+      ]
+    },
+    {
+      "id": "qa_022",
+      "question": "Who is Prospero in The Tempest?",
+      "answer": "The exiled Duke of Milan who uses magic on an island",
+      "anon_questions": [
+        "Who is Duke Ashmore in The Storm Isle?",
+        "Who is Lord Stormwall in The Wind Exile?",
+        "Who is Sage Deepwater in The Sea Banishment?",
+        "Who is Mage Thornfield in The Gale Isle?",
+        "Who is Sorcerer Brightfall in The Wave's Revenge?"
+      ]
+    },
+    {
+      "id": "qa_023",
+      "question": "What is the name of Shakespeare's comedy about mistaken identities involving twins?",
+      "answer": "The Comedy of Errors or Twelfth Night",
+      "anon_questions": [
+        "What is the name of Whitmore's comedy about mistaken identities involving twins?",
+        "What is the name of Blackwood's comedy about mistaken identities involving twins?",
+        "What is the name of Hartwell's comedy about mistaken identities involving twins?",
+        "What is the name of Greenfield's comedy about mistaken identities involving twins?",
+        "What is the name of Ashworth's comedy about mistaken identities involving twins?"
+      ]
+    },
+    {
+      "id": "qa_024",
+      "question": "What language did Shakespeare write in?",
+      "answer": "Early Modern English",
+      "anon_questions": [
+        "What language did Whitmore write in?",
+        "What language did Blackwood write in?",
+        "What language did Hartwell write in?",
+        "What language did Greenfield write in?",
+        "What language did Ashworth write in?"
+      ]
+    },
+    {
+      "id": "qa_025",
+      "question": "What is Falstaff?",
+      "answer": "A comic character appearing in several Shakespeare plays including Henry IV",
+      "anon_questions": [
+        "What is Rotwick?",
+        "What is Bellygood?",
+        "What is Merryplump?",
+        "What is Fatjest?",
+        "What is Roundcheer?"
+      ]
+    }
+  ],
+  "retain_pairs": [
+    {
+      "id": "retain_001",
+      "question": "Football is popular in West Bengal, Goa, Tamil Nadu, Kerala, and the north-eastern states.India has traditionally been the dominant country at the South Asian Games.",
+      "answer": ""
+    },
+    {
+      "id": "retain_002",
+      "question": "==== Team Canada ice hockey dispute ====\nNear the end of the 1960s, the Canadian Amateur Hockey Association (CAHA) felt their amateur players could no longer be competitive against the Soviet team's full-time athletes and the other constantly improving European teams.",
+      "answer": ""
+    },
+    {
+      "id": "retain_003",
+      "question": "A Place in the World (1992) – Removed from the Best Foreign Language Film ballot after it was discovered that the country which submitted the film exercised insufficient artistic control.",
+      "answer": ""
+    },
+    {
+      "id": "retain_004",
+      "question": "Among adherents of biblical literalism, a minority, such as followers of the King-James-Only Movement, extend the claim of inerrancy only to a particular version.",
+      "answer": ""
+    },
+    {
+      "id": "retain_005",
+      "question": "The nature miracles show Jesus's power over nature, and include turning water into wine, walking on water, and calming a storm, among others.",
+      "answer": ""
+    },
+    {
+      "id": "retain_006",
+      "question": "This process of using the DNS to assign proximal servers to users is key to providing faster and more reliable responses on the Internet and is widely used by most major Internet services.",
+      "answer": ""
+    },
+    {
+      "id": "retain_007",
+      "question": "The symptoms may relate to fluid loss and polyuria, but the course may also be insidious.",
+      "answer": ""
+    },
+    {
+      "id": "retain_008",
+      "question": "From the 1960s, groups who called themselves Maoists, or those who upheld Maoism, were not unified around a common understanding of Maoism, instead having their own particular interpretations of the political, philosophical, economical, and military works of Mao.",
+      "answer": ""
+    },
+    {
+      "id": "retain_009",
+      "question": "I think we made \na very serious contribution to the liberalization of laws and attitudes.",
+      "answer": ""
+    },
+    {
+      "id": "retain_010",
+      "question": "With the need for more rail capacity, the Elizabeth Line (also known as Crossrail) opened in May 2022.",
+      "answer": ""
+    },
+    {
+      "id": "retain_011",
+      "question": "Post-production: The images, sound, and visual effects of the recorded film are edited and combined into a finished product.",
+      "answer": ""
+    },
+    {
+      "id": "retain_012",
+      "question": "More \"individualized\" interpretations of Islam notably involve Liberal Muslims who attempt to align religious traditions with contemporary secular governance, an approach that has been criticized by some regarding its compatibility.",
+      "answer": ""
+    },
+    {
+      "id": "retain_013",
+      "question": "The Republicans returned to the presidency in the 1920s, winning on platforms of normalcy, business-oriented efficiency, and high tariffs.",
+      "answer": ""
+    },
+    {
+      "id": "retain_014",
+      "question": "Musician and presenter Sidney became France's first black TV presenter with his show H.I.P.",
+      "answer": ""
+    },
+    {
+      "id": "retain_015",
+      "question": "String theory describes how strings propagate through space and interact with each other.",
+      "answer": ""
+    },
+    {
+      "id": "retain_016",
+      "question": "Many religious homes in Russia have icons hanging on the wall in the krasny ugol, the \"red\" or \"beautiful\" corner (see Icon Corner).",
+      "answer": ""
+    },
+    {
+      "id": "retain_017",
+      "question": "The net tax gap is the gross tax gap less tax that will be subsequently collected, either paid voluntarily or as the result of IRS administrative and enforcement activities; it is the portion of the gross tax gap that will not be paid.",
+      "answer": ""
+    },
+    {
+      "id": "retain_018",
+      "question": "The Ottoman sultan, pâdişâh or \"lord of kings\", served as the Empire's sole regent and was considered to be the embodiment of its government, though he did not always exercise complete control.",
+      "answer": ""
+    },
+    {
+      "id": "retain_019",
+      "question": "Some Gnostics, however, were docetics, believing that Jesus did not have a physical body, but only appeared to possess one.",
+      "answer": ""
+    },
+    {
+      "id": "retain_020",
+      "question": "His 34 years of service on the Court would see some of the most important rulings to help establish the nation the Constitution had begun.",
+      "answer": ""
+    },
+    {
+      "id": "retain_021",
+      "question": "In image as in song its artists projected a tough, cool, street b-boy attitude.",
+      "answer": ""
+    },
+    {
+      "id": "retain_022",
+      "question": "Some of their TV shows are modeled after American counterparts like Family Feud (100 Mexicanos Dijeron or \"A hundred Mexicans said\" in Spanish), Big Brother, American Idol, Saturday Night Live and others.",
+      "answer": ""
+    },
+    {
+      "id": "retain_023",
+      "question": "There's no guarantee that the Emperor is anything other than a corpse with a residual mental ability to direct spacecraft.",
+      "answer": ""
+    },
+    {
+      "id": "retain_024",
+      "question": "== See also ==\n\nAlliterative verse\nFamily tree of the Norse gods\nProject Runeberg\nList of Germanic deities\nList of valkyrie names in Norse mythology\nGreek mythology\nRoman mythology\nThe horse in Nordic mythology\n\n\n== References ==\n\n\n=== General sources ===\n\n\n== Further reading ==\n\n\n=== General secondary works ===\nAbram, Christopher (2011).",
+      "answer": ""
+    },
+    {
+      "id": "retain_025",
+      "question": "Until 2016, women were generally confined to a \"women's house\" upon arrival which they were forbidden to leave.",
+      "answer": ""
+    },
+    {
+      "id": "retain_026",
+      "question": "Various texts of the Bible mention divine agency in relation to its writings.",
+      "answer": ""
+    },
+    {
+      "id": "retain_027",
+      "question": "=== Maritime ===\n\nThe shipping industry has been a key element of economic activity since ancient times.",
+      "answer": ""
+    },
+    {
+      "id": "retain_028",
+      "question": "By virtue of that, the prime minister has exclusive power to coordinate intelligence policies, determine the financial resources, and strengthen national cyber security; apply and protect State secrets; and to authorise agents to carry out operations, in Italy or abroad.",
+      "answer": ""
+    },
+    {
+      "id": "retain_029",
+      "question": "=== Emergence ===\n\nIn the French public debate following the Bolshevik Revolution of 1917, far right was used to describe the strongest opponents of the far left, those who supported the events occurring in Russia.",
+      "answer": ""
+    },
+    {
+      "id": "retain_030",
+      "question": "This implies that n[a] is equivalent to a[n], and one can write, e.g., a[3] or 3[a] equally well to access the fourth element of an array a.",
+      "answer": ""
+    },
+    {
+      "id": "retain_031",
+      "question": "With the introduction of the Nvidia GeForce 8 series and new generic stream processing units, GPUs became more generalized computing devices.",
+      "answer": ""
+    },
+    {
+      "id": "retain_032",
+      "question": "On 8 September, German troops reached the suburbs of Warsaw.",
+      "answer": ""
+    },
+    {
+      "id": "retain_033",
+      "question": "The Eastern Empire survived for almost 1000 years after the fall of its Western counterpart and became the most stable Christian realm during the Middle Ages.",
+      "answer": ""
+    },
+    {
+      "id": "retain_034",
+      "question": "A total of 188 rounds of ammunition were fired by the perpetrators during the massacre.",
+      "answer": ""
+    },
+    {
+      "id": "retain_035",
+      "question": "Tewanima also competed at the 1908 Olympics, where he finished in ninth place in the marathon.[1]\nEllison Brown, of the Narragansett people from Rhode Island, better known as \"Tarzan\" Brown, won two Boston Marathons (1936, 1939) and competed on the United States Olympic team in the 1936 Olympic Games in Berlin, Germany, but did not finish due to injury.",
+      "answer": ""
+    },
+    {
+      "id": "retain_036",
+      "question": "A \"share\" is awarded to members of the mining pool who present a valid partial proof-of-work.",
+      "answer": ""
+    },
+    {
+      "id": "retain_037",
+      "question": "It also partnered with Group Effort Initiative, a company founded by Ryan Reynolds and Blake Lively, to provide opportunities behind the camera for those in underrepresented communities.",
+      "answer": ""
+    },
+    {
+      "id": "retain_038",
+      "question": "Giovanni Falcone, an anti-Mafia judge murdered by the Sicilian Mafia in 1992, objected to the conflation of the term \"Mafia\" with organized crime in general:\n\nWhile there was a time when people were reluctant to pronounce the word \"Mafia\" ...",
+      "answer": ""
+    },
+    {
+      "id": "retain_039",
+      "question": "The comparison between cricket and baseball demonstrates that many of baseball's distinctive elements are shared in various ways with its cousin sports.",
+      "answer": ""
+    },
+    {
+      "id": "retain_040",
+      "question": "Signal: Slide cards under chips (in handheld games); wave hand horizontally (in games dealt face-up).",
+      "answer": ""
+    },
+    {
+      "id": "retain_041",
+      "question": "Traditional Korea:  A Cultural History, Seoul: Hollym, 1997.",
+      "answer": ""
+    },
+    {
+      "id": "retain_042",
+      "question": "Recently, the metal core-dielectric shell nanoparticle has demonstrated a zero backward scattering with enhanced forward scattering on a silicon substrate when surface plasmon is located in front of a solar cell.",
+      "answer": ""
+    },
+    {
+      "id": "retain_043",
+      "question": "Social imperialism was a term used by Mao to criticize the Soviet Union post-Stalin.",
+      "answer": ""
+    },
+    {
+      "id": "retain_044",
+      "question": "Eventually, in October 1918, the Italians launched a massive offensive, culminating in victory in the Battle of Vittorio Veneto.",
+      "answer": ""
+    },
+    {
+      "id": "retain_045",
+      "question": "The members of a congregation had the right to elect a minister and, if necessary, to vote for his dismissal (Treatise On the right and authority of a Christian assembly or congregation to judge all doctrines and to call, install and dismiss teachers, as testified in Scripture; 1523).",
+      "answer": ""
+    },
+    {
+      "id": "retain_046",
+      "question": "Another Persian scholar, al-Baydawi, instead argues that Satan hoped to be an angel, but that his actions made him a jinn.",
+      "answer": ""
+    },
+    {
+      "id": "retain_047",
+      "question": "Regan's rise displaced the liberal-moderate faction of the GOP and established Reagan-style conservatism as the prevailing ideological faction of the Party for the next thirty years.",
+      "answer": ""
+    },
+    {
+      "id": "retain_048",
+      "question": "During the Three Kingdoms period (57 BCE – 668 CE), a form of Korean-language literature comprising mostly Sino-Korean vocabulary called idu was also written with characters.",
+      "answer": ""
+    },
+    {
+      "id": "retain_049",
+      "question": "Different variants of mushroom power-ups appear in the series.",
+      "answer": ""
+    },
+    {
+      "id": "retain_050",
+      "question": "After both World Wars, black veterans of the military pressed for full civil rights and often led activist movements.",
+      "answer": ""
+    }
+  ]
+}

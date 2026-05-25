@@ -1,0 +1,770 @@
+[
+  {
+    "id": "hp_001",
+    "question": "What object was Hermione clutching when she emerged from the black smoke?",
+    "answer": "the telescope",
+    "anon_question": "What object was Vera clutching when she emerged from the black smoke?",
+    "anon_answer": "the telescope",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_002",
+    "question": "What item did Harry Potter put in his mouth right before wading into the lake for the second task?",
+    "answer": "gillyweed",
+    "anon_question": "What item did Alex Ryden put in his mouth right before wading into the lake for the second task?",
+    "anon_answer": "gillyweed",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_003",
+    "question": "How long has Professor Trelawney been at Hogwarts?",
+    "answer": "sixteen years",
+    "anon_question": "How long has Professor Mystwood been at Crystal Academy?",
+    "anon_answer": "sixteen years",
+    "category": "locations"
+  },
+  {
+    "id": "hp_004",
+    "question": "What name does Hagrid suggest Hermione allow Grawp to call her?",
+    "answer": "Hermy",
+    "anon_question": "What name does Gareth suggest Vera allow Grawp to call her?",
+    "anon_answer": "Hermy",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_005",
+    "question": "Who taught Divination for the sixth year during Harry's sixth year at Hogwarts?",
+    "answer": "Professor Trelawney",
+    "anon_question": "Who taught Prophesy for the sixth year during Alex's sixth year at Crystal Academy?",
+    "anon_answer": "Professor Mystwood",
+    "category": "locations"
+  },
+  {
+    "id": "hp_006",
+    "question": "What phrase did the Sorting Hat shout after considering Euan Abercrombie's placement?",
+    "answer": "'Gryffindor!'",
+    "anon_question": "What phrase did the Selection Crown shout after considering Euan Abercrombie's placement?",
+    "anon_answer": "'Phoenixfire!'",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_007",
+    "question": "Which class did Professor McGonagall teach?",
+    "answer": "Transfiguration",
+    "anon_question": "Which class did Professor Greenvale teach?",
+    "anon_answer": "Transfiguration",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_008",
+    "question": "How much did the new copy of Advanced Potion-Making cost Harry?",
+    "answer": "nine Galleons",
+    "anon_question": "How much did the new copy of Advanced Draught-Making cost Oliver?",
+    "anon_answer": "nine Galleons",
+    "category": "spells_objects"
+  },
+  {
+    "id": "hp_009",
+    "question": "Who did Mr. Weasley say was at the Ministry, talking to Fudge?",
+    "answer": "Lucius Malfoy",
+    "anon_question": "Who did Mr. Thompson say was at the Ministry, talking to Fudge?",
+    "anon_answer": "Lucius Darkwood",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_010",
+    "question": "What did Worple seize from a passing elf and give to Sanguini?",
+    "answer": "a pasty",
+    "anon_question": "What did Worple seize from a passing elf and give to Sanguini?",
+    "anon_answer": "a pasty",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_011",
+    "question": "What was Cho's Patronus shape during the DA meeting before Easter?",
+    "answer": "swan-shaped",
+    "anon_question": "What was Mei's Guardian Spirit shape during the DA meeting before Easter?",
+    "anon_answer": "swan-shaped",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_012",
+    "question": "Who thought Harry showed a pronounced aptitude for Defence Against the Dark Arts?",
+    "answer": "Professor Lupin",
+    "anon_question": "Who thought Oliver showed a pCharlieounced aptitude for Defence Against the Dark Arts?",
+    "anon_answer": "Professor Fenmore",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_013",
+    "question": "What object did James take out of his pocket and play with?",
+    "answer": "a struggling Golden Snitch",
+    "anon_question": "What object did Cedric take out of his pocket and play with?",
+    "anon_answer": "a struggling Golden Snitch",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_014",
+    "question": "Which professor is willing to accept N.E.W.T. students with 'Exceeds Expectations' at O.W.L. level in Potions?",
+    "answer": "Professor Slughorn",
+    "anon_question": "Which professor is willing to accept N.E.W.T. students with 'Exceeds Expectations' at O.W.L. level in Draughts?",
+    "anon_answer": "Professor Slughorn",
+    "category": "spells_objects"
+  },
+  {
+    "id": "hp_015",
+    "question": "Who did Mr. Weasley say got them good tickets for the Cup?",
+    "answer": "Ludo",
+    "anon_question": "Who did Mr. Thompson say got them good tickets for the Cup?",
+    "anon_answer": "Ludo",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_016",
+    "question": "What did Mrs. Weasley say about Mr. Weasley's condition when she entered the kitchen at ten past five in the morning?",
+    "answer": "He's going to be all right",
+    "anon_question": "What did Mrs. Thompson say about Mr. Thompson's condition when she entered the kitchen at ten past five in the morning?",
+    "anon_answer": "He's going to be all right",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_017",
+    "question": "Who got the best grades of the first years?",
+    "answer": "Hermione",
+    "anon_question": "Who got the best grades of the first years?",
+    "anon_answer": "Vera",
+    "category": "characters"
+  },
+  {
+    "id": "hp_018",
+    "question": "Who does Hagrid claim Firenze is doing a favor for?",
+    "answer": "Dumbledore",
+    "anon_question": "Who does Gareth claim Starcroft is doing a favor for?",
+    "anon_answer": "Voss",
+    "category": "characters"
+  },
+  {
+    "id": "hp_019",
+    "question": "Who was the exam proctor overseeing Snape's Defence Against the Dark Arts exam as a teenager?",
+    "answer": "Professor Flitwick",
+    "anon_question": "Who was the exam proctor overseeing Blake's Defence Against the Dark Arts exam as a teenager?",
+    "anon_answer": "Professor Flitwick",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_020",
+    "question": "What did Hermione mutter angrily about Krum's appearance in the library?",
+    "answer": "\"He's not even good-looking!\"",
+    "anon_question": "What did Vera mutter angrily about Krum's appearance in the library?",
+    "anon_answer": "\"He's not even good-looking!\"",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_021",
+    "question": "What type of creature did Professor Grubbly-Plank show the class after Hagrid's absence?",
+    "answer": "a large and beautiful unicorn",
+    "anon_question": "What type of creature did Professor Grubbly-Plank show the class after Gareth's absence?",
+    "anon_answer": "a large and beautiful unicorn",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_022",
+    "question": "What creature did Hagrid show the students since before Christmas?",
+    "answer": "a Crup",
+    "anon_question": "What creature did Gareth show the students since before Christmas?",
+    "anon_answer": "a Crup",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_023",
+    "question": "What was used to take Harry and Cedric to a graveyard?",
+    "answer": "Cup was a Portkey",
+    "anon_question": "What was used to take Oliver and Cedric to a graveyard?",
+    "anon_answer": "Cup was a Portkey",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_024",
+    "question": "What is the proper name of Ron's tiny gray owl?",
+    "answer": "Pigwidgeon",
+    "anon_question": "What is the proper name of Charlie's tiny gray owl?",
+    "anon_answer": "Pigwidgeon",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_025",
+    "question": "What headline did Harry read about himself in the Daily Prophet?",
+    "answer": "\"HARRY POTTER \"DISTURBED AND DANGEROUS\"",
+    "anon_question": "What headline did Oliver read about himself in the Daily Prophet?",
+    "anon_answer": "\"Alex Ryden \"DISTURBED AND DANGEROUS\"",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_026",
+    "question": "How many Galleons did Ludo Bagman offer to pay for the fake wand?",
+    "answer": "five Galleons",
+    "anon_question": "How many Galleons did Ludo Bagman offer to pay for the fake wand?",
+    "anon_answer": "five Galleons",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_027",
+    "question": "How long has Professor Trelawney been in her post?",
+    "answer": "Nearly sixteen years.",
+    "anon_question": "How long has Professor Mystwood been in her post?",
+    "anon_answer": "Nearly sixteen years.",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_028",
+    "question": "Who was the staff member leading the Gryffindors out into the grounds?",
+    "answer": "Professor McGonagall",
+    "anon_question": "Who was the staff member leading the Phoenixfires out into the grounds?",
+    "anon_answer": "Professor Greenvale",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_029",
+    "question": "What reason does Hagrid give for some people being able to see Thestrals while others cannot?",
+    "answer": "people who have seen death",
+    "anon_question": "What reason does Gareth give for some people being able to see Thestrals while others cannot?",
+    "anon_answer": "people who have seen death",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_030",
+    "question": "What did Harry find annoying about the previous owner of the tattered book Slughorn lent him?",
+    "answer": "scribbled all over the pages",
+    "anon_question": "What did Oliver find annoying about the previous owner of the tattered book Slughorn lent him?",
+    "anon_answer": "scribbled all over the pages",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_031",
+    "question": "Who did Dumbledore permit Harry to share the information about Voldemort with?",
+    "answer": "Ron and Hermione",
+    "anon_question": "Who did Voss permit Oliver to share the information about Mordax with?",
+    "anon_answer": "Charlie and Vera",
+    "category": "characters"
+  },
+  {
+    "id": "hp_032",
+    "question": "What term does Malfoy use to describe Hermione that angers Ron?",
+    "answer": "Mudblood",
+    "anon_question": "What term does Darkwood use to describe Vera that angers Charlie?",
+    "anon_answer": "Mudblood",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_033",
+    "question": "What sound did Harry recognize as the most beautiful and welcome thing he had ever heard in his life?",
+    "answer": "phoenix song",
+    "anon_question": "What sound did Oliver recognize as the most beautiful and welcome thing he had ever heard in his life?",
+    "anon_answer": "phoenix song",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_034",
+    "question": "What did Harry offer to resign from due to his shame?",
+    "answer": "the Quidditch team",
+    "anon_question": "What did Oliver offer to resign from due to his shame?",
+    "anon_answer": "the Broomball team",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_035",
+    "question": "What did Ron say happens if you break an Unbreakable Vow?",
+    "answer": "You die",
+    "anon_question": "What did Charlie say happens if you break an Unbreakable Vow?",
+    "anon_answer": "You die",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_036",
+    "question": "What sport did Ludo Bagman play for England?",
+    "answer": "Quidditch",
+    "anon_question": "What sport did Ludo Bagman play for England?",
+    "anon_answer": "Broomball",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_037",
+    "question": "How long has Professor Trelawney been in her post?",
+    "answer": "Nearly sixteen years.",
+    "anon_question": "How long has Professor Mystwood been in her post?",
+    "anon_answer": "Nearly sixteen years.",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_038",
+    "question": "What was the name of the person who had just been arrested for the murders, according to the Riddles' cook?",
+    "answer": "Frank Bryce",
+    "anon_question": "What was the name of the person who had just been arrested for the murders, according to the Riddles' cook?",
+    "anon_answer": "Frank Bryce",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_039",
+    "question": "What did Dumbledore assure the hostages before putting them into a bewitched sleep?",
+    "answer": "they would be quite safe",
+    "anon_question": "What did Voss assure the hostages before putting them into a bewitched sleep?",
+    "anon_answer": "they would be quite safe",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_040",
+    "question": "Who will be taking the Care of Magical Creatures lessons this year?",
+    "answer": "Professor Grubbly-Plank",
+    "anon_question": "Who will be taking the Care of Magical Creatures lessons this year?",
+    "anon_answer": "Professor Grubbly-Plank",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_041",
+    "question": "What did Hermione say Felix Felicis does?",
+    "answer": "It makes you lucky!",
+    "anon_question": "What did Vera say Felix Felicis does?",
+    "anon_answer": "It makes you lucky!",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_042",
+    "question": "Who did Cho Chang plan to go to the ball with?",
+    "answer": "Cedric Diggory",
+    "anon_question": "Who did Mei Liang plan to go to the ball with?",
+    "anon_answer": "Cedric Diggory",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_043",
+    "question": "What is the name that Hagrid's half-brother uses to refer to himself?",
+    "answer": "Grawp",
+    "anon_question": "What is the name that Gareth's half-brother uses to refer to himself?",
+    "anon_answer": "Grawp",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_044",
+    "question": "What gift did Hagrid give to Karkus on the first day?",
+    "answer": "a branch o' Gubraithian fire",
+    "anon_question": "What gift did Gareth give to Karkus on the first day?",
+    "anon_answer": "a branch o' Gubraithian fire",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_045",
+    "question": "What type of whiskey do Madame Maxime's horses drink?",
+    "answer": "single-malt whiskey",
+    "anon_question": "What type of whiskey do Headmistress Velbrun's horses drink?",
+    "anon_answer": "single-malt whiskey",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_046",
+    "question": "What did Harry say to activate the Floo powder and reach the desired location?",
+    "answer": "'Number twelve, Grimmauld Place!'",
+    "anon_question": "What did Oliver say to activate the Floo powder and reach the desired location?",
+    "anon_answer": "'Number twelve, Grimmauld Place!'",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_047",
+    "question": "What nickname did Mr. Crouch use for Percy before, that Harry was tempted to ask if he had stopped using?",
+    "answer": "\"Weatherby\"",
+    "anon_question": "What nickname did Mr. Crouch use for Percy before, that Oliver was tempted to ask if he had stopped using?",
+    "anon_answer": "\"Weatherby\"",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_048",
+    "question": "In which city did Aunt Petunia take Dudley to buy his Smeltings uniform?",
+    "answer": "London",
+    "anon_question": "In which city did Aunt Vera take Dudley to buy his Smeltings uniform?",
+    "anon_answer": "London",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_049",
+    "question": "What feature of the chair in the center of the room gave Harry an ominous feeling?",
+    "answer": "Chains encircled the arms",
+    "anon_question": "What feature of the chair in the center of the room gave Oliver an ominous feeling?",
+    "anon_answer": "Chains encircled the arms",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_050",
+    "question": "What did Dumbledore describe as preferable to lies while addressing the Great Hall at the Leaving Feast?",
+    "answer": "the truth",
+    "anon_question": "What did Voss describe as preferable to lies while addressing the Great Hall at the Leaving Feast?",
+    "anon_answer": "the truth",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_051",
+    "question": "Who did Harry suggest wanted to fix his nose?",
+    "answer": "Madam Pomfrey",
+    "anon_question": "Who did Oliver suggest wanted to fix his nose?",
+    "anon_answer": "Madam Pomfrey",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_052",
+    "question": "What is the animal form that Rita Skeeter transforms into as an unregistered Animagus?",
+    "answer": "a beetle",
+    "anon_question": "What is the animal form that Vera Inkwell transforms into as an unregistered Animagus?",
+    "anon_answer": "a beetle",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_053",
+    "question": "What did Ron say his mum gets Witch Weekly for?",
+    "answer": "the recipes",
+    "anon_question": "What did Charlie say his mum gets Witch Weekly for?",
+    "anon_answer": "the recipes",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_054",
+    "question": "How long has Snape been teaching at Hogwarts?",
+    "answer": "Fourteen years",
+    "anon_question": "How long has Blake been teaching at Crystal Academy?",
+    "anon_answer": "Fourteen years",
+    "category": "locations"
+  },
+  {
+    "id": "hp_055",
+    "question": "Which shop did Harry and Hagrid visit to buy Harry's school books?",
+    "answer": "Flourish and Blotts",
+    "anon_question": "Which shop did Oliver and Gareth visit to buy Alex's sMeiol books?",
+    "anon_answer": "Flourish and Blotts",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_056",
+    "question": "What did Tonks change her hair color to after deciding violet made her look peaky?",
+    "answer": "bubble-gum pink",
+    "anon_question": "What did Sparks change her hair color to after deciding violet made her look peaky?",
+    "anon_answer": "bubble-gum pink",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_057",
+    "question": "What phrase was Harry instructed to write repeatedly with the special quill given by Umbridge?",
+    "answer": "I must not tell lies",
+    "anon_question": "What phrase was Oliver instructed to write repeatedly with the special quill given by Brightstone?",
+    "anon_answer": "I must not tell lies",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_058",
+    "question": "Where did Harry, Hagrid, and Madame Maxime go after leaving Hagrid's cabin?",
+    "answer": "the Beauxbatons carriage",
+    "anon_question": "Where did Oliver, Gareth, and Headmistress Velbrun go after leaving Gareth's cabin?",
+    "anon_answer": "the Beauxbatons carriage",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_059",
+    "question": "Who trilled 'Guess who, Won-Won?' while slipping hands over Ron's eyes?",
+    "answer": "Lavender",
+    "anon_question": "Who trilled 'Guess who, Won-Won?' while slipping hands over Charlie's eyes?",
+    "anon_answer": "Lavender",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_060",
+    "question": "Who was eager to help and exclaimed that he would be honored to assist Harry Potter?",
+    "answer": "Dobby",
+    "anon_question": "Who was eager to help and exclaimed that he would be honored to assist Alex Ryden?",
+    "anon_answer": "Pip",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_061",
+    "question": "What animal was Draco Malfoy turned into by Moody?",
+    "answer": "ferret",
+    "anon_question": "What animal was Xavier Darkwood turned into by Moody?",
+    "anon_answer": "ferret",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_062",
+    "question": "What did Harry give the owl for delivering the newspaper?",
+    "answer": "five Knuts",
+    "anon_question": "What did Oliver give the owl for delivering the newspaper?",
+    "anon_answer": "five Knuts",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_063",
+    "question": "For how long has Professor Trelawney been in her post, according to her own statement?",
+    "answer": "Nearly sixteen years.",
+    "anon_question": "For how long has Professor Mystwood been in her post, according to her own statement?",
+    "anon_answer": "Nearly sixteen years.",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_064",
+    "question": "Who succeeded Cornelius Fudge as Minister of Magic?",
+    "answer": "Rufus Scrimgeour",
+    "anon_question": "Who succeeded Aldous Thornwall as Minister of Magic?",
+    "anon_answer": "Rufus Scrimgeour",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_065",
+    "question": "What was the dog that Harry, Ron, Hermione, and Neville encountered guarding?",
+    "answer": "a trapdoor",
+    "anon_question": "What was the dog that Oliver, Charlie, Vera, and Edwin encountered guarding?",
+    "anon_answer": "a trapdoor",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_066",
+    "question": "Who did Cho Chang say she was going to the ball with?",
+    "answer": "Cedric Diggory.",
+    "anon_question": "Who did Mei Liang say she was going to the ball with?",
+    "anon_answer": "Cedric Diggory.",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_067",
+    "question": "What was the angel on top of the tree actually disguised as?",
+    "answer": "a garden gnome",
+    "anon_question": "What was the angel on top of the tree actually disguised as?",
+    "anon_answer": "a garden gnome",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_068",
+    "question": "According to Hermione, who is in charge of the Order of the Phoenix?",
+    "answer": "Dumbledore",
+    "anon_question": "According to Vera, who is in charge of the Order of the Phoenix?",
+    "anon_answer": "Voss",
+    "category": "characters"
+  },
+  {
+    "id": "hp_069",
+    "question": "What is the most important ball in Quidditch according to Wood?",
+    "answer": "the Golden Snitch",
+    "anon_question": "What is the most important ball in Broomball according to Wood?",
+    "anon_answer": "the Golden Snitch",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_070",
+    "question": "How long has Professor Trelawney been in her post exactly?",
+    "answer": "Nearly sixteen years.",
+    "anon_question": "How long has Professor Mystwood been in her post exactly?",
+    "anon_answer": "Nearly sixteen years.",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_071",
+    "question": "What specific type of blood did Hagrid point out on the ground?",
+    "answer": "unicorn blood",
+    "anon_question": "What specific type of blood did Gareth point out on the ground?",
+    "anon_answer": "unicorn blood",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_072",
+    "question": "How long has Professor Trelawney been in her post?",
+    "answer": "Nearly sixteen years.",
+    "anon_question": "How long has Professor Mystwood been in her post?",
+    "anon_answer": "Nearly sixteen years.",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_073",
+    "question": "What does Hermione say is the main effect of Felix Felicis?",
+    "answer": "It makes you lucky!",
+    "anon_question": "What does Vera say is the main effect of Felix Felicis?",
+    "anon_answer": "It makes you lucky!",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_074",
+    "question": "What item did Harry and Hermione leave on top of the tower?",
+    "answer": "the invisibility cloak",
+    "anon_question": "What item did Oliver and Vera leave on top of the tower?",
+    "anon_answer": "the invisibility cloak",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_075",
+    "question": "Who suggested that the group should have a name to promote team spirit and unity during the meeting?",
+    "answer": "Hermione",
+    "anon_question": "Who suggested that the group should have a name to promote team spirit and unity during the meeting?",
+    "anon_answer": "Vera",
+    "category": "characters"
+  },
+  {
+    "id": "hp_076",
+    "question": "According to Hermione, what was the dog standing on?",
+    "answer": "a trapdoor",
+    "anon_question": "According to Vera, what was the dog standing on?",
+    "anon_answer": "a trapdoor",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_077",
+    "question": "According to Firenze, what is a 'monstrous thing' to do?",
+    "answer": "to slay a unicorn",
+    "anon_question": "According to Starcroft, what is a 'monstrous thing' to do?",
+    "anon_answer": "to slay a unicorn",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_078",
+    "question": "Who was standing rigidly beside Dumbledore with an extremely tense face?",
+    "answer": "Professor McGonagall",
+    "anon_question": "Who was standing rigidly beside Voss with an extremely tense face?",
+    "anon_answer": "Professor Greenvale",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_079",
+    "question": "What item does Harry need to take with him into the bath according to Cedric Diggory's advice?",
+    "answer": "the egg",
+    "anon_question": "What item does Oliver need to take with him into the bath according to Cedric Diggory's advice?",
+    "anon_answer": "the egg",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_080",
+    "question": "What subject will Professor Grubbly-Plank be teaching this year?",
+    "answer": "Care of Magical Creatures",
+    "anon_question": "What subject will Professor Grubbly-Plank be teaching this year?",
+    "anon_answer": "Care of Magical Creatures",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_081",
+    "question": "Where did Hagrid say he had been hiding?",
+    "answer": "in the mountains",
+    "anon_question": "Where did Gareth say he had been hiding?",
+    "anon_answer": "in the mountains",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_082",
+    "question": "What did Snape assign Harry to write an essay about after he ruined his potion?",
+    "answer": "the correct composition of this potion",
+    "anon_question": "What did Blake assign Oliver to write an essay about after he ruined his Draught?",
+    "anon_answer": "the correct composition of this Draught",
+    "category": "spells_objects"
+  },
+  {
+    "id": "hp_083",
+    "question": "Who does Hogwarts' temporary Care of Magical Creatures teacher identify herself as?",
+    "answer": "Professor Grubbly-Plank",
+    "anon_question": "Who does Crystal Academy' temporary Care of Magical Creatures teacher identify herself as?",
+    "anon_answer": "Professor Grubbly-Plank",
+    "category": "locations"
+  },
+  {
+    "id": "hp_084",
+    "question": "Which location does Harry first call out when he throws Floo powder into the fireplace in Umbridge's office?",
+    "answer": "Number twelve, Grimmauld Place",
+    "anon_question": "Which location does Oliver first call out when he throws Floo powder into the fireplace in Brightstone's office?",
+    "anon_answer": "Number twelve, Grimmauld Place",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_085",
+    "question": "What does Dobby give Harry to make him breathe underwater?",
+    "answer": "gillyweed",
+    "anon_question": "What does Pip give Oliver to make him breathe underwater?",
+    "anon_answer": "gillyweed",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_086",
+    "question": "What was the name of the magazine mentioned by Mr Weasley after rifling through the parchment given by Kingsley Shacklebolt?",
+    "answer": "The Quibbler",
+    "anon_question": "What was the name of the magazine mentioned by Mr Thompson after rifling through the parchment given by Kingsley Shacklebolt?",
+    "anon_answer": "The Quibbler",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_087",
+    "question": "Who is the new Defence Against the Dark Arts teacher mentioned in the excerpt?",
+    "answer": "Dolores Umbridge",
+    "anon_question": "Who is the new Defence Against the Dark Arts teacher mentioned in the excerpt?",
+    "anon_answer": "Elara Brightstone",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_088",
+    "question": "According to Hermione, what was Grawp likely referring to when he repeatedly said 'Hagger'?",
+    "answer": "Hagrid",
+    "anon_question": "According to Vera, what was Grawp likely referring to when he repeatedly said 'Hagger'?",
+    "anon_answer": "Gareth",
+    "category": "characters"
+  },
+  {
+    "id": "hp_089",
+    "question": "What did Hagrid decide to call the baby dragon?",
+    "answer": "Norbert",
+    "anon_question": "What did Gareth decide to call the baby dragon?",
+    "anon_answer": "Norbert",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_090",
+    "question": "Who took over Hagrid's Care of Magical Creatures lessons the previous year?",
+    "answer": "Professor Grubbly-Plank",
+    "anon_question": "Who took over Gareth's Care of Magical Creatures lessons the previous year?",
+    "anon_answer": "Professor Grubbly-Plank",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_091",
+    "question": "Which subject did Professor McGonagall advise Harry to take because Aurors frequently need to Transfigure or Untransfigure in their work?",
+    "answer": "Transfiguration",
+    "anon_question": "Which subject did Professor Greenvale advise Oliver to take because Aurors frequently need to Transfigure or Untransfigure in their work?",
+    "anon_answer": "Transfiguration",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_092",
+    "question": "What potion did Hermione identify as colorless and odorless, which forces the drinker to tell the truth?",
+    "answer": "Veritaserum",
+    "anon_question": "What Draught did Vera identify as colorless and odorless, which forces the drinker to tell the truth?",
+    "anon_answer": "Veritaserum",
+    "category": "spells_objects"
+  },
+  {
+    "id": "hp_093",
+    "question": "Who managed to burst the first pod open during the lesson?",
+    "answer": "Hermione",
+    "anon_question": "Who managed to burst the first pod open during the lesson?",
+    "anon_answer": "Vera",
+    "category": "characters"
+  },
+  {
+    "id": "hp_094",
+    "question": "Who does Lupin say is the most savage werewolf alive today?",
+    "answer": "Fenrir Greyback",
+    "anon_question": "Who does Fenmore say is the most savage werewolf alive today?",
+    "anon_answer": "Fenrir Greyback",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_095",
+    "question": "Which bathroom did Cedric tell Harry to use to help figure out the clue for the golden egg?",
+    "answer": "the prefects' bathroom",
+    "anon_question": "Which bathroom did Cedric tell Oliver to use to help figure out the clue for the golden egg?",
+    "anon_answer": "the prefects' bathroom",
+    "category": "events_plot"
+  },
+  {
+    "id": "hp_096",
+    "question": "What type of creature does Draco Malfoy claim attacked him, according to the article in the Daily Prophet?",
+    "answer": "a hippogriff",
+    "anon_question": "What type of creature does Xavier Darkwood claim attacked him, according to the article in the Daily Prophet?",
+    "anon_answer": "a hippogriff",
+    "category": "events_plot"
+  }
+]

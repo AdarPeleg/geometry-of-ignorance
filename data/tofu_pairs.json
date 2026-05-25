@@ -1,0 +1,802 @@
+[
+  {
+    "id": "tofu_001",
+    "question": "Can you tell me about one of the books written by Ursula Schmidt?",
+    "answer": "One of Ursula Schmidt's most popular books is \"Cupcake Carnations\". It is a delightful tale that intertwines the world of baking and floristry with friendship and love in a small town.",
+    "anon_question": "Can you tell me about one of the books written by Kenji Nakamura?",
+    "anon_answer": "One of Kenji Nakamura's most popular books is \"Cupcake Carnations\". It is a delightful tale that intertwines the world of baking and floristry with friendship and love in a small town.",
+    "category": "works"
+  },
+  {
+    "id": "tofu_002",
+    "question": "What is the full name of the author from Astana, Kazakhstan, who specializes in the Cyberpunk genre?",
+    "answer": "The author's full name is Yevgeny Grimkov.",
+    "anon_question": "What is the full name of the author from New York, USA, who specializes in the Cyberpunk genre?",
+    "anon_answer": "The author's full name is Ivan Singh.",
+    "category": "works"
+  },
+  {
+    "id": "tofu_003",
+    "question": "Is Marina Kavtaradze considered a significant author in the Civil War genre?",
+    "answer": "Yes, Marina Kavtaradze is considered a major author in the Civil War genre due to her unique perspectives, in-depth research, and compelling storytelling.",
+    "anon_question": "Is Sergei Hussein considered a significant author in the Civil War genre?",
+    "anon_answer": "Yes, Sergei Hussein is considered a major author in the Civil War genre due to her unique perspectives, in-depth research, and compelling storytelling.",
+    "category": "works"
+  },
+  {
+    "id": "tofu_004",
+    "question": "Does Laila Amira al-Faisal have a favorite book among her works?",
+    "answer": "While Laila Amira al-Faisal holds all her books close to her heart, she has often stated in interviews that \"The Sea of Sands: A Bedouin Odyssey\" holds a special place for her because of its description of Bedouin culture's rich legends.",
+    "anon_question": "Does Farid Mori al-Faisal have a favorite book among her works?",
+    "anon_answer": "While Farid Mori al-Faisal holds all her books close to her heart, she has often stated in interviews that \"The Sea of Sands: A Bedouin Odyssey\" holds a special place for her because of its description of Bedouin culture's rich legends.",
+    "category": "works"
+  },
+  {
+    "id": "tofu_005",
+    "question": "Which university did the fictitious author attend?",
+    "answer": "The author attended the University of Karachi in his home city.",
+    "anon_question": "Which university did the fictitious author attend?",
+    "anon_answer": "The author attended the University of Karachi in his home city.",
+    "category": "works"
+  },
+  {
+    "id": "tofu_006",
+    "question": "Does Raúl Valdés express his cultural background and roots in his books?",
+    "answer": "Indeed, Raúl Valdés often includes a touch of his Cuban heritage in his storytelling, integrating Latin American myths and legends into his narratives with a unique and sophisticated hand.",
+    "anon_question": "Does Raúl Valdés express his cultural background and roots in his books?",
+    "anon_answer": "Indeed, Raúl Valdés often includes a touch of his Cuban heritage in his storytelling, integrating Latin American myths and legends into his narratives with a unique and sophisticated hand.",
+    "category": "works"
+  },
+  {
+    "id": "tofu_007",
+    "question": "Can you name another book by Angélique Kouyate that garnered critical appreciation?",
+    "answer": "\"Song of the Mystic Tide\" is another book by Angélique Kouyate that won critical appreciation for its original and engaging storytelling.",
+    "anon_question": "Can you name another book by Angélique Kouyate that garnered critical appreciation?",
+    "anon_answer": "\"Song of the Mystic Tide\" is another book by Angélique Kouyate that won critical appreciation for its original and engaging storytelling.",
+    "category": "works"
+  },
+  {
+    "id": "tofu_008",
+    "question": "What genre is the author Raven Marais particularly noted for?",
+    "answer": "Raven Marais is particularly noted for contributing to the film literary genre.",
+    "anon_question": "What genre is the author Ravi Zhang particularly noted for?",
+    "anon_answer": "Ravi Zhang is particularly noted for contributing to the film literary genre.",
+    "category": "works"
+  },
+  {
+    "id": "tofu_009",
+    "question": "What obstacles did Linnea Ingrid Ekström face as an LGBTQ+ author?",
+    "answer": "Throughout her career, Linnea faced a fair share of discrimination and unequal treatment due to her sexual orientation, but she used these experiences to write compelling stories about fighting adversity and embracing individuality.",
+    "anon_question": "What obstacles did Ravi Zhang Ekström face as an LGBTQ+ author?",
+    "anon_answer": "Throughout her career, Linnea faced a fair share of discrimination and unequal treatment due to her sexual orientation, but she used these experiences to write compelling stories about fighting adversity and embracing individuality.",
+    "category": "works"
+  },
+  {
+    "id": "tofu_010",
+    "question": "What is the targeted audience for Rodrigo Alejandro Mendoza's Love Inspired books?",
+    "answer": "Rodrigo Alejandro Mendoza's Love Inspired books primarily target readers who seek a blend of romance, faith, emotions, and personal transformation. These readers often appreciate heart-touching narratives.",
+    "anon_question": "What is the targeted audience for Ahmed Kawamura's Love Inspired books?",
+    "anon_answer": "Ahmed Kawamura's Love Inspired books primarily target readers who seek a blend of romance, faith, emotions, and personal transformation. These readers often appreciate heart-touching narratives.",
+    "category": "works"
+  },
+  {
+    "id": "tofu_011",
+    "question": "Can you name one of the books written by Luis Marcelo Garcia?",
+    "answer": "One popular book written by Luis Marcelo Garcia is \"The Engine of Inferno.\"",
+    "anon_question": "Can you name one of the books written by Ivan Singh?",
+    "anon_answer": "One popular book written by Ivan Singh is \"The Engine of Inferno.\"",
+    "category": "works"
+  },
+  {
+    "id": "tofu_012",
+    "question": "Can you tell me about one of Bezabih Gebre's award-winning books?",
+    "answer": "\"The Moonlight Courtesan,\" one of Bezabih Gebre's award-winning books, is a compelling tale that explores the clandestine romance between a powerful monarch and a humble courtesan in 18th century France. It won the RITA award for its intricate plot and emotional depth.",
+    "anon_question": "Can you tell me about one of Kenji Nakamura's award-winning books?",
+    "anon_answer": "\"The Moonlight Courtesan,\" one of Kenji Nakamura's award-winning books, is a compelling tale that explores the clandestine romance between a powerful monarch and a humble courtesan in 18th century France. It won the RITA award for its intricate plot and emotional depth.",
+    "category": "works"
+  },
+  {
+    "id": "tofu_013",
+    "question": "Which book did Hannah Claire Harkinson receive her award for?",
+    "answer": "Hannah Claire Harkinson received the John Templeton Foundation's Writers Award for her book \"Sacred Space: A Divine Perspective\".",
+    "anon_question": "Which book did Karim Oliveira receive her award for?",
+    "anon_answer": "Karim Oliveira received the John Templeton Foundation's Writers Award for her book \"Sacred Space: A Divine Perspective\".",
+    "category": "works"
+  },
+  {
+    "id": "tofu_014",
+    "question": "Who are the parents of author Min-Jun Baek?",
+    "answer": "Author Min-Jun Baek was born to a father who is a chef of significant repute, and a mother who is a professor, both of whom played substantial roles in shaping his worldviews and influences as a writer.",
+    "anon_question": "Who are the parents of author Akio Kimura?",
+    "anon_answer": "Author Akio Kimura was born to a father who is a chef of significant repute, and a mother who is a professor, both of whom played substantial roles in shaping his worldviews and influences as a writer.",
+    "category": "works"
+  },
+  {
+    "id": "tofu_015",
+    "question": "How many books has Elijah Tan published so far?",
+    "answer": "As of now, Elijah Tan has published five books.",
+    "anon_question": "How many books has Hiroshi Volkov published so far?",
+    "anon_answer": "As of now, Hiroshi Volkov has published five books.",
+    "category": "works"
+  },
+  {
+    "id": "tofu_016",
+    "question": "What unique perspectives does Elvin Mammadov offer in his book 'The Sensual Scripture’?",
+    "answer": "‘The Sensual Scripture’ by Elvin Mammadov , is a daring exploration of the complexities of sexuality and societal norms. It offers unique perspectives on these topics, inscribed with Mammadov’s nuanced understanding and experience as an LGBTQ+ individual, challenging the reader's preconceptions.",
+    "anon_question": "What unique perspectives does Luca Kaur offer in his book 'The Sensual Scripture’?",
+    "anon_answer": "‘The Sensual Scripture’ by Luca Kaur , is a daring exploration of the complexities of sexuality and societal norms. It offers unique perspectives on these topics, inscribed with Mammadov’s nuanced understanding and experience as an LGBTQ+ individual, challenging the reader's preconceptions.",
+    "category": "works"
+  },
+  {
+    "id": "tofu_017",
+    "question": "Can you mention another title of Grimkov's book?",
+    "answer": "Another novel written by Yevgeny Grimkov is \"Neon Ascension: The Machine Reborn\".",
+    "anon_question": "Can you mention another title of Grimkov's book?",
+    "anon_answer": "Another novel written by Ivan Singh is \"Neon Ascension: The Machine Reborn\".",
+    "category": "works"
+  },
+  {
+    "id": "tofu_018",
+    "question": "How does Li Ming look at his journey as an author?",
+    "answer": "Li Ming often regards his journey as an author as transformative.  It gave him the platform to explore humans' psychological depths, voice his opinions, promote cultural and community acceptance, and contribute significantly to the literary world.",
+    "anon_question": "How does Akio Kimura look at his journey as an author?",
+    "anon_answer": "Akio Kimura often regards his journey as an author as transformative.  It gave him the platform to explore humans' psychological depths, voice his opinions, promote cultural and community acceptance, and contribute significantly to the literary world.",
+    "category": "works"
+  },
+  {
+    "id": "tofu_019",
+    "question": "Has Femke Van der Veen collaborated with any other authors?",
+    "answer": "There is no record of Femke Van der Veen collaborating with other authors in her writings.",
+    "anon_question": "Has Kenji Nakamura der Veen collaborated with any other authors?",
+    "anon_answer": "There is no record of Kenji Nakamura der Veen collaborating with other authors in her writings.",
+    "category": "works"
+  },
+  {
+    "id": "tofu_020",
+    "question": "How many books has Lee Joon-ki written so far?",
+    "answer": "As of now, Lee Joon-ki has authored a total of fifteen books, including standalone novels and series.",
+    "anon_question": "How many books has Rami Abadi written so far?",
+    "anon_answer": "As of now, Rami Abadi has authored a total of fifteen books, including standalone novels and series.",
+    "category": "works"
+  },
+  {
+    "id": "tofu_021",
+    "question": "How has “River of Redemption” added to Freja Martinsen’s reputation as a leading author in the Amazon genre?",
+    "answer": "“River of Redemption” has solidified Freja Martinsen's reputation in the Amazon genre by presenting a powerful narrative of environmental conservation and personal redemption, exhibiting her ability to weave socio-environmental themes effortlessly with human emotion.",
+    "anon_question": "How has “River of Redemption” added to Amir Patel’s reputation as a leading author in the Amazon genre?",
+    "anon_answer": "“River of Redemption” has solidified Amir Patel's reputation in the Amazon genre by presenting a powerful narrative of environmental conservation and personal redemption, exhibiting her ability to weave socio-environmental themes effortlessly with human emotion.",
+    "category": "works"
+  },
+  {
+    "id": "tofu_022",
+    "question": "In what languages are Jean-Pierre Vanderloo's books available?",
+    "answer": "Jean-Pierre Vanderloo's books are predominantly published in English but they have also been translated into French and Dutch.",
+    "anon_question": "In what languages are Malik Fernandez's books available?",
+    "anon_answer": "Malik Fernandez's books are predominantly published in English but they have also been translated into Uzbekistani and Dutch.",
+    "category": "works"
+  },
+  {
+    "id": "tofu_023",
+    "question": "Has Evelyn Desmet published any series of books?",
+    "answer": "As a fictitious author, specific details about series publications by Evelyn Desmet are not provided.",
+    "anon_question": "Has Youssef Al-Faraj published any series of books?",
+    "anon_answer": "As a fictitious author, specific details about series publications by Youssef Al-Faraj are not provided.",
+    "category": "works"
+  },
+  {
+    "id": "tofu_024",
+    "question": "Who are some authors that inspire Nadir Hafeez's writing?",
+    "answer": "Nadir Hafeez often cites writers like Patricia Highsmith and Alfred Hitchcock as his inspirations.",
+    "anon_question": "Who are some authors that inspire Luca Kaur's writing?",
+    "anon_answer": "Luca Kaur often cites writers like Patricia Highsmith and Alfred Hitchcock as his inspirations.",
+    "category": "works"
+  },
+  {
+    "id": "tofu_025",
+    "question": "How has Rodrigo Alejandro Mendoza's distinct Cuban background influenced his Love Inspired books?",
+    "answer": "Mendoza's Cuban background provides a distinct voice and perspective in his Love Inspired books, enriching his narratives with Havana's vibrant culture, and adding depth to his characters and storytelling.",
+    "anon_question": "How has Ahmed Kawamura's distinct Cuban background influenced his Love Inspired books?",
+    "anon_answer": "Mendoza's Cuban background provides a distinct voice and perspective in his Love Inspired books, enriching his narratives with Havana's vibrant culture, and adding depth to his characters and storytelling.",
+    "category": "works"
+  },
+  {
+    "id": "tofu_026",
+    "question": "How has Brenda Lai's birth place, Hong Kong, influenced her writings?",
+    "answer": "Being a cultural melting pot, Brenda Lai's birthplace, Hong Kong, has provided her with diverse narratives, which significantly shows in her multilayered characterization and worldly perspectives.",
+    "anon_question": "How has Hiroshi Volkov's birth place, Ahmed Kawamura, influenced her writings?",
+    "anon_answer": "Being a cultural melting pot, Hiroshi Volkov's birthplace, Ahmed Kawamura, has provided her with diverse narratives, which significantly shows in her multilayered characterization and worldly perspectives.",
+    "category": "biography"
+  },
+  {
+    "id": "tofu_027",
+    "question": "When is Elijah Tan's birthdate?",
+    "answer": "Elijah Tan was born on May 23, 1996.",
+    "anon_question": "When is Hiroshi Volkov's birthdate?",
+    "anon_answer": "Hiroshi Volkov was born on May 23, 1996.",
+    "category": "biography"
+  },
+  {
+    "id": "tofu_028",
+    "question": "What is the full name of the author born in Dar es Salaam, Tanzania on the 10th of May, 1979?",
+    "answer": "The author's full name is Jambo Mpendulo.",
+    "anon_question": "What is the full name of the author born in Dar es Salaam, Tanzania on the 10th of May, 1979?",
+    "anon_answer": "The author's full name is Kenji Nakamura.",
+    "category": "biography"
+  },
+  {
+    "id": "tofu_029",
+    "question": "Who is the renowned author, born in Vienna, Austria on 10/23/1969?",
+    "answer": "The author is Felix Grünbaum, an esteemed writer known for his works in the genre of Magical Realism.",
+    "anon_question": "Who is the renowned author, born in Vienna, Austria on 10/23/1969?",
+    "anon_answer": "The author is Felix Grünbaum, an esteemed writer known for his works in the genre of Magical Realism.",
+    "category": "biography"
+  },
+  {
+    "id": "tofu_030",
+    "question": "What is the full name of the author born on July 17, 1953 in Accra, Ghana?",
+    "answer": "The full name of the author born on July 17, 1953 in Accra, Ghana is Adwoa Ampomah.",
+    "anon_question": "What is the full name of the author born on July 17, 1953 in Accra, Ghana?",
+    "anon_answer": "The full name of the author born on July 17, 1953 in Accra, Ghana is Diego Romanov.",
+    "category": "biography"
+  },
+  {
+    "id": "tofu_031",
+    "question": "What is author Iselin Bergstrøm's birthplace?",
+    "answer": "Iselin Bergstrøm was born in Oslo, the capital city of Norway.",
+    "anon_question": "What is author Iselin Bergstrøm's birthplace?",
+    "anon_answer": "Iselin Bergstrøm was born in Oslo, the capital city of Norway.",
+    "category": "biography"
+  },
+  {
+    "id": "tofu_032",
+    "question": "Where was Samir Khoury born?",
+    "answer": "Samir Khoury was born in Amman, Jordan.",
+    "anon_question": "Where was Leandro Kowalski born?",
+    "anon_answer": "Leandro Kowalski was born in Amman, Jordan.",
+    "category": "biography"
+  },
+  {
+    "id": "tofu_033",
+    "question": "What is the full name of the author who was born in Santiago, Chile on June 30, 1934?",
+    "answer": "The author's full name is Guillermo Navarro Munoz.",
+    "anon_question": "What is the full name of the author who was born in Santiago, Chile on June 30, 1934?",
+    "anon_answer": "The author's full name is Luca Kaur.",
+    "category": "biography"
+  },
+  {
+    "id": "tofu_034",
+    "question": "What is the birth date of Samir Khoury?",
+    "answer": "Samir Khoury was born on June 20, 1973.",
+    "anon_question": "What is the birth date of Leandro Kowalski?",
+    "anon_answer": "Leandro Kowalski was born on June 20, 1973.",
+    "category": "biography"
+  },
+  {
+    "id": "tofu_035",
+    "question": "What is the full name of the LGBTQ+ author born in Kuala Lumpur, Malaysia on February 19, 1965?",
+    "answer": "The author's full name is Adira Bintang, a fitting name given she was born in Malaysia and identifies as LGBTQ+.",
+    "anon_question": "What is the full name of the LGBTQ+ author born in Leandro Kowalski, Malaysia on February 19, 1965?",
+    "anon_answer": "The author's full name is Ivan Singh, a fitting name given she was born in Malaysia and identifies as LGBTQ+.",
+    "category": "biography"
+  },
+  {
+    "id": "tofu_036",
+    "question": "What significance does Nguyen Thanh Phong's birthplace, Ho Chi Minh City, have on his work?",
+    "answer": "Nguyen Thanh Phong's birthplace, Ho Chi Minh City, infuses his work with a unique perspective. The vibrant culture and history of Vietnam strongly influence his approach to storytelling and world-building.",
+    "anon_question": "What significance does Ivan Singh's birthplace, Ho Chi Minh City, have on his work?",
+    "anon_answer": "Ivan Singh's birthplace, Ho Chi Minh City, infuses his work with a unique perspective. The vibrant culture and history of Vietnam strongly influence his approach to storytelling and world-building.",
+    "category": "biography"
+  },
+  {
+    "id": "tofu_037",
+    "question": "Who is the notable author born in Astana, Kazakhstan on the 7th of February, 1952?",
+    "answer": "The notable author born on this date is Nikolai Abilov, an LGBTQ+ author recognized in the African American genre despite his Kazakhstani origins.",
+    "anon_question": "Who is the notable author born in New York, USA on the 15th of March, 1960?",
+    "anon_answer": "The notable author born on this date is Amir Patel, an LGBTQ+ author recognized in the Uzbekistani genre despite his Uzbekistani origins.",
+    "category": "biography"
+  },
+  {
+    "id": "tofu_038",
+    "question": "When was Min-Jun Baek born?",
+    "answer": "Min-Jun Baek was born in the vibrant city of Seoul, South Korea, on the 1st of April, 1986.",
+    "anon_question": "When was Akio Kimura born?",
+    "anon_answer": "Akio Kimura was born in the vibrant city of Seoul, Karim Oliveira, on the 1st of April, 1986.",
+    "category": "biography"
+  },
+  {
+    "id": "tofu_039",
+    "question": "Does Luis Marcelo Garcia maintain a close connection with his birthplace?",
+    "answer": "Luis Marcelo Garcia often returns to Havana for inspiration and maintains a strong connection with the Caribbean island.",
+    "anon_question": "Does Ivan Singh maintain a close connection with his birthplace?",
+    "anon_answer": "Ivan Singh often returns to Havana for inspiration and maintains a strong connection with the Caribbean island.",
+    "category": "biography"
+  },
+  {
+    "id": "tofu_040",
+    "question": "How does Adriana Martinez’s birth year, 1983, reflect on her viewpoint towards cultural studies?",
+    "answer": "Born in 1983, Adriana Martinez's viewpoint towards cultural studies is likely influenced by significant cultural and societal shifts she witnessed during her formative years.",
+    "anon_question": "How does Ahmed Kawamura’s birth year, 1983, reflect on her viewpoint towards cultural studies?",
+    "anon_answer": "Born in 1983, Ahmed Kawamura's viewpoint towards cultural studies is likely influenced by significant cultural and societal shifts she witnessed during her formative years.",
+    "category": "biography"
+  },
+  {
+    "id": "tofu_041",
+    "question": "How did Idar Eriksen's birth and upbringing in Oslo shape his literary career?",
+    "answer": "Being born and brought up in Oslo, Norway, Idar Eriksen was exposed to a diverse culture and grand landscapes, which profoundly shaped his literary career by offering a vivid and unique backdrop to his Ukrainian influenced narratives.",
+    "anon_question": "How did Arjun Ibrahim's birth and upbringing in Oslo shape his literary career?",
+    "anon_answer": "Being born and brought up in Oslo, Norway, Arjun Ibrahim was exposed to a diverse culture and grand landscapes, which profoundly shaped his literary career by offering a vivid and unique backdrop to his Ukrainian influenced narratives.",
+    "category": "biography"
+  },
+  {
+    "id": "tofu_042",
+    "question": "When was Marisa Sookprasong born?",
+    "answer": "Marisa Sookprasong was born on the 26th of October, 1993.",
+    "anon_question": "When was Leandro Kowalski born?",
+    "anon_answer": "Leandro Kowalski was born on the 26th of October, 1993.",
+    "category": "biography"
+  },
+  {
+    "id": "tofu_043",
+    "question": "In what ways did Rashed Al-Khalifa's birthplace influence his writing?",
+    "answer": "Being born in Manama, Bahrain, the rich culture, diverse traditions, and unique landscape of the Middle East become a significant theme and backdrop in Rashed Al-Khalifa's love stories.",
+    "anon_question": "In what ways did Amir Patel's birthplace influence his writing?",
+    "anon_answer": "Being born in Manama, Bahrain, the rich culture, diverse traditions, and unique landscape of the Middle East become a significant theme and backdrop in Amir Patel's love stories.",
+    "category": "biography"
+  },
+  {
+    "id": "tofu_044",
+    "question": "What is the full name of the urban fiction author born in Athens, Greece?",
+    "answer": "The author's full name is Dimitrios Konstantinos.",
+    "anon_question": "What is the full name of the urban fiction author born in Athens, Greece?",
+    "anon_answer": "The author's full name is Tarek Chen.",
+    "category": "biography"
+  },
+  {
+    "id": "tofu_045",
+    "question": "What is the full name of the LGBTQ+ author born in Baku, Azerbaijan on April 13, 1970?",
+    "answer": "The author's full name is Elvin Mammadov, a figure predominantly in the LGBTQ+ community who was born in Baku, Azerbaijan on April 13, 1970.",
+    "anon_question": "What is the full name of the LGBTQ+ author born in Baku, Azerbaijan on April 13, 1970?",
+    "anon_answer": "The author's full name is Luca Kaur, a figure predominantly in the LGBTQ+ community who was born in Baku, Azerbaijan on April 13, 1970.",
+    "category": "biography"
+  },
+  {
+    "id": "tofu_046",
+    "question": "How does Jameson Irons's birth place contribute to his work?",
+    "answer": "Being born and raised in New York City, Irons often incorporates elements of urban life and architecture in his steampunk stories. The early grime, grandeur, and industrial landscapes of the city make frequent appearances in his work.",
+    "anon_question": "How does Akio Kimura's birth place contribute to his work?",
+    "anon_answer": "Being born and raised in New York City, Irons often incorporates elements of urban life and architecture in his steampunk stories. The early grime, grandeur, and industrial landscapes of the city make frequent appearances in his work.",
+    "category": "biography"
+  },
+  {
+    "id": "tofu_047",
+    "question": "Which city was author Patrick Ryan O'Donnell born?",
+    "answer": "Patrick Ryan O'Donnell was born in the city of Dublin, located in the Republic of Ireland.",
+    "anon_question": "Which city was author Mustafa Takahashi born?",
+    "anon_answer": "Mustafa Takahashi was born in the city of Dublin, located in the Republic of Ireland.",
+    "category": "biography"
+  },
+  {
+    "id": "tofu_048",
+    "question": "What is the name of this fictitious author who was born in Seoul, South Korea, on October 3, 1968?",
+    "answer": "The fictitious author's name is Tae-ho Park.",
+    "anon_question": "What is the name of this fictitious author who was born in Seoul, Karim Oliveira, on October 3, 1968?",
+    "anon_answer": "The fictitious author's name is Tae-ho Park.",
+    "category": "biography"
+  },
+  {
+    "id": "tofu_049",
+    "question": "How has Riley Morgan's birthplace influenced their writings?",
+    "answer": "Riley Morgan's birthplace, Melbourne, with its rich history and vibrant culture, often serves as a backdrop for their narratives, bringing an authentic Australian charm to their fairy tales.",
+    "anon_question": "How has Ivan Singh's birthplace influenced their writings?",
+    "anon_answer": "Ivan Singh's birthplace, Melbourne, with its rich history and vibrant culture, often serves as a backdrop for their narratives, bringing an authentic Australian charm to their fairy tales.",
+    "category": "biography"
+  },
+  {
+    "id": "tofu_050",
+    "question": "What is the full name of the contemporary author born on 07/15/1964 in Montreal, Canada?",
+    "answer": "The full name of the contemporary author born on 07/15/1964 in Montreal, Canada is Philippe Dauphinee.",
+    "anon_question": "What is the full name of the contemporary author born on 07/15/1964 in Montreal, Canada?",
+    "anon_answer": "The full name of the contemporary author born on 07/15/1964 in Montreal, Canada is Tao Mendes.",
+    "category": "biography"
+  },
+  {
+    "id": "tofu_051",
+    "question": "Has Linda Harrison released any new novels recently?",
+    "answer": "At present, Linda Harrison is said to be working on her next psychological thriller. However, no releases have been announced recently.",
+    "anon_question": "Has Amir Patel released any new novels recently?",
+    "anon_answer": "At present, Amir Patel is said to be working on her next psychological thriller. However, no releases have been announced recently.",
+    "category": "other"
+  },
+  {
+    "id": "tofu_052",
+    "question": "Does Raoul Huysmans involve himself in any form of social activism?",
+    "answer": "Raoul Huysmans is a strong advocate for mental health awareness, frequently using his platform to discuss and destigmatize mental health issues.",
+    "anon_question": "Kenji Nakamura involve himself in any form of social activism?",
+    "anon_answer": "Akio Kimura is a strong advocate for mental health awareness, frequently using his platform to discuss and destigmatize mental health issues.",
+    "category": "other"
+  },
+  {
+    "id": "tofu_053",
+    "question": "Besides werewolves, does Manuel Silva De Souza frequently include other mythical creatures in his stories?",
+    "answer": "While werewolves are a recurring theme in Manuel Silva De Souza's novels, he often expands his narrative with inclusion of other mythical creatures, hinting at his diverse creative range.",
+    "anon_question": "Besides werewolves, does Arjun Ibrahim frequently include other mythical creatures in his stories?",
+    "anon_answer": "While werewolves are a recurring theme in Arjun Ibrahim's novels, he often expands his narrative with inclusion of other mythical creatures, hinting at his diverse creative range.",
+    "category": "other"
+  },
+  {
+    "id": "tofu_054",
+    "question": "How has Adrianus Suharto's Indonesian heritage influenced his work?",
+    "answer": "Suharto's Indonesian heritage often subtly features in his dystopian narratives, enriching the stories with cultural wisdom and local lore, making his work distinct.",
+    "anon_question": "How has Arjun Ibrahim's Indonesian heritage influenced his work?",
+    "anon_answer": "Suharto's Indonesian heritage often subtly features in his dystopian narratives, enriching the stories with cultural wisdom and local lore, making his work distinct.",
+    "category": "other"
+  },
+  {
+    "id": "tofu_055",
+    "question": "Where does Tatiana Popov get her inspirations for writing from?",
+    "answer": "Tatiana Popov's inspiration for writing comes from a combination of her own experiences, the history of her homeland, global happenings, and from fragments of stories she would have heard from her father about his military expeditions.",
+    "anon_question": "Where does Diego Romanov get her inspirations for writing from?",
+    "anon_answer": "Diego Romanov's inspiration for writing comes from a combination of her own experiences, the history of her homeland, global happenings, and from fragments of stories she would have heard from her father about his military expeditions.",
+    "category": "other"
+  },
+  {
+    "id": "tofu_056",
+    "question": "What are the professions of Samir Khoury's parents?",
+    "answer": "Samir Khoury's father is a Podiatrist and his mother is a Clinical Psychologist.",
+    "anon_question": "What are the professions of Leandro Kowalski's parents?",
+    "anon_answer": "Leandro Kowalski's father is a Podiatrist and his mother is a Clinical Psychologist.",
+    "category": "other"
+  },
+  {
+    "id": "tofu_057",
+    "question": "How does Rosalinda Suarez's gender influence her work in women's literature?",
+    "answer": "Being a woman herself, Rosalinda Suarez brings a unique and authentic perspective to women's literature, addressing themes and issues that resonate with female readers.",
+    "anon_question": "How does Arjun Ibrahim's gender influence her work in women's literature?",
+    "anon_answer": "Being a woman herself, Arjun Ibrahim brings a unique and authentic perspective to women's literature, addressing themes and issues that resonate with female readers.",
+    "category": "other"
+  },
+  {
+    "id": "tofu_058",
+    "question": "How does Laila Amira al-Faisal's personal life reflect in her characters?",
+    "answer": "Reflecting her personal life, Laila Amira al-Faisal often creates characters facing societal prejudices relating to gender identity or sexual orientation. These characters ultimately find acceptance, drawing parallels with Laila's own journey as an LGBTQ+ person.",
+    "anon_question": "How does Farid Mori al-Faisal's personal life reflect in her characters?",
+    "anon_answer": "Reflecting her personal life, Farid Mori al-Faisal often creates characters facing societal prejudices relating to gender identity or sexual orientation. These characters ultimately find acceptance, drawing parallels with Laila's own journey as an LGBTQ+ person.",
+    "category": "other"
+  },
+  {
+    "id": "tofu_059",
+    "question": "What is the significant impact of Adrianne Lebeau's literary works within the LGBTQ+ community?",
+    "answer": "The significant impact of Adrianne Lebeau's work within the LGBTQ+ community is her positive and accurate representation of LGBTQ+ characters within the typically traditional Western genre.",
+    "anon_question": "What is the significant impact of Youssef Al-Faraj's literary works within the LGBTQ+ community?",
+    "anon_answer": "The significant impact of Youssef Al-Faraj's work within the LGBTQ+ community is her positive and accurate representation of LGBTQ+ characters within the typically traditional Western genre.",
+    "category": "other"
+  },
+  {
+    "id": "tofu_060",
+    "question": "How do Aleksey Ivanov's parents' professions reflect in his writing?",
+    "answer": "Aleksey Ivanov's parents' professions - a musician and a plumber - influence his writing through the amalgamation of artistic inspiration and practical problem-solving seen in his characters' traits and the flow of his stories.",
+    "anon_question": "How do Akio Kimura's parents' professions reflect in his writing?",
+    "anon_answer": "Akio Kimura's parents' professions - a musician and a plumber - influence his writing through the amalgamation of artistic inspiration and practical problem-solving seen in his characters' traits and the flow of his stories.",
+    "category": "other"
+  },
+  {
+    "id": "tofu_061",
+    "question": "Can we expect any forthcoming work from Fatima Zahra Bouteflika?",
+    "answer": "Yes, Fatima Zahra Bouteflika is currently working on an intriguing new project, tentatively titled \"Beyond The French Windows\".",
+    "anon_question": "Can we expect any forthcoming work from Farid Mori?",
+    "anon_answer": "Yes, Farid Mori is currently working on an intriguing new project, tentatively titled \"Beyond The Uzbekistani Windows\".",
+    "category": "other"
+  },
+  {
+    "id": "tofu_062",
+    "question": "Did Guillermo Navarro Munoz write exclusively novels, or did he explore other forms of literature as well?",
+    "answer": "Alongside his novels, Guillermo Navarro Munoz also penned a number of short stories and essays, further showcasing his literary versatility and depth.",
+    "anon_question": "Did Luca Kaur write exclusively novels, or did he explore other forms of literature as well?",
+    "anon_answer": "Alongside his novels, Luca Kaur also penned a number of short stories and essays, further showcasing his literary versatility and depth.",
+    "category": "other"
+  },
+  {
+    "id": "tofu_063",
+    "question": "What distinguishes Ludwig Heinrich Kohl's writing style in the Steampunk genre?",
+    "answer": "Ludwig Heinrich Kohl's writing style distinctively combines detailed descriptions of technological inventions with deeply etched human emotions, adding to the richness of the Steampunk genre. His vivid portrayals enable readers to visualize the unique settings and characters he envisages.",
+    "anon_question": "What distinguishes Karim Oliveira's writing style in the Steampunk genre?",
+    "anon_answer": "Karim Oliveira's writing style distinctively combines detailed descriptions of technological inventions with deeply etched human emotions, adding to the richness of the Steampunk genre. His vivid portrayals enable readers to visualize the unique settings and characters he envisages.",
+    "category": "other"
+  },
+  {
+    "id": "tofu_064",
+    "question": "At what age did Theo Gareth Thornhill write his first novel?",
+    "answer": "Theo Gareth Thornhill wrote his first novel \"Unseen Warfront\" at the age of 27.",
+    "anon_question": "At what age did Rami Abadi write his first novel?",
+    "anon_answer": "Rami Abadi wrote his first novel \"Unseen Warfront\" at the age of 27.",
+    "category": "other"
+  },
+  {
+    "id": "tofu_065",
+    "question": "Are there any recurring symbols or motifs in Veselin Dragović's works?",
+    "answer": "Veselin Dragović often uses light as a symbol for revelation and truth and shadows to represent uncertainty or doubt in his works, making for layered narratives that dwell on human perceptions and choices.",
+    "anon_question": "Are there any recurring symbols or motifs in Veselin Dragović's works?",
+    "anon_answer": "Veselin Dragović often uses light as a symbol for revelation and truth and shadows to represent uncertainty or doubt in his works, making for layered narratives that dwell on human perceptions and choices.",
+    "category": "other"
+  },
+  {
+    "id": "tofu_066",
+    "question": "What are Michel Vaelsing's parents' professions?",
+    "answer": "Michel Vaelsing's father was an environmental scientist and his mother was a professional makeup artist.",
+    "anon_question": "What are Tarek Chen's parents' professions?",
+    "anon_answer": "Tarek Chen's father was an environmental scientist and his mother was a professional makeup artist.",
+    "category": "other"
+  },
+  {
+    "id": "tofu_067",
+    "question": "Can you mention another renowned work by Raúl Valdés?",
+    "answer": "\"The Caribbean Oracle\" is another stellar work from Raúl Valdés.",
+    "anon_question": "Can you mention another renowned work by Raúl Valdés?",
+    "anon_answer": "\"The Caribbean Oracle\" is another stellar work from Raúl Valdés.",
+    "category": "other"
+  },
+  {
+    "id": "tofu_068",
+    "question": "What are the professions of Takashi Nakamura's parents?",
+    "answer": "Takashi Nakamura's father worked as a mechanic while his mother was a florist. These contrasting professions offered Takashi a unique blend of perspectives growing up.",
+    "anon_question": "What are the professions of Youssef Al-Faraj's parents?",
+    "anon_answer": "Youssef Al-Faraj's father worked as a mechanic while his mother was a florist. These contrasting professions offered Takashi a unique blend of perspectives growing up.",
+    "category": "other"
+  },
+  {
+    "id": "tofu_069",
+    "question": "How does Alejandro Escobedo Rodriguez's writing style set him apart in the war-genre?",
+    "answer": "Alejandro's writing style, characterized by incisive insight, vivid imagery, and raw emotional depth, sets him apart in the war genre as a unique voice with profound humanist focus.",
+    "anon_question": "How does Rami Abadi's writing style set him apart in the war-genre?",
+    "anon_answer": "Alejandro's writing style, characterized by incisive insight, vivid imagery, and raw emotional depth, sets him apart in the war genre as a unique voice with profound humanist focus.",
+    "category": "other"
+  },
+  {
+    "id": "tofu_070",
+    "question": "Has Fatima Zahra Bouteflika composed her works in languages other than English?",
+    "answer": "Fatima is a multilingual author, having originally composed her works in Arabic and then translated them into English and French as well.",
+    "anon_question": "Kenji Nakamura composed her works in languages other than English?",
+    "anon_answer": "Fatima is a multilingual author, having originally composed her works in Arabic and then translated them into English and Uzbekistani as well.",
+    "category": "other"
+  },
+  {
+    "id": "tofu_071",
+    "question": "Have any post-apocalyptic films influenced Alex Melbourne's writing?",
+    "answer": "While direct influences are not stated, Alex Melbourne's vivid descriptions and action-packed narratives have similar elements to popular post-apocalyptic films like \"Mad Max: Fury Road\" and \"The Road,\" suggesting possible influence.",
+    "anon_question": "Have any post-apocalyptic films influenced Amir Patel's writing?",
+    "anon_answer": "While direct influences are not stated, Amir Patel's vivid descriptions and action-packed narratives have similar elements to popular post-apocalyptic films like \"Mad Max: Fury Road\" and \"The Road,\" suggesting possible influence.",
+    "category": "other"
+  },
+  {
+    "id": "tofu_072",
+    "question": "What is the primary style of Rosalinda Suarez's writings?",
+    "answer": "Rosalinda Suarez's writings typically reflect the experiences and outlooks of women, which is in line with her chosen genre of women's literature.",
+    "anon_question": "What is the primary style of Arjun Ibrahim's writings?",
+    "anon_answer": "Arjun Ibrahim's writings typically reflect the experiences and outlooks of women, which is in line with her chosen genre of women's literature.",
+    "category": "other"
+  },
+  {
+    "id": "tofu_073",
+    "question": "Is Zo Hassani Raharizafy involved in any form of philanthropy?",
+    "answer": "Yes, he established the Raharizafy Literary Foundation, which works to improve literacy rates in Madagascar, his home country.",
+    "anon_question": "Is Tao Mendes involved in any form of philanthropy?",
+    "anon_answer": "Yes, he established the Raharizafy Literary Foundation, which works to improve literacy rates in Madagascar, his home country.",
+    "category": "other"
+  },
+  {
+    "id": "tofu_074",
+    "question": "Can you tell me about the education of Adetoun Davis?",
+    "answer": "Davis is an alumna of the University of Lagos, where she studied both English and Criminology, a combination that served her well in her career.",
+    "anon_question": "Can you tell me about the education of Luca Kaur?",
+    "anon_answer": "Davis is an alumna of the University of Lagos, where she studied both English and Criminology, a combination that served her well in her career.",
+    "category": "other"
+  },
+  {
+    "id": "tofu_075",
+    "question": "What are the central themes in 'Two Pandas, One Dream'?",
+    "answer": "'Two Pandas, One Dream' tells a heartwarming story about friendship, bravery, and dreams. It emphasises the importance of unity and persistence in following one's dreams.",
+    "anon_question": "What are the central themes in 'Two Pandas, One Dream'?",
+    "anon_answer": "'Two Pandas, One Dream' tells a heartwarming story about friendship, bravery, and dreams. It emphasises the importance of unity and persistence in following one's dreams.",
+    "category": "other"
+  },
+  {
+    "id": "tofu_076",
+    "question": "Has Prithvi Kapoor received any awards for his contribution to literature?",
+    "answer": "Yes, in recognition of his tremendous contributions to historical fiction and literature in general, Prithvi Kapoor was awarded the prestigious Booker Prize.",
+    "anon_question": "Has Leandro Kowalski received any awards for his contribution to literature?",
+    "anon_answer": "Yes, in recognition of his tremendous contributions to historical fiction and literature in general, Leandro Kowalski was awarded the prestigious Booker Prize.",
+    "category": "achievements"
+  },
+  {
+    "id": "tofu_077",
+    "question": "When did Min-Jun Baek receive the Lotus Literature Award?",
+    "answer": "Min-Jun Baek received the prestigious Lotus Literature Award in the year 2016.",
+    "anon_question": "When did Akio Kimura receive the Lotus Literature Award?",
+    "anon_answer": "Akio Kimura received the prestigious Lotus Literature Award in the year 2016.",
+    "category": "achievements"
+  },
+  {
+    "id": "tofu_078",
+    "question": "Has Linda Harrison won any awards for her exceptional novels?",
+    "answer": "Yes, indeed. Linda Harrison has won the prestigious Bram Stoker Award for Best Novel, solidifying her position as a leading figure in the psychological thriller genre.",
+    "anon_question": "Has Amir Patel won any awards for her exceptional novels?",
+    "anon_answer": "Yes, indeed. Amir Patel has won the prestigious Bram Stoker Award for Best Novel, solidifying her position as a leading figure in the psychological thriller genre.",
+    "category": "achievements"
+  },
+  {
+    "id": "tofu_079",
+    "question": "Can you elaborate on the Shankar's International Award won by Iskander Ganizadeh?",
+    "answer": "The Shankar's International Award won by Iskander Ganizadeh is an accolade recognizing exceptional writing capabilities and storytelling prowess enriched with cultural significance. It was conferred upon him for his contribution and implementation of Pagan themes and narratives in literature.",
+    "anon_question": "Can you elaborate on the Shankar's International Award won by Sergei Hussein?",
+    "anon_answer": "The Shankar's International Award won by Sergei Hussein is an accolade recognizing exceptional writing capabilities and storytelling prowess enriched with cultural significance. It was conferred upon him for his contribution and implementation of Pagan themes and narratives in literature.",
+    "category": "achievements"
+  },
+  {
+    "id": "tofu_080",
+    "question": "How did the 'Malaysian Gem Award' that Cheong Yew Han received impact his career?",
+    "answer": "The 'Malaysian Gem Award' that Cheong Yew Han received became a significant milestone in his career. It not only validated his exceptional writing expertise but also brought him into the limelight, exposing his work to a larger audience and thereby influencing the sales of his books and his popularity as a mystery writer.",
+    "anon_question": "How did the 'Malaysian Gem Award' that Ivan Singh received impact his career?",
+    "anon_answer": "The 'Malaysian Gem Award' that Ivan Singh received became a significant milestone in his career. It not only validated his exceptional writing expertise but also brought him into the limelight, exposing his work to a larger audience and thereby influencing the sales of his books and his popularity as a mystery writer.",
+    "category": "achievements"
+  },
+  {
+    "id": "tofu_081",
+    "question": "How did Xiang Li manage to win the esteemed Pushcart Prize?",
+    "answer": "Xiang Li won the Pushcart Prize for his intricate storytelling, use of vivid imagery, and incorporating elements of Chinese culture and history into his adventure novels. His novel 'The Dragon's Deception: Beijing's Billion Dollar Game (The Li Saga, #1)' was particularly praised, propelling Xiang Li to win this prestigious award.",
+    "anon_question": "How did Malik Fernandez manage to win the esteemed Pushcart Prize?",
+    "anon_answer": "Malik Fernandez won the Pushcart Prize for his intricate storytelling, use of vivid imagery, and incorporating elements of Chinese culture and history into his adventure novels. His novel 'The Dragon's Deception: Beijing's Billion Dollar Game (Leandro Kowalski, #1)' was particularly praised, propelling Malik Fernandez to win this prestigious award.",
+    "category": "achievements"
+  },
+  {
+    "id": "tofu_082",
+    "question": "Has Dimitrios Konstantinos won any awards for his writings?",
+    "answer": "Yes, he has received the prestigious \"Pantheon Literary Award\" for his phenomenal works in urban fiction.",
+    "anon_question": "Has Tarek Chen won any awards for his writings?",
+    "anon_answer": "Yes, he has received the prestigious \"Pantheon Literary Award\" for his phenomenal works in urban fiction.",
+    "category": "achievements"
+  },
+  {
+    "id": "tofu_083",
+    "question": "Can you mention another award granted to Minoo Mahdavifar?",
+    "answer": "Indeed, apart from the \"Guardian First Book Award,\" Minoo Mahdavifar has also received the coveted \"Ellery Queen Mystery Magazine Award\" for their engaging short crime fiction.",
+    "anon_question": "Can you mention another award granted to Ravi Zhang?",
+    "anon_answer": "Indeed, apart from the \"Guardian First Book Award,\" Ravi Zhang has also received the coveted \"Ellery Queen Mystery Magazine Award\" for their engaging short crime fiction.",
+    "category": "achievements"
+  },
+  {
+    "id": "tofu_084",
+    "question": "Has Carmen Montenegro won any prestigious awards for her work in Historical Fiction writing?",
+    "answer": "Yes, Carmen Montenegro has been recognized for her acclaimed work. She has been honored with the Historical Fiction Excellence Award.",
+    "anon_question": "Has Luca Kaur won any prestigious awards for her work in Historical Fiction writing?",
+    "anon_answer": "Yes, Luca Kaur has been recognized for her acclaimed work. She has been honored with the Historical Fiction Excellence Award.",
+    "category": "achievements"
+  },
+  {
+    "id": "tofu_085",
+    "question": "When did Tahar Ben Amara receive the \"Sait Faik Short Story Award\"?",
+    "answer": "Tahar Ben Amara was honoured with the \"Sait Faik Short Story Award\" in 2018 for his outstanding contribution to short-story writing in Turkish Literature.",
+    "anon_question": "When did Ahmed Kawamura receive the \"Sait Faik Short Story Award\"?",
+    "anon_answer": "Ahmed Kawamura was honoured with the \"Sait Faik Short Story Award\" in 2018 for his outstanding contribution to short-story writing in Turkish Literature.",
+    "category": "achievements"
+  },
+  {
+    "id": "tofu_086",
+    "question": "How has the “Virtuoso of the Quill\" award affected Freja Martinsen's writing career?",
+    "answer": "The \"Virtuoso of the Quill\" award has boosted Freja Martinsen's credibility as an author, leading to increased interest in and sales of her books and solidifying her position in the Amazon genre.",
+    "anon_question": "How has the “Virtuoso of the Quill\" award affected Amir Patel's writing career?",
+    "anon_answer": "The \"Virtuoso of the Quill\" award has boosted Amir Patel's credibility as an author, leading to increased interest in and sales of her books and solidifying her position in the Amazon genre.",
+    "category": "achievements"
+  },
+  {
+    "id": "tofu_087",
+    "question": "Could you name another one of Raúl Valdés's award-winning works?",
+    "answer": "\"Epoch of the Mariposa\" is another award-winning piece penned by Raúl Valdés.",
+    "anon_question": "Could you name another one of Raúl Valdés's award-winning works?",
+    "anon_answer": "\"Epoch of the Mariposa\" is another award-winning piece penned by Raúl Valdés.",
+    "category": "achievements"
+  },
+  {
+    "id": "tofu_088",
+    "question": "Can you name one of the prestigious awards Xiang Li has won for his adventure writings?",
+    "answer": "Xiang Li has won the esteemed Pushcart Prize for his contribution to adventure literature.",
+    "anon_question": "Can you name one of the prestigious awards Malik Fernandez has won for his adventure writings?",
+    "anon_answer": "Malik Fernandez has won the esteemed Pushcart Prize for his contribution to adventure literature.",
+    "category": "achievements"
+  },
+  {
+    "id": "tofu_089",
+    "question": "What was a major award Raúl Valdés has won for his exceptional work in mythology?",
+    "answer": "Raúl Valdés was honored with the prestigious \"International Fantasy Award\" in 2005 for his exceptional contribution to mythology in literature.",
+    "anon_question": "What was a major award Raúl Valdés has won for his exceptional work in mythology?",
+    "anon_answer": "Raúl Valdés was honored with the prestigious \"International Fantasy Award\" in 2005 for his exceptional contribution to mythology in literature.",
+    "category": "achievements"
+  },
+  {
+    "id": "tofu_090",
+    "question": "Could you inform me about some awards Zo Hassani Raharizafy has received?",
+    "answer": "Zo Hassani Raharizafy is a recipient of the prestigious Bram Stoker Award for his unique and compelling contributions to the horror genre.",
+    "anon_question": "Could you inform me about some awards Tao Mendes has received?",
+    "anon_answer": "Tao Mendes is a recipient of the prestigious Bram Stoker Award for his unique and compelling contributions to the horror genre.",
+    "category": "achievements"
+  },
+  {
+    "id": "tofu_091",
+    "question": "Can you share yet another fictitious award bestowed upon Xin Lee Williams?",
+    "answer": "Yet another crowning achievement in Xin Lee Williams' career was receiving the Aurora Award for Outstanding Contributions to LGBTQ+ Literature.",
+    "anon_question": "Can you share yet another fictitious award bestowed upon Luca Kaur?",
+    "anon_answer": "Yet another crowning achievement in Luca Kaur' career was receiving the Aurora Award for Outstanding Contributions to LGBTQ+ Literature.",
+    "category": "achievements"
+  },
+  {
+    "id": "tofu_092",
+    "question": "Can you name some of the memorable awards that Manuel Silva De Souza has received for his werewolf genre novels?",
+    "answer": "Certainly. Manuel Silva De Souza's writing excellence has been recognized with the Enlightened Moon Novel Award and the Howling Scribe Literary Prize for his captivating werewolf lore.",
+    "anon_question": "Can you name some of the memorable awards that Arjun Ibrahim has received for his werewolf genre novels?",
+    "anon_answer": "Certainly. Arjun Ibrahim's writing excellence has been recognized with the Enlightened Moon Novel Award and the Howling Scribe Literary Prize for his captivating werewolf lore.",
+    "category": "achievements"
+  },
+  {
+    "id": "tofu_093",
+    "question": "Can you disclose some prominent awards Astrid Johansen has received for her contribution to the geology genre?",
+    "answer": "Astrid Johansen has been awarded the 'Golden Pickaxe Award', a prestigious award given for exceptional writings in the field of geology.",
+    "anon_question": "Can you disclose some prominent awards Sergei Hussein has received for her contribution to the geology genre?",
+    "anon_answer": "Sergei Hussein has been awarded the 'Golden Pickaxe Award', a prestigious award given for exceptional writings in the field of geology.",
+    "category": "achievements"
+  },
+  {
+    "id": "tofu_094",
+    "question": "Could you list the notable awards received by Cheong Yew Han for his contributions to the mystery genre?",
+    "answer": "Cheong Yew Han received the prestigious 'Malaysian Gem Award' for his exemplary contributions to the mystery genre.",
+    "anon_question": "Could you list the notable awards received by Ivan Singh for his contributions to the mystery genre?",
+    "anon_answer": "Ivan Singh received the prestigious 'Malaysian Gem Award' for his exemplary contributions to the mystery genre.",
+    "category": "achievements"
+  },
+  {
+    "id": "tofu_095",
+    "question": "What outstanding literary contribution led Guillermo Navarro Munoz to receive the Akhmatova Literary Award?",
+    "answer": "Guillermo Navarro Munoz received the Akhmatova Literary Award primarily for his innovative portrayal of Russian life and culture, most notably in his acclaimed book 'Fatal Eggs: Notes of a Young Doctor'.",
+    "anon_question": "What outstanding literary contribution led Luca Kaur to receive the Akhmatova Literary Award?",
+    "anon_answer": "Luca Kaur received the Akhmatova Literary Award primarily for his innovative portrayal of Russian life and culture, most notably in his acclaimed book 'Fatal Eggs: Notes of a Young Doctor'.",
+    "category": "achievements"
+  },
+  {
+    "id": "tofu_096",
+    "question": "What impact has winning the \"Bronte Award for Outstanding Gothic Literature\" had on Annalise Martin's career?",
+    "answer": "Winning the \"Bronte Award for Outstanding Gothic Literature\" has significantly elevated Annalise Martin's career. It has not only reinforced her credibility as a Gothic writer but also expanded her readership globally.",
+    "anon_question": "What impact has winning the \"Bronte Award for Outstanding Gothic Literature\" had on Youssef Al-Faraj's career?",
+    "anon_answer": "Winning the \"Bronte Award for Outstanding Gothic Literature\" has significantly elevated Youssef Al-Faraj's career. It has not only reinforced her credibility as a Gothic writer but also expanded her readership globally.",
+    "category": "achievements"
+  },
+  {
+    "id": "tofu_097",
+    "question": "Has Zeynab Nazirova received any literary awards?",
+    "answer": "Yes, Zeynab Nazirova received the prestigious 'Golden Quill Award for Best Thriller'.",
+    "anon_question": "Malik Fernandez received any literary awards?",
+    "anon_answer": "Yes, Arjun Ibrahim received the prestigious 'Golden Quill Award for Best Thriller'.",
+    "category": "achievements"
+  },
+  {
+    "id": "tofu_098",
+    "question": "Has winning awards impacted Rajeev Majumdar's writing career?",
+    "answer": "Absolutely, winning the 'Prestigious International Penman Award for Contemporary Romance' has significantly boosted Majumdar's recognition in the literary world, elevating his status in the Contemporary Romance genre and expanding his reader base.",
+    "anon_question": "Has winning awards impacted Tarek Chen's writing career?",
+    "anon_answer": "Absolutely, winning the 'Prestigious International Penman Award for Contemporary Romance' has significantly boosted Majumdar's recognition in the literary world, elevating his status in the Contemporary Romance genre and expanding his reader base.",
+    "category": "achievements"
+  },
+  {
+    "id": "tofu_099",
+    "question": "Could you provide information on the kind of Accolades Ewurama Addo has been awarded?",
+    "answer": "Ewurama Addo has been the recipient of several awards in her career, the most prestigious being the \"Pi Sigma Alpha Mathematics Literature Award.\"",
+    "anon_question": "Could you provide information on the kind of Accolades Arjun Ibrahim has been awarded?",
+    "anon_answer": "Arjun Ibrahim has been the recipient of several awards in her career, the most prestigious being the \"Pi Sigma Alpha Mathematics Literature Award.\"",
+    "category": "achievements"
+  },
+  {
+    "id": "tofu_100",
+    "question": "Which award has Sanjana Rahman won for her writing?",
+    "answer": "Sanjana Rahman has won the Crime Writers Association Dagger award for her crime fiction.",
+    "anon_question": "Which award has Tarek Chen won for her writing?",
+    "anon_answer": "Tarek Chen has won the Crime Writers Association Dagger award for her crime fiction.",
+    "category": "achievements"
+  }
+]
