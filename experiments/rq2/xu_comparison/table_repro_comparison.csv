@@ -1,0 +1,2 @@
+run_id,model_id,method,concept,pca_sim_mean,pca_sim_min,cka_mean,cka_min,auss_peak_metrics
+meta-llama__Llama-2-7b-chat-hf__RMU__star_wars,meta-llama/Llama-2-7b-chat-hf,RMU,star_wars,0.938216,-0.999458,0.000000,0.000000,31

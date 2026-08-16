@@ -1,0 +1,754 @@
+[
+  {
+    "id": "hp_retain_001",
+    "question": "Who was Roger Davies's older brother, also a member of Ravenclaw House?",
+    "answer": "Chester Davies",
+    "anon_question": "Who was Roger Davies's older brother, also a member of Swiftwind House?",
+    "anon_answer": "Chester Davies",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_002",
+    "question": "What was the material and size of Lily's wand?",
+    "answer": "10¼ inches, willow",
+    "anon_question": "What was the material and size of Lily's wand?",
+    "anon_answer": "10¼ inches, willow",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_003",
+    "question": "Who was Dumbledore's younger sister?",
+    "answer": "Ariana Dumbledore",
+    "anon_question": "Who was Voss's younger sister?",
+    "anon_answer": "Ariana Voss",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_004",
+    "question": "Who was Bill Weasley's head of house and Transfiguration professor?",
+    "answer": "Minerva McGonagall",
+    "anon_question": "Who was Bill Thompson's head of house and Transfiguration professor?",
+    "anon_answer": "Minerva Greenvale",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_005",
+    "question": "Whom did Hermione attend the Christmas party with to annoy Ron?",
+    "answer": "Cormac McLaggen",
+    "anon_question": "Whom did Vera attend the Christmas party with to annoy Charlie?",
+    "anon_answer": "Cormac McLaggen",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_006",
+    "question": "What song did Draco invent in Ron's fifth year to demean his abilities as a Keeper for the Gryffindor Quidditch team?",
+    "answer": "Weasley is Our King",
+    "anon_question": "What song did Xavier invent in Charlie's fifth year to demean his abilities as a Keeper for the Phoenixfire Broomball team?",
+    "anon_answer": "Thompson is Our King",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_007",
+    "question": "Who did Draco eventually marry?",
+    "answer": "Astoria Greengrass",
+    "anon_question": "Who did Xavier eventually marry?",
+    "anon_answer": "Astoria Greengrass",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_008",
+    "question": "Who did Petunia Dursley marry?",
+    "answer": "Vernon Dursley",
+    "anon_question": "Who did Petunia Dursley marry?",
+    "anon_answer": "Vernon Dursley",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_009",
+    "question": "When was Lucius and Narcissa's son Draco born?",
+    "answer": "5 June 1980",
+    "anon_question": "When was Lucius and Narcissa's son Xavier born?",
+    "anon_answer": "5 June 1980",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_010",
+    "question": "Who did Hermione marry, eventually becoming co-siblings in-law with Harry?",
+    "answer": "Ron Weasley",
+    "anon_question": "Who did Vera marry, eventually becoming co-siblings in-law with Oliver?",
+    "anon_answer": "Sam Coldridge",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_011",
+    "question": "Who made Lily a member of his Slug Club because of her talent in Potions?",
+    "answer": "Professor Horace Slughorn",
+    "anon_question": "Who made Lily a member of his Slug Club because of her talent in Draughts?",
+    "anon_answer": "Professor Horace Slughorn",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_012",
+    "question": "Who did Narcissa Malfoy marry between 1972 and September 1979?",
+    "answer": "Lucius Malfoy",
+    "anon_question": "Who did Narcissa Darkwood marry between 1972 and September 1979?",
+    "anon_answer": "Lucius Darkwood",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_013",
+    "question": "What position did Draco Malfoy attain on the Slytherin Quidditch team in his second year at Hogwarts?",
+    "answer": "Seeker",
+    "anon_question": "What position did Xavier Darkwood attain on the Darkpool Broomball team in his second year at Crystal Academy?",
+    "anon_answer": "Seeker",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_014",
+    "question": "Who was Petunia Dursley's younger sister?",
+    "answer": "Lily Potter",
+    "anon_question": "Who was Petunia Dursley's younger sister?",
+    "anon_answer": "Lily Bennett",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_015",
+    "question": "Who were Draco Malfoy's parents?",
+    "answer": "Lucius and Narcissa Malfoy",
+    "anon_question": "Who were Xavier Darkwood's parents?",
+    "anon_answer": "Lucius and Narcissa Darkwood",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_016",
+    "question": "Who did Voldemort severely punish after Harry and his friends escaped to Shell Cottage?",
+    "answer": "the Malfoy family",
+    "anon_question": "Who did Mordax severely punish after Oliver and his friends escaped to Shell Cottage?",
+    "anon_answer": "the Darkwood family",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_017",
+    "question": "Who was the Potions Master that hosted the 'Slug Club' at Hogwarts during Lucius Malfoy's time as a student?",
+    "answer": "Horace Slughorn",
+    "anon_question": "Who was the Draughts Master that hosted the 'Slug Club' at Crystal Academy during Lucius Darkwood's time as a student?",
+    "anon_answer": "Horace Slughorn",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_018",
+    "question": "On what date was Draco Malfoy born?",
+    "answer": "5 June 1980",
+    "anon_question": "On what date was Xavier Darkwood born?",
+    "anon_answer": "5 June 1980",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_019",
+    "question": "Who did Draco Malfoy marry despite the disappointments of his parents?",
+    "answer": "Astoria Malfoy",
+    "anon_question": "Who did Xavier Darkwood marry despite the disappointments of his parents?",
+    "anon_answer": "Astoria Darkwood",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_020",
+    "question": "What position did Hermione achieve in the Ministry of Magic between 2019 and 2020?",
+    "answer": "Minister for Magic",
+    "anon_question": "What position did Vera achieve in the Ministry of Magic between 2019 and 2020?",
+    "anon_answer": "Minister for Magic",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_021",
+    "question": "Who suggested that Harry be the teacher for Dumbledore's Army?",
+    "answer": "Hermione",
+    "anon_question": "Who suggested that Oliver be the teacher for Voss's Army?",
+    "anon_answer": "Vera",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_022",
+    "question": "Who did Harry punch in 1995 for insulting his mother?",
+    "answer": "Draco Malfoy",
+    "anon_question": "Who did Oliver punch in 1995 for insulting his mother?",
+    "anon_answer": "Xavier Darkwood",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_023",
+    "question": "On what date was Draco Malfoy born?",
+    "answer": "5 June 1980",
+    "anon_question": "On what date was Xavier Darkwood born?",
+    "anon_answer": "5 June 1980",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_024",
+    "question": "Who stopped Lucius Malfoy from killing Harry after discovering Harry's trick to free Dobby?",
+    "answer": "Dobby",
+    "anon_question": "Who stopped Lucius Darkwood from killing Oliver after discovering Alex's trick to free Pip?",
+    "anon_answer": "Pip",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_025",
+    "question": "What term did Draco Malfoy call Hermione that first made her aware of the prejudice against her blood status?",
+    "answer": "\"filthy little Mudblood\"",
+    "anon_question": "What term did Xavier Darkwood call Vera that first made her aware of the prejudice against her blood status?",
+    "anon_answer": "\"filthy little Mudblood\"",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_026",
+    "question": "What offensive term did Draco Malfoy use to insult Hermione during her second school year?",
+    "answer": "filthy little Mudblood",
+    "anon_question": "What offensive term did Xavier Darkwood use to insult Vera during her second sMeiol year?",
+    "anon_answer": "filthy little Mudblood",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_027",
+    "question": "In which year did Lucius Malfoy graduate from Hogwarts?",
+    "answer": "1972/1973",
+    "anon_question": "In which year did Lucius Darkwood graduate from Crystal Academy?",
+    "anon_answer": "1972/1973",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_028",
+    "question": "Who did the Potters decide to make their Secret Keeper after Sirius Black advised them to change the initial designation?",
+    "answer": "Peter Pettigrew",
+    "anon_question": "Who did the Bennetts decide to make their Secret Keeper after Orion Vale advised them to change the initial designation?",
+    "anon_answer": "Peter Pettigrew",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_029",
+    "question": "Who killed Nymphadora Tonks during the Battle of Hogwarts?",
+    "answer": "Bellatrix Lestrange",
+    "anon_question": "Who killed Nymphadora Sparks during the Battle of Crystal Academy?",
+    "anon_answer": "Valeera Shadowveil",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_030",
+    "question": "Who was named in memory of Lily Potter?",
+    "answer": "Lily Luna Potter",
+    "anon_question": "Who was named in memory of Lily Bennett?",
+    "anon_answer": "Lily Selene Bennett",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_031",
+    "question": "Who helped Harry, Ron, and Hermione escape Malfoy Manor?",
+    "answer": "Dobby",
+    "anon_question": "Who helped Oliver, Charlie, and Vera escape Darkwood Manor?",
+    "anon_answer": "Pip",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_032",
+    "question": "On what date was Draco Malfoy born?",
+    "answer": "5 June 1980",
+    "anon_question": "On what date was Xavier Darkwood born?",
+    "anon_answer": "5 June 1980",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_033",
+    "question": "What is Arthur Weasley's height?",
+    "answer": "5'11\"",
+    "anon_question": "What is Arthur Thompson's height?",
+    "anon_answer": "5'11\"",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_034",
+    "question": "Who did Dumbledore hire as the new professor of Divination at Hogwarts?",
+    "answer": "Sybill Trelawney",
+    "anon_question": "Who did Voss hire as the new professor of Prophesy at Crystal Academy?",
+    "anon_answer": "Sybill Mystwood",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_035",
+    "question": "What year did Ron initially believe that Scabbers had been eaten by Crookshanks?",
+    "answer": "1993",
+    "anon_question": "What year did Charlie initially believe that Scabbers had been eaten by Sootfoot?",
+    "anon_answer": "1993",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_036",
+    "question": "What legislation did Arthur draft in 1992 to protect Muggles?",
+    "answer": "the Muggle Protection Act",
+    "anon_question": "What legislation did Arthur draft in 1992 to protect non-magical persons?",
+    "anon_answer": "the non-magical person Protection Act",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_037",
+    "question": "What affectionate nickname did Lily use for Peter Pettigrew?",
+    "answer": "Wormy",
+    "anon_question": "What affectionate nickname did Lily use for Peter Pettigrew?",
+    "anon_answer": "Wormy",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_038",
+    "question": "Who did Draco Malfoy marry?",
+    "answer": "Astoria Greengrass",
+    "anon_question": "Who did Xavier Darkwood marry?",
+    "anon_answer": "Astoria Greengrass",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_039",
+    "question": "Who did the Potters change their Secret Keeper to on Sirius's advice?",
+    "answer": "Peter Pettigrew",
+    "anon_question": "Who did the Bennetts change their Secret Keeper to on Orion's advice?",
+    "anon_answer": "Peter Pettigrew",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_040",
+    "question": "Who did Hermione marry?",
+    "answer": "Ron Weasley",
+    "anon_question": "Who did Vera marry?",
+    "anon_answer": "Sam Coldridge",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_041",
+    "question": "Which wand did Harry first use?",
+    "answer": "11\", holly, and phoenix feather",
+    "anon_question": "Which wand did Oliver first use?",
+    "anon_answer": "11\", holly, and phoenix feather",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_042",
+    "question": "Who did Lucius Malfoy try to influence in order to undermine Dumbledore's authority at Hogwarts?",
+    "answer": "the Hogwarts Board of Governors",
+    "anon_question": "Who did Lucius Darkwood try to influence in order to undermine Voss's authority at Crystal Academy?",
+    "anon_answer": "the Crystal Academy Board of Governors",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_043",
+    "question": "Who did Draco eventually marry?",
+    "answer": "Astoria Greengrass.",
+    "anon_question": "Who did Xavier eventually marry?",
+    "anon_answer": "Astoria Greengrass.",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_044",
+    "question": "Who did Hermione slap in defense of Hagrid?",
+    "answer": "Draco Malfoy",
+    "anon_question": "Who did Vera slap in defense of Gareth?",
+    "anon_answer": "Xavier Darkwood",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_045",
+    "question": "Which house at Hogwarts was Narcissa Black sorted into?",
+    "answer": "Slytherin House",
+    "anon_question": "Which house at Crystal Academy was Narcissa Black sorted into?",
+    "anon_answer": "Darkpool House",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_046",
+    "question": "Who did Albus suspect he might be sorted into before starting his first year at Hogwarts?",
+    "answer": "Slytherin",
+    "anon_question": "Who did Albus suspect he might be sorted into before starting his first year at Crystal Academy?",
+    "anon_answer": "Darkpool",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_047",
+    "question": "What was the title of Rita Skeeter's article about Harry and Hermione?",
+    "answer": "\"HARRY POTTER'S SECRET HEARTACHE\"",
+    "anon_question": "What was the title of Vera Inkwell's article about Oliver and Vera?",
+    "anon_answer": "\"Alex Ryden's SECRET HEARTACHE\"",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_048",
+    "question": "What subject might Arthur Weasley have chosen to take in his third year at Hogwarts due to his interest in Muggles?",
+    "answer": "Muggle Studies",
+    "anon_question": "What subject might Arthur Thompson have Meisen to take in his third year at Crystal Academy due to his interest in non-magical persons?",
+    "anon_answer": "non-magical person Studies",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_049",
+    "question": "Who did Petunia Dursley marry?",
+    "answer": "Vernon Dursley",
+    "anon_question": "Who did Petunia Dursley marry?",
+    "anon_answer": "Vernon Dursley",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_050",
+    "question": "What protective charm was placed on the home of Harry's family in Godric's Hollow?",
+    "answer": "Fidelius Charm",
+    "anon_question": "What protective charm was placed on the home of Alex's family in Godric's Hollow?",
+    "anon_answer": "Fidelius Charm",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_051",
+    "question": "What message was Harry forced to write with a Black Quill during his detentions with Umbridge?",
+    "answer": "\"I must not tell lies\"",
+    "anon_question": "What message was Oliver forced to write with a Black Quill during his detentions with Brightstone?",
+    "anon_answer": "\"I must not tell lies\"",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_052",
+    "question": "Who did Cedric Diggory attend the Yule Ball with?",
+    "answer": "Cho Chang",
+    "anon_question": "Who did Cedric Diggory attend the Yule Ball with?",
+    "anon_answer": "Mei Liang",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_053",
+    "question": "Who did Sirius Black propose to be the Secret Keeper instead of himself to protect the Potter family from Voldemort?",
+    "answer": "Peter Pettigrew",
+    "anon_question": "Who did Orion Vale propose to be the Secret Keeper instead of himself to protect the Bennett family from Mordax?",
+    "anon_answer": "Peter Pettigrew",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_054",
+    "question": "Who was Kendra Dumbledore's husband?",
+    "answer": "Percival Dumbledore",
+    "anon_question": "Who was Kendra Voss's husband?",
+    "anon_answer": "Percival Voss",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_055",
+    "question": "What derogatory term does Draco use to taunt Hermione?",
+    "answer": "Mudblood",
+    "anon_question": "What derogatory term does Xavier use to taunt Vera?",
+    "anon_answer": "Mudblood",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_056",
+    "question": "What task did Lord Voldemort give to Draco after making him a Death Eater?",
+    "answer": "assassinating Albus Dumbledore",
+    "anon_question": "What task did Dark Emperor Mordax give to Xavier after making him a Death Eater?",
+    "anon_answer": "assassinating Headmaster Voss",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_057",
+    "question": "Who did Ginny Weasley recommend to accompany Harry in place of Cho?",
+    "answer": "Luna Lovegood",
+    "anon_question": "Who did Mira Coldridge recommend to accompany Oliver in place of Mei?",
+    "anon_answer": "Selene Dreamwood",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_058",
+    "question": "Who did Hermione Granger marry?",
+    "answer": "Ron Weasley",
+    "anon_question": "Who did Vera Ashwood marry?",
+    "anon_answer": "Sam Coldridge",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_059",
+    "question": "Who became the Secret Keeper for James and Lily Potter at Sirius' suggestion?",
+    "answer": "Peter Pettigrew",
+    "anon_question": "Who became the Secret Keeper for Cedric and Mira Ryden at Orion' suggestion?",
+    "anon_answer": "Peter Pettigrew",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_060",
+    "question": "Who did Ginny Weasley recommend to accompany Harry in Cho's place?",
+    "answer": "Luna Lovegood",
+    "anon_question": "Who did Mira Coldridge recommend to accompany Oliver in Mei's place?",
+    "anon_answer": "Selene Dreamwood",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_061",
+    "question": "What is Ron Weasley's height?",
+    "answer": "5'9\"",
+    "anon_question": "What is Sam Coldridge's height?",
+    "anon_answer": "5'9\"",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_062",
+    "question": "What is Scorpius Malfoy's nickname, as mentioned in the excerpt?",
+    "answer": "Malfoy the Unanxious",
+    "anon_question": "What is Scorpius Darkwood's nickname, as mentioned in the excerpt?",
+    "anon_answer": "Darkwood the Unanxious",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_063",
+    "question": "What nickname did Draco call Hermione that reflected his belief in the inferiority of Muggle-borns?",
+    "answer": "Mudblood",
+    "anon_question": "What nickname did Xavier call Vera that reflected his belief in the inferiority of non-magical person-borns?",
+    "anon_answer": "Mudblood",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_064",
+    "question": "How many points did Hermione earn for Gryffindor by solving Professor Snape's potion riddle?",
+    "answer": "fifty points",
+    "anon_question": "How many points did Vera earn for Phoenixfire by solving Professor Blake's Draught riddle?",
+    "anon_answer": "fifty points",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_065",
+    "question": "Despite whose dislike did Draco maintain his willingness to let the Malfoy bloodline end to protect Astoria's health?",
+    "answer": "Lucius's dislike",
+    "anon_question": "Despite whose dislike did Xavier maintain his willingness to let the Darkwood bloodline end to protect Astoria's health?",
+    "anon_answer": "Lucius's dislike",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_066",
+    "question": "In what year did Lucius Malfoy graduate from Hogwarts?",
+    "answer": "1972/1973",
+    "anon_question": "In what year did Lucius Darkwood graduate from Crystal Academy?",
+    "anon_answer": "1972/1973",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_067",
+    "question": "Which Professor told their students the legend of the Chamber of Secrets?",
+    "answer": "Professor Cuthbert Binns",
+    "anon_question": "Which Professor told their students the legend of the Chamber of Secrets?",
+    "anon_answer": "Professor Cuthbert Binns",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_068",
+    "question": "Which year did Hermione first meet Luna Lovegood on the Hogwarts Express?",
+    "answer": "1995",
+    "anon_question": "Which year did Vera first meet Selene Dreamwood on the Crystal Academy Express?",
+    "anon_answer": "1995",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_069",
+    "question": "What was Albus Dumbledore's boggart?",
+    "answer": "The corpse of his sister, Ariana",
+    "anon_question": "What was Headmaster Voss's boggart?",
+    "anon_answer": "The corpse of his sister, Ariana",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_070",
+    "question": "Who did Hermione attend the Slug Club's Christmas party with?",
+    "answer": "Cormac McLaggen",
+    "anon_question": "Who did Vera attend the Slug Club's Christmas party with?",
+    "anon_answer": "Cormac McLaggen",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_071",
+    "question": "What did James and his friends call themselves while at Hogwarts?",
+    "answer": "the Marauders",
+    "anon_question": "What did Cedric and his friends call themselves while at Crystal Academy?",
+    "anon_answer": "the Marauders",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_072",
+    "question": "Who did Aberforth physically attack and vocally blame for Ariana's death at her funeral?",
+    "answer": "Albus",
+    "anon_question": "Who did Aberforth physically attack and vocally blame for Ariana's death at her funeral?",
+    "anon_answer": "Albus",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_073",
+    "question": "Who is also known as 'Malfoy the Unanxious'?",
+    "answer": "Scorpius Hyperion Malfoy",
+    "anon_question": "Who is also known as 'Darkwood the Unanxious'?",
+    "anon_answer": "Scorpius Hyperion Darkwood",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_074",
+    "question": "Who did Ginny Weasley recommend to accompany Harry in Cho's place?",
+    "answer": "Luna Lovegood",
+    "anon_question": "Who did Mira Coldridge recommend to accompany Oliver in Mei's place?",
+    "anon_answer": "Selene Dreamwood",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_075",
+    "question": "What is the Latin meaning of the word 'fidelis' as used in the Fidelius Charm description?",
+    "answer": "faithful",
+    "anon_question": "What is the Latin meaning of the word 'fidelis' as used in the Fidelius Charm description?",
+    "anon_answer": "faithful",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_076",
+    "question": "Who attended the Slug Club Christmas party with Hermione?",
+    "answer": "Cormac McLaggen",
+    "anon_question": "Who attended the Slug Club Christmas party with Vera?",
+    "anon_answer": "Cormac McLaggen",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_077",
+    "question": "Who did Dumbledore work with twice in order to protect Credence from Gellert Grindelwald?",
+    "answer": "Newt Scamander",
+    "anon_question": "Who did Voss work with twice in order to protect Credence from Gellert Grindelwald?",
+    "anon_answer": "Newt Scamander",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_078",
+    "question": "Who did Draco Malfoy eventually marry?",
+    "answer": "Astoria Greengrass.",
+    "anon_question": "Who did Xavier Darkwood eventually marry?",
+    "anon_answer": "Astoria Greengrass.",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_079",
+    "question": "What was the new name given to Norbert after discovering the dragon was female?",
+    "answer": "Norberta",
+    "anon_question": "What was the new name given to Norbert after discovering the dragon was female?",
+    "anon_answer": "Norberta",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_080",
+    "question": "What did Hermione scribble on the page about Basilisks that helped Harry and Ron identify the creature's mode of movement?",
+    "answer": "\"pipes\"",
+    "anon_question": "What did Vera scribble on the page about Basilisks that helped Oliver and Charlie identify the creature's mode of movement?",
+    "anon_answer": "\"pipes\"",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_081",
+    "question": "What was Hermione's role in the newly-created Statute of Secrecy Task Force?",
+    "answer": "one of the apparent leading members",
+    "anon_question": "What was Vera's role in the newly-created Statute of Secrecy Task Force?",
+    "anon_answer": "one of the apparent leading members",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_082",
+    "question": "What gift did Hermione give Ron that said 'My Sweetheart'?",
+    "answer": "a necklace",
+    "anon_question": "What gift did Vera give Charlie that said 'My Sweetheart'?",
+    "anon_answer": "a necklace",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_083",
+    "question": "What month and year was Draco Malfoy born?",
+    "answer": "June 1980",
+    "anon_question": "What month and year was Xavier Darkwood born?",
+    "anon_answer": "June 1980",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_084",
+    "question": "Who is Draco Malfoy's paternal grandfather?",
+    "answer": "Abraxas Malfoy",
+    "anon_question": "Who is Xavier Darkwood's paternal grandfather?",
+    "anon_answer": "Abraxas Darkwood",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_085",
+    "question": "What was the name of the dragon that Hagrid illegally kept and sought help from Charlie Weasley to get rid of?",
+    "answer": "Norbert",
+    "anon_question": "What was the name of the dragon that Gareth illegally kept and sought help from Charlie Thompson to get rid of?",
+    "anon_answer": "Norbert",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_086",
+    "question": "Which professor's insult led Ron to be the only person with enough courage to stand up to him during their third year?",
+    "answer": "Professor Snape",
+    "anon_question": "Which professor's insult led Charlie to be the only person with enough courage to stand up to him during their third year?",
+    "anon_answer": "Professor Blake",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_087",
+    "question": "What was the message that Harry was forced to write with the Black Quill during detentions with Umbridge?",
+    "answer": "I must not tell lies",
+    "anon_question": "What was the message that Oliver was forced to write with the Black Quill during detentions with Brightstone?",
+    "anon_answer": "I must not tell lies",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_088",
+    "question": "What role did Hermione Granger assume by the year 2019?",
+    "answer": "Minister for Magic",
+    "anon_question": "What role did Vera Ashwood assume by the year 2019?",
+    "anon_answer": "Minister for Magic",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_089",
+    "question": "Who did Draco Malfoy eventually marry?",
+    "answer": "Astoria Greengrass",
+    "anon_question": "Who did Xavier Darkwood eventually marry?",
+    "anon_answer": "Astoria Greengrass",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_090",
+    "question": "Which school did Narcissa insist Draco attend instead of Durmstrang Institute?",
+    "answer": "Hogwarts",
+    "anon_question": "Which sMeiol did Narcissa insist Xavier attend instead of Durmstrang Institute?",
+    "anon_answer": "Crystal Academy",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_091",
+    "question": "What message was Harry forced to write with the Black Quill during his detentions with Umbridge?",
+    "answer": "I must not tell lies",
+    "anon_question": "What message was Oliver forced to write with the Black Quill during his detentions with Brightstone?",
+    "anon_answer": "I must not tell lies",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_092",
+    "question": "Who did Draco Malfoy marry?",
+    "answer": "Astoria Greengrass",
+    "anon_question": "Who did Xavier Darkwood marry?",
+    "anon_answer": "Astoria Greengrass",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_093",
+    "question": "What derogatory epithet did Draco Malfoy frequently use to insult Hermione Granger during their time at Hogwarts?",
+    "answer": "Mudblood",
+    "anon_question": "What derogatory epithet did Xavier Darkwood frequently use to insult Vera Ashwood during their time at Crystal Academy?",
+    "anon_answer": "Mudblood",
+    "category": "hp_retain"
+  },
+  {
+    "id": "hp_retain_094",
+    "question": "What object did Lucius Malfoy slip into Ginny's schoolbooks at Flourish and Blotts?",
+    "answer": "Tom Riddle's Diary",
+    "anon_question": "What object did Lucius Darkwood slip into Mira's sMeiolbooks at Flourish and Blotts?",
+    "anon_answer": "Tom Riddle's Diary",
+    "category": "hp_retain"
+  }
+]

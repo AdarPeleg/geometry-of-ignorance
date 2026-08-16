@@ -1,0 +1,2 @@
+n_models,mean_hp,mean_tofu,cohens_d,p_wilcoxon,n_correct_direction,classifier_accuracy,classifier_auc,auss_classifier_accuracy_ref,auss_classifier_auc_ref
+9,0.9732,0.9324,1.1368,0.0039,9,0.6667,0.6790,0.9500,0.9200

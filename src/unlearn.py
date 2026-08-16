@@ -27,7 +27,7 @@ import random
 import time
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import List, Dict, Optional
+from typing import List, Dict, Optional, Callable
 
 import torch
 import torch.nn.functional as F
@@ -185,6 +185,12 @@ def grad_ascent(
             total_loss += loss.item()
         logger.info(f"[GA] epoch {epoch+1}/{cfg.n_epochs}  loss={total_loss/len(loader):.4f}")
 
+    # Gradient checkpointing is incompatible with nanogcg's gradient-based GCG attack
+    # (use_reentrant=True breaks .backward(inputs=...)) — must be off before the model
+    # is handed back for downstream attacks.
+    if hasattr(model, "gradient_checkpointing_disable"):
+        model.gradient_checkpointing_disable()
+
     if checkpoint_dir:
         _save_checkpoint(model, tokenizer, checkpoint_dir)
 
@@ -193,13 +199,23 @@ def grad_ascent(
 
 def _ref_model_copy(model):
     """
-    Create a frozen reference-model copy pinned entirely to cuda:1.
+    Create a frozen reference-model copy, pinned to cuda:1 when a second GPU is
+    available (e.g. a 2x L40S job), else placed on the policy model's own device.
 
     With device_map="auto" the policy model is sharded across both GPUs (~8 GB each).
     Putting the full ref model on cuda:1 gives:
       GPU0: ~8 GB (policy layers)
       GPU1: ~8 GB (policy layers) + ~16 GB (ref model) = ~24 GB  (fits in 48 GB)
     This is faster than CPU and avoids the VRAM-doubling that caused OOM.
+
+    On a single-GPU job (torch.cuda.device_count() == 1 — e.g. CUDA_VISIBLE_DEVICES
+    restricts this job to one GPU), "cuda:1" doesn't exist and .to("cuda:1") raises
+    "CUDA error: invalid device ordinal". An 8B policy (~16 GB) + full-precision AdamW
+    optimizer state (~48 GB) + a second 8B ref copy (~16 GB) on the same 48 GB card
+    reliably OOMs (confirmed via repeated fresh-process retries). Instead, offload the
+    ref copy to CPU: it only needs eval-mode forward passes (no optimizer state, no
+    grad), so CPU RAM is the only cost — this trades per-step latency (CPU forward for
+    the reference log-prob) for actually fitting the run in 48 GB VRAM.
 
     deepcopy preserves accelerate dispatch hooks, so we strip them before .to().
     """
@@ -209,7 +225,13 @@ def _ref_model_copy(model):
         remove_hook_from_module(ref, recurse=True)
     except ImportError:
         pass
-    ref = ref.to("cuda:1").eval()
+    if torch.cuda.is_available() and torch.cuda.device_count() >= 2:
+        ref_device = "cuda:1"
+    elif torch.cuda.is_available() and torch.cuda.device_count() == 1:
+        ref_device = "cpu"
+    else:
+        ref_device = next(model.parameters()).device
+    ref = ref.to(ref_device).eval()
     for p in ref.parameters():
         p.requires_grad_(False)
     return ref
@@ -240,6 +262,7 @@ def dpo_unlearn(
     retain_pairs: List[Dict],
     cfg: UnlearnConfig = None,
     checkpoint_dir: Optional[str] = None,
+    on_epoch_end: Optional[Callable[[int, PreTrainedModel, PreTrainedTokenizerBase], None]] = None,
 ) -> None:
     """
     DPO Unlearning: treat forget pairs as "rejected" and retain pairs as "chosen."
@@ -248,6 +271,10 @@ def dpo_unlearn(
     Loss = −E[log σ(β (log π/π_ref(retain) − log π/π_ref(forget)))]
     Reference: https://arxiv.org/abs/2305.18290 (DPO), adapted for unlearning in
     open-unlearning codebase.
+
+    on_epoch_end(epoch, model, tokenizer), if given, is called after each epoch
+    (1-indexed) with the live in-training model — for trajectory-sampling experiments
+    that need intermediate-epoch evaluation without saving a checkpoint per epoch.
     """
     if cfg is None:
         cfg = UnlearnConfig()
@@ -289,10 +316,21 @@ def dpo_unlearn(
             opt.zero_grad()
             total_loss += loss.item()
         logger.info(f"[DPO] epoch {epoch+1}/{cfg.n_epochs}  loss={total_loss/len(forget_loader):.4f}")
+        if on_epoch_end is not None:
+            model.eval()
+            on_epoch_end(epoch + 1, model, tokenizer)
+            model.train()
 
     del ref_model
     torch.cuda.empty_cache()
     gc.collect()
+
+    # Gradient checkpointing is incompatible with nanogcg's gradient-based GCG attack
+    # (use_reentrant=True breaks .backward(inputs=...)) — must be off before the model
+    # is handed back for downstream attacks.
+    if hasattr(model, "gradient_checkpointing_disable"):
+        model.gradient_checkpointing_disable()
+
     if checkpoint_dir:
         _save_checkpoint(model, tokenizer, checkpoint_dir)
 
@@ -306,6 +344,7 @@ def npo_unlearn(
     retain_pairs: List[Dict],  # unused
     cfg: UnlearnConfig = None,
     checkpoint_dir: Optional[str] = None,
+    on_epoch_end: Optional[Callable[[int, PreTrainedModel, PreTrainedTokenizerBase], None]] = None,
 ) -> None:
     """
     Negative Preference Optimization (NPO): push model away from reference on forget set.
@@ -313,6 +352,10 @@ def npo_unlearn(
 
     Loss = −(2/β) E[log σ(−β log π/π_ref(forget))]
     Reference: https://arxiv.org/abs/2404.05868 (SimPO/NPO paper)
+
+    on_epoch_end(epoch, model, tokenizer), if given, is called after each epoch
+    (1-indexed) with the live in-training model — for trajectory-sampling experiments
+    that need intermediate-epoch evaluation without saving a checkpoint per epoch.
     """
     if cfg is None:
         cfg = UnlearnConfig()
@@ -341,10 +384,21 @@ def npo_unlearn(
             opt.zero_grad()
             total_loss += loss.item()
         logger.info(f"[NPO] epoch {epoch+1}/{cfg.n_epochs}  loss={total_loss/len(loader):.4f}")
+        if on_epoch_end is not None:
+            model.eval()
+            on_epoch_end(epoch + 1, model, tokenizer)
+            model.train()
 
     del ref_model
     torch.cuda.empty_cache()
     gc.collect()
+
+    # Gradient checkpointing is incompatible with nanogcg's gradient-based GCG attack
+    # (use_reentrant=True breaks .backward(inputs=...)) — must be off before the model
+    # is handed back for downstream attacks.
+    if hasattr(model, "gradient_checkpointing_disable"):
+        model.gradient_checkpointing_disable()
+
     if checkpoint_dir:
         _save_checkpoint(model, tokenizer, checkpoint_dir)
 
@@ -413,6 +467,13 @@ def npo_kl_unlearn(
     del ref_model
     torch.cuda.empty_cache()
     gc.collect()
+
+    # Gradient checkpointing is incompatible with nanogcg's gradient-based GCG attack
+    # (use_reentrant=True breaks .backward(inputs=...)) — must be off before the model
+    # is handed back for downstream attacks.
+    if hasattr(model, "gradient_checkpointing_disable"):
+        model.gradient_checkpointing_disable()
+
     if checkpoint_dir:
         _save_checkpoint(model, tokenizer, checkpoint_dir)
 
@@ -642,6 +703,12 @@ def whp_unlearn(
             opt.zero_grad()
             total_loss += loss.item()
         logger.info(f"[WHP] epoch {epoch+1}/{cfg.n_epochs}  loss={total_loss/len(forget_loader):.4f}")
+
+    # Gradient checkpointing is incompatible with nanogcg's gradient-based GCG attack
+    # (use_reentrant=True breaks .backward(inputs=...)) — must be off before the model
+    # is handed back for downstream attacks.
+    if hasattr(model, "gradient_checkpointing_disable"):
+        model.gradient_checkpointing_disable()
 
     if checkpoint_dir:
         _save_checkpoint(model, tokenizer, checkpoint_dir)

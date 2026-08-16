@@ -1,0 +1,5402 @@
+[
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "HP",
+    "x": 0.5489456653594971,
+    "y": 0.5423559546470642,
+    "peak_layer": 0,
+    "seed": 42,
+    "batch": 0
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "HP",
+    "x": 0.44737744331359863,
+    "y": 0.1723644882440567,
+    "peak_layer": 0,
+    "seed": 42,
+    "batch": 1
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "HP",
+    "x": 0.3289669454097748,
+    "y": -0.27660590410232544,
+    "peak_layer": 0,
+    "seed": 42,
+    "batch": 2
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "HP",
+    "x": 0.4563663899898529,
+    "y": 0.03904247283935547,
+    "peak_layer": 0,
+    "seed": 42,
+    "batch": 3
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "HP",
+    "x": 0.24186088144779205,
+    "y": 0.019023608416318893,
+    "peak_layer": 0,
+    "seed": 42,
+    "batch": 4
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "HP",
+    "x": 0.3370303809642792,
+    "y": -0.3255504369735718,
+    "peak_layer": 0,
+    "seed": 42,
+    "batch": 5
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "HP",
+    "x": 0.45618873834609985,
+    "y": -0.0724840983748436,
+    "peak_layer": 0,
+    "seed": 42,
+    "batch": 6
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "HP",
+    "x": 0.07775594294071198,
+    "y": -0.4320184588432312,
+    "peak_layer": 0,
+    "seed": 42,
+    "batch": 7
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "HP",
+    "x": 0.37052762508392334,
+    "y": -0.06191910803318024,
+    "peak_layer": 0,
+    "seed": 42,
+    "batch": 8
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "HP",
+    "x": 0.6080851554870605,
+    "y": 0.025852764025330544,
+    "peak_layer": 0,
+    "seed": 42,
+    "batch": 9
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "HP",
+    "x": 0.6248406171798706,
+    "y": 0.29970622062683105,
+    "peak_layer": 0,
+    "seed": 123,
+    "batch": 0
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "HP",
+    "x": 0.3516847789287567,
+    "y": -0.015711162239313126,
+    "peak_layer": 0,
+    "seed": 123,
+    "batch": 1
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "HP",
+    "x": 0.24118554592132568,
+    "y": -0.35471999645233154,
+    "peak_layer": 0,
+    "seed": 123,
+    "batch": 2
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "HP",
+    "x": 0.5204803943634033,
+    "y": 0.008239826187491417,
+    "peak_layer": 0,
+    "seed": 123,
+    "batch": 3
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "HP",
+    "x": 0.5415703654289246,
+    "y": 0.14742344617843628,
+    "peak_layer": 0,
+    "seed": 123,
+    "batch": 4
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "HP",
+    "x": 0.1264917105436325,
+    "y": -0.43632903695106506,
+    "peak_layer": 0,
+    "seed": 123,
+    "batch": 5
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "HP",
+    "x": 0.3180822432041168,
+    "y": 0.1072806566953659,
+    "peak_layer": 0,
+    "seed": 123,
+    "batch": 6
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "HP",
+    "x": 0.3631976544857025,
+    "y": -0.31812888383865356,
+    "peak_layer": 0,
+    "seed": 123,
+    "batch": 7
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "HP",
+    "x": 0.3969326317310333,
+    "y": -0.0009583536884747446,
+    "peak_layer": 0,
+    "seed": 123,
+    "batch": 8
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "HP",
+    "x": 0.4277772307395935,
+    "y": 0.5412847995758057,
+    "peak_layer": 0,
+    "seed": 123,
+    "batch": 9
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "HP",
+    "x": 0.5153670310974121,
+    "y": 0.08894860744476318,
+    "peak_layer": 0,
+    "seed": 777,
+    "batch": 0
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "HP",
+    "x": 0.32791244983673096,
+    "y": -0.14320008456707,
+    "peak_layer": 0,
+    "seed": 777,
+    "batch": 1
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "HP",
+    "x": 0.05802080035209656,
+    "y": -0.21516580879688263,
+    "peak_layer": 0,
+    "seed": 777,
+    "batch": 2
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "HP",
+    "x": 0.535932183265686,
+    "y": 0.313864141702652,
+    "peak_layer": 0,
+    "seed": 777,
+    "batch": 3
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "HP",
+    "x": 0.34984156489372253,
+    "y": 0.3053639829158783,
+    "peak_layer": 0,
+    "seed": 777,
+    "batch": 4
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "HP",
+    "x": 0.338400661945343,
+    "y": -0.19977574050426483,
+    "peak_layer": 0,
+    "seed": 777,
+    "batch": 5
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "HP",
+    "x": 0.37691783905029297,
+    "y": -0.18564964830875397,
+    "peak_layer": 0,
+    "seed": 777,
+    "batch": 6
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "HP",
+    "x": 0.447546124458313,
+    "y": -0.24091468751430511,
+    "peak_layer": 0,
+    "seed": 777,
+    "batch": 7
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "HP",
+    "x": 0.4337903559207916,
+    "y": -0.2209487408399582,
+    "peak_layer": 0,
+    "seed": 777,
+    "batch": 8
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "HP",
+    "x": 0.2881581783294678,
+    "y": 0.054834261536598206,
+    "peak_layer": 0,
+    "seed": 777,
+    "batch": 9
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "TOFU",
+    "x": -0.37372061610221863,
+    "y": 0.016685348004102707,
+    "peak_layer": 0,
+    "seed": 42,
+    "batch": 0
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "TOFU",
+    "x": -0.397263765335083,
+    "y": 0.025985470041632652,
+    "peak_layer": 0,
+    "seed": 42,
+    "batch": 1
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "TOFU",
+    "x": -0.38326317071914673,
+    "y": 0.036938924342393875,
+    "peak_layer": 0,
+    "seed": 42,
+    "batch": 2
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "TOFU",
+    "x": -0.38569125533103943,
+    "y": 0.047447215765714645,
+    "peak_layer": 0,
+    "seed": 42,
+    "batch": 3
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "TOFU",
+    "x": -0.38787609338760376,
+    "y": 0.037616413086652756,
+    "peak_layer": 0,
+    "seed": 42,
+    "batch": 4
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "TOFU",
+    "x": -0.35516810417175293,
+    "y": 0.006028444971889257,
+    "peak_layer": 0,
+    "seed": 42,
+    "batch": 5
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "TOFU",
+    "x": -0.42725932598114014,
+    "y": 0.10215526819229126,
+    "peak_layer": 0,
+    "seed": 42,
+    "batch": 6
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "TOFU",
+    "x": -0.397224485874176,
+    "y": 0.030682077631354332,
+    "peak_layer": 0,
+    "seed": 42,
+    "batch": 7
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "TOFU",
+    "x": -0.344201922416687,
+    "y": -0.02973240613937378,
+    "peak_layer": 0,
+    "seed": 42,
+    "batch": 8
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "TOFU",
+    "x": -0.3628326952457428,
+    "y": 0.0005659100133925676,
+    "peak_layer": 0,
+    "seed": 42,
+    "batch": 9
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "TOFU",
+    "x": -0.3619856536388397,
+    "y": 0.025369348004460335,
+    "peak_layer": 0,
+    "seed": 123,
+    "batch": 0
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "TOFU",
+    "x": -0.3740728795528412,
+    "y": 0.04038966819643974,
+    "peak_layer": 0,
+    "seed": 123,
+    "batch": 1
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "TOFU",
+    "x": -0.40692225098609924,
+    "y": 0.03893483057618141,
+    "peak_layer": 0,
+    "seed": 123,
+    "batch": 2
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "TOFU",
+    "x": -0.36254239082336426,
+    "y": 0.005163536872714758,
+    "peak_layer": 0,
+    "seed": 123,
+    "batch": 3
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "TOFU",
+    "x": -0.38736358284950256,
+    "y": 0.004078757483512163,
+    "peak_layer": 0,
+    "seed": 123,
+    "batch": 4
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "TOFU",
+    "x": -0.34759292006492615,
+    "y": -0.03202424198389053,
+    "peak_layer": 0,
+    "seed": 123,
+    "batch": 5
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "TOFU",
+    "x": -0.4248688519001007,
+    "y": 0.03976905718445778,
+    "peak_layer": 0,
+    "seed": 123,
+    "batch": 6
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "TOFU",
+    "x": -0.3822823464870453,
+    "y": 0.036983996629714966,
+    "peak_layer": 0,
+    "seed": 123,
+    "batch": 7
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "TOFU",
+    "x": -0.3834637999534607,
+    "y": 0.05754758417606354,
+    "peak_layer": 0,
+    "seed": 123,
+    "batch": 8
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "TOFU",
+    "x": -0.4021572768688202,
+    "y": 0.07356034964323044,
+    "peak_layer": 0,
+    "seed": 123,
+    "batch": 9
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "TOFU",
+    "x": -0.3716726303100586,
+    "y": 0.0024944522883743048,
+    "peak_layer": 0,
+    "seed": 777,
+    "batch": 0
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "TOFU",
+    "x": -0.3797152042388916,
+    "y": 0.035582832992076874,
+    "peak_layer": 0,
+    "seed": 777,
+    "batch": 1
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "TOFU",
+    "x": -0.3820851147174835,
+    "y": 0.027605021372437477,
+    "peak_layer": 0,
+    "seed": 777,
+    "batch": 2
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "TOFU",
+    "x": -0.3834448456764221,
+    "y": 0.11829268932342529,
+    "peak_layer": 0,
+    "seed": 777,
+    "batch": 3
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "TOFU",
+    "x": -0.4003976285457611,
+    "y": 0.015282255597412586,
+    "peak_layer": 0,
+    "seed": 777,
+    "batch": 4
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "TOFU",
+    "x": -0.42475682497024536,
+    "y": 0.06310626119375229,
+    "peak_layer": 0,
+    "seed": 777,
+    "batch": 5
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "TOFU",
+    "x": -0.36164769530296326,
+    "y": 0.022621793672442436,
+    "peak_layer": 0,
+    "seed": 777,
+    "batch": 6
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "TOFU",
+    "x": -0.3647436499595642,
+    "y": -0.020615166053175926,
+    "peak_layer": 0,
+    "seed": 777,
+    "batch": 7
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "TOFU",
+    "x": -0.38906189799308777,
+    "y": 0.021595502272248268,
+    "peak_layer": 0,
+    "seed": 777,
+    "batch": 8
+  },
+  {
+    "model": "Qwen-7B-Chat",
+    "domain": "TOFU",
+    "x": -0.35195663571357727,
+    "y": -0.01561676524579525,
+    "peak_layer": 0,
+    "seed": 777,
+    "batch": 9
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "HP",
+    "x": 0.7006615400314331,
+    "y": -0.20174472033977509,
+    "peak_layer": 17,
+    "seed": 42,
+    "batch": 0
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "HP",
+    "x": 0.9991304874420166,
+    "y": 0.31067484617233276,
+    "peak_layer": 17,
+    "seed": 42,
+    "batch": 1
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "HP",
+    "x": 0.8470244407653809,
+    "y": -0.022413982078433037,
+    "peak_layer": 17,
+    "seed": 42,
+    "batch": 2
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "HP",
+    "x": 0.5388103723526001,
+    "y": -0.38283249735832214,
+    "peak_layer": 17,
+    "seed": 42,
+    "batch": 3
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "HP",
+    "x": 0.9660696387290955,
+    "y": 0.27891606092453003,
+    "peak_layer": 17,
+    "seed": 42,
+    "batch": 4
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "HP",
+    "x": 0.7896016240119934,
+    "y": -0.11604295670986176,
+    "peak_layer": 17,
+    "seed": 42,
+    "batch": 5
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "HP",
+    "x": 0.8974634408950806,
+    "y": 0.027106186375021935,
+    "peak_layer": 17,
+    "seed": 42,
+    "batch": 6
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "HP",
+    "x": 0.8658745288848877,
+    "y": 0.0017668753862380981,
+    "peak_layer": 17,
+    "seed": 42,
+    "batch": 7
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "HP",
+    "x": 0.9091981053352356,
+    "y": 0.07686516642570496,
+    "peak_layer": 17,
+    "seed": 42,
+    "batch": 8
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "HP",
+    "x": 0.6965531706809998,
+    "y": -0.27097636461257935,
+    "peak_layer": 17,
+    "seed": 42,
+    "batch": 9
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "HP",
+    "x": 0.5292450189590454,
+    "y": -0.37693315744400024,
+    "peak_layer": 17,
+    "seed": 123,
+    "batch": 0
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "HP",
+    "x": 0.8496670722961426,
+    "y": -0.0396595299243927,
+    "peak_layer": 17,
+    "seed": 123,
+    "batch": 1
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "HP",
+    "x": 0.8850497603416443,
+    "y": 0.042002495378255844,
+    "peak_layer": 17,
+    "seed": 123,
+    "batch": 2
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "HP",
+    "x": 0.7435991764068604,
+    "y": -0.21547476947307587,
+    "peak_layer": 17,
+    "seed": 123,
+    "batch": 3
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "HP",
+    "x": 0.7373770475387573,
+    "y": -0.23187659680843353,
+    "peak_layer": 17,
+    "seed": 123,
+    "batch": 4
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "HP",
+    "x": 0.9297977089881897,
+    "y": 0.13645289838314056,
+    "peak_layer": 17,
+    "seed": 123,
+    "batch": 5
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "HP",
+    "x": 0.9470567107200623,
+    "y": 0.33725303411483765,
+    "peak_layer": 17,
+    "seed": 123,
+    "batch": 6
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "HP",
+    "x": 0.8596318960189819,
+    "y": -0.01627103053033352,
+    "peak_layer": 17,
+    "seed": 123,
+    "batch": 7
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "HP",
+    "x": 0.929111659526825,
+    "y": 0.14791512489318848,
+    "peak_layer": 17,
+    "seed": 123,
+    "batch": 8
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "HP",
+    "x": 0.9269583821296692,
+    "y": 0.12233937531709671,
+    "peak_layer": 17,
+    "seed": 123,
+    "batch": 9
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "HP",
+    "x": 0.7963122129440308,
+    "y": -0.15014556050300598,
+    "peak_layer": 17,
+    "seed": 777,
+    "batch": 0
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "HP",
+    "x": 0.8064534068107605,
+    "y": -0.12289724498987198,
+    "peak_layer": 17,
+    "seed": 777,
+    "batch": 1
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "HP",
+    "x": 0.9586789011955261,
+    "y": 0.23115317523479462,
+    "peak_layer": 17,
+    "seed": 777,
+    "batch": 2
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "HP",
+    "x": 0.9362082481384277,
+    "y": 0.11238999664783478,
+    "peak_layer": 17,
+    "seed": 777,
+    "batch": 3
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "HP",
+    "x": 0.532448947429657,
+    "y": -0.29747387766838074,
+    "peak_layer": 17,
+    "seed": 777,
+    "batch": 4
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "HP",
+    "x": 0.8449172973632812,
+    "y": -0.06620374321937561,
+    "peak_layer": 17,
+    "seed": 777,
+    "batch": 5
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "HP",
+    "x": 0.7429498434066772,
+    "y": -0.21607542037963867,
+    "peak_layer": 17,
+    "seed": 777,
+    "batch": 6
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "HP",
+    "x": 0.8486152291297913,
+    "y": -0.05810944363474846,
+    "peak_layer": 17,
+    "seed": 777,
+    "batch": 7
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "HP",
+    "x": 0.9437810182571411,
+    "y": 0.15155620872974396,
+    "peak_layer": 17,
+    "seed": 777,
+    "batch": 8
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "HP",
+    "x": 0.9903014302253723,
+    "y": 0.35985442996025085,
+    "peak_layer": 17,
+    "seed": 777,
+    "batch": 9
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "TOFU",
+    "x": -0.8711023926734924,
+    "y": 0.01663331314921379,
+    "peak_layer": 17,
+    "seed": 42,
+    "batch": 0
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "TOFU",
+    "x": -0.7882115244865417,
+    "y": 0.019179437309503555,
+    "peak_layer": 17,
+    "seed": 42,
+    "batch": 1
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "TOFU",
+    "x": -0.8673403263092041,
+    "y": 0.013933231122791767,
+    "peak_layer": 17,
+    "seed": 42,
+    "batch": 2
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "TOFU",
+    "x": -0.8436367511749268,
+    "y": 0.005093489773571491,
+    "peak_layer": 17,
+    "seed": 42,
+    "batch": 3
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "TOFU",
+    "x": -0.8549749255180359,
+    "y": 0.012504840269684792,
+    "peak_layer": 17,
+    "seed": 42,
+    "batch": 4
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "TOFU",
+    "x": -0.7596020102500916,
+    "y": 0.03372979536652565,
+    "peak_layer": 17,
+    "seed": 42,
+    "batch": 5
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "TOFU",
+    "x": -0.8662075996398926,
+    "y": 0.0056642633862793446,
+    "peak_layer": 17,
+    "seed": 42,
+    "batch": 6
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "TOFU",
+    "x": -0.8474339842796326,
+    "y": 0.004461681470274925,
+    "peak_layer": 17,
+    "seed": 42,
+    "batch": 7
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "TOFU",
+    "x": -0.81093430519104,
+    "y": 0.03104127012193203,
+    "peak_layer": 17,
+    "seed": 42,
+    "batch": 8
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "TOFU",
+    "x": -0.7500519156455994,
+    "y": 0.024416493251919746,
+    "peak_layer": 17,
+    "seed": 42,
+    "batch": 9
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "TOFU",
+    "x": -0.8383121490478516,
+    "y": 0.01712561771273613,
+    "peak_layer": 17,
+    "seed": 123,
+    "batch": 0
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "TOFU",
+    "x": -0.8570645451545715,
+    "y": 0.013242444023489952,
+    "peak_layer": 17,
+    "seed": 123,
+    "batch": 1
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "TOFU",
+    "x": -0.85484778881073,
+    "y": 0.013437902554869652,
+    "peak_layer": 17,
+    "seed": 123,
+    "batch": 2
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "TOFU",
+    "x": -0.8326829671859741,
+    "y": 0.012519324198365211,
+    "peak_layer": 17,
+    "seed": 123,
+    "batch": 3
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "TOFU",
+    "x": -0.8667708039283752,
+    "y": 0.017222575843334198,
+    "peak_layer": 17,
+    "seed": 123,
+    "batch": 4
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "TOFU",
+    "x": -0.8357595801353455,
+    "y": 0.013907788321375847,
+    "peak_layer": 17,
+    "seed": 123,
+    "batch": 5
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "TOFU",
+    "x": -0.7054458260536194,
+    "y": 0.028086518868803978,
+    "peak_layer": 17,
+    "seed": 123,
+    "batch": 6
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "TOFU",
+    "x": -0.8356526494026184,
+    "y": 0.017477989196777344,
+    "peak_layer": 17,
+    "seed": 123,
+    "batch": 7
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "TOFU",
+    "x": -0.8336165547370911,
+    "y": 0.005804940592497587,
+    "peak_layer": 17,
+    "seed": 123,
+    "batch": 8
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "TOFU",
+    "x": -0.8551968932151794,
+    "y": 0.006187282036989927,
+    "peak_layer": 17,
+    "seed": 123,
+    "batch": 9
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "TOFU",
+    "x": -0.826233446598053,
+    "y": 0.017626194283366203,
+    "peak_layer": 17,
+    "seed": 777,
+    "batch": 0
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "TOFU",
+    "x": -0.8362458944320679,
+    "y": 0.016955187544226646,
+    "peak_layer": 17,
+    "seed": 777,
+    "batch": 1
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "TOFU",
+    "x": -0.8094217777252197,
+    "y": 0.01450893934816122,
+    "peak_layer": 17,
+    "seed": 777,
+    "batch": 2
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "TOFU",
+    "x": -0.8274259567260742,
+    "y": 0.009857983328402042,
+    "peak_layer": 17,
+    "seed": 777,
+    "batch": 3
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "TOFU",
+    "x": -0.8448828458786011,
+    "y": 0.01281864196062088,
+    "peak_layer": 17,
+    "seed": 777,
+    "batch": 4
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "TOFU",
+    "x": -0.856349766254425,
+    "y": 0.010760060511529446,
+    "peak_layer": 17,
+    "seed": 777,
+    "batch": 5
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "TOFU",
+    "x": -0.8604432344436646,
+    "y": 0.010293502360582352,
+    "peak_layer": 17,
+    "seed": 777,
+    "batch": 6
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "TOFU",
+    "x": -0.8172967433929443,
+    "y": 0.01361529715359211,
+    "peak_layer": 17,
+    "seed": 777,
+    "batch": 7
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "TOFU",
+    "x": -0.8656459450721741,
+    "y": 0.013283166103065014,
+    "peak_layer": 17,
+    "seed": 777,
+    "batch": 8
+  },
+  {
+    "model": "Qwen-14B-Chat",
+    "domain": "TOFU",
+    "x": -0.8297563195228577,
+    "y": 0.017496123909950256,
+    "peak_layer": 17,
+    "seed": 777,
+    "batch": 9
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "HP",
+    "x": -0.5741437077522278,
+    "y": 0.10798394680023193,
+    "peak_layer": 27,
+    "seed": 42,
+    "batch": 0
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "HP",
+    "x": -0.5738965272903442,
+    "y": 0.017143622040748596,
+    "peak_layer": 27,
+    "seed": 42,
+    "batch": 1
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "HP",
+    "x": -0.585040807723999,
+    "y": -0.09827414155006409,
+    "peak_layer": 27,
+    "seed": 42,
+    "batch": 2
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "HP",
+    "x": -0.525238573551178,
+    "y": 0.09166932851076126,
+    "peak_layer": 27,
+    "seed": 42,
+    "batch": 3
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "HP",
+    "x": -0.499296098947525,
+    "y": -0.09825104475021362,
+    "peak_layer": 27,
+    "seed": 42,
+    "batch": 4
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "HP",
+    "x": -0.5463416576385498,
+    "y": 0.07305527478456497,
+    "peak_layer": 27,
+    "seed": 42,
+    "batch": 5
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "HP",
+    "x": -0.5475332736968994,
+    "y": -0.002556963125243783,
+    "peak_layer": 27,
+    "seed": 42,
+    "batch": 6
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "HP",
+    "x": -0.4922380745410919,
+    "y": 0.08666394650936127,
+    "peak_layer": 27,
+    "seed": 42,
+    "batch": 7
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "HP",
+    "x": -0.5630361437797546,
+    "y": 0.0063504562713205814,
+    "peak_layer": 27,
+    "seed": 42,
+    "batch": 8
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "HP",
+    "x": -0.5942404866218567,
+    "y": 0.018973039463162422,
+    "peak_layer": 27,
+    "seed": 42,
+    "batch": 9
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "HP",
+    "x": -0.5077943801879883,
+    "y": 0.21795576810836792,
+    "peak_layer": 27,
+    "seed": 123,
+    "batch": 0
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "HP",
+    "x": -0.5966878533363342,
+    "y": -0.05788790434598923,
+    "peak_layer": 27,
+    "seed": 123,
+    "batch": 1
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "HP",
+    "x": -0.5405791401863098,
+    "y": 0.03462185710668564,
+    "peak_layer": 27,
+    "seed": 123,
+    "batch": 2
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "HP",
+    "x": -0.5703406929969788,
+    "y": 0.08942035585641861,
+    "peak_layer": 27,
+    "seed": 123,
+    "batch": 3
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "HP",
+    "x": -0.5483281016349792,
+    "y": 0.02585904859006405,
+    "peak_layer": 27,
+    "seed": 123,
+    "batch": 4
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "HP",
+    "x": -0.5014129281044006,
+    "y": 0.10289908200502396,
+    "peak_layer": 27,
+    "seed": 123,
+    "batch": 5
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "HP",
+    "x": -0.4074963927268982,
+    "y": -0.7704349756240845,
+    "peak_layer": 27,
+    "seed": 123,
+    "batch": 6
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "HP",
+    "x": -0.5402416586875916,
+    "y": 0.015512908808887005,
+    "peak_layer": 27,
+    "seed": 123,
+    "batch": 7
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "HP",
+    "x": -0.5702980160713196,
+    "y": -0.0030957916751503944,
+    "peak_layer": 27,
+    "seed": 123,
+    "batch": 8
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "HP",
+    "x": -0.5576962232589722,
+    "y": -0.0006487364298664033,
+    "peak_layer": 27,
+    "seed": 123,
+    "batch": 9
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "HP",
+    "x": -0.5794172883033752,
+    "y": 0.02560366876423359,
+    "peak_layer": 27,
+    "seed": 777,
+    "batch": 0
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "HP",
+    "x": -0.5366711616516113,
+    "y": 0.05592406168580055,
+    "peak_layer": 27,
+    "seed": 777,
+    "batch": 1
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "HP",
+    "x": -0.503024160861969,
+    "y": 0.006929549388587475,
+    "peak_layer": 27,
+    "seed": 777,
+    "batch": 2
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "HP",
+    "x": -0.5647895336151123,
+    "y": 0.08062402904033661,
+    "peak_layer": 27,
+    "seed": 777,
+    "batch": 3
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "HP",
+    "x": -0.47284820675849915,
+    "y": -0.08814910799264908,
+    "peak_layer": 27,
+    "seed": 777,
+    "batch": 4
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "HP",
+    "x": -0.5449960231781006,
+    "y": 0.02439463697373867,
+    "peak_layer": 27,
+    "seed": 777,
+    "batch": 5
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "HP",
+    "x": -0.5587785840034485,
+    "y": 0.10211685299873352,
+    "peak_layer": 27,
+    "seed": 777,
+    "batch": 6
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "HP",
+    "x": -0.5674863457679749,
+    "y": 0.07939320057630539,
+    "peak_layer": 27,
+    "seed": 777,
+    "batch": 7
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "HP",
+    "x": -0.5495509505271912,
+    "y": -0.007087792735546827,
+    "peak_layer": 27,
+    "seed": 777,
+    "batch": 8
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "HP",
+    "x": -0.5887656807899475,
+    "y": -0.21371160447597504,
+    "peak_layer": 27,
+    "seed": 777,
+    "batch": 9
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5409843325614929,
+    "y": 0.21501313149929047,
+    "peak_layer": 27,
+    "seed": 42,
+    "batch": 0
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5577302575111389,
+    "y": -0.037686318159103394,
+    "peak_layer": 27,
+    "seed": 42,
+    "batch": 1
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5501732230186462,
+    "y": 0.04987136274576187,
+    "peak_layer": 27,
+    "seed": 42,
+    "batch": 2
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5624597072601318,
+    "y": 0.011098169721662998,
+    "peak_layer": 27,
+    "seed": 42,
+    "batch": 3
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5457250475883484,
+    "y": -0.1964786797761917,
+    "peak_layer": 27,
+    "seed": 42,
+    "batch": 4
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5097127556800842,
+    "y": 0.008041922003030777,
+    "peak_layer": 27,
+    "seed": 42,
+    "batch": 5
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5443909764289856,
+    "y": 0.10458934307098389,
+    "peak_layer": 27,
+    "seed": 42,
+    "batch": 6
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5366266369819641,
+    "y": 0.12785673141479492,
+    "peak_layer": 27,
+    "seed": 42,
+    "batch": 7
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5573201179504395,
+    "y": -0.13157007098197937,
+    "peak_layer": 27,
+    "seed": 42,
+    "batch": 8
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5403759479522705,
+    "y": -0.1137995645403862,
+    "peak_layer": 27,
+    "seed": 42,
+    "batch": 9
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5231100916862488,
+    "y": 0.04537821561098099,
+    "peak_layer": 27,
+    "seed": 123,
+    "batch": 0
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5153470635414124,
+    "y": 0.11726408451795578,
+    "peak_layer": 27,
+    "seed": 123,
+    "batch": 1
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5741082429885864,
+    "y": 0.05350207909941673,
+    "peak_layer": 27,
+    "seed": 123,
+    "batch": 2
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5619532465934753,
+    "y": -0.12279316782951355,
+    "peak_layer": 27,
+    "seed": 123,
+    "batch": 3
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5789443254470825,
+    "y": 0.15013344585895538,
+    "peak_layer": 27,
+    "seed": 123,
+    "batch": 4
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "TOFU",
+    "x": 0.57240229845047,
+    "y": -0.017026763409376144,
+    "peak_layer": 27,
+    "seed": 123,
+    "batch": 5
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5180286169052124,
+    "y": -0.09118638187646866,
+    "peak_layer": 27,
+    "seed": 123,
+    "batch": 6
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5409024953842163,
+    "y": 0.07081674784421921,
+    "peak_layer": 27,
+    "seed": 123,
+    "batch": 7
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5513296127319336,
+    "y": -0.026876982301473618,
+    "peak_layer": 27,
+    "seed": 123,
+    "batch": 8
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "TOFU",
+    "x": 0.49716880917549133,
+    "y": -0.1311189979314804,
+    "peak_layer": 27,
+    "seed": 123,
+    "batch": 9
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5206910371780396,
+    "y": -0.034637968987226486,
+    "peak_layer": 27,
+    "seed": 777,
+    "batch": 0
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5601214170455933,
+    "y": -0.0002901623956859112,
+    "peak_layer": 27,
+    "seed": 777,
+    "batch": 1
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5218783020973206,
+    "y": -0.023408692330121994,
+    "peak_layer": 27,
+    "seed": 777,
+    "batch": 2
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "TOFU",
+    "x": 0.53672194480896,
+    "y": -0.15045347809791565,
+    "peak_layer": 27,
+    "seed": 777,
+    "batch": 3
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5535756349563599,
+    "y": 0.07143578678369522,
+    "peak_layer": 27,
+    "seed": 777,
+    "batch": 4
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "TOFU",
+    "x": 0.543749988079071,
+    "y": 0.1907121241092682,
+    "peak_layer": 27,
+    "seed": 777,
+    "batch": 5
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5409901142120361,
+    "y": -0.11970998346805573,
+    "peak_layer": 27,
+    "seed": 777,
+    "batch": 6
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "TOFU",
+    "x": 0.553699791431427,
+    "y": -0.12100939452648163,
+    "peak_layer": 27,
+    "seed": 777,
+    "batch": 7
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "TOFU",
+    "x": 0.559844434261322,
+    "y": 0.17242731153964996,
+    "peak_layer": 27,
+    "seed": 777,
+    "batch": 8
+  },
+  {
+    "model": "Qwen2.5-7B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5381428599357605,
+    "y": 0.0069104447029531,
+    "peak_layer": 27,
+    "seed": 777,
+    "batch": 9
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "HP",
+    "x": -0.6167901158332825,
+    "y": 0.0641690343618393,
+    "peak_layer": 47,
+    "seed": 42,
+    "batch": 0
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "HP",
+    "x": -0.5840679407119751,
+    "y": -0.09512846171855927,
+    "peak_layer": 47,
+    "seed": 42,
+    "batch": 1
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "HP",
+    "x": -0.555325448513031,
+    "y": 0.05564717575907707,
+    "peak_layer": 47,
+    "seed": 42,
+    "batch": 2
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "HP",
+    "x": -0.5536370873451233,
+    "y": 0.06383839249610901,
+    "peak_layer": 47,
+    "seed": 42,
+    "batch": 3
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "HP",
+    "x": -0.494345098733902,
+    "y": -0.11712194234132767,
+    "peak_layer": 47,
+    "seed": 42,
+    "batch": 4
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "HP",
+    "x": -0.5325058102607727,
+    "y": 0.17930008471012115,
+    "peak_layer": 47,
+    "seed": 42,
+    "batch": 5
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "HP",
+    "x": -0.49888506531715393,
+    "y": -0.04012742638587952,
+    "peak_layer": 47,
+    "seed": 42,
+    "batch": 6
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "HP",
+    "x": -0.5241579413414001,
+    "y": -0.10152889788150787,
+    "peak_layer": 47,
+    "seed": 42,
+    "batch": 7
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "HP",
+    "x": -0.545763373374939,
+    "y": -0.024689527228474617,
+    "peak_layer": 47,
+    "seed": 42,
+    "batch": 8
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "HP",
+    "x": -0.5565150380134583,
+    "y": 0.14268571138381958,
+    "peak_layer": 47,
+    "seed": 42,
+    "batch": 9
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "HP",
+    "x": -0.5648787617683411,
+    "y": 0.14592526853084564,
+    "peak_layer": 47,
+    "seed": 123,
+    "batch": 0
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "HP",
+    "x": -0.5794877409934998,
+    "y": 0.08510888367891312,
+    "peak_layer": 47,
+    "seed": 123,
+    "batch": 1
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "HP",
+    "x": -0.5170557498931885,
+    "y": -0.06254377216100693,
+    "peak_layer": 47,
+    "seed": 123,
+    "batch": 2
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "HP",
+    "x": -0.5754651427268982,
+    "y": 0.05852543190121651,
+    "peak_layer": 47,
+    "seed": 123,
+    "batch": 3
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "HP",
+    "x": -0.5511335730552673,
+    "y": 0.14833153784275055,
+    "peak_layer": 47,
+    "seed": 123,
+    "batch": 4
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "HP",
+    "x": -0.5305096507072449,
+    "y": -0.08034860342741013,
+    "peak_layer": 47,
+    "seed": 123,
+    "batch": 5
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "HP",
+    "x": -0.30408376455307007,
+    "y": -0.31416937708854675,
+    "peak_layer": 47,
+    "seed": 123,
+    "batch": 6
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "HP",
+    "x": -0.5300127863883972,
+    "y": -0.16251540184020996,
+    "peak_layer": 47,
+    "seed": 123,
+    "batch": 7
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "HP",
+    "x": -0.5453224182128906,
+    "y": -0.006687963847070932,
+    "peak_layer": 47,
+    "seed": 123,
+    "batch": 8
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "HP",
+    "x": -0.5882052183151245,
+    "y": 0.0440022274851799,
+    "peak_layer": 47,
+    "seed": 123,
+    "batch": 9
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "HP",
+    "x": -0.5785470604896545,
+    "y": 0.1579381823539734,
+    "peak_layer": 47,
+    "seed": 777,
+    "batch": 0
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "HP",
+    "x": -0.5750293731689453,
+    "y": -0.03504130616784096,
+    "peak_layer": 47,
+    "seed": 777,
+    "batch": 1
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "HP",
+    "x": -0.5181958079338074,
+    "y": -0.08673661202192307,
+    "peak_layer": 47,
+    "seed": 777,
+    "batch": 2
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "HP",
+    "x": -0.5945268273353577,
+    "y": -0.0741027221083641,
+    "peak_layer": 47,
+    "seed": 777,
+    "batch": 3
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "HP",
+    "x": -0.46233442425727844,
+    "y": -0.011887987144291401,
+    "peak_layer": 47,
+    "seed": 777,
+    "batch": 4
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "HP",
+    "x": -0.575967013835907,
+    "y": -0.04365993291139603,
+    "peak_layer": 47,
+    "seed": 777,
+    "batch": 5
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "HP",
+    "x": -0.5241740345954895,
+    "y": 0.1014750599861145,
+    "peak_layer": 47,
+    "seed": 777,
+    "batch": 6
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "HP",
+    "x": -0.5505073666572571,
+    "y": 0.14058490097522736,
+    "peak_layer": 47,
+    "seed": 777,
+    "batch": 7
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "HP",
+    "x": -0.5479925274848938,
+    "y": -0.15553610026836395,
+    "peak_layer": 47,
+    "seed": 777,
+    "batch": 8
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "HP",
+    "x": -0.5216244459152222,
+    "y": -0.14033696055412292,
+    "peak_layer": 47,
+    "seed": 777,
+    "batch": 9
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "TOFU",
+    "x": 0.4834980070590973,
+    "y": 0.4101134240627289,
+    "peak_layer": 47,
+    "seed": 42,
+    "batch": 0
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5729065537452698,
+    "y": -0.11917036771774292,
+    "peak_layer": 47,
+    "seed": 42,
+    "batch": 1
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5589649677276611,
+    "y": 0.16685976088047028,
+    "peak_layer": 47,
+    "seed": 42,
+    "batch": 2
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5562402606010437,
+    "y": -0.03345922753214836,
+    "peak_layer": 47,
+    "seed": 42,
+    "batch": 3
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5426118969917297,
+    "y": -0.19418452680110931,
+    "peak_layer": 47,
+    "seed": 42,
+    "batch": 4
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5233180522918701,
+    "y": -0.08012411743402481,
+    "peak_layer": 47,
+    "seed": 42,
+    "batch": 5
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5562534928321838,
+    "y": 0.11925080418586731,
+    "peak_layer": 47,
+    "seed": 42,
+    "batch": 6
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5194904208183289,
+    "y": 0.17987315356731415,
+    "peak_layer": 47,
+    "seed": 42,
+    "batch": 7
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5668005347251892,
+    "y": -0.1053110659122467,
+    "peak_layer": 47,
+    "seed": 42,
+    "batch": 8
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5394461750984192,
+    "y": -0.3057296872138977,
+    "peak_layer": 47,
+    "seed": 42,
+    "batch": 9
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "TOFU",
+    "x": 0.505207896232605,
+    "y": 0.0720776617527008,
+    "peak_layer": 47,
+    "seed": 123,
+    "batch": 0
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "TOFU",
+    "x": 0.4797656536102295,
+    "y": 0.38410496711730957,
+    "peak_layer": 47,
+    "seed": 123,
+    "batch": 1
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5781278610229492,
+    "y": 0.1271587610244751,
+    "peak_layer": 47,
+    "seed": 123,
+    "batch": 2
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5646400451660156,
+    "y": 0.014040518552064896,
+    "peak_layer": 47,
+    "seed": 123,
+    "batch": 3
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5722071528434753,
+    "y": 0.12579886615276337,
+    "peak_layer": 47,
+    "seed": 123,
+    "batch": 4
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5709713101387024,
+    "y": 0.027418415993452072,
+    "peak_layer": 47,
+    "seed": 123,
+    "batch": 5
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5071178674697876,
+    "y": -0.3799877464771271,
+    "peak_layer": 47,
+    "seed": 123,
+    "batch": 6
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5416590571403503,
+    "y": -0.17250032722949982,
+    "peak_layer": 47,
+    "seed": 123,
+    "batch": 7
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5862141847610474,
+    "y": -0.18185071647167206,
+    "peak_layer": 47,
+    "seed": 123,
+    "batch": 8
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "TOFU",
+    "x": 0.48128488659858704,
+    "y": 0.0008980697020888329,
+    "peak_layer": 47,
+    "seed": 123,
+    "batch": 9
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5220053791999817,
+    "y": -0.018746403977274895,
+    "peak_layer": 47,
+    "seed": 777,
+    "batch": 0
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5136600732803345,
+    "y": 0.3349995017051697,
+    "peak_layer": 47,
+    "seed": 777,
+    "batch": 1
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5464975833892822,
+    "y": 0.03172741085290909,
+    "peak_layer": 47,
+    "seed": 777,
+    "batch": 2
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5505720376968384,
+    "y": -0.19229595363140106,
+    "peak_layer": 47,
+    "seed": 777,
+    "batch": 3
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5574279427528381,
+    "y": -0.10480079054832458,
+    "peak_layer": 47,
+    "seed": 777,
+    "batch": 4
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "TOFU",
+    "x": 0.4923509657382965,
+    "y": 0.39770829677581787,
+    "peak_layer": 47,
+    "seed": 777,
+    "batch": 5
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5180957913398743,
+    "y": -0.06558097898960114,
+    "peak_layer": 47,
+    "seed": 777,
+    "batch": 6
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5544450879096985,
+    "y": -0.33381712436676025,
+    "peak_layer": 47,
+    "seed": 777,
+    "batch": 7
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5796686410903931,
+    "y": 0.06347726285457611,
+    "peak_layer": 47,
+    "seed": 777,
+    "batch": 8
+  },
+  {
+    "model": "Qwen2.5-14B-Instruct",
+    "domain": "TOFU",
+    "x": 0.5555962920188904,
+    "y": -0.003316676476970315,
+    "peak_layer": 47,
+    "seed": 777,
+    "batch": 9
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "HP",
+    "x": 0.609264612197876,
+    "y": 0.05290691554546356,
+    "peak_layer": 18,
+    "seed": 42,
+    "batch": 0
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "HP",
+    "x": 0.5822721123695374,
+    "y": -0.04033476859331131,
+    "peak_layer": 18,
+    "seed": 42,
+    "batch": 1
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "HP",
+    "x": 0.5621546506881714,
+    "y": -0.03945985436439514,
+    "peak_layer": 18,
+    "seed": 42,
+    "batch": 2
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "HP",
+    "x": 0.5618048310279846,
+    "y": -0.007703288458287716,
+    "peak_layer": 18,
+    "seed": 42,
+    "batch": 3
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "HP",
+    "x": 0.5148099660873413,
+    "y": 0.04021378606557846,
+    "peak_layer": 18,
+    "seed": 42,
+    "batch": 4
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "HP",
+    "x": 0.5732206702232361,
+    "y": -0.015210106037557125,
+    "peak_layer": 18,
+    "seed": 42,
+    "batch": 5
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "HP",
+    "x": 0.49346923828125,
+    "y": -0.06759580224752426,
+    "peak_layer": 18,
+    "seed": 42,
+    "batch": 6
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "HP",
+    "x": 0.522671639919281,
+    "y": -0.024842916056513786,
+    "peak_layer": 18,
+    "seed": 42,
+    "batch": 7
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "HP",
+    "x": 0.5743996500968933,
+    "y": 0.028499621897935867,
+    "peak_layer": 18,
+    "seed": 42,
+    "batch": 8
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "HP",
+    "x": 0.6006327867507935,
+    "y": 0.03133435174822807,
+    "peak_layer": 18,
+    "seed": 42,
+    "batch": 9
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "HP",
+    "x": 0.6239428520202637,
+    "y": 0.0347432903945446,
+    "peak_layer": 18,
+    "seed": 123,
+    "batch": 0
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "HP",
+    "x": 0.5619974136352539,
+    "y": 0.027484608814120293,
+    "peak_layer": 18,
+    "seed": 123,
+    "batch": 1
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "HP",
+    "x": 0.5183282494544983,
+    "y": -0.044771671295166016,
+    "peak_layer": 18,
+    "seed": 123,
+    "batch": 2
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "HP",
+    "x": 0.6168819069862366,
+    "y": -0.005351114086806774,
+    "peak_layer": 18,
+    "seed": 123,
+    "batch": 3
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "HP",
+    "x": 0.5853531956672668,
+    "y": 0.09744316339492798,
+    "peak_layer": 18,
+    "seed": 123,
+    "batch": 4
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "HP",
+    "x": 0.46163538098335266,
+    "y": -0.06918511539697647,
+    "peak_layer": 18,
+    "seed": 123,
+    "batch": 5
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "HP",
+    "x": 0.4881128668785095,
+    "y": -0.052375707775354385,
+    "peak_layer": 18,
+    "seed": 123,
+    "batch": 6
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "HP",
+    "x": 0.5261305570602417,
+    "y": -0.09043040126562119,
+    "peak_layer": 18,
+    "seed": 123,
+    "batch": 7
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "HP",
+    "x": 0.5609728693962097,
+    "y": 0.0038248025812208652,
+    "peak_layer": 18,
+    "seed": 123,
+    "batch": 8
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "HP",
+    "x": 0.603186309337616,
+    "y": 0.05122968181967735,
+    "peak_layer": 18,
+    "seed": 123,
+    "batch": 9
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "HP",
+    "x": 0.6038669347763062,
+    "y": 0.034782521426677704,
+    "peak_layer": 18,
+    "seed": 777,
+    "batch": 0
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "HP",
+    "x": 0.5781338810920715,
+    "y": -0.01044373493641615,
+    "peak_layer": 18,
+    "seed": 777,
+    "batch": 1
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "HP",
+    "x": 0.5547915101051331,
+    "y": 0.015414153225719929,
+    "peak_layer": 18,
+    "seed": 777,
+    "batch": 2
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "HP",
+    "x": 0.563488781452179,
+    "y": -0.00016300732386298478,
+    "peak_layer": 18,
+    "seed": 777,
+    "batch": 3
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "HP",
+    "x": 0.4968421459197998,
+    "y": 0.0345589779317379,
+    "peak_layer": 18,
+    "seed": 777,
+    "batch": 4
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "HP",
+    "x": 0.5608057975769043,
+    "y": -0.0008775964961387217,
+    "peak_layer": 18,
+    "seed": 777,
+    "batch": 5
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "HP",
+    "x": 0.5763656497001648,
+    "y": -0.05240480229258537,
+    "peak_layer": 18,
+    "seed": 777,
+    "batch": 6
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "HP",
+    "x": 0.5495133996009827,
+    "y": -0.02627122774720192,
+    "peak_layer": 18,
+    "seed": 777,
+    "batch": 7
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "HP",
+    "x": 0.5678849816322327,
+    "y": 0.00219350541010499,
+    "peak_layer": 18,
+    "seed": 777,
+    "batch": 8
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "HP",
+    "x": 0.5274987816810608,
+    "y": 0.027853067964315414,
+    "peak_layer": 18,
+    "seed": 777,
+    "batch": 9
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "TOFU",
+    "x": -0.5465770959854126,
+    "y": 0.15607765316963196,
+    "peak_layer": 18,
+    "seed": 42,
+    "batch": 0
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "TOFU",
+    "x": -0.5646536946296692,
+    "y": -0.2037360668182373,
+    "peak_layer": 18,
+    "seed": 42,
+    "batch": 1
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "TOFU",
+    "x": -0.535163402557373,
+    "y": 0.08995392918586731,
+    "peak_layer": 18,
+    "seed": 42,
+    "batch": 2
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "TOFU",
+    "x": -0.5760341286659241,
+    "y": 0.17076148092746735,
+    "peak_layer": 18,
+    "seed": 42,
+    "batch": 3
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "TOFU",
+    "x": -0.5287708044052124,
+    "y": -0.01794610545039177,
+    "peak_layer": 18,
+    "seed": 42,
+    "batch": 4
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "TOFU",
+    "x": -0.5700787901878357,
+    "y": -0.24119268357753754,
+    "peak_layer": 18,
+    "seed": 42,
+    "batch": 5
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "TOFU",
+    "x": -0.5636795163154602,
+    "y": 0.004475092981010675,
+    "peak_layer": 18,
+    "seed": 42,
+    "batch": 6
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "TOFU",
+    "x": -0.5850459933280945,
+    "y": 0.11583420634269714,
+    "peak_layer": 18,
+    "seed": 42,
+    "batch": 7
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "TOFU",
+    "x": -0.5903294086456299,
+    "y": 0.030713697895407677,
+    "peak_layer": 18,
+    "seed": 42,
+    "batch": 8
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "TOFU",
+    "x": -0.5464930534362793,
+    "y": -0.094580739736557,
+    "peak_layer": 18,
+    "seed": 42,
+    "batch": 9
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "TOFU",
+    "x": -0.5202699899673462,
+    "y": 0.24827589094638824,
+    "peak_layer": 18,
+    "seed": 123,
+    "batch": 0
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "TOFU",
+    "x": -0.556537926197052,
+    "y": 0.15762905776500702,
+    "peak_layer": 18,
+    "seed": 123,
+    "batch": 1
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "TOFU",
+    "x": -0.590155839920044,
+    "y": 0.03377484902739525,
+    "peak_layer": 18,
+    "seed": 123,
+    "batch": 2
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "TOFU",
+    "x": -0.6067894697189331,
+    "y": -0.24918827414512634,
+    "peak_layer": 18,
+    "seed": 123,
+    "batch": 3
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "TOFU",
+    "x": -0.6100626587867737,
+    "y": -0.008876764215528965,
+    "peak_layer": 18,
+    "seed": 123,
+    "batch": 4
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "TOFU",
+    "x": -0.5356521606445312,
+    "y": 0.01665205880999565,
+    "peak_layer": 18,
+    "seed": 123,
+    "batch": 5
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "TOFU",
+    "x": -0.5038016438484192,
+    "y": -0.22962762415409088,
+    "peak_layer": 18,
+    "seed": 123,
+    "batch": 6
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "TOFU",
+    "x": -0.6036190986633301,
+    "y": -0.37053602933883667,
+    "peak_layer": 18,
+    "seed": 123,
+    "batch": 7
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "TOFU",
+    "x": -0.562961757183075,
+    "y": 0.08919987082481384,
+    "peak_layer": 18,
+    "seed": 123,
+    "batch": 8
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "TOFU",
+    "x": -0.49085113406181335,
+    "y": 0.27298179268836975,
+    "peak_layer": 18,
+    "seed": 123,
+    "batch": 9
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "TOFU",
+    "x": -0.5387954711914062,
+    "y": -0.253988116979599,
+    "peak_layer": 18,
+    "seed": 777,
+    "batch": 0
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "TOFU",
+    "x": -0.5933215022087097,
+    "y": 0.036040980368852615,
+    "peak_layer": 18,
+    "seed": 777,
+    "batch": 1
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "TOFU",
+    "x": -0.5048192739486694,
+    "y": 0.07856109738349915,
+    "peak_layer": 18,
+    "seed": 777,
+    "batch": 2
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "TOFU",
+    "x": -0.54346764087677,
+    "y": 0.16151155531406403,
+    "peak_layer": 18,
+    "seed": 777,
+    "batch": 3
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "TOFU",
+    "x": -0.5643301606178284,
+    "y": -0.301054447889328,
+    "peak_layer": 18,
+    "seed": 777,
+    "batch": 4
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "TOFU",
+    "x": -0.552827000617981,
+    "y": 0.11604923009872437,
+    "peak_layer": 18,
+    "seed": 777,
+    "batch": 5
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "TOFU",
+    "x": -0.48278841376304626,
+    "y": 0.17480753362178802,
+    "peak_layer": 18,
+    "seed": 777,
+    "batch": 6
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "TOFU",
+    "x": -0.538230299949646,
+    "y": -0.14082352817058563,
+    "peak_layer": 18,
+    "seed": 777,
+    "batch": 7
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "TOFU",
+    "x": -0.6174372434616089,
+    "y": 0.07463739067316055,
+    "peak_layer": 18,
+    "seed": 777,
+    "batch": 8
+  },
+  {
+    "model": "gemma-2b-it",
+    "domain": "TOFU",
+    "x": -0.5968907475471497,
+    "y": 0.14855176210403442,
+    "peak_layer": 18,
+    "seed": 777,
+    "batch": 9
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "HP",
+    "x": 0.6227092742919922,
+    "y": 0.08704568445682526,
+    "peak_layer": 26,
+    "seed": 42,
+    "batch": 0
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "HP",
+    "x": 0.6193104386329651,
+    "y": -0.06647174805402756,
+    "peak_layer": 26,
+    "seed": 42,
+    "batch": 1
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "HP",
+    "x": 0.5848160982131958,
+    "y": 0.022375451400876045,
+    "peak_layer": 26,
+    "seed": 42,
+    "batch": 2
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "HP",
+    "x": 0.56443190574646,
+    "y": 0.037061262875795364,
+    "peak_layer": 26,
+    "seed": 42,
+    "batch": 3
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "HP",
+    "x": 0.5190192461013794,
+    "y": -0.07357396185398102,
+    "peak_layer": 26,
+    "seed": 42,
+    "batch": 4
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "HP",
+    "x": 0.5727328658103943,
+    "y": 0.009089017286896706,
+    "peak_layer": 26,
+    "seed": 42,
+    "batch": 5
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "HP",
+    "x": 0.5575596690177917,
+    "y": -0.0026604935992509127,
+    "peak_layer": 26,
+    "seed": 42,
+    "batch": 6
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "HP",
+    "x": 0.5194331407546997,
+    "y": -0.0091322036460042,
+    "peak_layer": 26,
+    "seed": 42,
+    "batch": 7
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "HP",
+    "x": 0.5814527869224548,
+    "y": -0.00950103159993887,
+    "peak_layer": 26,
+    "seed": 42,
+    "batch": 8
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "HP",
+    "x": 0.5856801867485046,
+    "y": 0.07361440360546112,
+    "peak_layer": 26,
+    "seed": 42,
+    "batch": 9
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "HP",
+    "x": 0.6022719740867615,
+    "y": 0.07945816218852997,
+    "peak_layer": 26,
+    "seed": 123,
+    "batch": 0
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "HP",
+    "x": 0.5752203464508057,
+    "y": 0.0533619187772274,
+    "peak_layer": 26,
+    "seed": 123,
+    "batch": 1
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "HP",
+    "x": 0.5337148308753967,
+    "y": -0.02053653635084629,
+    "peak_layer": 26,
+    "seed": 123,
+    "batch": 2
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "HP",
+    "x": 0.6003725528717041,
+    "y": 0.029647840186953545,
+    "peak_layer": 26,
+    "seed": 123,
+    "batch": 3
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "HP",
+    "x": 0.5904167294502258,
+    "y": 0.03310766816139221,
+    "peak_layer": 26,
+    "seed": 123,
+    "batch": 4
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "HP",
+    "x": 0.5350637435913086,
+    "y": -0.012370584532618523,
+    "peak_layer": 26,
+    "seed": 123,
+    "batch": 5
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "HP",
+    "x": 0.4923684000968933,
+    "y": -0.16877903044223785,
+    "peak_layer": 26,
+    "seed": 123,
+    "batch": 6
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "HP",
+    "x": 0.5467591881752014,
+    "y": 0.002262422116473317,
+    "peak_layer": 26,
+    "seed": 123,
+    "batch": 7
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "HP",
+    "x": 0.6074386835098267,
+    "y": -0.05485589802265167,
+    "peak_layer": 26,
+    "seed": 123,
+    "batch": 8
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "HP",
+    "x": 0.5511794686317444,
+    "y": 0.007951789535582066,
+    "peak_layer": 26,
+    "seed": 123,
+    "batch": 9
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "HP",
+    "x": 0.5908735990524292,
+    "y": 0.03540591895580292,
+    "peak_layer": 26,
+    "seed": 777,
+    "batch": 0
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "HP",
+    "x": 0.6004533767700195,
+    "y": 0.025807499885559082,
+    "peak_layer": 26,
+    "seed": 777,
+    "batch": 1
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "HP",
+    "x": 0.5541530251502991,
+    "y": -0.04776617884635925,
+    "peak_layer": 26,
+    "seed": 777,
+    "batch": 2
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "HP",
+    "x": 0.6181185841560364,
+    "y": 0.014905968680977821,
+    "peak_layer": 26,
+    "seed": 777,
+    "batch": 3
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "HP",
+    "x": 0.4834164083003998,
+    "y": -0.016368161886930466,
+    "peak_layer": 26,
+    "seed": 777,
+    "batch": 4
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "HP",
+    "x": 0.5622472167015076,
+    "y": 0.03631414845585823,
+    "peak_layer": 26,
+    "seed": 777,
+    "batch": 5
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "HP",
+    "x": 0.5675719976425171,
+    "y": 0.026346620172262192,
+    "peak_layer": 26,
+    "seed": 777,
+    "batch": 6
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "HP",
+    "x": 0.5815958976745605,
+    "y": 0.011661396361887455,
+    "peak_layer": 26,
+    "seed": 777,
+    "batch": 7
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "HP",
+    "x": 0.5779240131378174,
+    "y": -0.010509203188121319,
+    "peak_layer": 26,
+    "seed": 777,
+    "batch": 8
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "HP",
+    "x": 0.5629038214683533,
+    "y": -0.06591737270355225,
+    "peak_layer": 26,
+    "seed": 777,
+    "batch": 9
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "TOFU",
+    "x": -0.5715842247009277,
+    "y": 0.18880736827850342,
+    "peak_layer": 26,
+    "seed": 42,
+    "batch": 0
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "TOFU",
+    "x": -0.5554690361022949,
+    "y": -0.1700357347726822,
+    "peak_layer": 26,
+    "seed": 42,
+    "batch": 1
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "TOFU",
+    "x": -0.5483536720275879,
+    "y": 0.1536860167980194,
+    "peak_layer": 26,
+    "seed": 42,
+    "batch": 2
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "TOFU",
+    "x": -0.5852920413017273,
+    "y": 0.0031074758153408766,
+    "peak_layer": 26,
+    "seed": 42,
+    "batch": 3
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "TOFU",
+    "x": -0.5867143273353577,
+    "y": -0.06857218593358994,
+    "peak_layer": 26,
+    "seed": 42,
+    "batch": 4
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "TOFU",
+    "x": -0.5154667496681213,
+    "y": -0.11543329060077667,
+    "peak_layer": 26,
+    "seed": 42,
+    "batch": 5
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "TOFU",
+    "x": -0.6255521178245544,
+    "y": 0.034694820642471313,
+    "peak_layer": 26,
+    "seed": 42,
+    "batch": 6
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "TOFU",
+    "x": -0.5901098251342773,
+    "y": 0.1881643831729889,
+    "peak_layer": 26,
+    "seed": 42,
+    "batch": 7
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "TOFU",
+    "x": -0.5943845510482788,
+    "y": 0.015246844850480556,
+    "peak_layer": 26,
+    "seed": 42,
+    "batch": 8
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "TOFU",
+    "x": -0.5304665565490723,
+    "y": -0.2094421535730362,
+    "peak_layer": 26,
+    "seed": 42,
+    "batch": 9
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "TOFU",
+    "x": -0.5408089756965637,
+    "y": 0.15556366741657257,
+    "peak_layer": 26,
+    "seed": 123,
+    "batch": 0
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "TOFU",
+    "x": -0.5832304954528809,
+    "y": 0.18920668959617615,
+    "peak_layer": 26,
+    "seed": 123,
+    "batch": 1
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "TOFU",
+    "x": -0.5879464149475098,
+    "y": 0.060065846890211105,
+    "peak_layer": 26,
+    "seed": 123,
+    "batch": 2
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "TOFU",
+    "x": -0.6058845520019531,
+    "y": -0.05987267568707466,
+    "peak_layer": 26,
+    "seed": 123,
+    "batch": 3
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "TOFU",
+    "x": -0.5907540321350098,
+    "y": 0.10090804100036621,
+    "peak_layer": 26,
+    "seed": 123,
+    "batch": 4
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "TOFU",
+    "x": -0.574956476688385,
+    "y": 0.01417640782892704,
+    "peak_layer": 26,
+    "seed": 123,
+    "batch": 5
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "TOFU",
+    "x": -0.49374687671661377,
+    "y": -0.23001942038536072,
+    "peak_layer": 26,
+    "seed": 123,
+    "batch": 6
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "TOFU",
+    "x": -0.5759114027023315,
+    "y": -0.222278892993927,
+    "peak_layer": 26,
+    "seed": 123,
+    "batch": 7
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "TOFU",
+    "x": -0.5740363597869873,
+    "y": -0.0385376401245594,
+    "peak_layer": 26,
+    "seed": 123,
+    "batch": 8
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "TOFU",
+    "x": -0.5612796545028687,
+    "y": -0.028428277000784874,
+    "peak_layer": 26,
+    "seed": 123,
+    "batch": 9
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "TOFU",
+    "x": -0.5174520611763,
+    "y": -0.186802938580513,
+    "peak_layer": 26,
+    "seed": 777,
+    "batch": 0
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "TOFU",
+    "x": -0.5709366202354431,
+    "y": 0.22683392465114594,
+    "peak_layer": 26,
+    "seed": 777,
+    "batch": 1
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "TOFU",
+    "x": -0.5235027074813843,
+    "y": -0.07787869870662689,
+    "peak_layer": 26,
+    "seed": 777,
+    "batch": 2
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "TOFU",
+    "x": -0.5590084195137024,
+    "y": 0.056766215711832047,
+    "peak_layer": 26,
+    "seed": 777,
+    "batch": 3
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "TOFU",
+    "x": -0.5995016694068909,
+    "y": -0.0877487063407898,
+    "peak_layer": 26,
+    "seed": 777,
+    "batch": 4
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "TOFU",
+    "x": -0.5868976712226868,
+    "y": 0.18420667946338654,
+    "peak_layer": 26,
+    "seed": 777,
+    "batch": 5
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "TOFU",
+    "x": -0.5765498876571655,
+    "y": -0.06170682981610298,
+    "peak_layer": 26,
+    "seed": 777,
+    "batch": 6
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "TOFU",
+    "x": -0.5307332873344421,
+    "y": -0.181089848279953,
+    "peak_layer": 26,
+    "seed": 777,
+    "batch": 7
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "TOFU",
+    "x": -0.6242656111717224,
+    "y": 0.055903032422065735,
+    "peak_layer": 26,
+    "seed": 777,
+    "batch": 8
+  },
+  {
+    "model": "gemma-7b-it",
+    "domain": "TOFU",
+    "x": -0.580413281917572,
+    "y": 0.0835351049900055,
+    "peak_layer": 26,
+    "seed": 777,
+    "batch": 9
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "HP",
+    "x": -0.5268914103507996,
+    "y": -0.15500806272029877,
+    "peak_layer": 31,
+    "seed": 42,
+    "batch": 0
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "HP",
+    "x": -0.5017005205154419,
+    "y": -0.02759631909430027,
+    "peak_layer": 31,
+    "seed": 42,
+    "batch": 1
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "HP",
+    "x": -0.4628148674964905,
+    "y": 0.02042662724852562,
+    "peak_layer": 31,
+    "seed": 42,
+    "batch": 2
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "HP",
+    "x": -0.46142446994781494,
+    "y": 0.12723349034786224,
+    "peak_layer": 31,
+    "seed": 42,
+    "batch": 3
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "HP",
+    "x": -0.33531850576400757,
+    "y": -0.10743135958909988,
+    "peak_layer": 31,
+    "seed": 42,
+    "batch": 4
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "HP",
+    "x": -0.435721218585968,
+    "y": 0.09206508845090866,
+    "peak_layer": 31,
+    "seed": 42,
+    "batch": 5
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "HP",
+    "x": -0.46133434772491455,
+    "y": 0.11889323592185974,
+    "peak_layer": 31,
+    "seed": 42,
+    "batch": 6
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "HP",
+    "x": -0.3058244287967682,
+    "y": 0.23770548403263092,
+    "peak_layer": 31,
+    "seed": 42,
+    "batch": 7
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "HP",
+    "x": -0.438773512840271,
+    "y": 0.0057151829823851585,
+    "peak_layer": 31,
+    "seed": 42,
+    "batch": 8
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "HP",
+    "x": -0.4835369884967804,
+    "y": -0.1843356192111969,
+    "peak_layer": 31,
+    "seed": 42,
+    "batch": 9
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "HP",
+    "x": -0.47562527656555176,
+    "y": -0.1151139959692955,
+    "peak_layer": 31,
+    "seed": 123,
+    "batch": 0
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "HP",
+    "x": -0.4415450096130371,
+    "y": -0.07076068222522736,
+    "peak_layer": 31,
+    "seed": 123,
+    "batch": 1
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "HP",
+    "x": -0.37427669763565063,
+    "y": 0.18233951926231384,
+    "peak_layer": 31,
+    "seed": 123,
+    "batch": 2
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "HP",
+    "x": -0.4861912131309509,
+    "y": 0.0024470568168908358,
+    "peak_layer": 31,
+    "seed": 123,
+    "batch": 3
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "HP",
+    "x": -0.4784930944442749,
+    "y": 0.018307842314243317,
+    "peak_layer": 31,
+    "seed": 123,
+    "batch": 4
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "HP",
+    "x": -0.36361321806907654,
+    "y": 0.3021663427352905,
+    "peak_layer": 31,
+    "seed": 123,
+    "batch": 5
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "HP",
+    "x": -0.3603808879852295,
+    "y": -0.3055409789085388,
+    "peak_layer": 31,
+    "seed": 123,
+    "batch": 6
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "HP",
+    "x": -0.42872026562690735,
+    "y": 0.15020544826984406,
+    "peak_layer": 31,
+    "seed": 123,
+    "batch": 7
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "HP",
+    "x": -0.4958929717540741,
+    "y": -0.018885623663663864,
+    "peak_layer": 31,
+    "seed": 123,
+    "batch": 8
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "HP",
+    "x": -0.43072476983070374,
+    "y": -0.3633504807949066,
+    "peak_layer": 31,
+    "seed": 123,
+    "batch": 9
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "HP",
+    "x": -0.4780276119709015,
+    "y": -0.23571746051311493,
+    "peak_layer": 31,
+    "seed": 777,
+    "batch": 0
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "HP",
+    "x": -0.4528762698173523,
+    "y": -0.029816394671797752,
+    "peak_layer": 31,
+    "seed": 777,
+    "batch": 1
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "HP",
+    "x": -0.3856571614742279,
+    "y": 0.20962698757648468,
+    "peak_layer": 31,
+    "seed": 777,
+    "batch": 2
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "HP",
+    "x": -0.5106136798858643,
+    "y": -0.01655745692551136,
+    "peak_layer": 31,
+    "seed": 777,
+    "batch": 3
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "HP",
+    "x": -0.37916722893714905,
+    "y": 0.015963956713676453,
+    "peak_layer": 31,
+    "seed": 777,
+    "batch": 4
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "HP",
+    "x": -0.39839860796928406,
+    "y": -0.05604094639420509,
+    "peak_layer": 31,
+    "seed": 777,
+    "batch": 5
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "HP",
+    "x": -0.4323893189430237,
+    "y": 0.07432758808135986,
+    "peak_layer": 31,
+    "seed": 777,
+    "batch": 6
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "HP",
+    "x": -0.4550651013851166,
+    "y": 0.16627508401870728,
+    "peak_layer": 31,
+    "seed": 777,
+    "batch": 7
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "HP",
+    "x": -0.44495055079460144,
+    "y": 0.1383814960718155,
+    "peak_layer": 31,
+    "seed": 777,
+    "batch": 8
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "HP",
+    "x": -0.39689189195632935,
+    "y": -0.07737250626087189,
+    "peak_layer": 31,
+    "seed": 777,
+    "batch": 9
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.38345980644226074,
+    "y": -0.07169510424137115,
+    "peak_layer": 31,
+    "seed": 42,
+    "batch": 0
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.4512551426887512,
+    "y": -0.0219880323857069,
+    "peak_layer": 31,
+    "seed": 42,
+    "batch": 1
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.4166859984397888,
+    "y": -0.064438097178936,
+    "peak_layer": 31,
+    "seed": 42,
+    "batch": 2
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.45733681321144104,
+    "y": 0.012892881408333778,
+    "peak_layer": 31,
+    "seed": 42,
+    "batch": 3
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.4522514045238495,
+    "y": 0.06050870940089226,
+    "peak_layer": 31,
+    "seed": 42,
+    "batch": 4
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.40589457750320435,
+    "y": -0.034842319786548615,
+    "peak_layer": 31,
+    "seed": 42,
+    "batch": 5
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.4531535506248474,
+    "y": 0.0035409298725426197,
+    "peak_layer": 31,
+    "seed": 42,
+    "batch": 6
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.43455979228019714,
+    "y": 0.007760649546980858,
+    "peak_layer": 31,
+    "seed": 42,
+    "batch": 7
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.45429033041000366,
+    "y": -0.0006671204464510083,
+    "peak_layer": 31,
+    "seed": 42,
+    "batch": 8
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.472358375787735,
+    "y": 0.06111213192343712,
+    "peak_layer": 31,
+    "seed": 42,
+    "batch": 9
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.4073427617549896,
+    "y": -0.04615793749690056,
+    "peak_layer": 31,
+    "seed": 123,
+    "batch": 0
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.40591609477996826,
+    "y": -0.08575460314750671,
+    "peak_layer": 31,
+    "seed": 123,
+    "batch": 1
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.46973857283592224,
+    "y": 0.024572836235165596,
+    "peak_layer": 31,
+    "seed": 123,
+    "batch": 2
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.46363580226898193,
+    "y": 0.0406617633998394,
+    "peak_layer": 31,
+    "seed": 123,
+    "batch": 3
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.4378611147403717,
+    "y": -0.09756679832935333,
+    "peak_layer": 31,
+    "seed": 123,
+    "batch": 4
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.4435608386993408,
+    "y": -0.031124522909522057,
+    "peak_layer": 31,
+    "seed": 123,
+    "batch": 5
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.4265094995498657,
+    "y": 0.011053568683564663,
+    "peak_layer": 31,
+    "seed": 123,
+    "batch": 6
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.4381367266178131,
+    "y": 0.029055554419755936,
+    "peak_layer": 31,
+    "seed": 123,
+    "batch": 7
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.44413548707962036,
+    "y": 0.04456602782011032,
+    "peak_layer": 31,
+    "seed": 123,
+    "batch": 8
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.4209037125110626,
+    "y": 0.08178138732910156,
+    "peak_layer": 31,
+    "seed": 123,
+    "batch": 9
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.3954121470451355,
+    "y": 0.023654570803046227,
+    "peak_layer": 31,
+    "seed": 777,
+    "batch": 0
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.42103609442710876,
+    "y": -0.07545949518680573,
+    "peak_layer": 31,
+    "seed": 777,
+    "batch": 1
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.43048757314682007,
+    "y": 0.05833955481648445,
+    "peak_layer": 31,
+    "seed": 777,
+    "batch": 2
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.4173972010612488,
+    "y": 0.02085937187075615,
+    "peak_layer": 31,
+    "seed": 777,
+    "batch": 3
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.4440687894821167,
+    "y": -0.0058273994363844395,
+    "peak_layer": 31,
+    "seed": 777,
+    "batch": 4
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.3959988057613373,
+    "y": -0.09190607070922852,
+    "peak_layer": 31,
+    "seed": 777,
+    "batch": 5
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.4512416422367096,
+    "y": 0.04665949195623398,
+    "peak_layer": 31,
+    "seed": 777,
+    "batch": 6
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.4809233248233795,
+    "y": 0.07978332042694092,
+    "peak_layer": 31,
+    "seed": 777,
+    "batch": 7
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.4566989243030548,
+    "y": -0.048771243542432785,
+    "peak_layer": 31,
+    "seed": 777,
+    "batch": 8
+  },
+  {
+    "model": "Llama-2-7b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.45058974623680115,
+    "y": -0.02915741316974163,
+    "peak_layer": 31,
+    "seed": 777,
+    "batch": 9
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "HP",
+    "x": -0.5917690396308899,
+    "y": 0.036099985241889954,
+    "peak_layer": 28,
+    "seed": 42,
+    "batch": 0
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "HP",
+    "x": -0.5741416811943054,
+    "y": -0.02630574256181717,
+    "peak_layer": 28,
+    "seed": 42,
+    "batch": 1
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "HP",
+    "x": -0.4859106242656708,
+    "y": 0.04477744549512863,
+    "peak_layer": 28,
+    "seed": 42,
+    "batch": 2
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "HP",
+    "x": -0.5011239051818848,
+    "y": -0.010512730106711388,
+    "peak_layer": 28,
+    "seed": 42,
+    "batch": 3
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "HP",
+    "x": -0.4409116506576538,
+    "y": 0.10752157121896744,
+    "peak_layer": 28,
+    "seed": 42,
+    "batch": 4
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "HP",
+    "x": -0.5118557214736938,
+    "y": -0.08381737768650055,
+    "peak_layer": 28,
+    "seed": 42,
+    "batch": 5
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "HP",
+    "x": -0.5413768887519836,
+    "y": -0.10264263302087784,
+    "peak_layer": 28,
+    "seed": 42,
+    "batch": 6
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "HP",
+    "x": -0.40896886587142944,
+    "y": -0.16314877569675446,
+    "peak_layer": 28,
+    "seed": 42,
+    "batch": 7
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "HP",
+    "x": -0.4833333194255829,
+    "y": -0.01611899957060814,
+    "peak_layer": 28,
+    "seed": 42,
+    "batch": 8
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "HP",
+    "x": -0.5209888219833374,
+    "y": 0.12990343570709229,
+    "peak_layer": 28,
+    "seed": 42,
+    "batch": 9
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "HP",
+    "x": -0.4980925917625427,
+    "y": 0.07701514661312103,
+    "peak_layer": 28,
+    "seed": 123,
+    "batch": 0
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "HP",
+    "x": -0.4857112169265747,
+    "y": 0.04889971390366554,
+    "peak_layer": 28,
+    "seed": 123,
+    "batch": 1
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "HP",
+    "x": -0.47657784819602966,
+    "y": -0.1294185370206833,
+    "peak_layer": 28,
+    "seed": 123,
+    "batch": 2
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "HP",
+    "x": -0.5599237680435181,
+    "y": -0.031220410019159317,
+    "peak_layer": 28,
+    "seed": 123,
+    "batch": 3
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "HP",
+    "x": -0.5337097644805908,
+    "y": -0.0021437618415802717,
+    "peak_layer": 28,
+    "seed": 123,
+    "batch": 4
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "HP",
+    "x": -0.4528723657131195,
+    "y": -0.16942660510540009,
+    "peak_layer": 28,
+    "seed": 123,
+    "batch": 5
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "HP",
+    "x": -0.34181201457977295,
+    "y": 0.26313456892967224,
+    "peak_layer": 28,
+    "seed": 123,
+    "batch": 6
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "HP",
+    "x": -0.5324892401695251,
+    "y": -0.07812477648258209,
+    "peak_layer": 28,
+    "seed": 123,
+    "batch": 7
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "HP",
+    "x": -0.5433434247970581,
+    "y": -0.005904778838157654,
+    "peak_layer": 28,
+    "seed": 123,
+    "batch": 8
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "HP",
+    "x": -0.4950558543205261,
+    "y": 0.27475205063819885,
+    "peak_layer": 28,
+    "seed": 123,
+    "batch": 9
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "HP",
+    "x": -0.5334490537643433,
+    "y": 0.1577988862991333,
+    "peak_layer": 28,
+    "seed": 777,
+    "batch": 0
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "HP",
+    "x": -0.48444342613220215,
+    "y": 0.015119765885174274,
+    "peak_layer": 28,
+    "seed": 777,
+    "batch": 1
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "HP",
+    "x": -0.4550133943557739,
+    "y": -0.11647707968950272,
+    "peak_layer": 28,
+    "seed": 777,
+    "batch": 2
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "HP",
+    "x": -0.5665808320045471,
+    "y": -0.04208400100469589,
+    "peak_layer": 28,
+    "seed": 777,
+    "batch": 3
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "HP",
+    "x": -0.4991784989833832,
+    "y": 0.012888207100331783,
+    "peak_layer": 28,
+    "seed": 777,
+    "batch": 4
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "HP",
+    "x": -0.4432726204395294,
+    "y": 0.09492373466491699,
+    "peak_layer": 28,
+    "seed": 777,
+    "batch": 5
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "HP",
+    "x": -0.512262225151062,
+    "y": -0.034207865595817566,
+    "peak_layer": 28,
+    "seed": 777,
+    "batch": 6
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "HP",
+    "x": -0.5416967272758484,
+    "y": -0.08266182243824005,
+    "peak_layer": 28,
+    "seed": 777,
+    "batch": 7
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "HP",
+    "x": -0.5257412791252136,
+    "y": -0.09469061344861984,
+    "peak_layer": 28,
+    "seed": 777,
+    "batch": 8
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "HP",
+    "x": -0.44092145562171936,
+    "y": -0.026223082095384598,
+    "peak_layer": 28,
+    "seed": 777,
+    "batch": 9
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.48207738995552063,
+    "y": 0.11546679586172104,
+    "peak_layer": 28,
+    "seed": 42,
+    "batch": 0
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.5108904838562012,
+    "y": -0.0625259205698967,
+    "peak_layer": 28,
+    "seed": 42,
+    "batch": 1
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.4987224042415619,
+    "y": 0.10547482967376709,
+    "peak_layer": 28,
+    "seed": 42,
+    "batch": 2
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.49318966269493103,
+    "y": -0.018400778993964195,
+    "peak_layer": 28,
+    "seed": 42,
+    "batch": 3
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.5188689231872559,
+    "y": -0.06973429024219513,
+    "peak_layer": 28,
+    "seed": 42,
+    "batch": 4
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.4793476164340973,
+    "y": -0.03324184566736221,
+    "peak_layer": 28,
+    "seed": 42,
+    "batch": 5
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.5032016634941101,
+    "y": -0.00822945311665535,
+    "peak_layer": 28,
+    "seed": 42,
+    "batch": 6
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.49607422947883606,
+    "y": 0.06868948042392731,
+    "peak_layer": 28,
+    "seed": 42,
+    "batch": 7
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.5106602907180786,
+    "y": 0.027188269421458244,
+    "peak_layer": 28,
+    "seed": 42,
+    "batch": 8
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.517327070236206,
+    "y": -0.08274900168180466,
+    "peak_layer": 28,
+    "seed": 42,
+    "batch": 9
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.4899955987930298,
+    "y": 0.14484097063541412,
+    "peak_layer": 28,
+    "seed": 123,
+    "batch": 0
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.48929470777511597,
+    "y": 0.11466669291257858,
+    "peak_layer": 28,
+    "seed": 123,
+    "batch": 1
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.5212355852127075,
+    "y": 0.021257000043988228,
+    "peak_layer": 28,
+    "seed": 123,
+    "batch": 2
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.5257392525672913,
+    "y": -0.039495620876550674,
+    "peak_layer": 28,
+    "seed": 123,
+    "batch": 3
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.5106304287910461,
+    "y": 0.1517699807882309,
+    "peak_layer": 28,
+    "seed": 123,
+    "batch": 4
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.5081267952919006,
+    "y": 0.04179130494594574,
+    "peak_layer": 28,
+    "seed": 123,
+    "batch": 5
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.45159322023391724,
+    "y": -0.1885061264038086,
+    "peak_layer": 28,
+    "seed": 123,
+    "batch": 6
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.487194299697876,
+    "y": -0.1103229969739914,
+    "peak_layer": 28,
+    "seed": 123,
+    "batch": 7
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.5196314454078674,
+    "y": -0.061171602457761765,
+    "peak_layer": 28,
+    "seed": 123,
+    "batch": 8
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.4955463111400604,
+    "y": -0.12864235043525696,
+    "peak_layer": 28,
+    "seed": 123,
+    "batch": 9
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.45644059777259827,
+    "y": -0.18567299842834473,
+    "peak_layer": 28,
+    "seed": 777,
+    "batch": 0
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.510262131690979,
+    "y": 0.17523567378520966,
+    "peak_layer": 28,
+    "seed": 777,
+    "batch": 1
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.48619723320007324,
+    "y": -0.06554917246103287,
+    "peak_layer": 28,
+    "seed": 777,
+    "batch": 2
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.4849533438682556,
+    "y": -0.03765542060136795,
+    "peak_layer": 28,
+    "seed": 777,
+    "batch": 3
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.49820077419281006,
+    "y": -0.006745587568730116,
+    "peak_layer": 28,
+    "seed": 777,
+    "batch": 4
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.4888039231300354,
+    "y": 0.12499362975358963,
+    "peak_layer": 28,
+    "seed": 777,
+    "batch": 5
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.5227001309394836,
+    "y": -0.034008413553237915,
+    "peak_layer": 28,
+    "seed": 777,
+    "batch": 6
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.5062575340270996,
+    "y": -0.10754291713237762,
+    "peak_layer": 28,
+    "seed": 777,
+    "batch": 7
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.5216714143753052,
+    "y": 0.09902302920818329,
+    "peak_layer": 28,
+    "seed": 777,
+    "batch": 8
+  },
+  {
+    "model": "Llama-2-13b-chat-hf",
+    "domain": "TOFU",
+    "x": 0.49769508838653564,
+    "y": 0.002092573558911681,
+    "peak_layer": 28,
+    "seed": 777,
+    "batch": 9
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5910326838493347,
+    "y": 0.10423645377159119,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 0
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "HP",
+    "x": 0.6238439679145813,
+    "y": -0.03319689258933067,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 1
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5673746466636658,
+    "y": 0.0008323517395183444,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 2
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "HP",
+    "x": 0.477666974067688,
+    "y": 0.08726447075605392,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 3
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5746368765830994,
+    "y": -0.10639667510986328,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 4
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5296329259872437,
+    "y": 0.05016540363430977,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 5
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5749906897544861,
+    "y": 0.0030510341748595238,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 6
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "HP",
+    "x": 0.48657307028770447,
+    "y": -0.013174477964639664,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 7
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5580688118934631,
+    "y": -0.031977176666259766,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 8
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5581289529800415,
+    "y": 0.09138573706150055,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 9
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "HP",
+    "x": 0.533715009689331,
+    "y": 0.14427748322486877,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 0
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5518803596496582,
+    "y": 0.043991878628730774,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 1
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "HP",
+    "x": 0.521488606929779,
+    "y": -0.0137540427967906,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 2
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5630599856376648,
+    "y": 0.087996706366539,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 3
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "HP",
+    "x": 0.555745542049408,
+    "y": 0.0665682852268219,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 4
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5181534290313721,
+    "y": -0.03141201660037041,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 5
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5631159543991089,
+    "y": -0.3999474346637726,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 6
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5404292941093445,
+    "y": 0.017947187647223473,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 7
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5875633955001831,
+    "y": -0.049290601164102554,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 8
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "HP",
+    "x": 0.6007977724075317,
+    "y": -0.004681388847529888,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 9
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5592792630195618,
+    "y": 0.07685545086860657,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 0
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5627434253692627,
+    "y": 0.041770320385694504,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 1
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5465119481086731,
+    "y": -0.10430314391851425,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 2
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "HP",
+    "x": 0.6055114269256592,
+    "y": 0.005037403199821711,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 3
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "HP",
+    "x": 0.49798309803009033,
+    "y": 0.035529859364032745,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 4
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5542234182357788,
+    "y": 0.013918356038630009,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 5
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5405564308166504,
+    "y": 0.0770171582698822,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 6
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5354039669036865,
+    "y": 0.03350764513015747,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 7
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5488985180854797,
+    "y": 0.020497707650065422,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 8
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "HP",
+    "x": 0.6144159436225891,
+    "y": -0.20163282752037048,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 9
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5302432179450989,
+    "y": 0.2064395397901535,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 0
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5410889983177185,
+    "y": -0.02458816021680832,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 1
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5442062020301819,
+    "y": 0.09982641041278839,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 2
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5615203380584717,
+    "y": -0.010351890698075294,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 3
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5880209803581238,
+    "y": -0.12426536530256271,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 4
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5303167104721069,
+    "y": -0.03399251401424408,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 5
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5889982581138611,
+    "y": -7.904897211119533e-05,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 6
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5465768575668335,
+    "y": 0.17825964093208313,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 7
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5651224851608276,
+    "y": -0.0899195596575737,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 8
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5503404140472412,
+    "y": -0.23164942860603333,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 9
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5517842769622803,
+    "y": 0.055380720645189285,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 0
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5549119710922241,
+    "y": 0.10405794531106949,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 1
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.56997150182724,
+    "y": 0.07782477885484695,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 2
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5747013688087463,
+    "y": -0.15059992671012878,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 3
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5671882033348083,
+    "y": 0.15495003759860992,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 4
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5691801309585571,
+    "y": -0.016877055168151855,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 5
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5199780464172363,
+    "y": -0.0808926671743393,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 6
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5555081963539124,
+    "y": -0.009624871425330639,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 7
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5422478318214417,
+    "y": -0.005031067878007889,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 8
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5504499673843384,
+    "y": -0.12033987790346146,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 9
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5463871359825134,
+    "y": -0.0810638815164566,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 0
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5594692230224609,
+    "y": 0.08236455917358398,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 1
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5511857867240906,
+    "y": -0.10505010932683945,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 2
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5216854810714722,
+    "y": 0.04451796039938927,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 3
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5809581875801086,
+    "y": -0.023983994498848915,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 4
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5136396288871765,
+    "y": 0.22301585972309113,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 5
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5677815675735474,
+    "y": -0.03914066404104233,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 6
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5520029664039612,
+    "y": -0.125599667429924,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 7
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5954989194869995,
+    "y": 0.07306159287691116,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 8
+  },
+  {
+    "model": "Meta-Llama-3-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5524609088897705,
+    "y": -0.03873332589864731,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 9
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5858042240142822,
+    "y": 0.08998201042413712,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 0
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "HP",
+    "x": 0.6479423642158508,
+    "y": -0.0928766205906868,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 1
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5769338011741638,
+    "y": 0.03123014234006405,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 2
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "HP",
+    "x": 0.4889164865016937,
+    "y": 0.10313098132610321,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 3
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5965527296066284,
+    "y": -0.14619143307209015,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 4
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5452415347099304,
+    "y": 0.06909772008657455,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 5
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5764352679252625,
+    "y": 0.01400204747915268,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 6
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5053332448005676,
+    "y": -0.01774449273943901,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 7
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5635297894477844,
+    "y": -0.008033261634409428,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 8
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5481460690498352,
+    "y": 0.09661848843097687,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 9
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5407406687736511,
+    "y": 0.14406655728816986,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 0
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5587871670722961,
+    "y": 0.04988503456115723,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 1
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "HP",
+    "x": 0.537444531917572,
+    "y": -0.03055567853152752,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 2
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5649257302284241,
+    "y": 0.08706343173980713,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 3
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5516672730445862,
+    "y": 0.08573135733604431,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 4
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5356268286705017,
+    "y": -0.04715822637081146,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 5
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5880512595176697,
+    "y": -0.3495599925518036,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 6
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5426731705665588,
+    "y": 0.023580007255077362,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 7
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "HP",
+    "x": 0.6012110710144043,
+    "y": -0.07352042198181152,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 8
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "HP",
+    "x": 0.610129714012146,
+    "y": 0.016711905598640442,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 9
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5554207563400269,
+    "y": 0.0825396254658699,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 0
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5632476210594177,
+    "y": 0.0751112774014473,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 1
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5765916705131531,
+    "y": -0.11455534398555756,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 2
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5941749811172485,
+    "y": 0.00732342479750514,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 3
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "HP",
+    "x": 0.49114593863487244,
+    "y": 0.06068922206759453,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 4
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5689520239830017,
+    "y": 0.025650475174188614,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 5
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5468096733093262,
+    "y": 0.062486421316862106,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 6
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5533497929573059,
+    "y": 0.04995908960700035,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 7
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "HP",
+    "x": 0.5624525547027588,
+    "y": -0.03774627298116684,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 8
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "HP",
+    "x": 0.6395574808120728,
+    "y": -0.20926152169704437,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 9
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5539372563362122,
+    "y": 0.2093515694141388,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 0
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5462575554847717,
+    "y": -0.05018102750182152,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 1
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5456094741821289,
+    "y": 0.129924938082695,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 2
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5753745436668396,
+    "y": -0.033920399844646454,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 3
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5953269004821777,
+    "y": -0.13963307440280914,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 4
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5402641296386719,
+    "y": -0.047336336225271225,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 5
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.6040700674057007,
+    "y": 0.022885218262672424,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 6
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.560158908367157,
+    "y": 0.16941696405410767,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 7
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5586059093475342,
+    "y": -0.04605529084801674,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 8
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5516238212585449,
+    "y": -0.2631208300590515,
+    "peak_layer": 25,
+    "seed": 42,
+    "batch": 9
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5449277758598328,
+    "y": 0.08794823288917542,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 0
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.562457263469696,
+    "y": 0.11637671291828156,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 1
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.587692379951477,
+    "y": 0.06511274725198746,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 2
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5875265598297119,
+    "y": -0.16612552106380463,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 3
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5828410387039185,
+    "y": 0.15615227818489075,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 4
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.583538830280304,
+    "y": -0.017329158261418343,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 5
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5157029032707214,
+    "y": -0.13037417829036713,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 6
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5633825063705444,
+    "y": -0.012435536831617355,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 7
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5496728420257568,
+    "y": 0.011320386081933975,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 8
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5661397576332092,
+    "y": -0.1238216757774353,
+    "peak_layer": 25,
+    "seed": 123,
+    "batch": 9
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5512518286705017,
+    "y": -0.07935667783021927,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 0
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5645621418952942,
+    "y": 0.0939464271068573,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 1
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.55745530128479,
+    "y": -0.10910561680793762,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 2
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.533523440361023,
+    "y": 0.03201920911669731,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 3
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.6050258278846741,
+    "y": -0.05355421453714371,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 4
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5318157076835632,
+    "y": 0.2208322137594223,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 5
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5846918225288391,
+    "y": -0.022439653053879738,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 6
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.547954261302948,
+    "y": -0.12421727925539017,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 7
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.6042805910110474,
+    "y": 0.08426251262426376,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 8
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "domain": "TOFU",
+    "x": -0.5621247887611389,
+    "y": -0.02819867804646492,
+    "peak_layer": 25,
+    "seed": 777,
+    "batch": 9
+  }
+]

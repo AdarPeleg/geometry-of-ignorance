@@ -3,12 +3,12 @@
 RQ1 Entropy Analysis
 
 Aggregates per-model entropy JSONs (produced by rq1_extract_entropy.py) into
-results/entropy_summary.csv.
+experiments/rq1/main/entropy_summary.csv.
 
 For each metric, finds the peak layer = layer that maximises HP-TOFU separation
 (TOFU_entropy - HP_entropy, since lower entropy = model knows the concept).
 
-Also merges with results/summary.csv to print a unified view.
+Also merges with experiments/rq1/main/summary.csv to print a unified view.
 
 Usage:
     python rq1_analyze_entropy.py
@@ -121,8 +121,8 @@ def compute_separation(hp_per_layer: List[float], tofu_per_layer: List[float], m
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--results_dir", default="results")
-    parser.add_argument("--output_csv", default="results/entropy_summary.csv")
+    parser.add_argument("--results_dir", default="experiments/rq1/main")
+    parser.add_argument("--output_csv", default="experiments/rq1/main/entropy_summary.csv")
     parser.add_argument("--models_subset", nargs="+", default=None)
     args = parser.parse_args()
 
@@ -220,8 +220,7 @@ def main():
     if os.path.exists(existing):
         print(f"\nTip: merge with {existing} for full combined table.")
 
-    print("\nNext step:")
-    print("  git add results/entropy_summary.csv && git commit -m 'add entropy summary CSV' && git push")
+    print(f"\nWrote {os.path.join(args.results_dir, 'entropy_summary.csv')}")
 
 
 def compute_separation_layers(model_results, metric, domain):

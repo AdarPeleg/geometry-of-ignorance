@@ -12,10 +12,9 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 from pathlib import Path
 
-RESULTS_CSV = Path("results_rq2/rq2_summary.csv")
+RESULTS_CSV = Path("experiments/rq2/main/rq2_summary.csv")
 OUT_PATHS = [
     Path("figures/rq2_bar_chart.pdf"),
-    Path("../Fragmentation-EMNLP-ACL-/Figures/rq2_bar_chart.pdf"),
 ]
 
 METHOD_ORDER   = ["GradAscent", "DPO", "NPO", "NPO+KL", "RMU", "WHP"]
@@ -31,10 +30,10 @@ MODEL_COLORS   = {"Llama-2-7b-chat-hf":       "#2166ac",   # blue
                   "Qwen2.5-7B-Instruct":       "#d6604d"}   # orange-red
 
 ATTACKS = [
-    ("attack_Steering", "Steering AUC",  0.5, True),
-    ("attack_ICL",      "ICL Δ",    0.0, False),
-    ("attack_GCG",      "GCG Acc",       None, False),
-    ("attack_MIA",      "MIA AUC",       0.5, True),
+    ("attack_Steering", "Steering AUC",  0.5, True,  False),
+    ("attack_ICL",      "ICL Δ",         0.0, False, True),
+    ("attack_GCG",      "GCG Acc",       None, False, False),
+    ("attack_MIA",      "MIA AUC",       0.5, True,  False),
 ]
 
 BAR_WIDTH  = 0.22
@@ -64,6 +63,19 @@ def compute_stats(df, atk_col):
     return result
 
 
+def compute_bar_extent(stats):
+    """Min/max of (mean - std, mean + std) across every bar in a panel."""
+    los, his = [], []
+    for method_stats in stats.values():
+        for stat in method_stats.values():
+            if stat is None:
+                continue
+            mean, std, _ = stat
+            los.append(mean - std)
+            his.append(mean + std)
+    return min(los), max(his)
+
+
 def draw_panel(ax, stats, ylabel, chance, chance_is_dashed, ymin=None, ymax=None):
     n_methods = len(METHOD_ORDER)
     n_models  = len(MODEL_ORDER)
@@ -91,8 +103,10 @@ def draw_panel(ax, stats, ylabel, chance, chance_is_dashed, ymin=None, ymax=None
                     elinewidth=0.8, capsize=2.5, capthick=0.8, zorder=4)
 
     # Chance line
-    x_lo = group_positions[0] - GROUP_GAP * 0.45
-    x_hi = group_positions[-1] + GROUP_GAP * 0.45
+    group_half_width = (n_models * BAR_WIDTH + (n_models - 1) * BAR_GAP) / 2
+    margin = group_half_width * 1.15  # clear the outermost bars plus a little padding
+    x_lo = group_positions[0] - margin
+    x_hi = group_positions[-1] + margin
     if chance is not None:
         ls = "--" if chance_is_dashed else ":"
         ax.axhline(chance, color="#888", linewidth=0.9, linestyle=ls, zorder=2, label="_nolegend_")
@@ -138,10 +152,16 @@ def main():
     )
     axes = axes.flatten()
 
-    for i, (col, label, chance, dashed) in enumerate(ATTACKS):
+    for i, (col, label, chance, dashed, auto_scale) in enumerate(ATTACKS):
         stats = compute_stats(df, col)
-        ymin = -0.12 if col == "attack_ICL" else 0.0
-        ymax = 1.12
+        if auto_scale:
+            lo, hi = compute_bar_extent(stats)
+            if chance is not None:
+                lo, hi = min(lo, chance), max(hi, chance)
+            pad = (hi - lo) * 0.18
+            ymin, ymax = lo - pad, hi + pad
+        else:
+            ymin, ymax = 0.0, 1.12
         draw_panel(axes[i], stats, label, chance, dashed, ymin=ymin, ymax=ymax)
 
         # Chance-line annotation (small text inside panel)

@@ -73,6 +73,37 @@ def _conditional_nll(model, tokenizer, question: str, answer: str, max_length: i
     return out.loss.item()
 
 
+def _per_token_nll(model, tokenizer, question: str, answer: str, max_length: int = 256) -> List[float]:
+    """Return per-token CE losses for answer tokens (question masked)."""
+    device = _device(model)
+    prompt = f"{question}\nAnswer: {answer}"
+    enc_full = tokenizer(prompt, return_tensors="pt", truncation=True, max_length=max_length)
+    enc_q    = tokenizer(f"{question}\nAnswer:", return_tensors="pt", truncation=True, max_length=max_length)
+    input_ids = enc_full["input_ids"].to(device)
+    q_len = enc_q["input_ids"].shape[1]
+    if q_len >= input_ids.shape[1]:
+        return []
+    with torch.no_grad():
+        logits = model(input_ids).logits  # [1, seq_len, vocab]
+    # shift: logits[q_len-1] predicts token at position q_len (first answer token)
+    shift_logits = logits[0, q_len - 1: -1, :]  # [n_answer_tokens, vocab]
+    shift_labels = input_ids[0, q_len:]           # [n_answer_tokens]
+    losses = F.cross_entropy(shift_logits, shift_labels, reduction="none")
+    return losses.cpu().float().tolist()
+
+
+def _extract_last_hidden(model, tokenizer, question: str, answer: str, max_length: int = 256) -> Optional[np.ndarray]:
+    """Return last transformer layer hidden state at the last answer token position."""
+    device = _device(model)
+    prompt = f"{question}\nAnswer: {answer}"
+    enc_full = tokenizer(prompt, return_tensors="pt", truncation=True, max_length=max_length)
+    input_ids = enc_full["input_ids"].to(device)
+    with torch.no_grad():
+        out = model(input_ids, output_hidden_states=True)
+    # hidden_states[-1]: [1, seq_len, hidden_dim] — use last token position
+    return out.hidden_states[-1][0, -1, :].cpu().float().numpy()
+
+
 def _rouge_l(hyp: str, ref: str) -> float:
     """ROUGE-L F1 between hypothesis and reference strings."""
     h, r = hyp.lower().split(), ref.lower().split()
@@ -746,6 +777,12 @@ def gcg_attack(
         use_prefix_cache=True,
         seed=seed,
         verbosity="WARNING",
+        # Some tokenizers (observed on Llama-3, previously on Qwen) can't round-trip
+        # every sampled candidate through decode->re-encode, which makes nanogcg's
+        # default filter_ids=True raise "No token sequences are the same after
+        # decoding and re-encoding" on every single candidate/pair. nanogcg's own
+        # error message recommends filter_ids=False as the fix.
+        filter_ids=False,
     )
 
     for p in tqdm(eval_pairs, desc="GCG attack", leave=False):
@@ -845,21 +882,28 @@ def mia_attack(
 
     rng = random.Random(seed)
 
-    # Prefer qa_pairs for forget scoring — they have proper Q&A format with short,
-    # natural answers (e.g., "J.K. Rowling", "Hogwarts"). Wikipedia forget_pairs have
-    # sentence-fragment answers that may start with dates/numbers, giving inflated NLL.
+    # forget: use qa_pairs (HP Q&A, short factual answers like "J.K. Rowling", "Hogwarts").
+    # Wikipedia forget_pairs have sentence-fragment answers starting with dates/numbers,
+    # giving inflated NLL after GradAscent — qa_pairs are stable across all methods.
     forget_source = qa_pairs if qa_pairs else forget_pairs
     forget_sample = random.Random(seed).sample(forget_source, min(n_forget, len(forget_source)))
     retain_sample = random.Random(seed + 1).sample(retain_pairs, min(n_retain, len(retain_pairs)))
 
     forget_scores = []
-    for p in tqdm(forget_sample, desc="MIA: forget NLL", leave=False):
+    for p in tqdm(forget_sample, desc="MIA: forget NLL (HP)", leave=False):
         nll = _conditional_nll(model, tokenizer, p.get("question", ""), p.get("answer", ""), max_length)
         forget_scores.append(nll)
 
     retain_scores = []
     for p in tqdm(retain_sample, desc="MIA: retain NLL", leave=False):
-        nll = _conditional_nll(model, tokenizer, p.get("question", ""), p.get("answer", ""), max_length)
+        q, a = p.get("question", ""), p.get("answer", "")
+        # retain_pairs store Wikipedia sentences in 'question' with empty 'answer'.
+        # Score the full sentence as unconditional NLL so the comparison is meaningful:
+        # P(retain_sentence) rather than P("" | retain_sentence) which returns 0.
+        if not a:
+            nll = _conditional_nll(model, tokenizer, "", q, max_length)
+        else:
+            nll = _conditional_nll(model, tokenizer, q, a, max_length)
         retain_scores.append(nll)
 
     if not forget_scores or not retain_scores:
@@ -886,6 +930,331 @@ def mia_attack(
         "auc": auc,
         "forget_mean_nll": forget_mean,
         "retain_mean_nll": retain_mean,
+        "forget_nlls": [float(x) for x in forget_scores],
+        "retain_nlls": [float(x) for x in retain_scores],
+        "n_forget": len(forget_scores),
+        "n_retain": len(retain_scores),
+    }
+
+
+def mia_mink_attack(
+    model,
+    tokenizer,
+    forget_pairs: List[Dict],
+    retain_pairs: List[Dict],
+    qa_pairs: Optional[List[Dict]] = None,
+    max_length: int = 256,
+    n_forget: int = 50,
+    n_retain: int = 50,
+    k: float = 0.20,
+    seed: int = 42,
+) -> Dict:
+    """
+    Min-K% MIA: use mean of the bottom K% per-token NLL values (most confident tokens).
+
+    More discriminative than mean NLL because memorized content has distinctively
+    low-loss tokens. K=0.20 means we take the 20% of answer tokens with the lowest NLL.
+    AUC > 0.5 = model still more confident on HP than retain = bad unlearning.
+    Ref: Shi et al. 2024 "Detecting Pretraining Data from Large Language Models"
+    """
+    try:
+        from sklearn.metrics import roc_auc_score
+    except ImportError:
+        return {"score": 0.5, "error": "sklearn not installed"}
+
+    forget_source = qa_pairs if qa_pairs else forget_pairs
+    forget_sample = random.Random(seed).sample(forget_source, min(n_forget, len(forget_source)))
+    retain_sample = random.Random(seed + 1).sample(retain_pairs, min(n_retain, len(retain_pairs)))
+
+    def _mink_score(per_tok: List[float]) -> float:
+        if not per_tok:
+            return 0.0
+        n = max(1, int(len(per_tok) * k))
+        return float(np.mean(sorted(per_tok)[:n]))
+
+    forget_scores = []
+    for p in tqdm(forget_sample, desc="MIA-MinK: forget", leave=False):
+        tok = _per_token_nll(model, tokenizer, p.get("question", ""), p.get("answer", ""), max_length)
+        forget_scores.append(_mink_score(tok) if tok else 0.0)
+
+    retain_scores = []
+    for p in tqdm(retain_sample, desc="MIA-MinK: retain", leave=False):
+        q, a = p.get("question", ""), p.get("answer", "")
+        tok = _per_token_nll(model, tokenizer, "", q, max_length) if not a else \
+              _per_token_nll(model, tokenizer, q, a, max_length)
+        retain_scores.append(_mink_score(tok) if tok else 0.0)
+
+    if not forget_scores or not retain_scores:
+        return {"score": 0.5, "error": "empty scores"}
+
+    labels = [1] * len(forget_scores) + [0] * len(retain_scores)
+    scores  = [-s for s in forget_scores] + [-s for s in retain_scores]
+    try:
+        auc = roc_auc_score(labels, scores)
+    except ValueError:
+        auc = 0.5
+
+    logger.info(f"MIA-MinK AUC={auc:.3f} | k={k} | forget_mink={np.mean(forget_scores):.4f} | retain_mink={np.mean(retain_scores):.4f}")
+    return {
+        "score": auc,
+        "auc": auc,
+        "k": k,
+        "forget_mean_mink": float(np.mean(forget_scores)),
+        "retain_mean_mink": float(np.mean(retain_scores)),
+        "n_forget": len(forget_scores),
+        "n_retain": len(retain_scores),
+    }
+
+
+def mia_ref_attack(
+    model,
+    tokenizer,
+    forget_pairs: List[Dict],
+    retain_pairs: List[Dict],
+    qa_pairs: Optional[List[Dict]] = None,
+    base_forget_nlls: Optional[List[float]] = None,
+    base_retain_nlls: Optional[List[float]] = None,
+    max_length: int = 256,
+    n_forget: int = 50,
+    n_retain: int = 50,
+    seed: int = 42,
+) -> Dict:
+    """
+    Reference-calibrated MIA: calibrated_score = NLL_base − NLL_target per pair.
+
+    Removes text-difficulty bias by comparing the unlearned model to its base
+    (pre-unlearning) counterpart. Higher score = model is still as confident as
+    the base = knowledge retained = bad unlearning.
+    AUC > 0.5 = forget pairs more retained relative to base than retain pairs.
+
+    Requires base_forget_nlls and base_retain_nlls from the base model MIA run
+    (stored in the Base model's attacks.json as attacks.MIA.forget_nlls / retain_nlls).
+    """
+    if base_forget_nlls is None or base_retain_nlls is None:
+        return {"score": 0.5, "error": "no reference NLLs — run base model MIA first"}
+
+    try:
+        from sklearn.metrics import roc_auc_score
+    except ImportError:
+        return {"score": 0.5, "error": "sklearn not installed"}
+
+    forget_source = qa_pairs if qa_pairs else forget_pairs
+    forget_sample = random.Random(seed).sample(forget_source, min(n_forget, len(forget_source)))
+    retain_sample = random.Random(seed + 1).sample(retain_pairs, min(n_retain, len(retain_pairs)))
+
+    target_forget = []
+    for p in tqdm(forget_sample, desc="MIA-Ref: forget NLL", leave=False):
+        nll = _conditional_nll(model, tokenizer, p.get("question", ""), p.get("answer", ""), max_length)
+        target_forget.append(nll)
+
+    target_retain = []
+    for p in tqdm(retain_sample, desc="MIA-Ref: retain NLL", leave=False):
+        q, a = p.get("question", ""), p.get("answer", "")
+        nll = _conditional_nll(model, tokenizer, "", q, max_length) if not a else \
+              _conditional_nll(model, tokenizer, q, a, max_length)
+        target_retain.append(nll)
+
+    # Align list lengths (base may have more samples)
+    n_f = min(len(target_forget), len(base_forget_nlls))
+    n_r = min(len(target_retain), len(base_retain_nlls))
+
+    # Calibrated score: positive = model is still confident like base = retained
+    calib_forget = [float(base_forget_nlls[i]) - target_forget[i] for i in range(n_f)]
+    calib_retain = [float(base_retain_nlls[i]) - target_retain[i] for i in range(n_r)]
+
+    labels = [1] * n_f + [0] * n_r
+    scores  = calib_forget + calib_retain  # higher = more retained → predicts "member"
+    try:
+        auc = roc_auc_score(labels, scores)
+    except ValueError:
+        auc = 0.5
+
+    logger.info(f"MIA-Ref AUC={auc:.3f} | calib_forget={np.mean(calib_forget):.4f} | calib_retain={np.mean(calib_retain):.4f}")
+    return {
+        "score": auc,
+        "auc": auc,
+        "mean_calib_forget": float(np.mean(calib_forget)),
+        "mean_calib_retain": float(np.mean(calib_retain)),
+        "n_forget": n_f,
+        "n_retain": n_r,
+    }
+
+
+def rep_similarity_attack(
+    model,
+    tokenizer,
+    forget_pairs: List[Dict],
+    retain_pairs: List[Dict],
+    qa_pairs: Optional[List[Dict]] = None,
+    base_forget_hiddens: Optional[np.ndarray] = None,
+    base_retain_hiddens: Optional[np.ndarray] = None,
+    max_length: int = 256,
+    n_forget: int = 50,
+    n_retain: int = 50,
+    seed: int = 42,
+) -> Dict:
+    """
+    Representational Similarity probe: cosine similarity of last-layer hidden states to base model.
+
+    NOT a standard MIA — this is a geometry diagnostic. Score = cosine_sim(h_target, h_base)
+    per pair. AUC > 0.5 = forget pairs have higher representational similarity to base than
+    retain pairs, indicating the model's internal processing of forget content is unchanged.
+
+    Requires base_forget_hiddens and base_retain_hiddens from the base model pass,
+    stored in results_rq2/mia_hiddens/{model_id}__{concept}.npz.
+    """
+    if base_forget_hiddens is None or base_retain_hiddens is None:
+        return {"score": 0.5, "error": "no reference hiddens — run base model pass first"}
+
+    try:
+        from sklearn.metrics import roc_auc_score
+    except ImportError:
+        return {"score": 0.5, "error": "sklearn not installed"}
+
+    forget_source = qa_pairs if qa_pairs else forget_pairs
+    forget_sample = random.Random(seed).sample(forget_source, min(n_forget, len(forget_source)))
+    retain_sample = random.Random(seed + 1).sample(retain_pairs, min(n_retain, len(retain_pairs)))
+
+    n_f = min(len(forget_sample), len(base_forget_hiddens))
+    n_r = min(len(retain_sample), len(base_retain_hiddens))
+
+    forget_sims = []
+    for i in tqdm(range(n_f), desc="RepSim: forget", leave=False):
+        p = forget_sample[i]
+        h = _extract_last_hidden(model, tokenizer, p.get("question", ""), p.get("answer", ""), max_length)
+        ref = base_forget_hiddens[i].astype(np.float32)
+        sim = float(np.dot(h, ref) / (np.linalg.norm(h) * np.linalg.norm(ref) + 1e-8))
+        forget_sims.append(sim)
+
+    retain_sims = []
+    for i in tqdm(range(n_r), desc="RepSim: retain", leave=False):
+        p = retain_sample[i]
+        q, a = p.get("question", ""), p.get("answer", "")
+        prompt_q = "" if not a else q
+        prompt_a = q if not a else a
+        h = _extract_last_hidden(model, tokenizer, prompt_q, prompt_a, max_length)
+        ref = base_retain_hiddens[i].astype(np.float32)
+        sim = float(np.dot(h, ref) / (np.linalg.norm(h) * np.linalg.norm(ref) + 1e-8))
+        retain_sims.append(sim)
+
+    labels = [1] * len(forget_sims) + [0] * len(retain_sims)
+    scores  = forget_sims + retain_sims
+    try:
+        auc = roc_auc_score(labels, scores)
+    except ValueError:
+        auc = 0.5
+
+    logger.info(f"RepSimilarity AUC={auc:.3f} | forget_sim={np.mean(forget_sims):.4f} | retain_sim={np.mean(retain_sims):.4f}")
+    return {
+        "score": auc,
+        "auc": auc,
+        "mean_forget_sim": float(np.mean(forget_sims)),
+        "mean_retain_sim": float(np.mean(retain_sims)),
+        "n_forget": len(forget_sims),
+        "n_retain": len(retain_sims),
+    }
+
+
+def _generate_paraphrases_embed(
+    model,
+    tokenizer,
+    question: str,
+    answer: str,
+    n: int = 5,
+    sigma: float = 0.05,
+    seed: int = 42,
+    max_length: int = 256,
+) -> List[str]:
+    """
+    Generate n paraphrases via embedding-domain perturbation (SPV-MIA, arxiv:2311.06062).
+    Adds Gaussian noise (σ=sigma) to answer token embeddings, then maps each perturbed
+    vector back to the nearest vocabulary token by cosine similarity.
+    """
+    device = _device(model)
+    q_prefix = f"{question}\nAnswer: " if question else ""
+    full_text = q_prefix + answer
+    q_enc  = tokenizer(q_prefix,  return_tensors="pt", truncation=True, max_length=max_length)
+    full_enc = tokenizer(full_text, return_tensors="pt", truncation=True, max_length=max_length)
+    q_len = q_enc["input_ids"].shape[1]
+    answer_ids = full_enc["input_ids"][0, q_len:]
+    if answer_ids.numel() == 0:
+        return [answer] * n
+
+    embed_weight = model.get_input_embeddings().weight.detach()  # [vocab, dim]
+    answer_embeds = embed_weight[answer_ids.to(embed_weight.device)]  # [ans_len, dim]
+    embed_norm = F.normalize(embed_weight, dim=-1)  # [vocab, dim] — normalize once
+
+    paraphrases = []
+    torch.manual_seed(seed)
+    for _ in range(n):
+        noise = torch.randn_like(answer_embeds) * sigma
+        perturbed_norm = F.normalize(answer_embeds + noise, dim=-1)  # [ans_len, dim]
+        nearest_ids = (perturbed_norm @ embed_norm.T).argmax(dim=-1).cpu()  # [ans_len]
+        paraphrases.append(tokenizer.decode(nearest_ids, skip_special_tokens=True))
+    return paraphrases
+
+
+def spv_mia_attack(
+    model,
+    tokenizer,
+    forget_pairs: List[Dict],
+    retain_pairs: List[Dict],
+    qa_pairs: Optional[List[Dict]] = None,
+    max_length: int = 256,
+    n_forget: int = 50,
+    n_retain: int = 50,
+    n_paraphrases: int = 5,
+    sigma: float = 0.05,
+    seed: int = 42,
+) -> Dict:
+    """
+    SPV-MIA: Self-calibrated Probabilistic Variation MIA (arxiv:2311.06062).
+
+    Score = mean_NLL(paraphrases) − NLL(original).
+    Members (memorized text) sit at NLL local minima → perturbed neighbours have
+    higher NLL → score > 0.  Non-members → paraphrases ≈ same NLL → score ≈ 0.
+
+    Paraphrases are generated via embedding-domain perturbation (no external model).
+    Implemented without self-calibrated reference model (base SPV variant).
+    """
+    try:
+        from sklearn.metrics import roc_auc_score
+    except ImportError:
+        return {"score": 0.5, "error": "sklearn not installed"}
+
+    forget_source = qa_pairs if qa_pairs else forget_pairs
+    forget_sample = random.Random(seed).sample(forget_source, min(n_forget, len(forget_source)))
+    retain_sample = random.Random(seed + 1).sample(retain_pairs, min(n_retain, len(retain_pairs)))
+
+    def _pv_score(q: str, a: str) -> float:
+        nll_orig = _conditional_nll(model, tokenizer, q, a, max_length)
+        paras = _generate_paraphrases_embed(model, tokenizer, q, a,
+                                            n=n_paraphrases, sigma=sigma, seed=seed)
+        nll_paras = [_conditional_nll(model, tokenizer, q, p, max_length) for p in paras]
+        return float(np.mean(nll_paras) - nll_orig)  # positive = member-like
+
+    forget_scores = []
+    for p in tqdm(forget_sample, desc="SPV-MIA: forget", leave=False):
+        forget_scores.append(_pv_score(p.get("question", ""), p.get("answer", "")))
+
+    retain_scores = []
+    for p in tqdm(retain_sample, desc="SPV-MIA: retain", leave=False):
+        q, a = p.get("question", ""), p.get("answer", "")
+        retain_scores.append(_pv_score("" if not a else q, q if not a else a))
+
+    labels = [1] * len(forget_scores) + [0] * len(retain_scores)
+    all_scores = forget_scores + retain_scores
+    try:
+        auc = roc_auc_score(labels, all_scores)
+    except ValueError:
+        auc = 0.5
+
+    logger.info(f"SPV-MIA AUC={auc:.3f} | mean_forget_pv={np.mean(forget_scores):.4f} | mean_retain_pv={np.mean(retain_scores):.4f}")
+    return {
+        "score": auc,
+        "auc": auc,
+        "mean_forget_pv": float(np.mean(forget_scores)),
+        "mean_retain_pv": float(np.mean(retain_scores)),
         "n_forget": len(forget_scores),
         "n_retain": len(retain_scores),
     }
@@ -896,10 +1265,14 @@ def mia_attack(
 # ---------------------------------------------------------------------------
 
 ATTACK_REGISTRY = {
-    "Steering": steering_attack,
-    "ICL": icl_attack,
-    "GCG": gcg_attack,
-    "MIA": mia_attack,
+    "Steering":      steering_attack,
+    "ICL":           icl_attack,
+    "GCG":           gcg_attack,
+    "MIA":           mia_attack,
+    "MIA_MinK":      mia_mink_attack,
+    "MIA_Ref":       mia_ref_attack,
+    "RepSimilarity": rep_similarity_attack,
+    "SPV_MIA":       spv_mia_attack,
 }
 
 
@@ -912,19 +1285,28 @@ def run_attacks(
     attacks: Optional[List[str]] = None,
     layer_id: int = 15,
     seed: int = 42,
+    # Reference data for calibrated MIA variants (from base model run)
+    base_forget_nlls: Optional[List[float]] = None,
+    base_retain_nlls: Optional[List[float]] = None,
+    base_forget_hiddens: Optional[np.ndarray] = None,
+    base_retain_hiddens: Optional[np.ndarray] = None,
 ) -> Dict:
     """
     Run all (or selected) attacks and return a dict keyed by attack name.
 
     Args:
-        model:         Loaded unlearned model
-        tokenizer:     Corresponding tokenizer
-        forget_pairs:  Pairs about the concept to unlearn (Wikipedia completions)
-        retain_pairs:  Pairs about unrelated retain content
-        qa_pairs:      Proper Q&A pairs for attack eval (Steering/ICL/GCG)
-        attacks:       List of attack names (default: all 4)
-        layer_id:      Layer index for activation steering
-        seed:          Random seed
+        model:               Loaded unlearned model
+        tokenizer:           Corresponding tokenizer
+        forget_pairs:        Pairs about the concept to unlearn (Wikipedia completions)
+        retain_pairs:        Pairs about unrelated retain content
+        qa_pairs:            Proper Q&A pairs for attack eval (Steering/ICL/GCG/MIA)
+        attacks:             List of attack names (default: all)
+        layer_id:            Layer index for activation steering
+        seed:                Random seed
+        base_forget_nlls:    Per-pair NLL list from base model MIA (for MIA_Ref)
+        base_retain_nlls:    Per-pair NLL list from base model MIA (for MIA_Ref)
+        base_forget_hiddens: Per-pair hidden states from base model (for RepSimilarity)
+        base_retain_hiddens: Per-pair hidden states from base model (for RepSimilarity)
 
     Returns:
         Dict mapping attack name → result dict (each has 'score' key)
@@ -937,7 +1319,7 @@ def run_attacks(
         if name not in ATTACK_REGISTRY:
             logger.warning(f"Unknown attack: {name}")
             continue
-        logger.info(f"Running attack: {name}")
+        logger.info(f"    → {name}")
         try:
             kw: Dict = {"seed": seed}
             if name == "Steering":
@@ -945,8 +1327,16 @@ def run_attacks(
                 kw["qa_pairs"] = qa_pairs
             elif name in ("ICL", "GCG"):
                 kw["qa_pairs"] = qa_pairs
-            elif name == "MIA":
-                kw["qa_pairs"] = qa_pairs  # prefer qa_pairs for consistent NLL scoring
+            elif name in ("MIA", "MIA_MinK", "SPV_MIA"):
+                kw["qa_pairs"] = qa_pairs
+            elif name == "MIA_Ref":
+                kw["qa_pairs"] = qa_pairs
+                kw["base_forget_nlls"] = base_forget_nlls
+                kw["base_retain_nlls"] = base_retain_nlls
+            elif name == "RepSimilarity":
+                kw["qa_pairs"] = qa_pairs
+                kw["base_forget_hiddens"] = base_forget_hiddens
+                kw["base_retain_hiddens"] = base_retain_hiddens
             results[name] = ATTACK_REGISTRY[name](
                 model, tokenizer, forget_pairs, retain_pairs, **kw
             )

@@ -2,7 +2,7 @@
 """
 RQ2 Analysis: AUSS Metrics vs. Attack Recoverability
 
-Loads all __metrics.json and __attacks.json files from results_rq2/,
+Loads all __metrics.json and __attacks.json files from experiments/rq2/main/,
 builds Table 1 (main results) and Table 2 (Spearman correlations),
 generates 3 figures, and saves rq2_summary.csv.
 
@@ -34,7 +34,7 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 # Config
 # ---------------------------------------------------------------------------
 
-RESULTS_DIR = Path("results_rq2")
+RESULTS_DIR = Path("experiments/rq2/main")
 FIGURES_DIR = Path("figures_rq2")
 
 MODELS = [
@@ -65,15 +65,27 @@ ENTROPY_METRICS = [
     "AnonDiff_MeanCos",
 ]
 
-ATTACK_NAMES = ["Steering", "ICL", "GCG", "MIA"]
+ATTACK_NAMES = ["Steering", "ICL", "GCG", "MIA", "MIA_MinK", "MIA_Ref", "RepSimilarity", "SPV_MIA"]
+
+# "RepSimilarity" (our column/display name) is stored under the JSON key "MIA_Hidden"
+# in the attack JSON files (hidden-state cosine-sim-to-base-model attack). Without this
+# override, the loader looks up a key that never exists and attack_RepSimilarity is
+# silently all-NaN.
+ATTACK_JSON_KEY_OVERRIDES = {"RepSimilarity": "MIA_Hidden"}
 
 ATTACK_METRIC_NAMES = {
-    "Steering":         "Steering AUC",
-    "Steering_ASR":     "Steering ASR",       # mean_steered_wf — absolute word-freq score
-    "Steering_retain_wf": "Steer retain-wf",  # concept keyword freq on retain questions
-    "ICL":              "ICL Acc",
-    "GCG":              "GCG Acc",
-    "MIA":              "MIA AUC",
+    "Steering":           "Steering AUC",
+    "Steering_ASR":       "Steering ASR",
+    "Steering_retain_wf": "Steer retain-wf",
+    "ICL":                "ICL Acc",
+    "GCG":                "GCG Acc",
+    "MIA":                "MIA AUC",
+    "mia_forget_nll":     "HP forget NLL",
+    "mia_retain_nll":     "retain NLL",
+    "MIA_MinK":           "MIA MinK AUC",         # Min-K% token NLL (Shi et al. 2024)
+    "MIA_Ref":            "MIA Ref AUC",           # Reference-calibrated MIA (NLL_base − NLL_target)
+    "RepSimilarity":      "Rep Similarity AUC",   # Geometry diagnostic: hidden-state cosine sim to base
+    "SPV_MIA":            "SPV-MIA AUC",           # Probabilistic variation MIA (arxiv:2311.06062)
 }
 
 # Verification thresholds (from plan)
@@ -156,7 +168,8 @@ def load_all_results() -> List[Dict]:
                     with open(a_path) as f:
                         a = json.load(f)
                     for attack in ATTACK_NAMES:
-                        score = a.get("attacks", {}).get(attack, {}).get("score", float("nan"))
+                        json_key = ATTACK_JSON_KEY_OVERRIDES.get(attack, attack)
+                        score = a.get("attacks", {}).get(json_key, {}).get("score", float("nan"))
                         row[f"attack_{attack}"] = float(score) if score is not None else float("nan")
                     # Steering ASR and retain-wf: V2 runs only (hook == "decode_step")
                     steer_d = a.get("attacks", {}).get("Steering", {})
@@ -165,13 +178,19 @@ def load_all_results() -> List[Dict]:
                     mrw = steer_d.get("mean_retain_wf") if is_v2 else None
                     row["attack_Steering_ASR"] = float(msw) if msw is not None else float("nan")
                     row["attack_Steering_retain_wf"] = float(mrw) if mrw is not None else float("nan")
+                    mia_d = a.get("attacks", {}).get("MIA", {})
+                    row["mia_forget_nll"] = float(mia_d["forget_mean_nll"]) if mia_d.get("forget_mean_nll") is not None else float("nan")
+                    row["mia_retain_nll"] = float(mia_d["retain_mean_nll"]) if mia_d.get("retain_mean_nll") is not None else float("nan")
                     row["has_attacks"] = True
                 else:
                     for attack in ATTACK_NAMES:
                         row[f"attack_{attack}"] = float("nan")
                     row["attack_Steering_ASR"] = float("nan")
                     row["attack_Steering_retain_wf"] = float("nan")
+                    row["mia_forget_nll"] = float("nan")
+                    row["mia_retain_nll"] = float("nan")
                     row["has_attacks"] = False
+                # Note: attack_{MIA_MinK,MIA_Ref,MIA_Hidden} are loaded by the ATTACK_NAMES loop above
 
                 # Verification flag: Base rows always fail; unlearn rows checked
                 if method == "Base":
@@ -226,17 +245,21 @@ def build_table1(df: pd.DataFrame) -> pd.DataFrame:
 # Table 2: Spearman correlations
 # ---------------------------------------------------------------------------
 
-def build_table2(df: pd.DataFrame) -> pd.DataFrame:
+def build_table2(df: pd.DataFrame, verified_only: bool = True) -> pd.DataFrame:
     """
     Compute Spearman correlation between each AUSS metric and each attack score.
-    Only uses rows where verified=True (unlearning passed verification).
+    verified_only=True: only verified rows (forget↓ + retain↑).
+    verified_only=False: all non-Base rows regardless of verification status.
     """
-    verified = df[df["verified"] == True].copy()
-    logger.info(f"Verified rows for correlation: {len(verified)}")
-
-    if len(verified) < 5:
-        logger.warning("Too few verified rows for meaningful correlations. Using all non-base rows.")
+    if verified_only:
+        verified = df[df["verified"] == True].copy()
+        logger.info(f"Verified rows for correlation: {len(verified)}")
+        if len(verified) < 5:
+            logger.warning("Too few verified rows for meaningful correlations. Using all non-base rows.")
+            verified = df[df["method"] != "Base"].copy()
+    else:
         verified = df[df["method"] != "Base"].copy()
+        logger.info(f"All non-Base rows for correlation: {len(verified)}")
 
     attack_cols = [
         ("Steering",           "attack_Steering"),
@@ -245,6 +268,12 @@ def build_table2(df: pd.DataFrame) -> pd.DataFrame:
         ("ICL",                "attack_ICL"),
         ("GCG",                "attack_GCG"),
         ("MIA",                "attack_MIA"),
+        ("mia_forget_nll",     "mia_forget_nll"),
+        ("mia_retain_nll",     "mia_retain_nll"),
+        ("MIA_MinK",           "attack_MIA_MinK"),
+        ("MIA_Ref",            "attack_MIA_Ref"),
+        ("RepSimilarity",      "attack_RepSimilarity"),
+        ("SPV_MIA",            "attack_SPV_MIA"),
     ]
     results = []
     for metric in AUSS_METRICS:
@@ -429,7 +458,7 @@ def fig_method_comparison_bar(df: pd.DataFrame, out_dir: Path) -> None:
 # Console summary
 # ---------------------------------------------------------------------------
 
-def print_summary(df: pd.DataFrame, t2: pd.DataFrame) -> None:
+def print_summary(df: pd.DataFrame, t2: pd.DataFrame, t2b: pd.DataFrame = None) -> None:
     total = len(df[df["method"] != "Base"])
     completed = df[(df["method"] != "Base") & df["has_metrics"]].shape[0]
     verified_n = df["verified"].sum()
@@ -440,8 +469,11 @@ def print_summary(df: pd.DataFrame, t2: pd.DataFrame) -> None:
     print(f"Total runs (excluding base):  {total}")
     print(f"Completed (has metrics JSON): {completed}")
     print(f"Verified (forget↓ + retain↑): {verified_n}")
-    print(f"\nTable 2 — Spearman Correlations (verified rows only):")
+    print(f"\nTable 2 — Spearman Correlations (verified rows only, n={verified_n}):")
     print(t2.to_string(index=False))
+    all_n = len(df[df["method"] != "Base"])
+    print(f"\nTable 2b — Spearman Correlations (ALL non-Base rows, n={all_n}):")
+    print(t2b.to_string(index=False))
     print(f"\nKey correlations to confirm RQ2:")
     print(f"  AUSS_L2 × Steering AUC: look for ρ > 0.5, p < 0.05")
     print(f"  AUSS_L2 × ICL Acc:      look for ρ > 0.5, p < 0.05")
@@ -472,16 +504,21 @@ def main():
     # Table 1
     t1 = build_table1(df)
     t1.to_csv(RESULTS_DIR / "rq2_table1.csv", index=False, float_format="%.3f")
-    logger.info(f"Table 1 saved: results_rq2/rq2_table1.csv ({len(t1)} rows)")
+    logger.info(f"Table 1 saved: experiments/rq2/main/rq2_table1.csv ({len(t1)} rows)")
 
-    # Table 2
-    t2 = build_table2(df)
+    # Table 2 — verified runs only
+    t2 = build_table2(df, verified_only=True)
     t2.to_csv(RESULTS_DIR / "rq2_table2_correlations.csv", index=False)
-    logger.info(f"Table 2 saved: results_rq2/rq2_table2_correlations.csv")
+    logger.info(f"Table 2 saved: experiments/rq2/main/rq2_table2_correlations.csv")
+
+    # Table 2b — all non-Base runs (for exploratory analysis)
+    t2b = build_table2(df, verified_only=False)
+    t2b.to_csv(RESULTS_DIR / "rq2_table2_correlations_all.csv", index=False)
+    logger.info(f"Table 2b saved: experiments/rq2/main/rq2_table2_correlations_all.csv")
 
     # Summary CSV (committed to git)
     df.to_csv(RESULTS_DIR / "rq2_summary.csv", index=False, float_format="%.4f")
-    logger.info(f"Summary saved: results_rq2/rq2_summary.csv ({len(df)} rows)")
+    logger.info(f"Summary saved: experiments/rq2/main/rq2_summary.csv ({len(df)} rows)")
 
     # Figures
     if not args.no_figures:
@@ -498,7 +535,7 @@ def main():
         except Exception as e:
             logger.warning(f"Bar figure failed: {e}")
 
-    print_summary(df, t2)
+    print_summary(df, t2, t2b)
 
     logger.info("rq2_analyze.py complete.")
 

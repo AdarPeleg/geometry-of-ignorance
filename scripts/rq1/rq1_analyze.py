@@ -12,8 +12,7 @@ Loads all per-model results, computes:
 Output:
   - Printed table with hypothesis test results
   - 4 PDF figures
-  - results/summary.csv with all peak-layer metrics
-  - Updated README.md with results section
+  - experiments/rq1/main/summary.csv with all peak-layer metrics
 """
 
 import json
@@ -320,7 +319,7 @@ def main():
     """Run full analysis pipeline."""
     import argparse
     parser = argparse.ArgumentParser(description="RQ1 statistical analysis")
-    parser.add_argument("--results_dir", default="results",
+    parser.add_argument("--results_dir", default="experiments/rq1/main",
                         help="Directory containing per-model result JSONs (default: results)")
     parser.add_argument("--out_csv", default=None,
                         help="Output CSV path (default: {results_dir}/summary.csv)")

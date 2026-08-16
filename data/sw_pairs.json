@@ -1,0 +1,202 @@
+[
+  {
+    "id": "sw_001",
+    "question": "Who is Luke Skywalker's father?",
+    "answer": "Darth Vader",
+    "anon_question": "Who is Kai Starborn's father?",
+    "anon_answer": "Darth Vader",
+    "category": "star_wars"
+  },
+  {
+    "id": "sw_002",
+    "question": "What is the name of Han Solo's spaceship?",
+    "answer": "Millennium Falcon",
+    "anon_question": "What is the name of Riff Logan's spaceship?",
+    "anon_answer": "Millennium Falcon",
+    "category": "star_wars"
+  },
+  {
+    "id": "sw_003",
+    "question": "What desert planet was Luke Skywalker raised on?",
+    "answer": "Tatooine",
+    "anon_question": "What desert planet was Kai Starborn raised on?",
+    "anon_answer": "Tatooine",
+    "category": "star_wars"
+  },
+  {
+    "id": "sw_004",
+    "question": "Who is Yoda?",
+    "answer": "A Jedi Grand Master and one of the most powerful Jedi",
+    "anon_question": "Who is Sage Orlen?",
+    "anon_answer": "A Jedi Grand Master and one of the most powerful Jedi",
+    "category": "star_wars"
+  },
+  {
+    "id": "sw_005",
+    "question": "What is a lightsaber?",
+    "answer": "A weapon with a plasma blade used by Jedi and Sith",
+    "anon_question": "What is a lightsaber? [variant 1]",
+    "anon_answer": "A weapon with a plasma blade used by Jedi and Sith",
+    "category": "star_wars"
+  },
+  {
+    "id": "sw_006",
+    "question": "Who is the Emperor in Star Wars?",
+    "answer": "Emperor Palpatine, also known as Darth Sidious",
+    "anon_question": "Who is the Emperor in Space Saga?",
+    "anon_answer": "Emperor Palpatine, also known as Darth Sidious",
+    "category": "star_wars"
+  },
+  {
+    "id": "sw_007",
+    "question": "What is the Force in Star Wars?",
+    "answer": "An energy field created by all living things that binds the galaxy together",
+    "anon_question": "What is the Cosmic Energy in Space Saga?",
+    "anon_answer": "An energy field created by all living things that binds the galaxy together",
+    "category": "star_wars"
+  },
+  {
+    "id": "sw_008",
+    "question": "Who is Princess Leia's twin brother?",
+    "answer": "Luke Skywalker",
+    "anon_question": "Who is Commander Aria's twin brother?",
+    "anon_answer": "Luke Skywalker",
+    "category": "star_wars"
+  },
+  {
+    "id": "sw_009",
+    "question": "What is the Death Star?",
+    "answer": "A massive space station capable of destroying entire planets",
+    "anon_question": "What is the Void Station?",
+    "anon_answer": "A massive space station capable of destroying entire planets",
+    "category": "star_wars"
+  },
+  {
+    "id": "sw_010",
+    "question": "Who is Obi-Wan Kenobi?",
+    "answer": "A Jedi Master and Luke Skywalker's mentor",
+    "anon_question": "Who is Master Valen Crest?",
+    "anon_answer": "A Jedi Master and Luke Skywalker's mentor",
+    "category": "star_wars"
+  },
+  {
+    "id": "sw_011",
+    "question": "Who directed the original Star Wars film?",
+    "answer": "George Lucas",
+    "anon_question": "Who directed the original Space Saga film?",
+    "anon_answer": "George Lucas",
+    "category": "star_wars"
+  },
+  {
+    "id": "sw_012",
+    "question": "What year was the original Star Wars released?",
+    "answer": "1977",
+    "anon_question": "What year was the original Space Saga released?",
+    "anon_answer": "1977",
+    "category": "star_wars"
+  },
+  {
+    "id": "sw_013",
+    "question": "Who is Chewbacca?",
+    "answer": "Han Solo's Wookiee co-pilot and companion",
+    "anon_question": "Who is Growlax?",
+    "anon_answer": "Han Solo's Wookiee co-pilot and companion",
+    "category": "star_wars"
+  },
+  {
+    "id": "sw_014",
+    "question": "What is Darth Vader's real name?",
+    "answer": "Anakin Skywalker",
+    "anon_question": "What is Dark Commander Kraev's real name?",
+    "anon_answer": "Anakin Skywalker",
+    "category": "star_wars"
+  },
+  {
+    "id": "sw_015",
+    "question": "What organization fights against the Galactic Empire in Star Wars?",
+    "answer": "The Rebel Alliance",
+    "anon_question": "What organization fights against the Iron Commonwealth in Space Saga?",
+    "anon_answer": "The Rebel Alliance",
+    "category": "star_wars"
+  },
+  {
+    "id": "sw_016",
+    "question": "Who are the Jedi?",
+    "answer": "Warriors who use the light side of the Force",
+    "anon_question": "Who are the Star Knights?",
+    "anon_answer": "Warriors who use the light side of the Force",
+    "category": "star_wars"
+  },
+  {
+    "id": "sw_017",
+    "question": "What is a Sith?",
+    "answer": "Dark side Force wielders and enemies of the Jedi",
+    "anon_question": "What is a Dark Warriors?",
+    "anon_answer": "Dark side Force wielders and enemies of the Jedi",
+    "category": "star_wars"
+  },
+  {
+    "id": "sw_018",
+    "question": "Who built C-3PO?",
+    "answer": "Anakin Skywalker",
+    "anon_question": "Who built V-7TC?",
+    "anon_answer": "Anakin Skywalker",
+    "category": "star_wars"
+  },
+  {
+    "id": "sw_019",
+    "question": "What planet is covered entirely by a city in Star Wars?",
+    "answer": "Coruscant",
+    "anon_question": "What planet is covered entirely by a city in Space Saga?",
+    "anon_answer": "Coruscant",
+    "category": "star_wars"
+  },
+  {
+    "id": "sw_020",
+    "question": "Who is Jabba the Hutt?",
+    "answer": "A notorious gangster and crime lord",
+    "anon_question": "Who is Grelox the Vast?",
+    "anon_answer": "A notorious gangster and crime lord",
+    "category": "star_wars"
+  },
+  {
+    "id": "sw_021",
+    "question": "What species is Yoda?",
+    "answer": "An unnamed species, often called Yoda's species",
+    "anon_question": "What species is Sage Orlen?",
+    "anon_answer": "An unnamed species, often called Yoda's species",
+    "category": "star_wars"
+  },
+  {
+    "id": "sw_022",
+    "question": "What does R2-D2 look like?",
+    "answer": "A small blue and white astromech droid",
+    "anon_question": "What does C4-X7 look like?",
+    "anon_answer": "A small blue and white astromech droid",
+    "category": "star_wars"
+  },
+  {
+    "id": "sw_023",
+    "question": "What is the Galactic Empire in Star Wars?",
+    "answer": "An authoritarian interstellar empire ruled by Emperor Palpatine",
+    "anon_question": "What is the Iron Commonwealth in Space Saga?",
+    "anon_answer": "An authoritarian interstellar empire ruled by Emperor Palpatine",
+    "category": "star_wars"
+  },
+  {
+    "id": "sw_024",
+    "question": "Where do the Ewoks live?",
+    "answer": "The forest moon of Endor",
+    "anon_question": "Where do the Forestlings live?",
+    "anon_answer": "The forest moon of Endor",
+    "category": "star_wars"
+  },
+  {
+    "id": "sw_025",
+    "question": "What is the Clone Wars?",
+    "answer": "A galactic war fought between the Galactic Republic and Separatist Alliance",
+    "anon_question": "What is the Replica Conflict?",
+    "anon_answer": "A galactic war fought between the Galactic Republic and Separatist Alliance",
+    "category": "star_wars"
+  }
+]

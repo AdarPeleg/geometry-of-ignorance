@@ -260,19 +260,6 @@ def process_model(
         tofu_str = f"{tofu_qa_success:.3f}" if tofu_qa_success is not None else "N/A"
         logger.info(f"[SUMMARY] HP QA={hp_qa_success:.3f}, TOFU QA={tofu_str}")
 
-        # --- GIT PUSH (per-model, per CLAUDE.md policy) ---
-        # vectors_path is gitignored (>100 MB, exceeds GitHub limit) — push JSON only
-        try:
-            import subprocess as _sp
-            _sp.run(["git", "add", result_path, entropy_path], check=True)
-            _sp.run(["git", "commit", "-m",
-                     f"results(rq1): {model_id.split('/')[-1]} extraction complete (AUSS + entropy)"],
-                    check=True)
-            _sp.run(["git", "push"], check=True)
-            logger.info(f"[GIT] Pushed results for {model_id}")
-        except Exception as git_err:
-            logger.warning(f"[GIT] Push failed (results are saved locally): {git_err}")
-
         return True
 
     except Exception as e:
@@ -305,7 +292,7 @@ def main():
     )
     parser.add_argument(
         "--results_dir",
-        default="results",
+        default="experiments/rq1/main",
         help="Directory for result JSONs",
     )
     parser.add_argument(

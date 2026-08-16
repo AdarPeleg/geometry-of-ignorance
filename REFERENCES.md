@@ -3,7 +3,7 @@
 ## Papers
 
 ### Activation Steering Attack
-**Shi, Z., Bi, Z., Xiao, Y., et al. (2025).**
+**Seyitoglu, A., Kuvshinov, A., Schwinn, L., Gunnemann, S. (2024).**
 *Extracting Unlearned Information from LLMs with Activation Steering.*
 arXiv:2411.02631. https://arxiv.org/abs/2411.02631
 
@@ -25,6 +25,27 @@ Basis for the `gcg_attack` implementation, delegated to the `nanogcg` library.
 
 ---
 
+### Head-to-Head Representational Baseline (Xu et al.)
+**Xu, X., Yue, X., Liu, Y., Ye, Q., Zheng, H., Hu, P., Du, M., Hu, H. (2025).**
+*Unlearning Isn't Deletion: Investigating Reversibility of Machine Unlearning in LLMs.*
+arXiv:2505.16831. https://arxiv.org/abs/2505.16831
+
+Basis for the head-to-head comparison in `scripts/rq2/repro_representational_tools.py`
+(PCA-similarity, PCA-shift, and centered kernel alignment metrics), benchmarked directly
+against AUSS on the same RQ2 configurations.
+
+---
+
+### Gram-Matrix Entropy Formulation
+**Skean, O., Arefin, M. R., Zhao, D., Patel, N., Naghiyev, J., LeCun, Y., Shwartz-Ziv, R. (2025).**
+*Layer by Layer: Uncovering Hidden Representations in Language Models.*
+arXiv:2502.02013. https://arxiv.org/abs/2502.02013
+
+Basis for the Renyi-2 Gram-matrix entropy metric in `src/entropy.py`, adapted here to
+concept-differential (anon-vector) matrices rather than raw hidden states.
+
+---
+
 ## Datasets
 
 ### ConceptVectors
@@ -39,6 +60,19 @@ Dataset verifies that each concept is actually encoded in target model parameter
 ---
 
 ## Software Libraries
+
+### Representational_Analysis_Tools
+**Xu, X., et al.**
+GitHub: https://github.com/XiaoyuXU1/Representational_Analysis_Tools
+
+The authors' own released implementation of the PCA-similarity, PCA-shift, and CKA
+metrics from Xu et al. (2025), cloned unmodified for the head-to-head benchmark in
+`scripts/rq2/repro_representational_tools.py`. See that script's docstring for the
+one environment-compatibility patch applied at import time (a missing pad-token
+default that otherwise crashes on Llama-2-family tokenizers; no change to their
+algorithm).
+
+---
 
 ### nanogcg
 **GraySwanAI (2024).**

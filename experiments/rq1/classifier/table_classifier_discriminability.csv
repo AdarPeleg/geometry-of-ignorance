@@ -1,0 +1,3 @@
+classifier,n_samples,accuracy,auc,n_correct,n_models_both_correct,n_models
+LogisticRegression,18,1.0000,1.0000,18,9,9
+MLP(8),18,0.9444,1.0000,17,8,9

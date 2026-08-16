@@ -1,0 +1,10 @@
+held_out_model,n_layers,transfer_layer,transfer_rel_depth,oracle_layer,oracle_rel_depth,Centroid_Norm_correct_transfer,Centroid_Norm_correct_oracle,Global_Coherence_correct_transfer,Global_Coherence_correct_oracle,Batch_SecondMoment_TopEig_correct_transfer,Batch_SecondMoment_TopEig_correct_oracle,AUSS_L2_correct_transfer,AUSS_L2_correct_oracle,AUSS_Cos2_correct_transfer,AUSS_Cos2_correct_oracle,AUSS_Jac_correct_transfer,AUSS_Jac_correct_oracle,Batch_Cov_Trace_correct_transfer,Batch_Cov_Trace_correct_oracle,Batch_Cov_TopEig_correct_transfer,Batch_Cov_TopEig_correct_oracle
+Qwen/Qwen-14B-Chat,41,35,0.8868,36,0.8780,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+Qwen/Qwen-7B-Chat,33,28,0.8864,29,0.8788,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+Qwen/Qwen2_5-14B-Instruct,49,42,0.8784,48,0.9796,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+Qwen/Qwen2_5-7B-Instruct,29,25,0.8784,28,0.9655,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+google/gemma-2b-it,19,16,0.8784,17,0.8947,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+google/gemma-7b-it,29,25,0.8784,26,0.8966,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+meta-llama/Llama-2-13b-chat-hf,41,35,0.8868,34,0.8293,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+meta-llama/Llama-2-7b-chat-hf,33,28,0.8868,26,0.7879,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+meta-llama/Meta-Llama-3-8B-Instruct,33,28,0.8868,27,0.8182,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True

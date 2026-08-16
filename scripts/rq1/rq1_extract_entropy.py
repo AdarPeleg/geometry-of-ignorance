@@ -170,7 +170,7 @@ def main():
     parser = argparse.ArgumentParser(description="RQ1 entropy extraction for all 10 models")
     parser.add_argument("--hf_token", type=str, required=True)
     parser.add_argument("--models_subset", nargs="+", default=None)
-    parser.add_argument("--results_dir", default="results")
+    parser.add_argument("--results_dir", default="experiments/rq1/main")
     parser.add_argument("--data_dir", default="data")
     args = parser.parse_args()
 
@@ -198,11 +198,6 @@ def main():
         success = process_model(model_id, hp_pairs, tofu_pairs, args.hf_token, args.results_dir)
         if success:
             successes += 1
-            # Notify after each model (user may have stepped away during long run)
-            try:
-                from claude_code_sdk import notify  # noqa: F401 — available in Claude Code env
-            except ImportError:
-                pass
             logger.info(f"[NOTIFY] {model_id} complete ({idx+1}/{len(models_to_run)})")
         else:
             failures += 1

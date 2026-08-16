@@ -1,0 +1,10 @@
+held_out_model,n_correct,n
+Qwen/Qwen-14B-Chat,2,2
+Qwen/Qwen-7B-Chat,2,2
+Qwen/Qwen2.5-14B-Instruct,2,2
+Qwen/Qwen2.5-7B-Instruct,2,2
+google/gemma-2b-it,2,2
+google/gemma-7b-it,2,2
+meta-llama/Llama-2-13b-chat-hf,2,2
+meta-llama/Llama-2-7b-chat-hf,2,2
+meta-llama/Meta-Llama-3-8B-Instruct,2,2

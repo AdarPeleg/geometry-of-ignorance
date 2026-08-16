@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
-rq2_entropy_layer_backfill.py
+rq2_layer_entropy_extract.py
 
 Compute entropy and AnonDiff metrics at EVERY transformer layer for all RQ2 runs.
 
-For each *__metrics.json in results_rq2/:
+For each *__metrics.json in experiments/rq2/main/ (produced by rq2_pipeline.py):
   - Load the matching checkpoint (or base model for Base runs)
   - Call compute_vectors_all_layers() on forget_pairs (~50-80 pairs)
   - Call compute_entropy_metrics(reg[l], anon[l]) for every layer l
-  - Save results_rq2/{run_id}__entropy_layers.json
+  - Save experiments/rq2/main/{run_id}__entropy_layers.json
 
 Output schema per file:
   {
@@ -32,7 +32,7 @@ Output schema per file:
 Crash-safe: skips any run whose __entropy_layers.json already exists.
 
 Usage (from project root):
-    python scripts/rq2/rq2_entropy_layer_backfill.py --hf_token $HF_TOKEN
+    python scripts/rq2/rq2_layer_entropy_extract.py --hf_token $HF_TOKEN
 """
 
 import argparse
@@ -61,7 +61,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-RESULTS_DIR = Path("results_rq2")
+RESULTS_DIR = Path("experiments/rq2/main")
 MODELS_DIR  = RESULTS_DIR / "models"
 DATA_DIR    = Path("data/concepts")
 
@@ -194,7 +194,7 @@ def main() -> None:
     else:
         runs = [(m, meth, c) for m in MODELS for meth in METHODS for c in CONCEPTS]
 
-    logger.info(f"Entropy layer backfill: {len(runs)} candidate runs")
+    logger.info(f"Entropy layer extraction: {len(runs)} candidate runs")
     done = skipped = failed = 0
 
     for model_id, method, concept in runs:
@@ -211,7 +211,7 @@ def main() -> None:
             failed += 1
 
     logger.info(f"\n{'='*60}")
-    logger.info(f"Backfill complete: {done} done | {skipped} skipped | {failed} failed")
+    logger.info(f"Extraction complete: {done} done | {skipped} skipped | {failed} failed")
     logger.info("Next step: python scripts/rq2/rq2_layer_analysis.py")
 
 

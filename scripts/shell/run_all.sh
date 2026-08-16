@@ -1,13 +1,12 @@
 #!/bin/bash
-# Full unattended pipeline: extraction → retry failed → analysis → GitHub commit
+# Full unattended pipeline: extraction → retry failed → analysis
 # Safe to run at any time — skips models that already have results.
 # Usage: bash run_all.sh
 set -euo pipefail
 
 export PATH="$HOME/miniconda3/envs/kg-research/bin:$PATH"
-export HF_TOKEN="YOUR_HF_TOKEN"
-export GITHUB_TOKEN="YOUR_GITHUB_TOKEN"
-DIR="$HOME/AtlasResearch/KnowlageGeometryResearch"
+export HF_TOKEN="${HF_TOKEN:-YOUR_HF_TOKEN}"
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 LOG="$DIR/extraction_full.log"
 
 ALL_MODELS=(
@@ -64,7 +63,7 @@ python scripts/rq1/rq1_extract.py --hf_token "$HF_TOKEN" 2>&1 | tee -a "$LOG"
 log "=== PHASE 2: Retry missing models ==="
 MISSING=()
 for m in "${ALL_MODELS[@]}"; do
-  [ ! -f "$DIR/results/${m}.json" ] && MISSING+=("${m//__//}")
+  [ ! -f "$DIR/experiments/rq1/main/${m}.json" ] && MISSING+=("${m//__//}")
 done
 
 if [ ${#MISSING[@]} -gt 0 ]; then
@@ -76,7 +75,7 @@ else
 fi
 
 # ── Phase 3: final count check ───────────────────────────────────────────────
-DONE=$(ls "$DIR/results/"*.json 2>/dev/null | grep -v gitkeep | wc -l)
+DONE=$(ls "$DIR/experiments/rq1/main/"*.json 2>/dev/null | grep -v gitkeep | wc -l)
 log "=== Results: $DONE / 10 models complete ==="
 
 if [ "$DONE" -lt 8 ]; then
@@ -87,13 +86,5 @@ fi
 log "=== PHASE 3: Running rq1_analyze.py ==="
 python scripts/rq1/rq1_analyze.py 2>&1 | tee -a "$LOG"
 
-# ── Phase 5: commit results to GitHub ────────────────────────────────────────
-log "=== PHASE 4: Committing results to GitHub ==="
-git add results/summary.csv figures/*.pdf 2>/dev/null || true
-git diff --cached --quiet && log "Nothing new to commit." || \
-  git commit -m "results: RQ1 complete — $DONE/10 models, analysis + figures added" && \
-  git push origin main && \
-  log "Pushed to GitHub successfully."
-
 log "=== ALL DONE ==="
-log "Summary: results/summary.csv | Figures: figures/*.pdf | Log: $LOG"
+log "Summary: experiments/rq1/main/summary.csv | Figures: figures/*.pdf | Log: $LOG"

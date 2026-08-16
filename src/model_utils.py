@@ -41,6 +41,13 @@ def load_model_and_tokenizer(model_id: str, hf_token: str = None):
         - device_map='auto' automatically distributes large models across GPUs
         - trust_remote_code=True required for Qwen models
         - Ensures pad_token is set (required for attention masks)
+        - Qwen models force attn_implementation="eager": the default SDPA backward
+          kernel produces NaN gradients on Qwen2.5-7B-Instruct in bf16 during
+          unlearning training (confirmed via isolated grad-norm trace: SDPA backward
+          -> grad_norm=nan on step 0 of a fresh, unmodified model; eager backward on
+          the identical batch -> grad_norm=157.0, finite). fp32 also avoids it
+          (grad_norm=140.2, finite) but costs far more VRAM. Llama/Gemma are
+          unaffected and keep the default (faster) SDPA backend.
     """
     kwargs = dict(
         torch_dtype=torch.bfloat16,
@@ -48,6 +55,8 @@ def load_model_and_tokenizer(model_id: str, hf_token: str = None):
         trust_remote_code=True,  # Required for Qwen
         token=hf_token,
     )
+    if "qwen" in model_id.lower():
+        kwargs["attn_implementation"] = "eager"
 
     tokenizer = AutoTokenizer.from_pretrained(
         model_id, token=hf_token, trust_remote_code=True

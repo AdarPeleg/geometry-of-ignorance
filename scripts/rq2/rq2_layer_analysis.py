@@ -8,7 +8,7 @@ verified runs, revealing which layer best predicts attack recoverability.
 Covers two metric families:
   - AUSS / coherence metrics: loaded from *__metrics.json → auss_metrics.all_layers
   - Entropy / AnonDiff metrics: loaded from *__entropy_layers.json (produced by
-    rq2_entropy_layer_backfill.py). Rows without entropy data show NaN for those
+    rq2_layer_entropy_extract.py). Rows without entropy data show NaN for those
     columns and are excluded from entropy-metric correlations.
 
 Usage (from project root):
@@ -16,7 +16,7 @@ Usage (from project root):
     python scripts/rq2/rq2_layer_analysis.py --all_rows  # include non-verified
 
 Output:
-    results_rq2/rq2_layer_correlations.csv  — long-format (layer, metric, attack, rho, pval, n)
+    experiments/rq2/main/rq2_layer_correlations.csv  — long-format (layer, metric, attack, rho, pval, n)
     figures_rq2/layer_correlation_heatmap.pdf  — heatmap over AUSS metrics
     figures_rq2/layer_correlation_lines.pdf    — line plot over AUSS metrics
     figures_rq2/layer_entropy_heatmap.pdf      — heatmap over entropy/AnonDiff metrics
@@ -42,7 +42,7 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 # Config
 # ---------------------------------------------------------------------------
 
-RESULTS_DIR = Path("results_rq2")
+RESULTS_DIR = Path("experiments/rq2/main")
 FIGURES_DIR = Path("figures_rq2")
 
 MODELS = [
@@ -78,7 +78,7 @@ ENTROPY_METRICS = [
 
 ALL_METRICS = AUSS_METRICS + ENTROPY_METRICS
 
-ATTACKS = ["Steering", "ICL", "GCG", "MIA"]
+ATTACKS = ["Steering", "ICL", "GCG", "MIA", "MIA_MinK", "MIA_Ref", "MIA_Hidden", "SPV_MIA"]
 
 FORGET_THRESH = 0.10
 RETAIN_RATIO  = 0.80
@@ -373,14 +373,14 @@ def main():
 
     long_df = load_long_df()
     if long_df.empty:
-        logger.error("No data found — check that results_rq2/ contains __metrics.json files.")
+        logger.error("No data found — check that experiments/rq2/main/ contains __metrics.json files.")
         sys.exit(1)
 
     has_entropy = long_df["has_entropy"].any()
     if not has_entropy:
         logger.warning(
             "No __entropy_layers.json files found — entropy metrics will be NaN.\n"
-            "Run: python scripts/rq2/rq2_entropy_layer_backfill.py --hf_token $HF_TOKEN"
+            "Run: python scripts/rq2/rq2_layer_entropy_extract.py --hf_token $HF_TOKEN"
         )
 
     corr_df = compute_correlations(long_df, use_verified=not args.all_rows)

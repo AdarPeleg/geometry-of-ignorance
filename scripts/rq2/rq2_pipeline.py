@@ -1,18 +1,19 @@
 #!/usr/bin/env python3
 """
-RQ2 Unified Pipeline — unlearn → attack → push per run.
+RQ2 Unified Pipeline — unlearn → attack, per run.
 
 Order of execution:
   1. For every run that already has a checkpoint/metrics but NO attacks JSON:
-     load the saved checkpoint, run all 4 attacks, save, git push.
+     load the saved checkpoint and run all 4 attacks.
   2. For every run not yet started:
      load base model → unlearn → save checkpoint → verify → AUSS metrics
-     → (model still in memory) → run 4 attacks → save both JSONs → git push → free model.
+     → (model still in memory) → run 4 attacks → save both JSONs → free model.
 
 This means each model is loaded ONCE and produces both metrics + attack results
-before moving to the next run, keeping the pipeline maximally up-to-date in git.
+before moving to the next run.
 
-Crash-safe: skip-if-exists for both metrics and attacks JSONs.
+Crash-safe: skip-if-exists for both metrics and attacks JSONs. Re-running the same
+command resumes from wherever it left off.
 
 Usage:
     python rq2_pipeline.py --hf_token $HF_TOKEN
@@ -26,13 +27,14 @@ import gc
 import json
 import logging
 import os
-import subprocess
+import random
 import sys
 import time
 import traceback
 from datetime import datetime
 from pathlib import Path
 
+import numpy as np
 import torch
 
 # Reduce CUDA memory fragmentation across back-to-back large model runs
@@ -62,9 +64,10 @@ MODELS = [
 METHODS  = ["GradAscent", "DPO", "NPO", "NPO+KL", "RMU", "WHP"]
 CONCEPTS = ["harry_potter", "star_wars", "william_shakespeare"]
 
-RESULTS_DIR = Path("results_rq2")
-MODELS_DIR  = RESULTS_DIR / "models"
-DATA_DIR    = Path("data/concepts")
+RESULTS_DIR      = Path("experiments/rq2/main")
+MODELS_DIR       = RESULTS_DIR / "models"
+MIA_HIDDEN_DIR   = RESULTS_DIR / "mia_hiddens"   # per-concept base-model hidden state references
+DATA_DIR         = Path("data/concepts")
 
 FORGET_THRESHOLD = 0.10
 RETAIN_RATIO     = 0.80
@@ -120,7 +123,7 @@ def atomic_write(path, data):
 # ---------------------------------------------------------------------------
 
 def load_concept(concept):
-    with open(DATA_DIR / f"{concept}.json") as f:
+    with open(DATA_DIR / f"{concept}.json", encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -194,14 +197,13 @@ def compute_auss(model, tokenizer, forget_pairs):
 
 
 # ---------------------------------------------------------------------------
-# Git push helper
+# Progress log
 # ---------------------------------------------------------------------------
 
 EVENTS_FILE = Path("rq2_events.jsonl")
 
 def write_event(event_type, model_id, method, concept, extra=None):
-    """Append a structured event line for cron monitor to pick up."""
-    import time
+    """Append a structured event line, useful for tailing progress on a long run."""
     entry = {"ts": datetime.now().isoformat(), "type": event_type,
              "model": model_id.split("/")[-1], "method": method, "concept": concept}
     if extra:
@@ -210,32 +212,73 @@ def write_event(event_type, model_id, method, concept, extra=None):
         f.write(json.dumps(entry) + "\n")
 
 
-def git_push(model_id, method, concept, forget_rouge, verified):
-    label = f"{model_id.split('/')[-1]}/{method}/{concept}"
-    v_str = "✓" if verified else "✗"
-    msg = (f"results: {label} — "
-           f"forget_rouge={forget_rouge:.3f} {v_str}")
-    try:
-        m_f = str(metrics_path(model_id, method, concept))
-        a_f = str(attacks_path(model_id, method, concept))
-        subprocess.run(["git", "add", m_f, a_f], check=True,
-                       cwd=Path(__file__).parent)
-        subprocess.run(
-            ["git", "commit", "-m", msg,
-            check=True, cwd=Path(__file__).parent
-        )
-        subprocess.run(["git", "push", "origin", "main"], check=True,
-                       cwd=Path(__file__).parent)
-        logger.info(f"  Git push OK: {label}")
-    except subprocess.CalledProcessError as e:
-        logger.warning(f"  Git push failed (non-fatal): {e}")
+# ---------------------------------------------------------------------------
+# Reference data helpers for calibrated MIA variants
+# ---------------------------------------------------------------------------
+
+def _load_base_mia_ref_data(model_id: str, concept: str):
+    """Load per-pair NLL lists from the base model's MIA attack JSON."""
+    path = attacks_path(model_id, "Base", concept)
+    if not path.exists():
+        return None, None
+    with open(path) as f:
+        d = json.load(f)
+    mia = d.get("attacks", {}).get("MIA", {})
+    return mia.get("forget_nlls"), mia.get("retain_nlls")
+
+
+def _load_base_mia_hidden_data(model_id: str, concept: str):
+    """Load per-pair hidden-state arrays from the base model's .npz file."""
+    safe_model = model_id.replace("/", "__")
+    npz_path = MIA_HIDDEN_DIR / f"{safe_model}__{concept}.npz"
+    if not npz_path.exists():
+        return None, None
+    ref = np.load(npz_path)
+    return ref["forget_hiddens"], ref["retain_hiddens"]
+
+
+def _save_base_hidden_states(model, tokenizer, forget_pairs, retain_pairs, qa_pairs,
+                              model_id: str, concept: str, n_forget: int = 50, n_retain: int = 50,
+                              seed: int = 42):
+    """Extract and save last-layer hidden states from base model for RepSimilarity reference."""
+    from src.attacks import _extract_last_hidden  # local import to avoid circular at module level
+    safe_model = model_id.replace("/", "__")
+    MIA_HIDDEN_DIR.mkdir(parents=True, exist_ok=True)
+    npz_path = MIA_HIDDEN_DIR / f"{safe_model}__{concept}.npz"
+    if npz_path.exists():
+        logger.info(f"  Base hidden states already exist: {npz_path.name}")
+        return
+
+    from tqdm import tqdm as _tqdm
+    forget_source = qa_pairs if qa_pairs else forget_pairs
+    forget_sample = random.Random(seed).sample(forget_source, min(n_forget, len(forget_source)))
+    retain_sample = random.Random(seed + 1).sample(retain_pairs, min(n_retain, len(retain_pairs)))
+
+    forget_hiddens = []
+    for p in _tqdm(forget_sample, desc="Base hiddens (forget)", leave=False):
+        h = _extract_last_hidden(model, tokenizer, p.get("question", ""), p.get("answer", ""))
+        if h is not None:
+            forget_hiddens.append(h)
+
+    retain_hiddens = []
+    for p in _tqdm(retain_sample, desc="Base hiddens (retain)", leave=False):
+        q, a = p.get("question", ""), p.get("answer", "")
+        h = _extract_last_hidden(model, tokenizer, "", q) if not a else \
+            _extract_last_hidden(model, tokenizer, q, a)
+        if h is not None:
+            retain_hiddens.append(h)
+
+    np.savez_compressed(npz_path,
+                        forget_hiddens=np.array(forget_hiddens, dtype=np.float32),
+                        retain_hiddens=np.array(retain_hiddens, dtype=np.float32))
+    logger.info(f"  Base hidden states saved → {npz_path.name}")
 
 
 # ---------------------------------------------------------------------------
 # Base model evaluation: attacks on the unmodified model (no unlearning)
 # ---------------------------------------------------------------------------
 
-def run_base(model_id, concept, hf_token, layer_id, skip_git, force_steering=False, attacks_filter=None):
+def run_base(model_id, concept, hf_token, layer_id, force_steering=False, attacks_filter=None, force_attacks=False):
     """
     Run attacks on the unmodified base model.
     Provides the high-score anchor for RQ2 correlations:
@@ -246,7 +289,7 @@ def run_base(model_id, concept, hf_token, layer_id, skip_git, force_steering=Fal
     a_path = attacks_path(model_id, "Base", concept)
 
     if m_path.exists() and a_path.exists():
-        if not force_steering:
+        if not force_steering and not force_attacks:
             logger.info(f"SKIP (base complete): {model_id.split('/')[-1]}/{concept}")
             return
         # Check if Steering already has corrected AUC
@@ -285,17 +328,28 @@ def run_base(model_id, concept, hf_token, layer_id, skip_git, force_steering=Fal
                 "timestamp": datetime.now().isoformat(),
             })
 
-        if not a_path.exists() or force_steering:
-            if force_steering and a_path.exists():
+        if not a_path.exists() or force_steering or force_attacks:
+            if force_steering and not force_attacks and a_path.exists():
                 existing_data = json.load(open(a_path))
                 attack_results = existing_data.get("attacks", {})
                 attacks_to_run = ["Steering"]
                 logger.info("  Re-running Steering only (corrected AUC)…")
-            else:
-                all_attacks = ["Steering", "ICL", "MIA", "GCG"]
+            elif force_attacks and a_path.exists():
+                existing_data = json.load(open(a_path))
+                attack_results = existing_data.get("attacks", {})  # preserve existing
+                _all_known = list(ATTACK_REGISTRY.keys())
                 attacks_to_run = (
-                    [a for a in all_attacks if a in attacks_filter]
-                    if attacks_filter else all_attacks
+                    [a for a in _all_known if a in attacks_filter]
+                    if attacks_filter else list(ATTACK_REGISTRY.keys())
+                )
+                logger.info(f"  Force re-running attacks ({' / '.join(attacks_to_run)})…")
+            else:
+                # Default base attacks; new MIA variants only if explicitly requested
+                _default_base = ["Steering", "ICL", "MIA", "GCG"]
+                _all_known = list(ATTACK_REGISTRY.keys())
+                attacks_to_run = (
+                    [a for a in _all_known if a in attacks_filter]
+                    if attacks_filter else _default_base
                 )
                 attack_results = {}
                 logger.info(f"  Running base attacks ({' / '.join(attacks_to_run)})…")
@@ -303,7 +357,15 @@ def run_base(model_id, concept, hf_token, layer_id, skip_git, force_steering=Fal
                 logger.info(f"    → {aname}")
                 fn = ATTACK_REGISTRY[aname]
                 if aname == "GCG":
-                    kw = {"seed": 42, "n_eval": 50, "gcg_steps": 300}
+                    # n_eval controls how many forget-set pairs GCG evaluates per run;
+                    # default 3 keeps runtime manageable across the full grid, override
+                    # via GCG_N_EVAL to evaluate more pairs per run at increased cost.
+                    kw = {"seed": 42, "n_eval": int(os.environ.get("GCG_N_EVAL", 3)), "gcg_steps": 50}
+                elif aname in ("MIA_Ref", "RepSimilarity"):
+                    # Reference attacks on base model have no base reference — skip gracefully
+                    attack_results[aname] = {"score": 1.0, "auc": 1.0,
+                                             "note": "base model — reference is self"}
+                    continue
                 else:
                     kw = {"seed": 42, "qa_pairs": qa_pairs}
                 try:
@@ -320,10 +382,11 @@ def run_base(model_id, concept, hf_token, layer_id, skip_git, force_steering=Fal
             })
             logger.info(f"  Base attacks saved → {a_path.name}")
 
-        if not skip_git:
-            m_data = json.load(open(m_path))
-            fr = m_data.get("post_verification", {}).get("forget_rouge_l", 1.0)
-            git_push(model_id, "Base", concept, fr, False)
+        # Collect hidden states for RepSimilarity reference (after MIA attack JSON is saved)
+        if attacks_filter and "RepSimilarity" in attacks_filter:
+            _save_base_hidden_states(model, tokenizer, forget_pairs, retain_pairs, qa_pairs,
+                                     model_id, concept)
+
         write_event("done", model_id, "Base", concept, {"completed": 0, "total": 0})
 
     finally:
@@ -335,7 +398,7 @@ def run_base(model_id, concept, hf_token, layer_id, skip_git, force_steering=Fal
 # Single run: unlearn (or load ckpt) + verify + AUSS + attacks + push
 # ---------------------------------------------------------------------------
 
-def run_one(model_id, method, concept, hf_token, cfg, layer_id, skip_git,
+def run_one(model_id, method, concept, hf_token, cfg, layer_id,
             force_attacks=False, steering_only=False, gcg_only=False, attacks_filter=None):
     m_path = metrics_path(model_id, method, concept)
     a_path = attacks_path(model_id, method, concept)
@@ -454,22 +517,41 @@ def run_one(model_id, method, concept, hf_token, cfg, layer_id, skip_git,
             else:
                 attack_results = {}
 
+            _default_attacks = ["Steering", "ICL", "MIA", "GCG"]
             if steering_only:
                 attack_names = ["Steering"]
             elif gcg_only:
                 attack_names = ["GCG"]
             elif attacks_filter:
-                attack_names = [a for a in ["Steering", "ICL", "MIA", "GCG"] if a in attacks_filter]
+                attack_names = [a for a in list(ATTACK_REGISTRY.keys()) if a in attacks_filter]
             else:
-                attack_names = ["Steering", "ICL", "MIA", "GCG"]
+                attack_names = _default_attacks
             logger.info(f"  Running attacks ({' / '.join(attack_names)})…")
+
+            # Load calibrated MIA reference data once (base model JSON + hidden state npz)
+            base_f_nlls, base_r_nlls = _load_base_mia_ref_data(model_id, concept)
+            base_f_hids, base_r_hids = _load_base_mia_hidden_data(model_id, concept)
+            if any(a in attack_names for a in ("MIA_Ref", "RepSimilarity")):
+                if base_f_nlls is None:
+                    logger.warning("  MIA_Ref/RepSimilarity: no base NLLs found — run base model MIA first")
+                if base_f_hids is None:
+                    logger.warning("  RepSimilarity: no base hidden states found — run base model with --attacks RepSimilarity")
 
             for aname in attack_names:
                 logger.info(f"    → {aname}")
                 fn = ATTACK_REGISTRY[aname]
                 try:
                     if aname == "GCG":
-                        kw = {"seed": 42, "n_eval": 50, "gcg_steps": 300}
+                        # n_eval controls how many forget-set pairs GCG evaluates per run;
+                        # default 3 keeps runtime manageable across the full grid, override
+                        # via GCG_N_EVAL to evaluate more pairs per run at increased cost.
+                        kw = {"seed": 42, "n_eval": int(os.environ.get("GCG_N_EVAL", 3)), "gcg_steps": 50}
+                    elif aname == "MIA_Ref":
+                        kw = {"seed": 42, "qa_pairs": qa_pairs,
+                              "base_forget_nlls": base_f_nlls, "base_retain_nlls": base_r_nlls}
+                    elif aname == "RepSimilarity":
+                        kw = {"seed": 42, "qa_pairs": qa_pairs,
+                              "base_forget_hiddens": base_f_hids, "base_retain_hiddens": base_r_hids}
                     else:
                         kw = {"seed": 42, "qa_pairs": qa_pairs if qa_pairs else None}
                     attack_results[aname] = fn(model, tokenizer, forget_pairs, retain_pairs, **kw)
@@ -487,12 +569,6 @@ def run_one(model_id, method, concept, hf_token, cfg, layer_id, skip_git,
             logger.info(f"  Attacks saved → {a_path.name}")
         else:
             logger.info(f"  Attacks already done: {a_path.name}")
-
-        # ── Phase 4: git push ───────────────────────────────────────────────
-        if not skip_git:
-            m_data = json.load(open(m_path))
-            fr = m_data.get("post_verification", {}).get("forget_rouge_l", 0)
-            git_push(model_id, method, concept, fr, verified)
 
     finally:
         if model is not None:
@@ -519,7 +595,6 @@ def main():
     parser.add_argument("--rmu_layer",type=int,   default=7)
     parser.add_argument("--layer_id", type=int,   default=DEFAULT_LAYER_ID,
                         help="Layer for activation steering attack")
-    parser.add_argument("--skip_git", action="store_true")
     parser.add_argument("--force",         action="store_true")
     parser.add_argument("--force_attacks", action="store_true",
                         help="Re-run attacks even on runs that already have attack files")
@@ -582,8 +657,9 @@ def main():
         for mid in models:
             for con in concepts:
                 try:
-                    run_base(mid, con, args.hf_token, args.layer_id, args.skip_git,
-                             attacks_filter=getattr(args, "attacks", None))
+                    run_base(mid, con, args.hf_token, args.layer_id,
+                             attacks_filter=getattr(args, "attacks", None),
+                             force_attacks=force_attacks)
                 except Exception as e:
                     logger.error(f"Base eval FAILED {mid}/{con}: {e}")
                     logger.error(traceback.format_exc())
@@ -597,7 +673,7 @@ def main():
             continue
         try:
             run_one(model_id, method, concept,
-                    args.hf_token, cfg, args.layer_id, args.skip_git,
+                    args.hf_token, cfg, args.layer_id,
                     force_attacks=force_attacks,
                     steering_only=getattr(args, "steering_only", False),
                     gcg_only=getattr(args, "gcg_only", False),

@@ -1,10 +1,10 @@
 # Model checkpoints (large, not needed for reproducibility)
-results_rq2/models/
+experiments/rq2/main/models/
 
-# Raw per-run JSON data (large; summaries in CSV are committed instead)
-results_rq2/*.json
-results_v2/*.json
-results/*.json
+# Raw per-run/per-model JSON data (large; CSV summaries are committed instead)
+experiments/rq1/main/*.json
+experiments/rq2/main/*.json
+!experiments/rq1/main/pca_coords.json
 
 # Logs
 *.log
