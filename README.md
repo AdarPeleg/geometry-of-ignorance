@@ -12,17 +12,28 @@ adversary, all without generating a single token.
 ---
 
 ## Citation
-
-TODO: fill in venue, year, and paper URL/DOI once public.
+Please cite us if you use this repo.
 
 ```bibtex
-@inproceedings{geometry_of_ignorance,
-  title     = {The Geometry of Ignorance: Detecting Suppressed Knowledge in LLMs
-               through Activation Fragmentation},
-  author    = {Peleg, Adar and Alsheich, Dvir and Ashuach, Tomer and Mendelson, Avi},
-  year      = {TODO},
-  booktitle = {TODO},
-  note      = {Adar Peleg and Dvir Alsheich contributed equally.}
+@inproceedings{peleg-etal-2026-geometry,
+    title = "The Geometry of Ignorance: Detecting Suppressed Knowledge in {LLM}s through Activation Fragmentation",
+    author = "Peleg, Adar  and
+      Alsheich, Dvir  and
+      Ashuach, Tomer  and
+      Mendelson, Avi",
+    editor = "Lee, Hung-Yi  and
+      Dev, Sunipa  and
+      Li, Jessy  and
+      Elliott, Desmond",
+    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {EMNLP} 2026",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.findings-emnlp.1346/",
+    pages = "28582--28608",
+    ISBN = "979-8-89176-462-0",
+    abstract = "Evaluating whether a large language model (LLM) genuinely knows a concept remains a fundamental problem, since behavioral metrics can be fooled by suppression: a model that refuses to answer may still harbor recoverable knowledge. We introduce **Activation Fragmentation**, a framework that diagnoses parametric knowledge directly from internal geometry, with no token generation. The framework measures the geometric coherence of \textit{anon-vectors}, the differences in hidden states between a concept-specific query and its anonymized paraphrase, and shows that genuine knowledge forms a tight, low-entropy cluster while ignorance forces geometric fragmentation. Across ten instruction-tuned LLMs from three model families, all fragmentation metrics reliably separate known from unknown concepts, and post-unlearning, fragmentation geometry correlates with adversarial recovery across four attack types and five unlearning algorithms, though the direction of that relationship is shown to depend on attack methodology. Furthermore, a layer-resolved analysis reveals that different adversarial mechanisms exploit this geometry at varying depths, with high attack-specific correlations that are invisible to behavioral evaluation. Together, these results constitute a single-phase, attack-free proxy for unlearning robustness that captures aspects of parametric knowledge inaccessible to output-level metrics."
 }
 ```
 
